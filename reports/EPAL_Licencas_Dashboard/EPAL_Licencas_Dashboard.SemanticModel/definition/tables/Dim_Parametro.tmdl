@@ -1,0 +1,116 @@
+/// Dimensao conforme dos parametros. Une Conditions (VLE), Autocontrolo (monitorizacao) e Licencas_Criterios (criterios) numa unica lista, para que um so segmentador filtre as tres tabelas.
+table Dim_Parametro
+	lineageTag: 6e4f8b20-6000-4a00-8e00-ee0030000000
+
+	/// Codigo curto normalizado do parametro (CBO5, CQO, SST, pH...). Chave das relacoes.
+	column 'Cod Parâmetro'
+		dataType: string
+		isKey
+		lineageTag: 6e4f8b20-6001-4a00-8e00-ee0030000001
+		summarizeBy: none
+		sourceColumn: Cod Parâmetro
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Designacao longa do parametro, com unidade quando disponivel.
+	column 'Parâmetro (designação)'
+		dataType: string
+		lineageTag: 6e4f8b20-6002-4a00-8e00-ee0030000002
+		summarizeBy: none
+		sourceColumn: Parâmetro (designação)
+
+		annotation SummarizationSetBy = Automatic
+
+	/// "Sim" quando o parametro tem VLE definido em Conditions.
+	column 'Tem VLE'
+		dataType: string
+		lineageTag: 6e4f8b20-6003-4a00-8e00-ee0030000003
+		summarizeBy: none
+		sourceColumn: Tem VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	/// "Sim" quando o parametro consta do programa de autocontrolo.
+	column 'Tem Monitorização'
+		dataType: string
+		lineageTag: 6e4f8b20-6004-4a00-8e00-ee0030000004
+		summarizeBy: none
+		sourceColumn: Tem Monitorização
+
+		annotation SummarizationSetBy = Automatic
+
+	/// "Sim" quando o parametro tem criterios de conformidade associados.
+	column 'Tem Critérios'
+		dataType: string
+		lineageTag: 6e4f8b20-6005-4a00-8e00-ee0030000005
+		summarizeBy: none
+		sourceColumn: Tem Critérios
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Onde o parametro aparece. Util para reconciliacao: "VLE apenas" ou "Monitorizacao apenas" sinalizam divergencias entre extracoes.
+	column Cobertura
+		dataType: string
+		lineageTag: 6e4f8b20-6006-4a00-8e00-ee0030000006
+		summarizeBy: none
+		sourceColumn: Cobertura
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Parametro = m
+		mode: import
+		source =
+				let
+				    Norm = (v) =>
+				        let t = if v = null then null else Text.Trim(Text.From(v))
+				        in
+				            if t = null or t = "" then null
+				            else if t = "Carência Bioquímica de" then "CBO5"
+				            else if t = "Carência Química de" then "CQO"
+				            else t,
+				    Ler = (ficheiro as text, folha as text) =>
+				        Table.PromoteHeaders(Excel.Workbook(File.Contents(DataFolder & "\" & ficheiro), null, true){[Item = folha, Kind = "Sheet"]}[Data], [PromoteAllScalars = true]),
+				    CondBase = Ler("Conditions.xlsx", "Conditions"),
+				    CondSel = Table.SelectColumns(CondBase, {"Parametro", "Parâmetro"}),
+				    CondN = Table.SelectRows(Table.AddColumn(CondSel, "Cod", each Norm([Parametro]), type text), each [Cod] <> null),
+				    CondLbl = Table.Distinct(Table.RenameColumns(Table.SelectColumns(CondN, {"Cod", "Parâmetro"}), {{"Parâmetro", "LblCond"}}), {"Cod"}),
+				    AutoBase = Ler("Autocontrolo.xlsx", "Autocontrolo"),
+				    AutoSel = Table.SelectColumns(AutoBase, {"Parametro", "Parâmetro"}),
+				    AutoN = Table.SelectRows(Table.AddColumn(AutoSel, "Cod", each Norm([Parametro]), type text), each [Cod] <> null),
+				    AutoLbl = Table.Distinct(Table.RenameColumns(Table.SelectColumns(AutoN, {"Cod", "Parâmetro"}), {{"Parâmetro", "LblAuto"}}), {"Cod"}),
+				    CritBase = Ler("Licencas_Criterios.xlsx", "Licencas_Criterios"),
+				    CritSel = Table.SelectColumns(CritBase, {"Parametro", "Parâmetro (documento)"}),
+				    CritN = Table.SelectRows(Table.AddColumn(CritSel, "Cod", each Norm([Parametro]), type text), each [Cod] <> null),
+				    CritLbl = Table.Distinct(Table.RenameColumns(Table.SelectColumns(CritN, {"Cod", "Parâmetro (documento)"}), {{"Parâmetro (documento)", "LblCrit"}}), {"Cod"}),
+				    ListaCond = List.Distinct(CondN[Cod]),
+				    ListaAuto = List.Distinct(AutoN[Cod]),
+				    ListaCrit = List.Distinct(CritN[Cod]),
+				    Todos = List.Sort(List.Distinct(List.Combine({ListaCond, ListaAuto, ListaCrit}))),
+				    Base = Table.FromList(Todos, Splitter.SplitByNothing(), {"Cod Parâmetro"}, null, ExtraValues.Error),
+				    J1 = Table.ExpandTableColumn(Table.NestedJoin(Base, {"Cod Parâmetro"}, CondLbl, {"Cod"}, "c", JoinKind.LeftOuter), "c", {"LblCond"}, {"LblCond"}),
+				    J2 = Table.ExpandTableColumn(Table.NestedJoin(J1, {"Cod Parâmetro"}, AutoLbl, {"Cod"}, "a", JoinKind.LeftOuter), "a", {"LblAuto"}, {"LblAuto"}),
+				    J3 = Table.ExpandTableColumn(Table.NestedJoin(J2, {"Cod Parâmetro"}, CritLbl, {"Cod"}, "k", JoinKind.LeftOuter), "k", {"LblCrit"}, {"LblCrit"}),
+				    ComLabel = Table.AddColumn(J3, "Parâmetro (designação)", each
+				        if [LblCond] <> null and [LblCond] <> "" then [LblCond]
+				        else if [LblAuto] <> null and [LblAuto] <> "" then [LblAuto]
+				        else if [LblCrit] <> null and [LblCrit] <> "" then [LblCrit]
+				        else [#"Cod Parâmetro"], type text),
+				    ComFlags = Table.AddColumn(
+				        Table.AddColumn(
+				            Table.AddColumn(ComLabel, "Tem VLE", each if List.Contains(ListaCond, [#"Cod Parâmetro"]) then "Sim" else "Não", type text),
+				            "Tem Monitorização", each if List.Contains(ListaAuto, [#"Cod Parâmetro"]) then "Sim" else "Não", type text),
+				        "Tem Critérios", each if List.Contains(ListaCrit, [#"Cod Parâmetro"]) then "Sim" else "Não", type text),
+				    ComCobertura = Table.AddColumn(ComFlags, "Cobertura", each
+				        if [Tem VLE] = "Sim" and [Tem Monitorização] = "Sim" then "VLE + Monitorização"
+				        else if [Tem VLE] = "Sim" then "VLE apenas"
+				        else if [Tem Monitorização] = "Sim" then "Monitorização apenas"
+				        else "Só critérios", type text),
+				    Final = Table.SelectColumns(ComCobertura, {"Cod Parâmetro", "Parâmetro (designação)", "Tem VLE", "Tem Monitorização", "Tem Critérios", "Cobertura"}),
+				    Tipos = Table.TransformColumnTypes(Final, {{"Cod Parâmetro", type text}, {"Parâmetro (designação)", type text}, {"Tem VLE", type text}, {"Tem Monitorização", type text}, {"Tem Critérios", type text}, {"Cobertura", type text}})
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

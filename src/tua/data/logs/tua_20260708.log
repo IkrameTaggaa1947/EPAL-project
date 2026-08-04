@@ -1,0 +1,27 @@
+10:35:15  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+12:21:22  INFO     1 new PDF(s) detected.
+12:21:22  INFO     processing Avô_TUA20250722002408_01.10.2025_30.09.2030.pdf
+12:21:43  INFO       -> REVIEW  (4 conditions, 9 monitoring rows)
+12:21:43  INFO          [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+12:21:43  INFO          [REVIEW] unusual VLE for : '(a)'
+12:21:43  INFO          [REVIEW] unusual VLE for : '(a)'
+12:21:43  INFO          [REVIEW] unusual VLE for : '(a)'
+12:21:43  INFO       master updated: {'Licenses': 18, 'Conditions': 75, 'Autocontrolo': 130, 'Legislacao': 39, 'Avaliacao': 43}
+12:21:43  INFO       all-sections master updated: 12 sheets
+12:21:43  INFO     ----------------------------------------------------
+12:21:43  INFO     DONE  REVIEW:1
+12:21:43  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+12:21:44  INFO     Opened in Excel: Avô_TUA20250722002408_01.10.2025_30.09.2030_extracted.xlsx
+13:01:04  INFO     1 new PDF(s) detected.
+13:01:04  INFO     processing Baraçal TUA20240227000550 (22.08.2024 a 21.08.2029).pdf
+13:01:33  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+13:01:33  INFO          [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+13:01:33  INFO          [REVIEW] unusual VLE for : 'T000017'
+13:01:33  INFO          [REVIEW] unusual VLE for : 'T000017'
+13:01:33  INFO          [REVIEW] unusual VLE for : 'T000017'
+13:01:34  INFO       master updated: {'Licenses': 19, 'Conditions': 79, 'Autocontrolo': 136, 'Legislacao': 40, 'Avaliacao': 44}
+13:01:34  INFO       all-sections master updated: 12 sheets
+13:01:34  INFO     ----------------------------------------------------
+13:01:34  INFO     DONE  REVIEW:1
+13:01:34  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+13:01:34  INFO     Opened in Excel: Baraçal TUA20240227000550 (22.08.2024 a 21.08.2029)_extracted.xlsx

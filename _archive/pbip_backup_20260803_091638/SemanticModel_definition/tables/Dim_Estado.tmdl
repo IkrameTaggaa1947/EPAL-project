@@ -1,0 +1,57 @@
+table Dim_Estado
+	lineageTag: 7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d01
+
+	column Estado
+		dataType: string
+		lineageTag: 7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d02
+		summarizeBy: none
+		sourceColumn: [Estado]
+		sortByColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordem
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d03
+		summarizeBy: none
+		sourceColumn: [Ordem]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cor
+		dataType: string
+		isHidden
+		lineageTag: 7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d04
+		summarizeBy: none
+		sourceColumn: [Cor]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descrição
+		dataType: string
+		lineageTag: 7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d05
+		summarizeBy: none
+		sourceColumn: [Descrição]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Estado = calculated
+		mode: import
+		source =
+				DATATABLE(
+				    "Estado",    STRING,
+				    "Ordem",     INTEGER,
+				    "Cor",       STRING,
+				    "Descrição", STRING,
+				    {
+				        { "Caducada",              1, "#C0392B", "Data de validade já ultrapassada" },
+				        { "A expirar (< 8 meses)", 2, "#FF911B", "Expira dentro dos próximos 8 meses" },
+				        { "Válida",                3, "#1E8449", "Expira daqui a mais de 8 meses" },
+				        { "Sem data",              4, "#95A5A6", "O documento não indica data de validade" }
+				    }
+				)
+
+	annotation PBI_ResultType = Table
+

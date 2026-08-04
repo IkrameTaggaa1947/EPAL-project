@@ -1,0 +1,236 @@
+{
+  "file_name": "Chãos_Lic_L001865.2014.RH5 (13-02-2014 a 13-02-2016) .pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.001951.2014.RH5",
+    "Nº Licença": "L001865.2014.RH5",
+    "Data de Início": "13-02-2014",
+    "Data de Validade": "13-02-2016",
+    "País": "Portugal",
+    "NIF": "505773333",
+    "Requerente": "Águas do Centro S.A.",
+    "Morada": "LARGO DR. JOSÉ LOPES DIAS",
+    "Localidade": "CASTELO BRANCO",
+    "Código Postal": "6000-462",
+    "Concelho": "Castelo Branco",
+    "Telefones": "272348700",
+    "Fax": "272348701"
+  },
+  "tratamento": {
+    "Designação": "ETAR de Chãos",
+    "Nível de tratamento": "Secundário",
+    "Tipo de tratamento": "Fase liquida - Obra de entrada com gradagem mecânica e desarenador em canal, tratamento biológico em lamas ativadas em baixa carga seguido de decantação secundária. Fase Sólida – espessamento gravítico e desidratação em leitos de secagem.",
+    "Caudal Máximo descarga": "112.00 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Médio Tejo / Ferreira do Zêzere / Chãos",
+    "Longitude": "-8.411850",
+    "Latitude": "39.704080",
+    "Ano de arranque": "2014",
+    "População servida (e.p.)": "851",
+    "Ano horizonte de projeto": "2040",
+    "População servida no horizonte": "858"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume máximo mensal 3406.7 (m3) CBO5 462.0 (mg/L O2) CQO 924.0 (mg/L O2) N 77.0 (mg/L N) P 15.0 (mg/L P)",
+    "Designação da rejeição": "ETAR de Chãos",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "esquerda",
+    "Denominação do meio recetor": "Ribeira de Chãos",
+    "Sistema de Descarga": "Coletor com obra de proteção (boca de lobo)",
+    "Nut III – Concelho – Freguesia": "– Freguesia Médio Tejo / Ferreira do Zêzere / Chãos",
+    "Longitude": "-8.41220",
+    "Latitude": "39.70385",
+    "Região Hidrográfica": "RH5 :: Tejo",
+    "Bacia Hidrográfica": "1442 :: Nabao",
+    "Sub-Bacia Hidrográfica": "05TEJ0898 :: Rio Nabão",
+    "Tipo de massa de água": "RIO",
+    "Massa de água": "05TEJ0898 :: Rio Nabão",
+    "Classificação da massa de água": "Bom",
+    "Volume mensal afluente (m3)": "3406.7",
+    "Volume mensal afluente (tipo)": "Máximo",
+    "Afluente CBO5 (mg/L)": "462.0",
+    "Afluente CQO (mg/L)": "924.0",
+    "Afluente N (mg/L)": "77.0",
+    "Afluente P (mg/L)": "15.0"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28º e 32º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A entidade licenciadora reserva o direito de restringir excecionalmente o regime de utilização dos recursos hídricos, por período a definir em situações de emergência, nomeadamente secas, cheias e acidentes.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 27º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no artigo 33º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular obriga-se a solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo, caso se mantenham as condições que determinaram a sua atribuição.",
+      "Esta licença não confere direitos contra concessões que vierem a efetuar-se nos termos da legislação vigente.",
+      "O titular fica obrigado a informar a entidade licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença.",
+      "Em caso de incumprimento da presente licença, o seu titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras licenças exigíveis por outras Entidades."
+    ],
+    "Específicas": [
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a manter um dossier organizado contendo as Fichas de Dados de Segurança de todos as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa.",
+      "O titular obriga-se a efetuar, quando necessário, a limpeza dos órgãos de tratamento, devendo guardar os comprovativos da sua realização, com indicação do destino final das lamas, para efeitos de inspeção ou fiscalização por parte das entidades competentes.",
+      "O titular obriga-se a solicitar a ligação ao coletor municipal assim que a rede de saneamento exista e permita o encaminhamento dos efluentes ao sistema público, desativando o sistema individual de tratamento, o qual deverá ser demolido ou entulhado, e proceder à recuperação ambiental do local onde o mesmo se encontra atualmente instalado.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das entidades competentes, conforme o modelo apresentado em Anexo.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e evolução da qualidade do meio recetor ou outras restrições de utilização local que o justifiquem.",
+      "Como medida preventiva e minimizadora das consequências inerentes a uma rejeição de emergência no domínio hídrico, o titular deverá diligenciar no sentido de dotar a(s) Estação(ões) Elevatória(s) de um gerador de emergência.",
+      "Sempre que se verifique a necessidade de proceder a uma rejeição de emergência da(s) Estação(ões) Elevatória(s), o titular deverá de imediato tomar todas as medidas com vista a minimizar os efeitos daí decorrentes e comunicar a ocorrência à Entidade Licenciadora num prazo máximo de 24 horas seguintes à mesma.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 4375 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários).",
+      "O titular obriga-se para o corrente ano civil, a enviar a calendarização prevista para a recolha de amostras de auto-controlo na ETAR, num prazo de 15 dias a contar da data da emissão do presente título; para cada ano civil, a enviar a calendarização prevista até ao dia 15 de Dezembro do ano anterior; caso a programação prevista seja alterada, a enviar a nova calendarização, com uma antecedência mínima de 15 dias.",
+      "O titular deverá apresentar, assim que seja publicada, a declaração de Reconhecimento de Interesse Público de ocupação de terrenos integrados na REN e solicitar a devida autorização de construção em domínio hídrico."
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Carência Química de Oxigénio (mg/l O2)",
+      "VLE (% mín. remoção)": "75",
+      "VLE": "",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho. Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "Sólidos Suspensos Totais (mg/l) 90 pH (Escala de Sörensen) 6-9 Legislação Decreto-Lei nº 152/97, de 19 de junho."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/l)",
+      "VLE (% mín. remoção)": "90",
+      "VLE": "",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho. Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "Sólidos Suspensos Totais (mg/l) 90 pH (Escala de Sörensen) 6-9 Legislação Decreto-Lei nº 152/97, de 19 de junho."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/l O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "80",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho. Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "Sólidos Suspensos Totais (mg/l) 90 pH (Escala de Sörensen) 6-9 Legislação Decreto-Lei nº 152/97, de 19 de junho."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/l O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "40",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/l O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "150",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/l)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "60",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+    }
+  ],
+  "condicoes_observacoes": {
+    "Ano de arranque": "Avaliação de conformidade: durante o ano de arranque o número de amostras não conformes deverá ser de 1 para CBO5, CQO, SST e pH."
+  },
+  "legislacao": {
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+    "b": "Decreto-Lei nº 152/97, de 19 de junho. Decreto-Lei nº 152/97, de 19 de junho"
+  },
+  "avaliacao_conformidade": {
+    "b": "Sólidos Suspensos Totais (mg/l) 90 pH (Escala de Sörensen) 6-9 Legislação Decreto-Lei nº 152/97, de 19 de junho.",
+    "a": "Carência Bioquímica de Oxigénio (mg/l O2) 80 Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+  },
+  "avaliacao_texto": "pH. Parâmetro VLE (% min. remoção) VLE Legislação aplicável Carência Química de Oxigénio (mg/l O2) 75 (b) Sólidos Suspensos Totais (mg/l) 90 (b) pH (Escala de Sörensen) 6-9 (a) Carência Bioquímica de Oxigénio (mg/l O2) 80 (b) Legislação (a) Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto (b) Decreto-Lei nº 152/97, de 19 de junho. O número de amostras não conformes deverá ser de 1 para a CBO5, CQO e SST, não devendo esses valores ser superiores a 80mg/l para CBO5, 300mg/l para CQO e 150mg/l para SST, nem os valores médios anuais do conjunto total de amostras, exceder o valor paramétrico ou os valores constantes do intervalo no caso do pH (Critério estabelecido pela Comissão de Acompanhamento da Directiva das Águas Residuais Urbanas e Anexo XVIII do Decreto-Lei n.º 236/98 de 1 de Agosto).",
+  "monitorizacao": {},
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise. Os Relatórios de auto-controlo devem incluir os registos dos volumes descarregados, os Boletins de Análise e de Colheita e deve ser apresentada a identificação de quaisquer alterações nas condições de entrada do efluente, avarias nos equipamentos, condições meteorológicas extremas, ou outras situações que alterem o normal funcionamento da ETAR. Quando se verifique a ocorrência de algum incumprimento deverão ser apresentadas as correspondentes medidas corretivas e preventivas. Os parâmetros, N total e P total não constituem requisitos de descarga. No entanto, deverão ser analisados para efeitos de cálculo da taxa de recursos hídricos (Decreto-Lei n.º 97/2008 de 11 de Junho).",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade trimestral.",
+    "Equipamento de controlo": "Amostrador automático à saída da ETAR.",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas. O presidente do conselho diretivo da APA, IP Nuno Lacasta",
+    "rows": [
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/l O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/l O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/l)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto total (mg/l N)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (iii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Fósforo total (mg/l P)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (iii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto amoniacal (mg/l NH4)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Directiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (iii)"
+      }
+    ]
+  },
+  "entidade": {},
+  "_warnings": [
+    "'Carência Química de Oxigénio (mg/l O2)' (Ano de arranque): single value '75' read as % remoção (4-column table) — confirm against the PDF",
+    "'Sólidos Suspensos Totais (mg/l)' (Ano de arranque): single value '90' read as % remoção (4-column table) — confirm against the PDF"
+  ]
+}

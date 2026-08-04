@@ -1,0 +1,688 @@
+09:34:31  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+09:49:16  INFO     2 new PDF(s) detected.
+09:49:16  INFO     processing Ade TUA20240731002347 (02.01.2025 a 01.01.2030).pdf
+09:49:47  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+09:49:47  INFO          [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+09:49:48  INFO       master updated: {'Licenses': 21, 'Conditions': 86, 'Autocontrolo': 147, 'Legislacao': 42, 'Avaliacao': 47, 'Localizacao (3.3)': 1, 'Caracterizacao Geral (3.5)': 1, 'Rejeicao Aguas Residuais (3.7)': 1, 'Afluente Bruto (3.8)': 1, 'Origem Aguas Residuais (3.11)': 1, 'Condicoes Rejeicao (3.13)': 3, 'Legislacao (3.14)': 1, 'Avaliacao Conformidade (3.15)': 1, 'Autocontrolo (3.16)': 5, 'Condicoes Gerais (3.19)': 15, 'Condicoes Especificas (3.20)': 14, 'Outras Condicoes (3.21)': 12, 'Obrigacoes Comunicacao (OCom1)': 2}
+09:49:48  INFO       all-sections master updated: 25 sheets
+09:49:48  INFO     processing Alcains TUA20230228000613 (01.03.2023 a 27.02.2026).pdf
+09:50:43  INFO       -> REVIEW  (4 conditions, 16 monitoring rows)
+09:50:43  INFO          [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+09:50:45  INFO       master updated: {'Licenses': 21, 'Conditions': 86, 'Autocontrolo': 147, 'Legislacao': 42, 'Avaliacao': 47, 'Localizacao (3.3)': 2, 'Caracterizacao Geral (3.5)': 2, 'Rejeicao Aguas Residuais (3.7)': 2, 'Afluente Bruto (3.8)': 2, 'Origem Aguas Residuais (3.11)': 2, 'Condicoes Rejeicao (3.13)': 7, 'Legislacao (3.14)': 3, 'Avaliacao Conformidade (3.15)': 3, 'Autocontrolo (3.16)': 21, 'Condicoes Gerais (3.19)': 35, 'Condicoes Especificas (3.20)': 30, 'Outras Condicoes (3.21)': 26, 'Obrigacoes Comunicacao (OCom1)': 3}
+09:50:45  INFO       all-sections master updated: 25 sheets
+09:50:45  INFO     ----------------------------------------------------
+09:50:45  INFO     DONE  REVIEW:2
+09:50:45  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+09:50:46  INFO     Opened in Excel: master_tua.xlsx
+09:52:46  INFO     9 new PDF(s) detected.
+09:52:46  INFO     processing Aboboreira_2_TUA20230116000179_16.01.2023_a_15.01.2026.pdf
+09:54:04  INFO       -> OK  (5 conditions, 7 monitoring rows)
+09:54:04  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:54:05  INFO       all-sections master updated: 25 sheets
+09:54:05  INFO     processing Aboboreira_I_TUA20230116000180_16.01.2023_a_15.01.2026.pdf
+09:54:51  INFO       -> OK  (5 conditions, 7 monitoring rows)
+09:54:51  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:54:52  INFO       all-sections master updated: 25 sheets
+09:54:52  INFO     processing Ade_TUA20240731002347_02.01.2025_a_01.01.2030.pdf
+09:55:38  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+09:55:38  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 02-01-2025)
+09:55:38  INFO          [REVIEW] Data de Validade missing (filename says 01-01-2030)
+09:55:38  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:55:39  INFO       all-sections master updated: 25 sheets
+09:55:39  INFO     processing Alcains_TUA20230228000613_01.03.2023_a_27.02.2026.pdf
+09:56:44  INFO       -> OK  (4 conditions, 16 monitoring rows)
+09:56:44  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:56:45  INFO       all-sections master updated: 25 sheets
+09:56:45  INFO     processing Alcarva_TUA20230328000995_15.06.2023_a_26.03.2028.pdf
+09:57:26  INFO       -> OK  (4 conditions, 4 monitoring rows)
+09:57:26  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:57:27  INFO       all-sections master updated: 25 sheets
+09:57:27  INFO     processing Aldeia_Velha_Lageosa_TUA20230905002579_04.02.2024_a_03.02.2029.pdf
+09:58:08  INFO       -> OK  (4 conditions, 6 monitoring rows)
+09:58:09  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:58:09  INFO       all-sections master updated: 25 sheets
+09:58:09  INFO     processing Aldeia_da_Ponte_TUA20230824002503_04.02.2024_a_04.02.2029.pdf
+09:58:49  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+09:58:49  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 04-02-2024)
+09:58:49  INFO          [REVIEW] Data de Validade missing (filename says 04-02-2029)
+09:58:49  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:58:50  INFO       all-sections master updated: 25 sheets
+09:58:50  INFO     processing Aldeia_da_Ribeira_TUA20231211003636_02.05.2024_a_05.02.2029.pdf
+09:59:27  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+09:59:27  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 02-05-2024)
+09:59:27  INFO          [REVIEW] Data de Validade missing (filename says 05-02-2029)
+09:59:27  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+09:59:27  INFO       all-sections master updated: 25 sheets
+09:59:27  INFO     processing Algodres_TUA20230328000996_18.06.2023_a_26.03.2028.pdf
+10:00:07  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:00:07  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:00:08  INFO       all-sections master updated: 25 sheets
+10:00:08  INFO     ----------------------------------------------------
+10:00:08  INFO     DONE  OK:6  REVIEW:3
+10:00:08  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+10:00:08  INFO     Opened in Excel: master_tua.xlsx
+10:00:13  INFO     14 new PDF(s) detected.
+10:00:13  INFO     processing Almeida_TUA20230125000254_18.06.2023_a_24.01.2028.pdf
+10:00:52  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:00:52  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:00:54  INFO       all-sections master updated: 25 sheets
+10:00:54  INFO     processing Alvaiázere_TUA20230808002363_25.09.2023_a_24.09.2028.pdf
+10:01:52  INFO       -> OK  (4 conditions, 10 monitoring rows)
+10:01:52  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:01:53  INFO       all-sections master updated: 25 sheets
+10:01:53  INFO     processing Alvendre_TUA20231012002959_19.03.2024_a_19.03.2029.pdf
+10:02:42  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:02:42  INFO          [REVIEW] Data de Entrada em Vigor 20-03-2024 does not match filename 19-03-2024
+10:02:43  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:02:44  INFO       all-sections master updated: 25 sheets
+10:02:44  INFO     processing Alverca_da_Beira_TUA20220927002236_27.09.2022_a_26.09.2027.pdf
+10:03:31  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+10:03:31  INFO          [REVIEW] Data de Entrada em Vigor 08-03-2023 does not match filename 27-09-2022
+10:03:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:03:32  INFO       all-sections master updated: 25 sheets
+10:03:32  INFO     processing Alvôco_das_Várzeas_TUA20240521001573_01.08.2024_a_31.07.2029.pdf
+10:04:34  INFO       -> REVIEW  (4 conditions, 8 monitoring rows)
+10:04:34  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-08-2024)
+10:04:34  INFO          [REVIEW] Data de Validade missing (filename says 31-07-2029)
+10:04:34  INFO          [REVIEW] unusual VLE for : '(a)'
+10:04:34  INFO          [REVIEW] unusual VLE for : '(a)'
+10:04:34  INFO          [REVIEW] unusual VLE for : '(a)'
+10:04:35  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:04:36  INFO       all-sections master updated: 25 sheets
+10:04:36  INFO     processing Amiais_TUA20231109003280_02.05.2024_a_01.05.2029.pdf
+10:05:25  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:05:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:05:26  INFO       all-sections master updated: 25 sheets
+10:05:26  INFO     processing Amoreira_TUA20230202000378_18.06.2023_a_01.02.2028.pdf
+10:06:14  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:06:14  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:06:14  INFO       all-sections master updated: 25 sheets
+10:06:14  INFO     processing Andorinha_TUA20240522001588_01.10.2024_a_30.09.2029.pdf
+10:06:37  INFO       -> REVIEW  (5 conditions, 9 monitoring rows)
+10:06:37  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:06:37  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:06:37  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:06:37  INFO       all-sections master updated: 25 sheets
+10:06:37  INFO     processing Andreus_TUA20230130000336_24.01.2023_a_23.01.2026.pdf
+10:07:31  INFO       -> OK  (5 conditions, 7 monitoring rows)
+10:07:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:07:32  INFO       all-sections master updated: 25 sheets
+10:07:32  INFO     processing Arronches_TUA20230423001281_20.04.2023_a_21.04.2030.pdf
+10:08:23  INFO       -> OK  (5 conditions, 8 monitoring rows)
+10:08:23  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:08:24  INFO       all-sections master updated: 25 sheets
+10:08:24  INFO     processing Assumar_TUA20240216000439_16.02.2024_a_14.02.2029.pdf
+10:09:11  INFO       -> OK  (3 conditions, 7 monitoring rows)
+10:09:11  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:09:12  INFO       all-sections master updated: 25 sheets
+10:09:12  INFO     processing Atalaia_do_Campo_TUA20230228000614_01.03.2023_a_27.02.2028.pdf
+10:10:14  INFO       -> REVIEW  (4 conditions, 12 monitoring rows)
+10:10:14  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Carência Química de Oxigénio (mg/L O2)']
+10:10:15  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:10:15  INFO       all-sections master updated: 25 sheets
+10:10:15  INFO     processing Aveloso_TUA20230125000272_15.06.2023_a_24.01.2028.pdf
+10:10:58  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:10:58  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:10:59  INFO       all-sections master updated: 25 sheets
+10:10:59  INFO     processing Avelãs_da_Ribeira_TUA20230421001263_27.09.2023_a_19.04.2028.pdf
+10:11:40  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:11:40  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:11:41  INFO       all-sections master updated: 25 sheets
+10:11:41  INFO     ----------------------------------------------------
+10:11:41  INFO     DONE  OK:9  REVIEW:5
+10:11:41  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+10:11:41  INFO     Opened in Excel: master_tua.xlsx
+10:11:46  INFO     106 new PDF(s) detected.
+10:11:46  INFO     processing Avelãs_de_Ambom_TUA20230717002123_12.12.2023_a_11.12.2028.pdf
+10:12:28  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:12:28  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:12:29  INFO       all-sections master updated: 25 sheets
+10:12:29  INFO     processing Avô_TUA20250722002408_01.10.2025_a_30.09.2030.pdf
+10:13:14  INFO       -> REVIEW  (4 conditions, 9 monitoring rows)
+10:13:14  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2025)
+10:13:14  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2030)
+10:13:14  INFO          [REVIEW] unusual VLE for : '(a)'
+10:13:14  INFO          [REVIEW] unusual VLE for : '(a)'
+10:13:14  INFO          [REVIEW] unusual VLE for : '(a)'
+10:13:14  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:13:15  INFO       all-sections master updated: 25 sheets
+10:13:15  INFO     processing Azevo_TUA20230220000545_29.06.2023_a_19.02.2028.pdf
+10:13:57  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:13:57  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:13:58  INFO       all-sections master updated: 25 sheets
+10:13:58  INFO     processing Azinhal_TUA20230421001259_28.09.2023_a_19.04.2028.pdf
+10:14:39  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:14:39  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:14:40  INFO       all-sections master updated: 25 sheets
+10:14:40  INFO     processing Baraçal_TUA20240227000550_22.08.2024_a_21.08.2029.pdf
+10:15:22  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:15:22  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 22-08-2024)
+10:15:22  INFO          [REVIEW] Data de Validade missing (filename says 21-08-2029)
+10:15:22  INFO          [REVIEW] unusual VLE for : 'T000017'
+10:15:22  INFO          [REVIEW] unusual VLE for : 'T000017'
+10:15:22  INFO          [REVIEW] unusual VLE for : 'T000017'
+10:15:22  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:15:23  INFO       all-sections master updated: 25 sheets
+10:15:23  INFO     processing Barreira_TUA20231128003521_10.05.2024_a_09.05.2029.pdf
+10:16:01  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:16:01  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:16:02  INFO       all-sections master updated: 25 sheets
+10:16:02  INFO     processing Belver_TUA20220511000845_11.05.2022_a_30.09.2027.pdf
+10:16:53  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:16:53  INFO          [REVIEW] Data de Entrada em Vigor 01-10-2022 does not match filename 11-05-2022
+10:16:53  INFO          [REVIEW] unusual VLE for : '(a)'
+10:16:53  INFO          [REVIEW] unusual VLE for : '(a)'
+10:16:53  INFO          [REVIEW] unusual VLE for : '(a)'
+10:16:53  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:16:54  INFO       all-sections master updated: 25 sheets
+10:16:55  INFO     processing Bemposta_TUA20220919002148_14.11.2022_a_18.09.2027.pdf
+10:17:46  INFO       -> OK  (4 conditions, 7 monitoring rows)
+10:17:46  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:17:47  INFO       all-sections master updated: 25 sheets
+10:17:47  INFO     processing Bismula_TUA20230905002578_04.02.2024_a_03.04.2029.pdf
+10:18:24  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:18:24  INFO          [REVIEW] Data de Validade 03-02-2029 does not match filename 03-04-2029
+10:18:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:18:25  INFO       all-sections master updated: 25 sheets
+10:18:25  INFO     processing Bobadela_TUA20240521001577_01.08.2024_a_31.07.2029.pdf
+10:19:05  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:19:05  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-08-2024)
+10:19:05  INFO          [REVIEW] Data de Validade missing (filename says 31-07-2029)
+10:19:05  INFO          [REVIEW] unusual VLE for : '(a)'
+10:19:05  INFO          [REVIEW] unusual VLE for : '(a)'
+10:19:05  INFO          [REVIEW] unusual VLE for : '(a)'
+10:19:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:19:06  INFO       all-sections master updated: 25 sheets
+10:19:06  INFO     processing Bogas_do_Meio_TUA20230117000197_31.01.2023_a_16.01.2028.pdf
+10:20:05  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:20:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:20:06  INFO       all-sections master updated: 25 sheets
+10:20:06  INFO     processing Cabreira_TUA20240123000210_01.07.2024_a_30.06.2029.pdf
+10:20:49  INFO       -> REVIEW  (4 conditions, 4 monitoring rows)
+10:20:49  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-07-2024)
+10:20:49  INFO          [REVIEW] Data de Validade missing (filename says 30-06-2029)
+10:20:49  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:20:50  INFO       all-sections master updated: 25 sheets
+10:20:50  INFO     processing Calvos_TUA20230717002153_25.09.2023_a_24.09.2028.pdf
+10:21:41  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:21:41  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:21:42  INFO       all-sections master updated: 25 sheets
+10:21:42  INFO     processing Cardal_Bairrada_TUA20240216000462_04.03.2024_a_03.03.2029.pdf
+10:22:36  INFO       -> OK  (5 conditions, 7 monitoring rows)
+10:22:36  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:22:38  INFO       all-sections master updated: 25 sheets
+10:22:38  INFO     processing Caria_TUA20220511000842_17.10.2022_a_16.10.2027.pdf
+10:23:45  INFO       -> OK  (4 conditions, 13 monitoring rows)
+10:23:45  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:23:47  INFO       all-sections master updated: 25 sheets
+10:23:47  INFO     processing Carragosela_TUA20230801002309_01.11.2023_a_21.10.2028.pdf
+10:24:36  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:24:36  INFO          [REVIEW] Data de Validade 31-10-2028 does not match filename 21-10-2028
+10:24:36  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+10:24:36  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:24:37  INFO       all-sections master updated: 25 sheets
+10:24:37  INFO     processing Castanheira_TUA20220720001538_02.01.2025_a_14.07.2027.pdf
+10:25:42  INFO       -> REVIEW  (8 conditions, 8 monitoring rows)
+10:25:42  INFO          [REVIEW] Data de Entrada em Vigor 15-07-2022 does not match filename 02-01-2025
+10:25:42  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:25:43  INFO       all-sections master updated: 25 sheets
+10:25:43  INFO     processing Casteicao_TUA20230125000271_15.06.2023_a_24.01.2028.pdf
+10:26:31  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:26:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:26:32  INFO       all-sections master updated: 25 sheets
+10:26:32  INFO     processing Castelo_Mendo_TUA20240506001395_26.10.2024_a_25.10.2029.pdf
+10:27:26  INFO       -> REVIEW  (4 conditions, 4 monitoring rows)
+10:27:26  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 26-10-2024)
+10:27:26  INFO          [REVIEW] Data de Validade missing (filename says 25-10-2029)
+10:27:26  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:27:28  INFO       all-sections master updated: 25 sheets
+10:27:28  INFO     processing Castelo_Rodrigo_TUA20231228003808_09.05.2024_a_08.05.2029.pdf
+10:28:11  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:28:11  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:28:12  INFO       all-sections master updated: 25 sheets
+10:28:12  INFO     processing Celorico_da_Beira_TUA20241122003495_01.01.2025_a_31.12.2026.pdf
+10:29:15  INFO       -> REVIEW  (5 conditions, 16 monitoring rows)
+10:29:15  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-01-2025)
+10:29:15  INFO          [REVIEW] Data de Validade missing (filename says 31-12-2026)
+10:29:16  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:29:17  INFO       all-sections master updated: 25 sheets
+10:29:17  INFO     processing Cerejo_TUA20231010002912_02.03.2024_a_01.03.2029.pdf
+10:30:02  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:30:02  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:30:03  INFO       all-sections master updated: 25 sheets
+10:30:03  INFO     processing Cernache_Bonjardim_TUA20230707002024_25.09.2023_a_24.09.2028.pdf
+10:30:58  INFO       -> OK  (4 conditions, 10 monitoring rows)
+10:30:58  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:31:00  INFO       all-sections master updated: 25 sheets
+10:31:00  INFO     processing Chança_TUA20220511000844_11.05.2022_a_20.09.2027.pdf
+10:31:40  INFO       -> REVIEW  (3 conditions, 7 monitoring rows)
+10:31:40  INFO          [REVIEW] Data de Entrada em Vigor 01-10-2022 does not match filename 11-05-2022
+10:31:40  INFO          [REVIEW] Data de Validade 30-09-2027 does not match filename 20-09-2027
+10:31:40  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:31:41  INFO       all-sections master updated: 25 sheets
+10:31:41  INFO     processing Chaos_TUA20230213000471_02.07.2023_a_12.02.2028.pdf
+10:32:25  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:32:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:32:26  INFO       all-sections master updated: 25 sheets
+10:32:26  INFO     processing Cinco_Vilas_TUA20230208000443_18.06.2023_a_07.02.2028.pdf
+10:33:01  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:33:01  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:33:03  INFO       all-sections master updated: 25 sheets
+10:33:03  INFO     processing Comenda_TUA20221010002355_10.10.2022_a_02.03.2028.pdf
+10:33:51  INFO       -> REVIEW  (4 conditions, 10 monitoring rows)
+10:33:51  INFO          [REVIEW] Data de Entrada em Vigor 02-03-2023 does not match filename 10-10-2022
+10:33:51  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:33:52  INFO       all-sections master updated: 25 sheets
+10:33:52  INFO     processing Coriscada_TUA20230202000377_15.06.2023_a_01.02.2028.pdf
+10:34:29  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:34:30  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:34:31  INFO       all-sections master updated: 25 sheets
+10:34:31  INFO     processing Cortiçada_TUA20240521001569_01.10.2024_a_30.09.2029.pdf
+10:35:17  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:35:17  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:35:17  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:35:17  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Azoto amoniacal (mg/L NH4)']
+10:35:17  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:35:18  INFO       all-sections master updated: 25 sheets
+10:35:18  INFO     processing Cunheira_TUA20221010002354_10.10.2022_a_22.02.2028.pdf
+10:35:57  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:35:57  INFO          [REVIEW] Data de Entrada em Vigor 22-02-2023 does not match filename 10-10-2022
+10:35:57  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:35:58  INFO       all-sections master updated: 25 sheets
+10:35:58  INFO     processing Derreada_TUA20240916002772_21.01.2025_a_20.01.2030.pdf
+10:36:31  INFO       -> REVIEW  (4 conditions, 4 monitoring rows)
+10:36:31  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 21-01-2025)
+10:36:31  INFO          [REVIEW] Data de Validade missing (filename says 20-01-2030)
+10:36:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:36:33  INFO       all-sections master updated: 25 sheets
+10:36:33  INFO     processing Dornes_TUA20220718001522_18.07.2022_a_17.07.2027.pdf
+10:37:25  INFO       -> OK  (8 conditions, 8 monitoring rows)
+10:37:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:37:26  INFO       all-sections master updated: 25 sheets
+10:37:26  INFO     processing ETAR_Arcozelo_TUA20230530001578_01.11.2025_a_31.10.2027.pdf
+10:38:20  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:38:20  INFO          [REVIEW] Data de Entrada em Vigor 26-10-2023 does not match filename 01-11-2025
+10:38:20  INFO          [REVIEW] Data de Validade 31-10-2025 does not match filename 31-10-2027
+10:38:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:38:21  INFO       all-sections master updated: 25 sheets
+10:38:21  INFO     processing Eirado_TUA20241022003142_01.01.2025_a_31.12.2029.pdf
+10:39:22  INFO       -> REVIEW  (4 conditions, 14 monitoring rows)
+10:39:22  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-01-2025)
+10:39:22  INFO          [REVIEW] Data de Validade missing (filename says 31-12-2029)
+10:39:22  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Azoto amoniacal (mg/L NH4)']
+10:39:23  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:39:24  INFO       all-sections master updated: 26 sheets
+10:39:24  INFO     processing Envendos_1_TUA20230130000332_30.01.2023_a_29.01.2026.pdf
+10:40:05  INFO       -> OK  (5 conditions, 7 monitoring rows)
+10:40:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:40:06  INFO       all-sections master updated: 26 sheets
+10:40:06  INFO     processing Envendos_2_TUA20230130000331_30.01.2023_a_29.01.2026.pdf
+10:40:48  INFO       -> OK  (5 conditions, 7 monitoring rows)
+10:40:48  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:40:49  INFO       all-sections master updated: 26 sheets
+10:40:49  INFO     processing Escalhão_TUA20230202000376_18.06.2023_a_01.02.2028.pdf
+10:41:22  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:41:22  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:41:23  INFO       all-sections master updated: 26 sheets
+10:41:23  INFO     processing Escalos_Lousa_TUA20240229000598_13.02.2024_a_11.02.2029.pdf
+10:42:06  INFO       -> REVIEW  (4 conditions, 15 monitoring rows)
+10:42:06  INFO          [REVIEW] unusual VLE for : '(a)'
+10:42:06  INFO          [REVIEW] unusual VLE for : '(a)'
+10:42:06  INFO          [REVIEW] unusual VLE for : '(a)'
+10:42:06  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:42:07  INFO       all-sections master updated: 26 sheets
+10:42:07  INFO     processing Espinhal_TUA20231128003520_09.05.2024_a_08.05.2029.pdf
+10:42:40  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:42:41  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:42:42  INFO       all-sections master updated: 26 sheets
+10:42:42  INFO     processing Estreito_TUA20240131000276_31.01.2024_a_29.01.2029.pdf
+10:43:28  INFO       -> OK  (4 conditions, 7 monitoring rows)
+10:43:28  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:43:31  INFO       all-sections master updated: 26 sheets
+10:43:31  INFO     processing FCR_TUA20240416001180_21.08.2024_a_20.08.2029.pdf
+10:44:10  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+10:44:10  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 21-08-2024)
+10:44:10  INFO          [REVIEW] Data de Validade missing (filename says 20-08-2029)
+10:44:11  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:44:12  INFO       all-sections master updated: 26 sheets
+10:44:12  INFO     processing Figueira_e_Barros_TUA20221010002359_10.10.2022_a_16.09.2027.pdf
+10:44:56  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:44:56  INFO          [REVIEW] Data de Entrada em Vigor 16-09-2022 does not match filename 10-10-2022
+10:44:56  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:44:58  INFO       all-sections master updated: 26 sheets
+10:44:58  INFO     processing Figueiró_da_Granja_TUA20240521001575_01.08.2024_a_31.07.2029.pdf
+10:45:32  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:45:32  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-08-2024)
+10:45:32  INFO          [REVIEW] Data de Validade missing (filename says 31-07-2029)
+10:45:32  INFO          [REVIEW] unusual VLE for : '(a)'
+10:45:32  INFO          [REVIEW] unusual VLE for : '(a)'
+10:45:32  INFO          [REVIEW] unusual VLE for : '(a)'
+10:45:32  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:45:34  INFO       all-sections master updated: 26 sheets
+10:45:34  INFO     processing Foios_TUA20230905002577_04.02.2024_a_03.02.2029.pdf
+10:46:09  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:46:10  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:46:11  INFO       all-sections master updated: 26 sheets
+10:46:11  INFO     processing Folhadosa_TUA20240521001568_01.10.2024_a_30.09.2029.pdf
+10:46:47  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:46:47  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:46:47  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:46:47  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Azoto amoniacal (mg/L NH4)']
+10:46:47  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:46:48  INFO       all-sections master updated: 26 sheets
+10:46:48  INFO     processing Fonte_da_Vila_-_Bacia_B_TUA20221010002356_10.02.2022_a_12.03.2028.pdf
+10:47:29  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+10:47:29  INFO          [REVIEW] Data de Entrada em Vigor 12-03-2023 does not match filename 10-02-2022
+10:47:29  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:47:30  INFO       all-sections master updated: 26 sheets
+10:47:30  INFO     processing Fontelonga_TUA20230202000375_15.06.2023_a_01.02.2028.pdf
+10:48:08  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:48:08  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:48:09  INFO       all-sections master updated: 26 sheets
+10:48:09  INFO     processing Forcalhos_TUA20230918002712_19.02.2024_a_18.02.2029.pdf
+10:48:42  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:48:42  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:48:44  INFO       all-sections master updated: 26 sheets
+10:48:44  INFO     processing Fornotelheiro_TUA20240808002408_01.10.2024_a_30.09.2029.pdf
+10:49:19  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:49:19  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:49:19  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:49:19  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Azoto amoniacal (mg/L NH4)']
+10:49:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:49:21  INFO       all-sections master updated: 26 sheets
+10:49:21  INFO     processing Freineda_TUA20230421001258_26.09.2023_a_19.04.2028.pdf
+10:49:55  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:49:56  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:49:57  INFO       all-sections master updated: 26 sheets
+10:49:57  INFO     processing Freixeda_do_Torrão_TUA20230912002643_23.02.2024_a_22.02.2029.pdf
+10:50:31  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:50:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:50:32  INFO       all-sections master updated: 26 sheets
+10:50:32  INFO     processing Freixedas_TUA20220922002190_22.09.2022_a_21.09.2027.pdf
+10:51:03  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+10:51:03  INFO          [REVIEW] Data de Entrada em Vigor 08-03-2023 does not match filename 22-09-2022
+10:51:03  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:51:05  INFO       all-sections master updated: 26 sheets
+10:51:05  INFO     processing Freixo_TUA20250226000655_26.02.2025_a_25.02.2035.pdf
+10:51:43  INFO       -> REVIEW  (5 conditions, 8 monitoring rows)
+10:51:43  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 26-02-2025)
+10:51:43  INFO          [REVIEW] Data de Validade missing (filename says 25-02-2035)
+10:51:43  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Carência Química de Oxigénio (mg/L O2)']
+10:51:43  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:51:45  INFO       all-sections master updated: 26 sheets
+10:51:45  INFO     processing Galveias_TUA20221017002426_17.10.2022_a_19.03.2028.pdf
+10:52:23  INFO       -> REVIEW  (4 conditions, 10 monitoring rows)
+10:52:23  INFO          [REVIEW] Data de Entrada em Vigor 19-03-2023 does not match filename 17-10-2022
+10:52:23  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:52:25  INFO       all-sections master updated: 26 sheets
+10:52:25  INFO     processing Gavião_TUA20230510001393_04.06.2023_a_08.05.2028.pdf
+10:53:20  INFO       -> OK  (7 conditions, 16 monitoring rows)
+10:53:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:53:22  INFO       all-sections master updated: 26 sheets
+10:53:22  INFO     processing Girabolhos_TUA20240604001677_01.10.2024_a_30.09.2029.pdf
+10:53:55  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:53:55  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:53:55  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:53:55  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:53:56  INFO       all-sections master updated: 26 sheets
+10:53:56  INFO     processing Gouveias_Pomares_TUA20230216000513_29.06.2023_a_15.02.2028.pdf
+10:54:30  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:54:30  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:54:32  INFO       all-sections master updated: 26 sheets
+10:54:32  INFO     processing Guadalupe_TUA20250602001876_02.06.2025_a_01.06.2025.pdf
+10:55:05  INFO       -> REVIEW  (4 conditions, 8 monitoring rows)
+10:55:05  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 02-06-2025)
+10:55:05  INFO          [REVIEW] Data de Validade missing (filename says 01-06-2025)
+10:55:05  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Óleos e Gorduras (mg/L)']
+10:55:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:55:07  INFO       all-sections master updated: 26 sheets
+10:55:07  INFO     processing Hortinhas_TUA20241030003256_30.10.2024_a_28.10.2034.pdf
+10:55:46  INFO       -> OK  (3 conditions, 5 monitoring rows)
+10:55:47  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:55:49  INFO       all-sections master updated: 26 sheets
+10:55:49  INFO     processing IMA_TUA20230602001637_06.11.2023_a_31.05.2028.pdf
+10:56:27  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:56:27  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:56:29  INFO       all-sections master updated: 26 sheets
+10:56:29  INFO     processing Junça_TUA20230216000512_03.07.2023_a_15.02.2028.pdf
+10:57:06  INFO       -> OK  (4 conditions, 4 monitoring rows)
+10:57:06  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:57:08  INFO       all-sections master updated: 26 sheets
+10:57:08  INFO     processing Lagares_TUA20240719002220_01.10.2024_a_30.09.2029.pdf
+10:57:47  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:57:47  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:57:47  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:57:47  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:57:49  INFO       all-sections master updated: 26 sheets
+10:57:49  INFO     processing Lageosa_TUA20240719002219_01.10.2024_a_30.09.2029.pdf
+10:58:14  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+10:58:14  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+10:58:14  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+10:58:14  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:58:15  INFO       all-sections master updated: 26 sheets
+10:58:15  INFO     processing Lamegal_TUA20230421001260_28.09.2023_a_19.04.2028.pdf
+10:58:41  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:58:41  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:58:43  INFO       all-sections master updated: 26 sheets
+10:58:43  INFO     processing Leomil_TUA20240725002275_03.01.2025_a_02.01.2030.pdf
+10:59:22  INFO       -> REVIEW  (3 conditions, 3 monitoring rows)
+10:59:22  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 03-01-2025)
+10:59:22  INFO          [REVIEW] Data de Validade missing (filename says 02-01-2030)
+10:59:22  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:59:24  INFO       all-sections master updated: 26 sheets
+10:59:24  INFO     processing Longomel_TUA20221017002427_17.10.2022_a_26.02.2028.pdf
+10:59:53  INFO       -> REVIEW  (4 conditions, 10 monitoring rows)
+10:59:53  INFO          [REVIEW] Data de Entrada em Vigor 26-02-2023 does not match filename 17-10-2022
+10:59:53  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:59:55  INFO       all-sections master updated: 26 sheets
+10:59:55  INFO     processing Loriga_TUA20241122003491_01.01.2025_a_31.12.2026.pdf
+11:00:51  INFO       -> REVIEW  (5 conditions, 18 monitoring rows)
+11:00:51  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-01-2025)
+11:00:51  INFO          [REVIEW] Data de Validade missing (filename says 31-12-2026)
+11:00:51  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Carência Química de Oxigénio (mg/L O2)']
+11:00:51  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:00:53  INFO       all-sections master updated: 26 sheets
+11:00:53  INFO     processing Louriceira_TUA20241003002946_22.01.2025_a_21.01.2030.pdf
+11:01:33  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+11:01:33  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 22-01-2025)
+11:01:33  INFO          [REVIEW] Data de Validade missing (filename says 21-01-2030)
+11:01:33  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+11:01:33  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:01:35  INFO       all-sections master updated: 26 sheets
+11:01:35  INFO     processing Malcata_TUA20231206003602_09.05.2024_a_08.05.2029.pdf
+11:02:04  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:02:04  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:02:06  INFO       all-sections master updated: 26 sheets
+11:02:06  INFO     processing Malhada_Sorda_TUA20230510001399_26.09.2023_a_08.05.2028.pdf
+11:02:36  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:02:36  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:02:38  INFO       all-sections master updated: 26 sheets
+11:02:38  INFO     processing Manigoto_TUA20241014003042_09.06.2024_a_08.06.2029.pdf
+11:03:10  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+11:03:10  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 09-06-2024)
+11:03:10  INFO          [REVIEW] Data de Validade missing (filename says 08-06-2029)
+11:03:10  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:03:12  INFO       all-sections master updated: 26 sheets
+11:03:12  INFO     processing Marialva_TUA20230202000374_15.06.2023_a_01.02.2028.pdf
+11:03:44  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:03:44  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:03:46  INFO       all-sections master updated: 26 sheets
+11:03:46  INFO     processing Mata_de_Lobos_TUA20231206003600_09.05.2024_a_08.05.2029.pdf
+11:04:16  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:04:16  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:04:18  INFO       all-sections master updated: 26 sheets
+11:04:18  INFO     processing Meda_TUA20230202000373_15.06.2023_a_01.02.2028.pdf
+11:04:53  INFO       -> OK  (3 conditions, 6 monitoring rows)
+11:04:53  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:04:55  INFO       all-sections master updated: 26 sheets
+11:04:55  INFO     processing Melo_Folgosinho_TUA20250317000834_13.03.2025_a_31.03.2027.pdf
+11:05:53  INFO       -> REVIEW  (4 conditions, 14 monitoring rows)
+11:05:53  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 13-03-2025)
+11:05:53  INFO          [REVIEW] Data de Validade missing (filename says 31-03-2027)
+11:05:53  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+11:05:53  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:05:55  INFO       all-sections master updated: 26 sheets
+11:05:55  INFO     processing Miuzela_TUA20240105000038_09.06.2024_a_08.06.2029.pdf
+11:06:33  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+11:06:33  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 09-06-2024)
+11:06:33  INFO          [REVIEW] Data de Validade missing (filename says 08-06-2029)
+11:06:33  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+11:06:33  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:06:35  INFO       all-sections master updated: 26 sheets
+11:06:35  INFO     processing Monforte_da_Beira_TUA20231018003040_18.10.2023_a_16.10.2028.pdf
+11:07:11  INFO       -> OK  (4 conditions, 11 monitoring rows)
+11:07:11  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:07:12  INFO       all-sections master updated: 26 sheets
+11:07:12  INFO     processing Montargil_TUA20221010002358_10.10.2022_a_12.01.2028.pdf
+11:07:52  INFO       -> REVIEW  (4 conditions, 10 monitoring rows)
+11:07:52  INFO          [REVIEW] Data de Entrada em Vigor 12-01-2023 does not match filename 10-10-2022
+11:07:52  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:07:54  INFO       all-sections master updated: 26 sheets
+11:07:54  INFO     processing Monte_Margarida_TUA20230816002415_12.12.2023_a_11.12.2028.pdf
+11:08:25  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:08:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:08:27  INFO       all-sections master updated: 26 sheets
+11:08:27  INFO     processing Monte_Perobolço_TUA20240731002345_03.01.2025_a_02.01.2030.pdf
+11:08:58  INFO       -> REVIEW  (3 conditions, 3 monitoring rows)
+11:08:58  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 03-01-2025)
+11:08:58  INFO          [REVIEW] Data de Validade missing (filename says 02-01-2030)
+11:08:58  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:09:00  INFO       all-sections master updated: 26 sheets
+11:09:00  INFO     processing Monte_do_Trigo_TUA20240901002617_01.09.2024_a_31.08.2029.pdf
+11:09:35  INFO       -> OK  (3 conditions, 5 monitoring rows)
+11:09:35  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:09:37  INFO       all-sections master updated: 26 sheets
+11:09:37  INFO     processing Nave_TUA20230915002702_24.02.2024_a_23.02.2029.pdf
+11:10:08  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:10:09  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:10:11  INFO       all-sections master updated: 26 sheets
+11:10:11  INFO     processing Nave_de_Haver_TUA20240506001401_09.06.2024_a_08.06.2029.pdf
+11:10:45  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+11:10:45  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 09-06-2024)
+11:10:45  INFO          [REVIEW] Data de Validade missing (filename says 08-06-2029)
+11:10:45  INFO          [REVIEW] unusual VLE for : 'T000018'
+11:10:45  INFO          [REVIEW] unusual VLE for : 'T000018'
+11:10:45  INFO          [REVIEW] unusual VLE for : 'T000018'
+11:10:45  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:10:47  INFO       all-sections master updated: 26 sheets
+11:10:47  INFO     processing Naves_TUA20231205003587_09.05.2024_a_08.05.2029.pdf
+11:11:20  INFO       -> OK  (4 conditions, 4 monitoring rows)
+11:11:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:11:22  INFO       all-sections master updated: 26 sheets
+11:11:22  INFO     processing Nisa_TUA20240216000440_16.02.2024_a_15.02.2027.pdf
+11:12:00  INFO       -> OK  (5 conditions, 19 monitoring rows)
+11:12:01  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:12:03  INFO       all-sections master updated: 26 sheets
+11:12:03  INFO     processing Oleiros_TUA20240131000275_31.01.2024_a_29.01.2029.pdf
+11:12:39  INFO       -> OK  (4 conditions, 12 monitoring rows)
+11:12:39  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:12:41  INFO       all-sections master updated: 26 sheets
+11:12:41  INFO     processing Oliveira_do_Hospital_TUA20250416001449_01.05.2025_a_30.04.2027.pdf
+11:13:44  INFO       -> REVIEW  (15 conditions, 26 monitoring rows)
+11:13:44  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-05-2025)
+11:13:44  INFO          [REVIEW] Data de Validade missing (filename says 30-04-2027)
+11:13:44  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:13:46  INFO       all-sections master updated: 26 sheets
+11:13:46  INFO     processing Orada_TUA20260202000317_30.01.2026_a_30.01.2031.pdf
+11:14:25  INFO       -> REVIEW  (4 conditions, 8 monitoring rows)
+11:14:25  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 30-01-2026)
+11:14:25  INFO          [REVIEW] Data de Validade missing (filename says 30-01-2031)
+11:14:25  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:14:27  INFO       all-sections master updated: 26 sheets
+11:14:27  INFO     processing Orca_TUA20230213000497_13.02.2023_a_12.02.2028.pdf
+11:15:12  INFO       -> REVIEW  (4 conditions, 13 monitoring rows)
+11:15:12  INFO          [REVIEW] Data de Entrada em Vigor 31-01-2023 does not match filename 13-02-2023
+11:15:13  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:15:16  INFO       all-sections master updated: 26 sheets
+11:15:16  INFO     processing Outeiro_de_Gatos_TUA20231010002913_04.02.2024_a_04.02.2029.pdf
+11:15:49  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+11:15:49  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 04-02-2024)
+11:15:49  INFO          [REVIEW] Data de Validade missing (filename says 04-02-2029)
+11:15:49  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:15:53  INFO       all-sections master updated: 26 sheets
+11:15:53  INFO     processing Pedreira_TUA20231212003641_11.12.2023_a_10.12.2028.pdf
+11:16:33  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+11:16:33  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+11:16:33  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:16:35  INFO       all-sections master updated: 26 sheets
+11:16:35  INFO     processing Pedrógão_Pequeno_TUA20220411000574_11.04.2022_a_10.04.2027.pdf
+11:17:05  INFO       -> OK  (5 conditions, 7 monitoring rows)
+11:17:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:17:07  INFO       all-sections master updated: 26 sheets
+11:17:07  INFO     processing Penalva_de_Alva_TUA20240904002654_01.10.2024_a_30.09.2029.pdf
+11:17:47  INFO       -> REVIEW  (4 conditions, 8 monitoring rows)
+11:17:47  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-10-2024)
+11:17:47  INFO          [REVIEW] Data de Validade missing (filename says 30-09-2029)
+11:17:47  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:17:50  INFO       all-sections master updated: 26 sheets
+11:17:50  INFO     processing Penhascoso_1_TUA20230130000335_24.01.2023_a_23.01.2026.pdf
+11:18:33  INFO       -> OK  (5 conditions, 7 monitoring rows)
+11:18:33  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:18:36  INFO       all-sections master updated: 26 sheets
+11:18:36  INFO     processing Penhascoso_2_TUA20230130000333_24.01.2023_a_23.01.2026.pdf
+11:19:23  INFO       -> OK  (5 conditions, 7 monitoring rows)
+11:19:23  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:19:26  INFO       all-sections master updated: 26 sheets
+11:19:26  INFO     processing Pereiro_TUA20240110000102_09.06.2024_a_08.06.2029.pdf
+11:20:05  INFO       -> REVIEW  (4 conditions, 4 monitoring rows)
+11:20:05  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 09-06-2024)
+11:20:05  INFO          [REVIEW] Data de Validade missing (filename says 08-06-2029)
+11:20:05  INFO          [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+11:20:05  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:20:08  INFO       all-sections master updated: 26 sheets
+11:20:08  INFO     processing Pombeira_TUA20220720001537_02.01.2025_a_18.07.2027.pdf
+11:20:56  INFO       -> REVIEW  (8 conditions, 8 monitoring rows)
+11:20:56  INFO          [REVIEW] Data de Entrada em Vigor 19-07-2022 does not match filename 02-01-2025
+11:20:57  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:20:59  INFO       all-sections master updated: 26 sheets
+11:20:59  INFO     processing Portagem_TUA20240223000530_22.02.2024_a_20.02.2029.pdf
+11:21:43  INFO       -> OK  (4 conditions, 13 monitoring rows)
+11:21:43  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:21:46  INFO       all-sections master updated: 26 sheets
+11:21:46  INFO     processing Porto_da_Carne_TUA20241210003651_01.12.2024_a_30.11.2026.pdf
+11:22:41  INFO       -> REVIEW  (4 conditions, 15 monitoring rows)
+11:22:41  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 01-12-2024)
+11:22:41  INFO          [REVIEW] Data de Validade missing (filename says 30-11-2026)
+11:22:41  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:22:44  INFO       all-sections master updated: 26 sheets
+11:22:44  INFO     processing Pousade__Casal_de_Cinza_TUA20230602001636_06.11.2023_a_31.05.2028.pdf
+11:23:21  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:23:22  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:23:25  INFO       all-sections master updated: 26 sheets
+11:23:25  INFO     processing Pousafoles_do_Bispo_TUA20230831002551_05.02.2024_a_05.02.2029.pdf
+11:23:58  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+11:23:58  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 05-02-2024)
+11:23:58  INFO          [REVIEW] Data de Validade missing (filename says 05-02-2029)
+11:23:59  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:24:01  INFO       all-sections master updated: 26 sheets
+11:24:01  INFO     processing Poço_do_Canto_TUA20220922002189_22.09.2022_a_21.09.2027.pdf
+11:24:38  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+11:24:38  INFO          [REVIEW] Data de Entrada em Vigor 08-03-2023 does not match filename 22-09-2022
+11:24:38  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:24:42  INFO       all-sections master updated: 26 sheets
+11:24:42  INFO     processing Presa_TUA20220420000646_20.04.2022_a_17.04.2027.pdf
+11:25:27  INFO       -> REVIEW  (5 conditions, 7 monitoring rows)
+11:25:27  INFO          [REVIEW] Data de Entrada em Vigor 18-04-2022 does not match filename 20-04-2022
+11:25:27  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:25:30  INFO       all-sections master updated: 26 sheets
+11:25:30  INFO     processing Pêga_TUA20230912002642_04.02.2024_a_04.02.2029.pdf
+11:26:04  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+11:26:04  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 04-02-2024)
+11:26:04  INFO          [REVIEW] Data de Validade missing (filename says 04-02-2029)
+11:26:04  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:26:06  INFO       all-sections master updated: 26 sheets
+11:26:06  INFO     processing Pêva_TUA20240308000724_22.08.2024_a_21.08.2029.pdf
+11:26:41  INFO       -> REVIEW  (4 conditions, 4 monitoring rows)
+11:26:41  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 22-08-2024)
+11:26:41  INFO          [REVIEW] Data de Validade missing (filename says 21-08-2029)
+11:26:41  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:26:44  INFO       all-sections master updated: 26 sheets
+11:26:44  INFO     processing Pínzio_TUA20220930002259_30.09.2022_a_29.09.2027.pdf
+11:27:20  INFO       -> REVIEW  (3 conditions, 5 monitoring rows)
+11:27:20  INFO          [REVIEW] Data de Entrada em Vigor 08-03-2023 does not match filename 30-09-2022
+11:27:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:27:23  INFO       all-sections master updated: 26 sheets
+11:27:23  INFO     ----------------------------------------------------
+11:27:23  INFO     DONE  OK:50  REVIEW:56
+11:27:23  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+11:27:23  INFO     Opened in Excel: master_tua.xlsx

@@ -1,0 +1,7 @@
+Pombeira_TUA20220720001537_02.01.2025_a_18.07.2027.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 19-07-2022 does not match filename 02-01-2025
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

@@ -1,0 +1,9 @@
+Escalos_Lousa_TUA20240229000598_13.02.2024_a_11.02.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

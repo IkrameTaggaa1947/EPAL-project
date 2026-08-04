@@ -1,0 +1,149 @@
+{
+  "file_name": "Aldeia_da_Ribeira_TUA20231211003636_02.05.2024_a_05.02.2029.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20231211003636",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Aldeia da Ribeira",
+    "Código APA": "APA11166843",
+    "Localização": "Aldeia da Ribeira"
+  },
+  "enquadramento": {},
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L005712.2019.RH3.V1",
+    "Longitude": "-6,902109",
+    "Latitude": "40,456402",
+    "Massa de Água": "PT03DOU0494 :: Ribeira da Aldeia da Ponte",
+    "Classificação da Massa de Água": "Bom"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Aldeia da Ribeira",
+    "Ano de arranque": "2003",
+    "População servida à data": "287",
+    "Ano horizonte de projeto": "2043",
+    "População servida no horizonte": "110",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Leitos Macrofitas",
+    "Caudal máximo de descarga": "37,8 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6-9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    }
+  ],
+  "legislacao": {
+    "T000007": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L005712.2019.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    }
+  ],
+  "_warnings": [
+    "Data de Validade not found"
+  ]
+}

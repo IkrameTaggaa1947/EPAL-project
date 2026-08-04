@@ -1,0 +1,334 @@
+{
+  "file_name": "Castanheira de Pera_L024352.2020.RH5A (09.05.2021 a 08.05.2026).pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.014966.2020.RH5A",
+    "Nº Licença": "L024352.2020.RH5A",
+    "Data de Início": "09-05-2021",
+    "Data de Validade": "08-05-2026",
+    "Código APA": "APA00395003",
+    "País": "Portugal",
+    "NIF": "513606130",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "Idioma": "Português",
+    "Morada": "Rua Dr. Francisco Pissarra de Matos, nº 21, R/C",
+    "Localidade": "GUARDA",
+    "Código Postal": "6300-906",
+    "Concelho": "Guarda",
+    "Telefones": "271225317",
+    "Obrigação de correcção de Dados de Perfil": "Não"
+  },
+  "tratamento": {
+    "Designação": "ETAR Castanheira de Pêra",
+    "Nível de tratamento": "Secundário",
+    "Tipo de tratamento": "Lamas Ativadas em Regime de Arejamento Prolongado",
+    "Caudal Máximo descarga": "932.00 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Pinhal Interior Norte / Castanheira de Pêra / Castanheira de Pêra",
+    "Longitude": "-8.206534",
+    "Latitude": "39.995228",
+    "População servida (e.p.)": "5000",
+    "Ano horizonte de projeto": "2045",
+    "População servida no horizonte": "5000"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume Máximo mensal 28333.333333333332 (m3) CBO5 (mg/L O2) CQO (mg/L O2) N (mg/L N) P (mg/L P)",
+    "Designação da rejeição": "ETAR Castanheira de Pêra",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "esquerda",
+    "Denominação do meio recetor": "Ribeira de Pêra",
+    "Sistema de Descarga": "Outro",
+    "Valorização ou reutilização": "Sim",
+    "Caudal Reutilizado": "30.0 m3/dia",
+    "Finalidades Efluente": "Utilização no recinto da ETAR;",
+    "Nut III – Concelho – Freguesia": "– Freguesia Pinhal Interior Norte / Castanheira de Pêra / Castanheira de Pêra",
+    "Longitude": "-8.206446",
+    "Latitude": "39.995027",
+    "Região Hidrográfica": "Tejo e Ribeiras do Oeste",
+    "Bacia Hidrográfica": "Zezere",
+    "Sub-Bacia Hidrográfica": "PT05TEJ0831 :: Ribeira de Pera",
+    "Tipo de massa de água": "RIO",
+    "Massa de água": "PT05TEJ0831 :: Ribeira de Pera",
+    "Classificação da massa de água": "Bom",
+    "Volume mensal afluente (m3)": "28333.333333333332",
+    "Volume mensal afluente (tipo)": "Máximo"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo.",
+      "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação.",
+      "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo utilizador.",
+      "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+    ],
+    "Específicas": [
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "O titular obriga-se a implementar o programa de monitorização do meio recetor descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos dados provenientes do programa de monitorização do meio recetor, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem.",
+      "Como medida preventiva e minimizadora das consequências inerentes a uma rejeição de emergência no domínio hídrico, o titular deverá diligenciar no sentido de dotar a(s) Estação(ões) Elevatória(s) de um gerador de emergência.",
+      "Sempre que se verifique a necessidade de proceder a uma rejeição de emergência da(s) Estação(ões) Elevatória(s), o titular deverá de imediato tomar todas as medidas com vista a minimizar os efeitos daí decorrentes e comunicar a ocorrência à Entidade Licenciadora num prazo máximo de 24 horas seguintes à mesma.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 9375€ a favor da entidade Licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários).",
+      "Os parâmetros Escherichia coli e Enterococos intestinais, passam a condição de descarga, devendo ser instalado sistema de desinfeção, caso, na ocasião da renovação da presente licença, se verifique que a descarga da ETAR altera os níveis destes parâmetros no meio, de acordo com os resultados à saída do tratamento e com base nos resultados analíticos no meio receptor, a montante e jusante da descarga, de acordo com a decisão de 12/02/2010 da Comissão Técnica de Acompanhamento do Decreto- Lei nº 135/2009, de 3 de junho, com a redação que lhe foi dada pelo Decreto-Lei nº 113/2012, de 23 de maio.",
+      "Devem ser assegurado o comprimento das condições expressas na autorização A005857.2019.RH5A"
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "70-90",
+      "VLE": "",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "75",
+      "VLE": "",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. remoção)": "90",
+      "VLE": "",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Ano de arranque",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "25",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "125",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "35",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    }
+  ],
+  "condicoes_observacoes": {},
+  "legislacao": {
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+    "b": "Decreto-Lei nº 152/97, de 19 de junho Decreto-Lei nº 152/97, de 19 de junho"
+  },
+  "avaliacao_conformidade": {},
+  "avaliacao_texto": "De acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho e 198/2008, de 8 de outubro: Verificação do n.º mínimo anual de amostras e verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos.",
+  "monitorizacao": {
+    "Observações": "Os resultados do programa de monitorização deverão ser reportados à Entidade Licenciadora com uma periodicidade mensal. O programa de monitorização do meio recetor deverá realizar-se mediante as seguintes condições. As determinações analíticas conducentes à verificação do cumprimento do presente programa de monitorização devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado. As determinações analíticas deverão dar cumprimento à Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise. Será implementado programa com frequência de amostragem mensal, para os seguintes parâmetros: pH, Temperatura, Oxigénio Dissolvido, CBO5, Azoto amoniacal, Azoto total, Fósforo total, Escherichia coli e Enterococos intestinais. Estes devem ser analisados a montante e a jusante da descarga, a distância de aproximadamente 100 m. Devem ser comunicadas as coordenadas dos pontos de amostragem. Os parâmetros Escherichia coli e Enterococos intestinais devem apenas ser analisados durante a época balenar. Local Parâmetro Método analítico Frequência de amostragem P1 pH (Escala de Sörensen) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Temperatura (ºC) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Oxigénio dissolvido (mg/L O2) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Carência Bioquímica de Oxigénio (mg/L O2) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Azoto amoniacal (mg/L NH4) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Azoto total (mg/L N) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P1 Fósforo total (mg/L P) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição P2 pH (Escala de Sörensen) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Temperatura (ºC) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Oxigénio dissolvido (mg/L O2) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Carência Bioquímica de Oxigénio (mg/L O2) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Azoto amoniacal (mg/L NH4) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Azoto total (mg/L N) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P2 Fósforo total (mg/L P) Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição P1 Escherichia coli (ufc/100 mL) Anexo I do Decreto-Lei n.º 135/2009, de 3 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição (apenas durante época balenar) P2 Escherichia coli (ufc/100 mL) Anexo I do Decreto-Lei n.º 135/2009, de 3 de junho. Mensal aproximadamente 100 metros a jusante do ponto de rejeição (apenas durante época balenar) P1 Enterococos intestinais (ufc/100 mL) Anexo I do Decreto-Lei n.º 135/2009, de 3 de junho. Mensal aproximadamente 100 metros a montante do ponto de rejeição (apenas durante época balenar) P2 Enterococos Anexo I do Decreto-Lei n.º Mensal aproximadamente 100 intestinais (ufc/100 mL) 135/2009, de 3 de junho. metros a jusante do ponto de rejeição (apenas durante época balenar)",
+    "Pontos": {},
+    "rows": []
+  },
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise.",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade mensal.",
+    "Equipamento de controlo": "Amostrador à entrada e saída",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração..",
+    "rows": [
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Óleos e Gorduras (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Caudal (m3/mês)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Entrada",
+        "Parâmetro": "Caudal (m3/dia)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto total (mg/L N)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Fósforo total (mg/L P)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Óleos e Gorduras (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Caudal (m3/mês)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Caudal (m3/dia)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Quinzenal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Escherichia coli (NMP/100 mL)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (ii)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Enterococos Intestinais (NMP/100 mL)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (ii)"
+      }
+    ]
+  },
+  "entidade": {
+    "Entidade Licenciadora": "APA — ARH Tejo e Oeste",
+    "Assinado por": "Susana Cristina Fernandes"
+  },
+  "_warnings": [
+    "'Carência Bioquímica de Oxigénio (mg/L O2)' (Ano de arranque): single value '70-90' read as % remoção (4-column table) — confirm against the PDF",
+    "'Carência Química de Oxigénio (mg/L O2)' (Ano de arranque): single value '75' read as % remoção (4-column table) — confirm against the PDF",
+    "'Sólidos Suspensos Totais (mg/L)' (Ano de arranque): single value '90' read as % remoção (4-column table) — confirm against the PDF"
+  ]
+}

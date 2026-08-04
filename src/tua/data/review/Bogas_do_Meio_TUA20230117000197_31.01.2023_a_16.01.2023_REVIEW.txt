@@ -1,0 +1,7 @@
+Bogas_do_Meio_TUA20230117000197_31.01.2023_a_16.01.2023.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Validade 16-01-2028 does not match filename 16-01-2023
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

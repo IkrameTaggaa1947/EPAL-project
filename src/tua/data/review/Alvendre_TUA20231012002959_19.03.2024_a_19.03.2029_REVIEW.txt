@@ -1,0 +1,7 @@
+Alvendre_TUA20231012002959_19.03.2024_a_19.03.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 20-03-2024 does not match filename 19-03-2024
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

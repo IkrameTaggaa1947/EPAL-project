@@ -1,0 +1,8 @@
+/// Pasta do feed combinado (xlsx). Caminho absoluto — o Power Query não tem caminhos relativos, por isso cada máquina tem de o editar em Transformar dados -> Gerir parâmetros. Deve apontar para <raiz do projeto>\data\powerbi.
+expression DataFolder = "C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\data\powerbi" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 8b3a2929-452d-40d3-9e30-ee9a6d7e993e
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,7 @@
+Arcozelo_TUA20230530001578_26.10.2023_a_31.10.2025.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] unusual VLE for pH (Escala de Sörensen): '6.0 - 9.0'
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

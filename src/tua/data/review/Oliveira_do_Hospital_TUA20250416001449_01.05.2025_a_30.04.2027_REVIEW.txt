@@ -1,0 +1,8 @@
+Oliveira_do_Hospital_TUA20250416001449_01.05.2025_a_30.04.2027.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 01-05-2025)
+  - [REVIEW] Data de Validade missing (filename says 30-04-2027)
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

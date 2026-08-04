@@ -1,0 +1,8 @@
+Carragosela_TUA20230801002309_01.11.2023_a_21.10.2028.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Validade 31-10-2028 does not match filename 21-10-2028
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

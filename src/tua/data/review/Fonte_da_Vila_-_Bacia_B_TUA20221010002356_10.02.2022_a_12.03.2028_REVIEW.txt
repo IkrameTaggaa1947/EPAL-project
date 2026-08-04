@@ -1,0 +1,7 @@
+Fonte_da_Vila_-_Bacia_B_TUA20221010002356_10.02.2022_a_12.03.2028.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 12-03-2023 does not match filename 10-02-2022
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

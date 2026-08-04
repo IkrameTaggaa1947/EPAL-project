@@ -1,0 +1,11 @@
+Figueiró_da_Granja_TUA20240521001575_01.08.2024_a_31.07.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 01-08-2024)
+  - [REVIEW] Data de Validade missing (filename says 31-07-2029)
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

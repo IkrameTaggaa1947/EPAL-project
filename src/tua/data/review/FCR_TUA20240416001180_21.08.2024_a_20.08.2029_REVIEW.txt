@@ -1,0 +1,8 @@
+FCR_TUA20240416001180_21.08.2024_a_20.08.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 21-08-2024)
+  - [REVIEW] Data de Validade missing (filename says 20-08-2029)
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

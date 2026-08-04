@@ -1,0 +1,156 @@
+table Catalogo_Criterios
+	lineageTag: 3259f30d-d972-46dd-9e6a-6a2c4cd9391d
+
+	column IdCriterio
+		dataType: string
+		lineageTag: f23e5d41-672b-45f6-82b4-a74b71d0e565
+		summarizeBy: none
+		sourceColumn: IdCriterio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fonte
+		dataType: string
+		lineageTag: 9ef278c3-ef57-41b2-be8a-50410c33c705
+		summarizeBy: none
+		sourceColumn: Fonte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Empresa (catálogo)'
+		dataType: string
+		lineageTag: 1a9d3a43-1dd3-4502-9a1a-28e90301dc9f
+		summarizeBy: none
+		sourceColumn: Empresa (catálogo)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro (catálogo)'
+		dataType: string
+		lineageTag: c94ad6c1-d4ce-4269-aa58-f57e247c7634
+		summarizeBy: none
+		sourceColumn: Parâmetro (catálogo)
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLE
+		dataType: string
+		lineageTag: cf905ada-e4fe-4b25-84a2-b53ea0042848
+		summarizeBy: none
+		sourceColumn: VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'VLE (flag)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 06bfaf2b-bf67-45f6-bb75-88564a73c39e
+		summarizeBy: none
+		sourceColumn: VLE (flag)
+
+		annotation SummarizationSetBy = Automatic
+
+	column '% mín remoção (flag)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5aa37920-c721-44d2-aee9-c4d0190f8292
+		summarizeBy: none
+		sourceColumn: % mín remoção (flag)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gama de valores (intervalo)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3ad18758-d89c-4e67-9620-ef3e28cbb56a
+		summarizeBy: none
+		sourceColumn: Gama de valores (intervalo)
+
+		annotation SummarizationSetBy = Automatic
+
+	column '≤ 100% VLE (dobro)'
+		dataType: int64
+		formatString: 0
+		lineageTag: e8c4eebc-89ac-4ac1-8d01-950d221e0983
+		summarizeBy: none
+		sourceColumn: ≤ 100% VLE (dobro)
+
+		annotation SummarizationSetBy = Automatic
+
+	column '≤ 150% VLE'
+		dataType: int64
+		formatString: 0
+		lineageTag: e95e775b-9f04-4033-88ee-70e0731ce0ad
+		summarizeBy: none
+		sourceColumn: ≤ 150% VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column '≤ uma ordem de grandeza do VLE'
+		dataType: int64
+		formatString: 0
+		lineageTag: 20fab5e0-0ce4-4716-8b62-3644cbaae2f0
+		summarizeBy: none
+		sourceColumn: ≤ uma ordem de grandeza do VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'média mensal ≤ VLE'
+		dataType: int64
+		formatString: 0
+		lineageTag: 020e450a-f8f1-46dd-8914-79d13c0c38a5
+		summarizeBy: none
+		sourceColumn: média mensal ≤ VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'média anual ≤ VLE'
+		dataType: int64
+		formatString: 0
+		lineageTag: 885fc016-da06-4903-bf2d-517d72ea9ef4
+		summarizeBy: none
+		sourceColumn: média anual ≤ VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quadro III DL 152/97 (borlas)'
+		dataType: int64
+		formatString: 0
+		lineageTag: c6d7fbad-aa47-4fd6-9018-59ec42eb5094
+		summarizeBy: none
+		sourceColumn: Quadro III DL 152/97 (borlas)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Origem dos critérios'
+		dataType: string
+		lineageTag: a72d3c9b-1cf3-40bf-8c16-612f95073bbc
+		summarizeBy: none
+		sourceColumn: Origem dos critérios
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nº de linhas que o usam'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b8f6937-79ab-4111-a82e-688ea158f0c0
+		summarizeBy: none
+		sourceColumn: Nº de linhas que o usam
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Catalogo_Criterios = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Catalogo_Criterios.xlsx"), null, true),
+				    Sheet = Source{[Item = "Catalogo_Criterios", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"IdCriterio", type text}, {"Fonte", type text}, {"Empresa (catálogo)", type text}, {"Parâmetro (catálogo)", type text}, {"VLE", type text}, {"VLE (flag)", Int64.Type}, {"% mín remoção (flag)", Int64.Type}, {"Gama de valores (intervalo)", Int64.Type}, {"≤ 100% VLE (dobro)", Int64.Type}, {"≤ 150% VLE", Int64.Type}, {"≤ uma ordem de grandeza do VLE", Int64.Type}, {"média mensal ≤ VLE", Int64.Type}, {"média anual ≤ VLE", Int64.Type}, {"Quadro III DL 152/97 (borlas)", Int64.Type}, {"Origem dos critérios", type text}, {"Nº de linhas que o usam", Int64.Type}})
+				in
+				    Types
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,65 @@
+09:13:45  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+09:56:57  INFO     1 new PDF(s) detected.
+09:56:57  INFO     processing Aboboreira_I_TUA20230116000180_16.01.2023_a_15.01.2026 (1).pdf
+09:57:19  INFO       -> OK  (5 conditions, 7 monitoring rows)
+09:57:20  INFO       master updated: {'Licenses': 14, 'Conditions': 59, 'Autocontrolo': 107, 'Legislacao': 33, 'Avaliacao': 37}
+09:57:20  INFO     ----------------------------------------------------
+09:57:20  INFO     DONE  OK:1
+09:57:20  INFO     Opened in Excel: Aboboreira_I_TUA20230116000180_16.01.2023_a_15.01.2026 (1)_extracted.xlsx
+10:48:16  INFO     1 new PDF(s) detected.
+10:48:16  INFO     processing Aboboreira_I_TUA20230116000180_16.01.2023_a_15.01.2026 (1).pdf
+10:48:38  INFO       -> OK  (5 conditions, 7 monitoring rows)
+10:48:39  INFO       master updated: {'Licenses': 14, 'Conditions': 59, 'Autocontrolo': 107, 'Legislacao': 33, 'Avaliacao': 37}
+10:48:39  INFO     ----------------------------------------------------
+10:48:39  INFO     DONE  OK:1
+10:48:39  INFO     Opened in Excel: Aboboreira_I_TUA20230116000180_16.01.2023_a_15.01.2026 (1)_extracted.xlsx
+11:20:29  INFO     1 new PDF(s) detected.
+11:20:29  INFO     processing Avelas_de_Ambom_TUA20230717002123_12.12.2023_a_11.12.2028.pdf
+11:20:50  INFO       -> OK  (4 conditions, 4 monitoring rows)
+11:20:50  INFO       master updated: {'Licenses': 15, 'Conditions': 63, 'Autocontrolo': 111, 'Legislacao': 34, 'Avaliacao': 38}
+11:20:50  INFO     ----------------------------------------------------
+11:20:50  INFO     DONE  OK:1
+11:20:50  INFO     Opened in Excel: Avelas_de_Ambom_TUA20230717002123_12.12.2023_a_11.12.2028_extracted.xlsx
+14:05:19  INFO     1 new PDF(s) detected.
+14:05:19  INFO     processing Azinhal_TUA20230421001259_28.09.2023_a_19.04.2028.pdf
+14:05:36  INFO       -> OK  (4 conditions, 4 monitoring rows)
+14:05:37  INFO       master updated: {'Licenses': 16, 'Conditions': 67, 'Autocontrolo': 115, 'Legislacao': 35, 'Avaliacao': 39}
+14:05:37  INFO     ----------------------------------------------------
+14:05:37  INFO     DONE  OK:1
+14:05:37  INFO     Opened in Excel: Azinhal_TUA20230421001259_28.09.2023_a_19.04.2028_extracted.xlsx
+14:19:00  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+14:19:05  INFO     1 new PDF(s) detected.
+14:19:05  INFO     processing Azinhal_TUA20230421001259_28.09.2023_a_19.04.2028.pdf
+14:19:37  INFO       -> OK  (4 conditions, 4 monitoring rows)
+14:19:37  INFO       master updated: {'Licenses': 16, 'Conditions': 67, 'Autocontrolo': 115, 'Legislacao': 35, 'Avaliacao': 39}
+14:19:38  INFO     ----------------------------------------------------
+14:19:38  INFO     DONE  OK:1
+14:19:38  INFO     Opened in Excel: Azinhal_TUA20230421001259_28.09.2023_a_19.04.2028_extracted.xlsx
+14:22:51  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+14:24:01  INFO     1 new PDF(s) detected.
+14:24:01  INFO     processing Belmonte_L005347.2021.RH5A_12.07.2021_a_11.07.2026.pdf
+14:24:01  INFO       -> FAILED  (0 conditions, 0 monitoring rows)
+14:24:01  INFO          [FAILED] no discharge conditions (8.3.13) were extracted
+14:24:01  INFO          [FAILED] Nº TUA missing
+14:24:01  INFO          [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+14:24:01  INFO          [REVIEW] no self-monitoring rows (8.3.16) extracted
+14:24:01  INFO     ----------------------------------------------------
+14:24:01  INFO     DONE  FAILED:1
+14:24:01  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+14:24:02  INFO     Opened in Excel: Belmonte_L005347.2021.RH5A_12.07.2021_a_11.07.2026_extracted.xlsx
+14:26:42  INFO     1 new PDF(s) detected.
+14:26:42  INFO     processing Cardigos_TUA20230130000334_27.01.2023_a_26.01.2026 (1).pdf
+14:27:14  INFO       -> OK  (5 conditions, 7 monitoring rows)
+14:27:14  INFO       master updated: {'Licenses': 16, 'Conditions': 67, 'Autocontrolo': 115, 'Legislacao': 35, 'Avaliacao': 39}
+14:27:14  INFO     ----------------------------------------------------
+14:27:14  INFO     DONE  OK:1
+14:27:14  INFO     Opened in Excel: Cardigos_TUA20230130000334_27.01.2023_a_26.01.2026 (1)_extracted.xlsx
+15:45:36  INFO     1 new PDF(s) detected.
+15:45:36  INFO     processing Figueira_e_Barros_TUA20221010002359_10.10.2022_a_16.09.2027_Inicio_a_16.09.2022.pdf
+15:46:43  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+15:46:43  INFO          [REVIEW] Data de Entrada em Vigor 16-09-2022 does not match filename 10-10-2022
+15:46:44  INFO       master updated: {'Licenses': 17, 'Conditions': 71, 'Autocontrolo': 121, 'Legislacao': 37, 'Avaliacao': 41}
+15:46:44  INFO     ----------------------------------------------------
+15:46:44  INFO     DONE  REVIEW:1
+15:46:44  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+15:46:45  INFO     Opened in Excel: Figueira_e_Barros_TUA20221010002359_10.10.2022_a_16.09.2027_Inicio_a_16.09.2022_extracted.xlsx

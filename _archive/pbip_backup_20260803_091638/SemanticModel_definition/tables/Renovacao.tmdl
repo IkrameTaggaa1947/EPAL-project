@@ -1,0 +1,112 @@
+table Renovacao
+	lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000000
+
+	measure 'Nº Licenças a Renovar' = DISTINCTCOUNT('Renovacao'[Nº TUA])
+		formatString: 0
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000010
+
+	measure 'Campos por preencher' = CALCULATE(COUNTROWS('Renovacao'), 'Renovacao'[Valor] = "[a preencher]")
+		formatString: 0
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000011
+
+	measure 'Val Validade' = SELECTEDVALUE('Renovacao'[Validade])
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000012
+
+	measure 'Val Dias' = SELECTEDVALUE('Renovacao'[Dias p/ expirar])
+		formatString: 0
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000013
+
+	measure 'Val Regime' = SELECTEDVALUE('Renovacao'[Regime])
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000014
+
+	measure 'Valor do Campo' = MAX('Renovacao'[Valor])
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000015
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000001
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ETAR
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000002
+		summarizeBy: none
+		sourceColumn: ETAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column Regime
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000003
+		summarizeBy: none
+		sourceColumn: Regime
+
+		annotation SummarizationSetBy = Automatic
+
+	column Validade
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000004
+		summarizeBy: none
+		sourceColumn: Validade
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dias p/ expirar'
+		dataType: int64
+		formatString: 0
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000005
+		summarizeBy: none
+		sourceColumn: Dias p/ expirar
+
+		annotation SummarizationSetBy = Automatic
+
+	column Secção
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000006
+		summarizeBy: none
+		sourceColumn: Secção
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordem
+		dataType: int64
+		formatString: 0
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000007
+		summarizeBy: none
+		sourceColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Campo
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000008
+		summarizeBy: none
+		sourceColumn: Campo
+		sortByColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Valor
+		dataType: string
+		lineageTag: e2f3a4b5-33d4-4e6f-9c03-cc0003000009
+		summarizeBy: none
+		sourceColumn: Valor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Renovacao = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Renovacao_Proposta.xlsx"), null, true),
+				    Folha = Source{[Item = "Renovacao_Proposta", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Folha, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Headers, {{"Nº TUA", type text}, {"ETAR", type text}, {"Regime", type text}, {"Validade", type text}, {"Dias p/ expirar", Int64.Type}, {"Secção", type text}, {"Ordem", Int64.Type}, {"Campo", type text}, {"Valor", type text}})
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

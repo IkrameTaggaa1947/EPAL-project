@@ -1,0 +1,8 @@
+﻿Sheet,Description (EN)
+(workbook),"Consolidated master of all extracted TUA licences — one workbook, all certificates, linked by licence number (Nº TUA). Updated automatically by the extraction pipeline; exported to powerbi_csv/ for the dashboards."
+Licenses,"One row per licence: identification, issue/start/expiry dates, location, treatment characteristics. The main dimension table."
+Conditions,Discharge conditions: one row per licence × parameter with the emission limit values (VLE) and applicable legislation.
+Autocontrolo,"Self-monitoring plan: sampling location, parameter, frequency and sample type required by each licence."
+Legislacao,Reference texts of the applicable legislation cited by each licence (keyed by note code).
+Avaliacao,Reference texts of the conformity-assessment rules cited by each licence (keyed by note code).
+<Title> (3.x) sheets,"Sheets named '<Title> (3.x)' mirror the corresponding section of the TUA certificate, stacked for all licences: 3.3 location, 3.5 general characterisation, 3.7 discharge, 3.8 raw influent, 3.11 wastewater origin, 3.13 discharge conditions, 3.14 legislation, 3.15 conformity assessment, 3.16 self-monitoring, 3.17 exceptional discharges, 3.19/3.20/3.21 general/specific/other conditions, OCom1 reporting obligations."

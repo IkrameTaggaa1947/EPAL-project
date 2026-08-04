@@ -1,0 +1,208 @@
+{
+  "file_name": "Aldeia_da_Serra_Lic_L003886_2014_RH7_27-03-2014_a_27-03-2021.pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.004908.2014.RH7",
+    "Nº Licença": "L003886.2014.RH7",
+    "Data de Início": "27-03-2014",
+    "Data de Validade": "27-03-2021",
+    "País": "Portugal",
+    "NIF": "506306143",
+    "Requerente": "Águas do Centro Alentejo, S.A.",
+    "Morada": "Avenida D. Leonor Fernandes, n.º 5 r/c",
+    "Localidade": "Évora",
+    "Código Postal": "7005-144",
+    "Concelho": "Évora",
+    "Telefones": "266 769 650",
+    "Fax": "266 769 651"
+  },
+  "tratamento": {
+    "Designação": "ETAR de Aldeia da Serra",
+    "Nível de tratamento": "Secundário",
+    "Tipo de tratamento": "Fossa séptica + Trincheiras Filtrantes",
+    "Caudal Máximo descarga": "45.60 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alentejo Central / Redondo / Redondo",
+    "Longitude": "-7.560400",
+    "Latitude": "38.705320",
+    "Ano de arranque": "2010",
+    "População servida (e.p.)": "180",
+    "Ano horizonte de projeto": "2035",
+    "População servida no horizonte": "360"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume máximo mensal 1387.0 (m3) CBO5 474.0 (mg/L O2) CQO 947.0 (mg/L O2) N 94.0 (mg/L N) P 31.0 (mg/L P)",
+    "Designação da rejeição": "Rejeição da ETAR de Aldeia da Serra",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "esquerda",
+    "Denominação do meio recetor": "Ribeira do Calado",
+    "Sistema de Descarga": "Coletor com obra de proteção (boca de lobo)",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alentejo Central / Redondo / Redondo",
+    "Longitude": "-7.56051",
+    "Latitude": "38.70485",
+    "Região Hidrográfica": "RH7 :: Guadiana",
+    "Bacia Hidrográfica": "16 :: Guadiana",
+    "Sub-Bacia Hidrográfica": "07GUA1438 :: Ribeira de Lucefecit",
+    "Tipo de massa de água": "RIO",
+    "Massa de água": "07GUA1438 :: Ribeira de Lucefecit",
+    "Classificação da massa de água": "Medíocre",
+    "Volume mensal afluente (m3)": "1387.0",
+    "Volume mensal afluente (tipo)": "Máximo",
+    "Afluente CBO5 (mg/L)": "474.0",
+    "Afluente CQO (mg/L)": "947.0",
+    "Afluente N (mg/L)": "94.0",
+    "Afluente P (mg/L)": "31.0"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28º e 32º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A entidade licenciadora reserva o direito de restringir excecionalmente o regime de utilização dos recursos hídricos, por período a definir em situações de emergência, nomeadamente secas, cheias e acidentes.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 27º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no artigo 33º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular obriga-se a solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo, caso se mantenham as condições que determinaram a sua atribuição.",
+      "Esta licença não confere direitos contra concessões que vierem a efetuar-se nos termos da legislação vigente.",
+      "O titular fica obrigado a informar a entidade licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença.",
+      "Em caso de incumprimento da presente licença, o seu titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras licenças exigíveis por outras Entidades."
+    ],
+    "Específicas": [
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a manter um dossier organizado contendo as Fichas de Dados de Segurança de todos as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa.",
+      "O titular obriga-se a efetuar, quando necessário, a limpeza dos órgãos de tratamento, devendo guardar os comprovativos da sua realização, com indicação do destino final das lamas, para efeitos de inspeção ou fiscalização por parte das entidades competentes.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das entidades competentes, conforme o modelo apresentado em Anexo.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e evolução da qualidade do meio recetor ou outras restrições de utilização local que o justifiquem.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "A ETAR de Aldeia da Serra deverá estar executada de acordo com o projeto e aditamentos arquivados na entidade licenciadora, datados de outubro de 2010.",
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 700 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários).",
+      "Deverão ser garantidas assistência e manutenção adequadas ao sistema de tratamento de águas residuais urbanas, por forma a salvaguardar o seu normal funcionamento e a qualidade do efluente final.",
+      "O titular da licença deverá assegurar a proteção da área de implantação da ETAR, verificando regularmente o estado de conservação da vedação do recinto."
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "40",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "150",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "60",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    }
+  ],
+  "condicoes_observacoes": {},
+  "legislacao": {
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto"
+  },
+  "avaliacao_conformidade": {},
+  "avaliacao_texto": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto.",
+  "monitorizacao": {},
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise.",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade trimestral.",
+    "Equipamento de controlo": "Medidor de caudal e caixa de visita para efeitos de auto-controlo",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas.",
+    "rows": [
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Óleos e Gorduras (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Semestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto total (mg/L N)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Fósforo total (mg/L P)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Caudal (m3/mês)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      }
+    ]
+  },
+  "entidade": {
+    "Entidade Licenciadora": "APA — ARH Alentejo",
+    "Assinado por": "André Matoso"
+  },
+  "_warnings": []
+}

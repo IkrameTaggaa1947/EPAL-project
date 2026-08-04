@@ -1,0 +1,910 @@
+{
+  "file_name": "Dornes_TUA20220718001522_18.07.2022_a_17.07.2027.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20220718001522",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Dornes",
+    "Código APA": "APA08865503",
+    "Localização": "Latitude (ETAR): 39.7628; Longitude (ETAR): -8.2744"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20220613005271",
+    "Data de Emissão": "18-07-2022",
+    "Data de Entrada em Vigor": "18-07-2022",
+    "Data de Validade": "17-07-2027",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Tejo e Oeste"
+  },
+  "localizacao": {
+    "Código": "T000080",
+    "Código TURH": "L012980.2022.RH5A",
+    "Longitude": "-8,274342",
+    "Latitude": "39,762806",
+    "Massa de Água": "PT05TEJ0914 :: Albufeira Castelo de Bode",
+    "Classificação da Massa de Água": "Bom"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Dornes",
+    "Ano de arranque": "2007",
+    "População servida à data": "533",
+    "Ano horizonte de projeto": "2020",
+    "População servida no horizonte": "579",
+    "Nível de tratamento": "Mais avançado que o secundário",
+    "Esquema de tratamento": "Lamas activadas em regime de baixa carga",
+    "Caudal máximo de descarga": "76 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6 a 9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "125",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "25",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "35",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "15",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000026",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "VLE (% mín. redução)": "",
+      "VLE": "15",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000028",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "VLE (% mín. redução)": "",
+      "VLE": "10",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000030",
+      "Código TURH": "L012980.2022.RH5A",
+      "Parâmetro": "Escherichia coli (ufc/100 mL)",
+      "VLE (% mín. redução)": "",
+      "VLE": "2000",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    }
+  ],
+  "legislacao": {
+    "T000085": "(a) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+    "T000086": "(b) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+    "T000087": "(c) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro conjugada com o Decreto-Lei nº 127/2013, de 30 de agosto, ambos na sua redação atual.",
+    "a": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+    "b": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+    "c": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro conjugada com o Decreto-Lei nº 127/2013, de 30 de agosto, ambos na sua redação atual."
+  },
+  "avaliacao_conformidade": {
+    "T000088": "(1) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "T000089": "(2) Para os parâmetros microbiológicos, o valor máximo observado, em amostras não conformes, durante o ano em análise não ultrapassa uma ordem de grandeza do valor limite que lhe corresponde nos casos em que o VLE seja igual ou superior a 1000 ufc/100mL ou NMP/100mL. Nas situações em que o VLE é inferior a 1000 ufc/100mL ou NMP/100mL, o valor máximo observado não ultrapassa o dobro do VLE que lhe corresponde. O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3, do Anexo I, do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "T000090": "(3) A verificação da conformidade dos parâmetros CBO5, CQO e SST com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma.",
+    "T000091": "(4) A verificação da conformidade dos parâmetros N e P com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma.",
+    "T000092": "(5) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem cumulativamente à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%;b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual;c) Cumpre as condições específicas no BREF () aplicável.Best Available Techniques REFerence documents",
+    "1": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "2": "Para os parâmetros microbiológicos, o valor máximo observado, em amostras não conformes, durante o ano em análise não ultrapassa uma ordem de grandeza do valor limite que lhe corresponde nos casos em que o VLE seja igual ou superior a 1000 ufc/100mL ou NMP/100mL. Nas situações em que o VLE é inferior a 1000 ufc/100mL ou NMP/100mL, o valor máximo observado não ultrapassa o dobro do VLE que lhe corresponde. O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3, do Anexo I, do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "3": "A verificação da conformidade dos parâmetros CBO5, CQO e SST com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma.",
+    "4": "A verificação da conformidade dos parâmetros N e P com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma.",
+    "5": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem cumulativamente à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%;b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual;c) Cumpre as condições específicas no BREF () aplicável.Best Available Techniques REFerence documents"
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000027",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000029",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000031",
+      "Código TURH": "L012980.2022.RH5A",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Escherichia coli (ufc/100 mL)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    }
+  ],
+  "autocontrolo_nota": "Amostragem composta recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração.",
+  "sections": [
+    {
+      "code": "3.3",
+      "title": "Localização",
+      "sheet": "Localizacao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Longitude",
+        "Latitude",
+        "Margem/Plano de Água",
+        "Massa de Água",
+        "Classificação da Massa de Água"
+      ],
+      "rows": [
+        {
+          "Código": "T000080",
+          "Código TURH": "L012980.2022.RH5A",
+          "Longitude": "-8,274342",
+          "Latitude": "39,762806",
+          "Margem/Plano de Água": "Margem esquerda",
+          "Massa de Água": "PT05TEJ0914 :: Albufeira Castelo de Bode",
+          "Classificação da Massa de Água": "Bom"
+        }
+      ]
+    },
+    {
+      "code": "3.5",
+      "title": "Caracterização Geral - ETAR Urbana/Doméstica",
+      "sheet": "Caracterizacao Geral",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Longitude",
+        "Latitude",
+        "Designação",
+        "Ano de arranque",
+        "População servida à data do pedido (e.p.)",
+        "Ano horizonte de projeto",
+        "População servida no ano horizonte de projeto (e.p.)",
+        "Nível de tratamento implementado",
+        "Esquema de tratamento",
+        "Caudal máximo de descarga"
+      ],
+      "rows": [
+        {
+          "Código": "T000081",
+          "Código TURH": "L012980.2022.RH5A",
+          "Longitude": "-8,274438",
+          "Latitude": "39,76279",
+          "Designação": "ETAR Dornes",
+          "Ano de arranque": "2007",
+          "População servida à data do pedido (e.p.)": "533",
+          "Ano horizonte de projeto": "2020",
+          "População servida no ano horizonte de projeto (e.p.)": "579",
+          "Nível de tratamento implementado": "Mais avançado que o secundário",
+          "Esquema de tratamento": "Lamas activadas em regime de baixa carga",
+          "Caudal máximo de descarga": "76 m3/dia"
+        }
+      ]
+    },
+    {
+      "code": "3.7",
+      "title": "Caracterização - Rejeição de águas residuais",
+      "sheet": "Rejeicao Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Designação do ponto de rejeição",
+        "Meio recetor",
+        "Denominação do meio recetor",
+        "Sistema de descarga",
+        "Volume anual descarregado (m3)"
+      ],
+      "rows": [
+        {
+          "Código": "T000082",
+          "Código TURH": "L012980.2022.RH5A",
+          "Designação do ponto de rejeição": "ETAR Dornes",
+          "Meio recetor": "Ribeiro",
+          "Denominação do meio recetor": "Linha de água afluente à Albufeira de Castelo de Bode",
+          "Sistema de descarga": "Coletor com obra de proteção (boca de lobo)",
+          "Volume anual descarregado (m3)": "27 740"
+        }
+      ]
+    },
+    {
+      "code": "3.8",
+      "title": "Características do Afluente Bruto",
+      "sheet": "Afluente Bruto",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Volume médio mensal (m3)"
+      ],
+      "rows": [
+        {
+          "Código": "T000084",
+          "Código TURH": "L012980.2022.RH5A",
+          "Volume médio mensal (m3)": "2 311,667"
+        }
+      ]
+    },
+    {
+      "code": "3.11",
+      "title": "Caracterização - Rejeição de águas residuais - Origem das águas residuais",
+      "sheet": "Origem Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Tipo",
+        "Instalação de Tratamento"
+      ],
+      "rows": [
+        {
+          "Código": "T000083",
+          "Código TURH": "L012980.2022.RH5A",
+          "Tipo": "Urbanas",
+          "Instalação de Tratamento": "ETAR Dornes"
+        }
+      ]
+    },
+    {
+      "code": "3.13",
+      "title": "Condições de Rejeição",
+      "sheet": "Condicoes Rejeicao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Parâmetro",
+        "VLE",
+        "Legislação aplicável",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000016",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "VLE": "6 a 9",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000018",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "VLE": "125",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000020",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "VLE": "25",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000022",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "VLE": "35",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000024",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "VLE": "15",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000026",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "VLE": "15",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000028",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "VLE": "10",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000030",
+          "Código TURH": "L012980.2022.RH5A",
+          "Parâmetro": "Escherichia coli (ufc/100 mL)",
+          "VLE": "2000",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        }
+      ]
+    },
+    {
+      "code": "3.14",
+      "title": "Legislação aplicável",
+      "sheet": "Legislacao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Legislação aplicável"
+      ],
+      "rows": [
+        {
+          "Código": "T000085",
+          "Código TURH": "L012980.2022.RH5A",
+          "Legislação aplicável": "(a) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual."
+        },
+        {
+          "Código": "T000086",
+          "Código TURH": "L012980.2022.RH5A",
+          "Legislação aplicável": "(b) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto."
+        },
+        {
+          "Código": "T000087",
+          "Código TURH": "L012980.2022.RH5A",
+          "Legislação aplicável": "(c) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro conjugada com o Decreto-Lei nº 127/2013, de 30 de agosto, ambos na sua redação atual."
+        }
+      ]
+    },
+    {
+      "code": "3.15",
+      "title": "Avaliação de conformidade",
+      "sheet": "Avaliacao Conformidade",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000088",
+          "Código TURH": "L012980.2022.RH5A",
+          "Avaliação da conformidade": "(1) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000089",
+          "Código TURH": "L012980.2022.RH5A",
+          "Avaliação da conformidade": "(2) Para os parâmetros microbiológicos, o valor máximo observado, em amostras não conformes, durante o ano em análise não ultrapassa uma ordem de grandeza do valor limite que lhe corresponde nos casos em que o VLE seja igual ou superior a 1000 ufc/100mL ou NMP/100mL. Nas situações em que o VLE é inferior a 1000 ufc/100mL ou NMP/100mL, o valor máximo observado não ultrapassa o dobro do VLE que lhe corresponde. O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3, do Anexo I, do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000090",
+          "Código TURH": "L012980.2022.RH5A",
+          "Avaliação da conformidade": "(3) A verificação da conformidade dos parâmetros CBO5, CQO e SST com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma."
+        },
+        {
+          "Código": "T000091",
+          "Código TURH": "L012980.2022.RH5A",
+          "Avaliação da conformidade": "(4) A verificação da conformidade dos parâmetros N e P com Valor Limite de Emissão (VLE) estabelecido de acordo com Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual, é realizada de acordo com o definido na alínea D) do Anexo I do mesmo diploma."
+        },
+        {
+          "Código": "Código",
+          "Código TURH": "Código TURH",
+          "Avaliação da conformidade": "Avaliação da conformidade"
+        },
+        {
+          "Código": "T000092",
+          "Código TURH": "L012980.2022.RH5A",
+          "Avaliação da conformidade": "(5) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem cumulativamente à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%;b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual;c) Cumpre as condições específicas no BREF () aplicável.Best Available Techniques REFerence documents"
+        }
+      ]
+    },
+    {
+      "code": "3.16",
+      "title": "Programa de autocontrolo",
+      "sheet": "Autocontrolo",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Local de amostragem",
+        "Parâmetro",
+        "Frequência de amostragem",
+        "Tipo de amostragem"
+      ],
+      "rows": [
+        {
+          "Código": "T000017",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000019",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000021",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000023",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000025",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000027",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000029",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000031",
+          "Código TURH": "L012980.2022.RH5A",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Escherichia coli (ufc/100 mL)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Pontual"
+        }
+      ]
+    },
+    {
+      "code": "3.19",
+      "title": "Condições Gerais",
+      "sheet": "Condicoes Gerais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000032",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000033",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A matéria tributável da componente E é determinada com base no Anexo – Programa de autocontrolo a implementar."
+        },
+        {
+          "Código": "T000034",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "As despesas com vistorias extraordinárias inerentes à emissão desta licença, ou as que resultarem de reclamações justificadas, serão suportadas pelo seu titular."
+        },
+        {
+          "Código": "T000035",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo."
+        },
+        {
+          "Código": "",
+          "Código TURH": "L012980.2022.",
+          "Condição": "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007,"
+        },
+        {
+          "Código": "Código",
+          "Código TURH": "Código TURH",
+          "Condição": "Condição"
+        },
+        {
+          "Código": "T000036",
+          "Código TURH": "RH5A",
+          "Condição": "de 31 de maio."
+        },
+        {
+          "Código": "T000037",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Para efeitos de fiscalização ou inspeção, o titular fica obrigado a facultar, às Entidades Competentes, esta licença, bem como o acesso à área, construções e equipamentos a ela associados e aos registos detalhados do controlo da operação do sistema de tratamento."
+        },
+        {
+          "Código": "T000038",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação."
+        },
+        {
+          "Código": "T000039",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000040",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000041",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular fica sujeito, de acordo com o Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual, ao pagamento da Taxa de Recursos Hídricos (TRH) calculada de acordo com a seguinte fórmula: TRH = E + O, em que E – descarga de efluentes e O – ocupação do domínio público hídrico do Estado, se aplicável."
+        },
+        {
+          "Código": "T000042",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000043",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a cumprir o disposto na presente licença, em todas as leis e regulamentos vigentes, na parte em que lhe for aplicável, bem como outras normas ou regulamentos que venham a ser posteriormente aprovados e a entrar em vigor, quer as suas disposições se harmonizem ou não com os direitos e obrigações que à presente licença sejam aplicáveis."
+        },
+        {
+          "Código": "T000044",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Sem prejuízo das sanções aplicáveis, sempre que o registo atualizado dos valores do autocontrolo, referido no ponto 4 que antecede, não seja entregue com a periodicidade definida na Licença, a componente E será calculada tendo por base as características do efluente bruto estabelecidas no projeto de execução da ETAR ou incluídas na presente licença."
+        },
+        {
+          "Código": "T000045",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo utilizador."
+        },
+        {
+          "Código": "T000046",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O pagamento da taxa de recursos hídricos devida é efetuado no ano seguinte àquele a que a taxa respeite até ao termo disposto na Nota de Liquidação respetiva e deve ser feito de acordo com o previsto no número 4 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000047",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A falta de pagamento atempado fica sujeito a juros de mora à taxa legal em vigor, conforme dispõe o número 5 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000048",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A rejeição de águas residuais será exclusivamente realizada no local e nas condições indicadas nesta licença, não estando autorizadas quaisquer outras descargas de efluentes, e não podendo o objeto da presente licença ser alterado sem prévia autorização da Entidade Licenciadora."
+        },
+        {
+          "Código": "T000049",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+        },
+        {
+          "Código": "T000050",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável."
+        }
+      ]
+    },
+    {
+      "code": "3.20",
+      "title": "Condições Específicas",
+      "sheet": "Condicoes Especificas",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000051",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto."
+        },
+        {
+          "Código": "T000052",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Impende sobre o titular desta licença a responsabilidade de verificar o cumprimento das normas constantes na autorização de descarga supra mencionada."
+        },
+        {
+          "Código": "T000053",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local."
+        },
+        {
+          "Código": "T000054",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a manter o sistema de tratamento adotado em bom estado de funcionamento e conservação."
+        },
+        {
+          "Código": "T000055",
+          "Código TURH": "L012980.2022.",
+          "Condição": "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades"
+        },
+        {
+          "Código": "",
+          "Código TURH": "RH5A",
+          "Condição": "Competentes."
+        },
+        {
+          "Código": "T000056",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a implementar o programa de autocontrolo descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo."
+        },
+        {
+          "Código": "T000057",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Sempre que forem autorizadas descargas de águas residuais de indústrias localizadas fora da malha urbana, a autorização de descarga, prevista na cláusula anterior, fica sujeita à aprovação da Entidade Licenciadora."
+        },
+        {
+          "Código": "T000058",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo."
+        },
+        {
+          "Código": "T000059",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Sempre que se verifique a necessidade de proceder a uma rejeição de emergência da(s) Estação(ões) Elevatória(s), o titular deverá de imediato tomar todas as medidas com vista a minimizar os efeitos daí decorrentes e comunicar a ocorrência à Entidade Licenciadora num prazo máximo de 24 horas seguintes à mesma."
+        },
+        {
+          "Código": "T000060",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+        },
+        {
+          "Código": "T000061",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A ligação, às redes de drenagem da ETAR geridas pelo titular desta licença, das águas residuais de atividades económicas ou serviços localizados dentro da malha urbana ou diretamente na ETAR que produzam ou utilizem substâncias classificadas como poluentes específicos e/ou substâncias prioritárias/perigosas prioritárias para os meios aquáticos ou que sejam suscetíveis de comprometer o cumprimento das condições impostas nesta licença, nos termos do regulamento previsto no artigo 9º, do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, e 149/2004, de 22 de junho e 198/2008, de 8 de outubro, deve ser encarada com precaução, não podendo, em quaisquer circunstâncias, comprometer o cumprimento das condições impostas nesta licença."
+        },
+        {
+          "Código": "T000062",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras compostas num dado período temporal, inferior a 24 horas, em função do caudal. Caso o sistema não disponha de medidor de caudal com registo automático, será utilizado o caudal máximo previsto no título para efeitos de avaliação da respetiva conformidade das amostras."
+        },
+        {
+          "Código": "T000063",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem."
+        },
+        {
+          "Código": "T000064",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Qualquer alteração no funcionamento do sistema de produção e/ou de tratamento, mesmo que não prejudique as condições impostas nesta licença, deve ser comunicada à Entidade Licenciadora no prazo máximo de cinco dias."
+        },
+        {
+          "Código": "T000065",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Qualquer descarga de águas residuais urbanas e/ou industriais, bem como de outras atividades económicas ou serviços, nas redes de drenagem ou diretamente na ETAR, só poderá ocorrer mediante autorização do titular da presente licença e ficará sujeita às disposições constantes dessa autorização não podendo, em qualquer caso, comprometer o cumprimento das condições impostas nesta licença. Qualquer nova situação desta natureza deverá ser comunicada à Entidade Licenciadora."
+        },
+        {
+          "Código": "T000066",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Não deverá ocorrer obstrução da linha de água, promovendo o titular a limpeza de todos os materiais que eventualmente caiam para a mesma. As intervenções deverão ser executadas de forma a evitar que as escorrências e/ou detritos sejam lançados na linha de água ou colocados nas suas margens."
+        },
+        {
+          "Código": "T000067",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "A descarga das águas residuais na água não deve provocar alteração da sua qualidade, nem colocar em risco os seus usos, sendo efetuada de modo a não prejudicar o escoamento natural da corrente e a não contribuir para o aumento dos riscos de erosão no local, ficando o titular responsável pela tomada das medidas consideradas necessárias para a correção das situações que possam ocorrer."
+        },
+        {
+          "Código": "T000068",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000069",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular assume a responsabilidade pela eficiência e eficácia dos processos de tratamento e dos procedimentos a adotar com vista a minimizar os efeitos decorrentes da rejeição de águas residuais e a cumprir os objetivos de qualidade definidos para a massa de água recetora."
+        }
+      ]
+    },
+    {
+      "code": "3.21",
+      "title": "Outras Condições",
+      "sheet": "Outras Condicoes",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000070",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 5250 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários)."
+        },
+        {
+          "Código": "T000071",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se à instalação de medidor de caudal à entrada e saída da Estação de Tratamento."
+        },
+        {
+          "Código": "T000072",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Os relatórios de autocontrolo, a enviar à Entidade Licenciadora, deverão incluir a identificação de qualquer alteração nas condições de entrada de efluente, avarias nos equipamentos, ou outras situações que alterem o normal funcionamento da ETAR. Quando se verifique a ocorrência de algum incumprimento deverão ser apresentadas as correspondentes medidas corretivas e preventivas."
+        },
+        {
+          "Código": "Código",
+          "Código TURH": "Código TURH",
+          "Condição": "Condição"
+        },
+        {
+          "Código": "T000073",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a enviar à Entidade Licenciadora, com periodicidade mensal, o registo dos caudais mensais relativos ao afluente bruto e efluente rejeitado."
+        },
+        {
+          "Código": "T000074",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a reportar à Entidade Licenciadora, os volumes descarregados em situações de by-pass (na ETAR e também nas instalações elevatórias associadas), assim como a indicação do período de ocorrência."
+        },
+        {
+          "Código": "T000075",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Deverão ser implementadas medidas preventivas e minimizadoras das consequências inerentes a uma rejeição de emergência no domínio hídrico. Assim, o titular deverá diligenciar no sentido de dotar a(s) Estação(ões) Elevatória(s) de um gerador de emergência ou implementar medidas alternativas que produzam efeito similar."
+        },
+        {
+          "Código": "T000076",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras pontuais e/ou compostas, para avaliação da respetiva conformidade com os valores limites de emissão (VLE) expressos em unidades de concentração (massa por volume). No caso das amostras pontuais os VLE acrescem em 50% para os parâmetros com VLE definido no TURH para amostra composta."
+        },
+        {
+          "Código": "T000077",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "No prazo de 30 dias deverá ser entregue a representação da rede de drenagem do subsistema da ETAR e respetivas estações elevatórias, preferencialmente em formato shapefile."
+        },
+        {
+          "Código": "T000078",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "No prazo máximo de 180 dias deverão ser instalados todos os equipamentos e implementadas as medidas para cumprimento integral das condições desta licença."
+        },
+        {
+          "Código": "T000079",
+          "Código TURH": "L012980.2022.RH5A",
+          "Condição": "O titular obriga-se a manter a área envolvente à descarga, em boas condições de funcionamento hidráulico, pelo que fica desde já autorizado a proceder a medidas de conservação e reabilitação da rede hidrográfica, nomeadamente à remoção dos sedimentos depositados no interior da linha de água, bem como a eliminar os elementos vegetais implantados no leito e margens maciços de silvas (Rubus ulmifolius) e de canas (Arundo donax)."
+        }
+      ]
+    },
+    {
+      "code": "OCom1",
+      "title": "Comunicações a efetuar à Administração",
+      "sheet": "Obrigacoes Comunicacao",
+      "columns": [
+        "Código",
+        "Tipo de informação/Parâmetros",
+        "Formato de reporte",
+        "Periodicidade de comunicação"
+      ],
+      "rows": [
+        {
+          "Código": "T000093",
+          "Tipo de informação/Parâmetros": "O titular obriga-se a comunicar à Entidade Licenciadora, através do SILiAmb (módulo Licenciamento Único de Ambiente > Autocontrolo RH), os dados provenientes do programa de autocontrolo estabelecido na licença.",
+          "Formato de reporte": "Módulo de autocontrolo",
+          "Periodicidade de comunicação": "Mensal"
+        },
+        {
+          "Código": "T000094",
+          "Tipo de informação/Parâmetros": "O O titular obriga-se a comunicar à Entidade Licenciadora, através de ficheiro com formato excel no SILiAmb (módulo Licenciamento Único de Ambiente > Autocontrolo RH), os dados provenientes do programa de monitorização dos",
+          "Formato de reporte": "Ficheiro xls",
+          "Periodicidade de comunicação": "Trimestral"
+        }
+      ]
+    }
+  ],
+  "_warnings": []
+}

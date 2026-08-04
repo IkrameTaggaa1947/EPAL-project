@@ -1,0 +1,372 @@
+table TabelaCentroide_ETAR
+	lineageTag: 6f19ffe5-63da-4b48-a1e7-f96ab7e31572
+
+	column GNA_TIPO
+		dataType: string
+		lineageTag: 9afcf437-c353-40a4-a126-6e42efff69b1
+		summarizeBy: none
+		sourceColumn: GNA_TIPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPO_INFRAESTRUTURA
+		dataType: string
+		lineageTag: 1e8fc10f-2727-4f26-ad18-73c737c0b5a5
+		summarizeBy: none
+		sourceColumn: TIPO_INFRAESTRUTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NEGOCIO
+		dataType: string
+		lineageTag: 4b4c6f9b-4a48-4aa4-b927-1c63d878deac
+		summarizeBy: none
+		sourceColumn: NEGOCIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column AA_TIPO
+		dataType: string
+		lineageTag: 8382b92c-e93f-4077-960e-8ca279bd6a23
+		summarizeBy: none
+		sourceColumn: AA_TIPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IPID_TIPO_INFRA
+		dataType: string
+		lineageTag: 2b9ddb49-6322-4847-811a-ce9e04b31ffc
+		summarizeBy: none
+		sourceColumn: IPID_TIPO_INFRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_GNA
+		dataType: string
+		lineageTag: f518318a-887d-4c04-b410-4b85eae3bd41
+		summarizeBy: none
+		sourceColumn: ID_GNA
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Codigo do ativo no registo GNA. E tambem a chave de WWTP_History[CodigoMaximo].
+	column CODMAXIMO
+		dataType: string
+		lineageTag: 20c312fe-2e93-4b7b-9718-302d4de5b325
+		summarizeBy: none
+		sourceColumn: CODMAXIMO
+
+		annotation SummarizationSetBy = Automatic
+
+	column M_ETRS89
+		dataType: double
+		lineageTag: a9d5bfb7-8856-47d2-b888-0a99bd0ac94a
+		summarizeBy: none
+		sourceColumn: M_ETRS89
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_ETRS89
+		dataType: double
+		lineageTag: 169cd775-01ec-4a98-8d8c-1ef73f7d182b
+		summarizeBy: none
+		sourceColumn: P_ETRS89
+
+		annotation SummarizationSetBy = Automatic
+
+	column LONGITUDE_WGS84
+		dataType: double
+		lineageTag: c4d25e38-ef77-4f92-ab37-45a7d5e92883
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: LONGITUDE_WGS84
+
+		annotation SummarizationSetBy = Automatic
+
+	column LATITUDE_WGS84
+		dataType: double
+		lineageTag: 56d491c5-45d3-4608-998f-2bde882e4b01
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: LATITUDE_WGS84
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMPRESA
+		dataType: string
+		lineageTag: 56f16f0f-87f6-4e15-a9d2-a4b352e255f3
+		summarizeBy: none
+		sourceColumn: EMPRESA
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Centro Operacional responsavel pela ETAR. Usado no segmentador da pagina Visao Geral.
+	column Centro_Operacional
+		dataType: string
+		lineageTag: c0ddb8b9-6d2f-44ce-80a9-454142cf0aac
+		summarizeBy: none
+		sourceColumn: Centro_Operacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMPRESAORIGINAL
+		dataType: string
+		lineageTag: 48c31924-1eea-4d3e-b796-024ccb6cf2eb
+		summarizeBy: none
+		sourceColumn: EMPRESAORIGINAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO
+		dataType: int64
+		formatString: 0
+		lineageTag: 343b54b2-5923-4efd-bda8-e094f3fab381
+		summarizeBy: none
+		sourceColumn: ANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONCELHO
+		dataType: string
+		lineageTag: 32814024-2290-4212-868f-e32e7ea17bd1
+		summarizeBy: none
+		sourceColumn: CONCELHO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FREGUESIA
+		dataType: string
+		lineageTag: bbaeb869-3a13-4e39-a761-c70b86e34562
+		summarizeBy: none
+		sourceColumn: FREGUESIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SISTEMA
+		dataType: string
+		lineageTag: 28361172-ab6f-4218-88f1-bf16a3c7f6a9
+		summarizeBy: none
+		sourceColumn: SISTEMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBSISTEMA
+		dataType: string
+		lineageTag: 2b31cb88-9728-4e9b-aa30-075794cd5d3a
+		summarizeBy: none
+		sourceColumn: SUBSISTEMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TROCO
+		dataType: string
+		lineageTag: ce2a2b5a-f788-42d6-ba7a-c6f937119f5d
+		summarizeBy: none
+		sourceColumn: TROCO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBTROCO
+		dataType: string
+		lineageTag: a99386d3-83b9-4e2e-871b-cacd5109b989
+		summarizeBy: none
+		sourceColumn: SUBTROCO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RECINTO
+		dataType: string
+		lineageTag: e0c0d654-a243-4821-9d37-f11ef9adc804
+		summarizeBy: none
+		sourceColumn: RECINTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IPID_REC
+		dataType: string
+		lineageTag: b37a1de3-75f4-46e3-89ea-eb55ceb89f90
+		summarizeBy: none
+		sourceColumn: IPID_REC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESIGNACAO
+		dataType: string
+		lineageTag: 81f48fba-ca5e-4b5b-a653-a188b384c10a
+		summarizeBy: none
+		sourceColumn: DESIGNACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESIGNACAO_GNA
+		dataType: string
+		lineageTag: a43cd0b7-25c9-4f68-9b9e-92ed22bf64fd
+		summarizeBy: none
+		sourceColumn: DESIGNACAO_GNA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO_CICLO_VIDA
+		dataType: string
+		lineageTag: 0f1314cb-78f4-4385-8cd1-efc0c4fecc23
+		summarizeBy: none
+		sourceColumn: ESTADO_CICLO_VIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO_INFRAESTRUTURA
+		dataType: string
+		lineageTag: 817b5c54-9fb8-4992-ad1f-99fa6147477e
+		summarizeBy: none
+		sourceColumn: ESTADO_INFRAESTRUTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBS
+		dataType: string
+		lineageTag: 96282f38-c710-4792-910c-9da3099c95a5
+		summarizeBy: none
+		sourceColumn: OBS
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINK_GMAPS
+		dataType: string
+		lineageTag: 9a6090fc-697b-4a28-8d7d-6ce5e4004719
+		summarizeBy: none
+		sourceColumn: LINK_GMAPS
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINK_WEBSIG
+		dataType: string
+		lineageTag: d28c91ac-e98e-4be3-aed8-0be8ae0b48ee
+		summarizeBy: none
+		sourceColumn: LINK_WEBSIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPE_compra
+		dataType: string
+		lineageTag: d98f32a7-90c2-4cdf-b101-77b8cf549510
+		summarizeBy: none
+		sourceColumn: CPE_compra
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPE_venda
+		dataType: string
+		lineageTag: fd3917c7-a04d-4172-9ad0-fdebed30109b
+		summarizeBy: none
+		sourceColumn: CPE_venda
+
+		annotation SummarizationSetBy = Automatic
+
+	column RH
+		dataType: string
+		lineageTag: e7ddeed4-dff6-47a3-aea6-11078987be0a
+		summarizeBy: none
+		sourceColumn: RH
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_PROJ
+		dataType: string
+		lineageTag: 8b17ef7a-4d29-42d4-9e42-3120c4d79453
+		summarizeBy: none
+		sourceColumn: CAPAC_PROJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_REAL
+		dataType: string
+		lineageTag: 399ffbbd-daa5-464c-9b6b-96f5b4b13156
+		summarizeBy: none
+		sourceColumn: CAPAC_REAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_MAX
+		dataType: string
+		lineageTag: f1aa4fd8-9ab0-4ab7-887e-da2d7367c66b
+		summarizeBy: none
+		sourceColumn: CAPAC_MAX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_unid
+		dataType: string
+		lineageTag: 0beb7c47-27f3-4b15-9348-d83f27ffcc8d
+		summarizeBy: none
+		sourceColumn: CAPAC_unid
+
+		annotation SummarizationSetBy = Automatic
+
+	column Altura
+		dataType: string
+		lineageTag: 3b2c9623-6f77-42a7-9fc5-31851edb7cb1
+		summarizeBy: none
+		sourceColumn: Altura
+
+		annotation SummarizationSetBy = Automatic
+
+	column Altura_Unidade
+		dataType: string
+		lineageTag: f7cdb248-4234-4128-ac46-feb678d70f17
+		summarizeBy: none
+		sourceColumn: Altura_Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cota_m
+		dataType: string
+		lineageTag: 97e02705-0bdb-4a43-b1ff-f36f3c06e7cb
+		summarizeBy: none
+		sourceColumn: Cota_m
+
+		annotation SummarizationSetBy = Automatic
+
+	column Linha_Descarga
+		dataType: string
+		lineageTag: f32d45ac-da1a-4ffd-b8b1-9ac57a3ec644
+		summarizeBy: none
+		sourceColumn: Linha_Descarga
+
+		annotation SummarizationSetBy = Automatic
+
+	column Linha_Descarga_Cod
+		dataType: string
+		lineageTag: 600c4ba1-29e3-4cf4-8e67-6757dd0fd2d0
+		summarizeBy: none
+		sourceColumn: Linha_Descarga_Cod
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Nome da ETAR normalizado (sem acentos, sem artigos). Liga a Licenses[Chave_ETAR].
+	column Chave_ETAR
+		dataType: string
+		lineageTag: 1854929a-88ce-4801-a447-1f6982858d4a
+		summarizeBy: none
+		sourceColumn: Chave_ETAR
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TabelaCentroide_ETAR = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\TabelaCentroide_ETAR.xlsx"), null, true),
+				    Folha = Source{[Item = "TabelaCentroide_ETAR", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Folha, [PromoteAllScalars = true]),
+				    ParaNumero = (v) => let t = if v = null then null else Text.Trim(Text.From(v)) in if t = null or t = "" then null else try Number.From(Text.Replace(t, ",", "."), "en-US") otherwise null,
+				    ParaInteiro = (v) => let n = ParaNumero(v) in if n = null then null else Int64.From(Number.Round(n, 0)),
+				    Numeros = Table.TransformColumns(Headers, {{"ANO", ParaInteiro, Int64.Type}, {"LATITUDE_WGS84", ParaNumero, type number}, {"LONGITUDE_WGS84", ParaNumero, type number}, {"M_ETRS89", ParaNumero, type number}, {"P_ETRS89", ParaNumero, type number}}),
+				    Tipos = Table.TransformColumnTypes(Numeros, {{"GNA_TIPO", type text}, {"TIPO_INFRAESTRUTURA", type text}, {"NEGOCIO", type text}, {"AA_TIPO", type text}, {"IPID_TIPO_INFRA", type text}, {"ID_GNA", type text}, {"CODMAXIMO", type text}, {"EMPRESA", type text}, {"Centro_Operacional", type text}, {"EMPRESAORIGINAL", type text}, {"CONCELHO", type text}, {"FREGUESIA", type text}, {"SISTEMA", type text}, {"SUBSISTEMA", type text}, {"TROCO", type text}, {"SUBTROCO", type text}, {"RECINTO", type text}, {"IPID_REC", type text}, {"DESIGNACAO", type text}, {"DESIGNACAO_GNA", type text}, {"ESTADO_CICLO_VIDA", type text}, {"ESTADO_INFRAESTRUTURA", type text}, {"OBS", type text}, {"LINK_GMAPS", type text}, {"LINK_WEBSIG", type text}, {"CPE_compra", type text}, {"CPE_venda", type text}, {"RH", type text}, {"CAPAC_PROJ", type text}, {"CAPAC_REAL", type text}, {"CAPAC_MAX", type text}, {"CAPAC_unid", type text}, {"Altura", type text}, {"Altura_Unidade", type text}, {"Cota_m", type text}, {"Linha_Descarga", type text}, {"Linha_Descarga_Cod", type text}, {"Chave_ETAR", type text}}),
+				    ComChave = Table.SelectRows(Tipos, each [Chave_ETAR] <> null and [Chave_ETAR] <> "")
+				in
+				    ComChave
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

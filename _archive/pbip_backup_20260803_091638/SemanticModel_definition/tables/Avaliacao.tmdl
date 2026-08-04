@@ -1,0 +1,57 @@
+table Avaliacao
+	lineageTag: ed49317b-f8a8-463d-86aa-3e34a1dec676
+
+	column N°TUA
+		dataType: string
+		lineageTag: 68167c4c-cdf3-4aa5-9d03-bcdc1158a0d0
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Avaliacao
+		dataType: string
+		lineageTag: 216cc8e7-c543-4caa-aa71-3c17e593768f
+		summarizeBy: none
+		sourceColumn: Avaliação da conformidade
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Código
+		dataType: string
+		lineageTag: 0db0715a-4114-4b3b-a880-a81029dc01e1
+		summarizeBy: none
+		sourceColumn: Código
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordem
+		dataType: int64
+		formatString: 0
+		lineageTag: ed49317b-f8a8-463d-86aa-3e34a1dec680
+		summarizeBy: none
+		sourceColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Avaliacao = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Avaliacao.xlsx"), null, true),
+				    Sheet = Source{[Item = "Avaliacao", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"Ordem", Int64.Type}, {"Nº TUA", type text}, {"Código", type text}, {"Avaliação da conformidade", type text}})
+				in
+				    Types
+
+	changedProperty = IsHidden
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

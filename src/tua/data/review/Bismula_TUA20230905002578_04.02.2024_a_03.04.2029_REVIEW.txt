@@ -1,0 +1,7 @@
+Bismula_TUA20230905002578_04.02.2024_a_03.04.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Validade 03-02-2029 does not match filename 03-04-2029
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

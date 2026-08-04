@@ -1,0 +1,8 @@
+# Cette branche ne contient QUE data/powerbi
+/*
+!data/
+data/*
+!data/powerbi/
+# le gros fichier historique reste hors dépôt
+data/powerbi/WWTP_History.xlsx
+!.gitignore

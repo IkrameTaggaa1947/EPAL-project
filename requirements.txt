@@ -1,0 +1,6 @@
+# EPAL TUA extraction — dependencies (pinned).
+# Install:  python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+PyMuPDF==1.27.2.3      # PDF table reading (fitz) — the extractor core
+pandas==2.3.3          # data frames + Excel/CSV IO
+openpyxl==3.1.2        # .xlsx read/write (master, per-file outputs, static tables)
+pytest==8.4.2          # tests (optional; tests also run with plain `python test_extraction.py`)

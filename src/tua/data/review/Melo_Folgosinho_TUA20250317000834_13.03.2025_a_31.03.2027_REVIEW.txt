@@ -1,0 +1,9 @@
+Melo_Folgosinho_TUA20250317000834_13.03.2025_a_31.03.2027.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 13-03-2025)
+  - [REVIEW] Data de Validade missing (filename says 31-03-2027)
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

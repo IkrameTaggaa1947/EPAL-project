@@ -1,0 +1,9 @@
+Eirado_TUA20241022003142_01.01.2025_a_31.12.2029.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 01-01-2025)
+  - [REVIEW] Data de Validade missing (filename says 31-12-2029)
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Azoto amoniacal (mg/L NH4)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

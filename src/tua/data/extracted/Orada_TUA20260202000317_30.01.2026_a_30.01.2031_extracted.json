@@ -1,0 +1,696 @@
+{
+  "file_name": "Orada_TUA20260202000317_30.01.2026_a_30.01.2031.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20260202000317",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Orada",
+    "Código APA": "APA11508543",
+    "Localização": "Bairro Operário"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL2024022200175",
+    "Data de Emissão": "02-02-2026",
+    "Data de Entrada em Vigor": "30-01-2026",
+    "Data de Validade": "30-01-2031",
+    "Sentido da decisão": "",
+    "Entidade Licenciadora": ""
+  },
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L014337.2019.RH5A.V1",
+    "Longitude": "-7,4627",
+    "Latitude": "38,87949",
+    "Massa de Água": "PT05TEJ1055A :: Ribeira da Alcravissa",
+    "Classificação da Massa de Água": "Razoável"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Orada",
+    "Ano de arranque": "2009",
+    "População servida à data": "193",
+    "Ano horizonte de projeto": "2036",
+    "População servida no horizonte": "389",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Lagoas de Macrófitas",
+    "Caudal máximo de descarga": "80 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6-9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(2)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000017",
+      "Código TURH": "",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    }
+  ],
+  "legislacao": {
+    "T000007": "(a) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+    "a": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "(1) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "T000020": "(2) Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "1": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "2": "Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000066",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000068",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000070",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000072",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000073",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000074",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Composta (ii)",
+      "Tipo de amostragem": "",
+      "Observações": ""
+    },
+    {
+      "Código": "T000075",
+      "Código TURH": "",
+      "Local de amostragem": "À entrada ou saída",
+      "Parâmetro": "Caudal (m3/dia)",
+      "Frequência de amostragem": "Pontual",
+      "Tipo de amostragem": "",
+      "Observações": ""
+    },
+    {
+      "Código": "T000077",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "Frequência de amostragem": "Pontual",
+      "Tipo de amostragem": "",
+      "Observações": ""
+    }
+  ],
+  "autocontrolo_nota": "Amostragem composta recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração.",
+  "sections": [
+    {
+      "code": "3.3",
+      "title": "Localização",
+      "sheet": "Localizacao",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Longitude",
+        "Latitude",
+        "Margem/Plano de Água",
+        "Massa de Água",
+        "Classificação da Massa de Água"
+      ],
+      "rows": [
+        {
+          "Código": "T000002",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Longitude": "-7,4627",
+          "Latitude": "38,87949",
+          "Margem/Plano de Água": "Margem esquerda",
+          "Massa de Água": "PT05TEJ1055A :: Ribeira da Alcravissa",
+          "Classificação da Massa de Água": "Razoável"
+        }
+      ]
+    },
+    {
+      "code": "3.5",
+      "title": "Caracterização Geral - ETAR Urbana/Doméstica",
+      "sheet": "Caracterizacao Geral",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Longitude",
+        "Latitude",
+        "Designação",
+        "Ano de arranque",
+        "População servida à data do pedido (e.p.)",
+        "Ano horizonte de projeto",
+        "População servida no ano horizonte de projeto (e.p.)",
+        "Nível de tratamento implementado",
+        "Esquema de tratamento",
+        "Caudal máximo de descarga"
+      ],
+      "rows": [
+        {
+          "Código": "T000003",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Longitude": "-7,46243",
+          "Latitude": "38,879",
+          "Designação": "ETAR Orada",
+          "Ano de arranque": "2009",
+          "População servida à data do pedido (e.p.)": "193",
+          "Ano horizonte de projeto": "2036",
+          "População servida no ano horizonte de projeto (e.p.)": "389",
+          "Nível de tratamento implementado": "Secundário",
+          "Esquema de tratamento": "Lagoas de Macrófitas",
+          "Caudal máximo de descarga": "80 m3/dia"
+        }
+      ]
+    },
+    {
+      "code": "3.7",
+      "title": "Caracterização - Rejeição de águas residuais",
+      "sheet": "Rejeicao Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Designação do ponto de rejeição",
+        "Meio recetor",
+        "Denominação do meio recetor",
+        "Sistema de descarga",
+        "Volume anual descarregado (m3)"
+      ],
+      "rows": [
+        {
+          "Código": "T000004",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Designação do ponto de rejeição": "ETAR Orada",
+          "Meio recetor": "Ribeira",
+          "Denominação do meio recetor": "Ribeira da Alcaraviça",
+          "Sistema de descarga": "Coletor com obra de proteção (boca de lobo)",
+          "Volume anual descarregado (m3)": "141 985"
+        }
+      ]
+    },
+    {
+      "code": "3.8",
+      "title": "Características do Afluente Bruto",
+      "sheet": "Afluente Bruto",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Volume médio mensal (m3)",
+        "CBO5 (mg/L O2)",
+        "CQO (mg/L O2)",
+        "N (mg/L N)",
+        "P (mg/L P)"
+      ],
+      "rows": [
+        {
+          "Código": "T000006",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Volume médio mensal (m3)": "11 832,083",
+          "CBO5 (mg/L O2)": "291,75",
+          "CQO (mg/L O2)": "583,5",
+          "N (mg/L N)": "43,763",
+          "P (mg/L P)": "12,156"
+        }
+      ]
+    },
+    {
+      "code": "3.11",
+      "title": "Caracterização - Rejeição de águas residuais - Origem das águas residuais",
+      "sheet": "Origem Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Tipo",
+        "Instalação de Tratamento"
+      ],
+      "rows": [
+        {
+          "Código": "T000005",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Tipo": "Urbanas",
+          "Instalação de Tratamento": "ETAR Orada"
+        }
+      ]
+    },
+    {
+      "code": "3.13",
+      "title": "Condições de Rejeição",
+      "sheet": "Condicoes Rejeicao",
+      "columns": [
+        "Código",
+        "Parâmetro",
+        "VLE",
+        "Legislação aplicável",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000016",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "VLE": "6-9",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(2)"
+        },
+        {
+          "Código": "T000017",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "VLE": "40",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000018",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "VLE": "150",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000019",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "VLE": "60",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        }
+      ]
+    },
+    {
+      "code": "3.14",
+      "title": "Legislação aplicável",
+      "sheet": "Legislacao",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Legislação aplicável"
+      ],
+      "rows": [
+        {
+          "Código": "T000007",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Legislação aplicável": "(a) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual."
+        }
+      ]
+    },
+    {
+      "code": "3.15",
+      "title": "Avaliação de conformidade",
+      "sheet": "Avaliacao Conformidade",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000010",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Avaliação da conformidade": "(1) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000020",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Avaliação da conformidade": "(2) Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+        }
+      ]
+    },
+    {
+      "code": "3.16",
+      "title": "Programa de autocontrolo",
+      "sheet": "Autocontrolo",
+      "columns": [
+        "Código",
+        "Local de amostragem",
+        "Parâmetro",
+        "Frequência de amostragem",
+        "Tipo de amostragem"
+      ],
+      "rows": [
+        {
+          "Código": "T000066",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000068",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000070",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000072",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000073",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000074",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Composta (ii)",
+          "Tipo de amostragem": ""
+        },
+        {
+          "Código": "T000075",
+          "Local de amostragem": "À entrada ou saída",
+          "Parâmetro": "Caudal (m3/dia)",
+          "Frequência de amostragem": "Pontual",
+          "Tipo de amostragem": ""
+        },
+        {
+          "Código": "T000077",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "Frequência de amostragem": "Pontual",
+          "Tipo de amostragem": ""
+        }
+      ]
+    },
+    {
+      "code": "3.19",
+      "title": "Condições Gerais",
+      "sheet": "Condicoes Gerais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000021",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        }
+      ]
+    },
+    {
+      "code": "3.16",
+      "title": "Programa de",
+      "sheet": "Autocontrolo",
+      "columns": [
+        "Código",
+        "Local de amostragem",
+        "Parâmetro",
+        "Frequência de amostragem",
+        "Tipo de amostragem"
+      ],
+      "rows": [
+        {
+          "Código": "T000066",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000068",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000070",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000072",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000073",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Composta (ii)"
+        },
+        {
+          "Código": "T000074",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Composta (ii)",
+          "Tipo de amostragem": ""
+        },
+        {
+          "Código": "T000075",
+          "Local de amostragem": "À entrada ou saída",
+          "Parâmetro": "Caudal (m3/dia)",
+          "Frequência de amostragem": "Pontual",
+          "Tipo de amostragem": ""
+        },
+        {
+          "Código": "T000077",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "Frequência de amostragem": "Pontual",
+          "Tipo de amostragem": ""
+        }
+      ]
+    },
+    {
+      "code": "3.20",
+      "title": "Condições Específicas",
+      "sheet": "Condicoes Especificas",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000039",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto."
+        },
+        {
+          "Código": "T000040",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "Impende sobre o titular desta licença a responsabilidade de verificar o cumprimento das normas constantes na autorização de descarga supra mencionada."
+        },
+        {
+          "Código": "T000041",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local."
+        },
+        {
+          "Código": "T000042",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a manter o sistema de tratamento adotado em bom estado de funcionamento e conservação."
+        },
+        {
+          "Código": "T000043",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        }
+      ]
+    },
+    {
+      "code": "3.15",
+      "title": "Avaliação de conformidade.",
+      "sheet": "Avaliacao Conformidade",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "",
+          "Código Utilização": "",
+          "Condição": "efeitos decorrentes da rejeição de águas residuais e a cumprir os objetivos de qualidade definidos para a massa de água recetora."
+        },
+        {
+          "Código": "T000055",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a manter um dossier organizado contendo as Fichas de Dados de Segurança de todas as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa."
+        }
+      ]
+    },
+    {
+      "code": "3.21",
+      "title": "Outras Condições",
+      "sheet": "Outras Condicoes",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000056",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 1250 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos &gt; Licenciamento das utilizações dos recursos hídricos &gt; Formulários)."
+        },
+        {
+          "Código": "T000057",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a reportar à Entidade Licenciadora, os volumes descarregados em situações de by-pass (na ETAR e também nas instalações elevatórias associadas), assim como a indicação do período de ocorrência."
+        },
+        {
+          "Código": "T000058",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras pontuais e/ou compostas, para avaliação da respetiva conformidade com os valores limites de emissão (VLE) expressos em unidades de concentração (massa por volume). No caso das amostras pontuais os VLE acrescem em 50% para os parâmetros com VLE definido no TURH para amostra composta."
+        },
+        {
+          "Código": "T000059",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se para o corrente ano civil, a enviar a calendarização prevista para a recolha de amostras de autocontrolo na ETAR, num prazo de 15 dias a contar da data da emissão do presente título; para cada ano civil, a enviar a calendarização prevista até ao dia 15 de Dezembro do ano anterior; caso a programação prevista seja alterada, a enviar a nova calendarização, com uma antecedência mínima de 24h da nova data."
+        },
+        {
+          "Código": "T000060",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "Sempre que se registarem caudais efluentes do sistema de tratamento superiores ao caudal de dimensionamento da ETAR em ano de horizonte do projeto, deverá prestar os devidos esclarecimentos, no final de cada semestre, tendo presente a necessidade de rigorosa justificação de que tais acréscimos de caudal tratado não põem em causa a eficiência do sistema de tratamento."
+        },
+        {
+          "Código": "T000061",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "O titular obriga-se a manter a área envolvente à descarga, em boas condições de funcionamento hidráulico, pelo que fica desde já autorizado a proceder a medidas de conservação e reabilitação da rede hidrográfica, nomeadamente à limpeza e remoção dos sedimentos depositados no interior da linha de água, bem como a eliminar os elementos vegetais implantados no leito e margens maciços de silvas (Rubus ulmifolius) e de canas (Arundo donax)."
+        },
+        {
+          "Código": "T000062",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise."
+        },
+        {
+          "Código": "T000076",
+          "Código Utilização": "L014337.2019.RH5A.V1",
+          "Condição": "Os parâmetros, N total e P total não constituem requisitos de descarga. No entanto, deverão ser analisados para efeitos de cálculo da taxa de recursos hídricos (Decreto-Lei n.º 97/2008 de 11 de Junho)."
+        }
+      ]
+    },
+    {
+      "code": "OCom1",
+      "title": "Comunicações a efetuar à Administração",
+      "sheet": "Obrigacoes Comunicacao",
+      "columns": [
+        "Código",
+        "Tipo de informação/Parâmetros",
+        "Coluna 3",
+        "Formato de reporte",
+        "Periodicidade de comunicação",
+        "Data de reporte"
+      ],
+      "rows": [
+        {
+          "Código": "",
+          "Tipo de informação/Parâmetros": "O titular obriga-se a comunicar à Entidade Licenciadora, através do SILiAmb (módulo",
+          "Coluna 3": "",
+          "Formato de reporte": "",
+          "Periodicidade de comunicação": "",
+          "Data de reporte": ""
+        },
+        {
+          "Código": "Código",
+          "Tipo de informação/Parâmetros": "Tipo de informação/Parâmetros",
+          "Coluna 3": "Formato de reporte",
+          "Formato de reporte": "Periodicidade de comunicação",
+          "Periodicidade de comunicação": "Data de reporte",
+          "Data de reporte": "Entidade"
+        },
+        {
+          "Código": "T000064",
+          "Tipo de informação/Parâmetros": "Licenciamento Único de Ambiente > Autocontrolo RH), os dados provenientes do programa de autocontrolo estabelecido na licença, assim como os respetivos boletins analíticos.",
+          "Coluna 3": "Módulo de autocontrolo; ficheiros xls/pdf",
+          "Formato de reporte": "Trimestral",
+          "Periodicidade de comunicação": "",
+          "Data de reporte": "APA/ARHTO"
+        }
+      ]
+    }
+  ],
+  "_warnings": []
+}

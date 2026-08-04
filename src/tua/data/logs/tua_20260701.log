@@ -1,0 +1,13 @@
+17:04:36  INFO     Found 2 PDF(s) in the inbox.
+17:04:36  INFO     processing Aldeia_da_Ribeira_TUA20231211003636_02.05.2024_a_05.02.2029.pdf
+17:05:00  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+17:05:00  INFO          [REVIEW] Data de Entrada em Vigor missing (filename says 02-05-2024)
+17:05:00  INFO          [REVIEW] Data de Validade missing (filename says 05-02-2029)
+17:05:00  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+17:05:00  INFO     processing Foios_TUA20230905002577_04.02.2024_a_03.02.2029.pdf
+17:05:20  INFO       -> OK  (4 conditions, 6 monitoring rows)
+17:05:20  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+17:05:20  INFO     ====================================================
+17:05:20  INFO     DONE  OK:1  REVIEW:1
+17:05:20  INFO     Report: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.xlsx
+17:05:20  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review

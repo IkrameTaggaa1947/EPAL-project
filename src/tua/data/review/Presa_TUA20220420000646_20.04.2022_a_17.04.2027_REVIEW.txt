@@ -1,0 +1,7 @@
+Presa_TUA20220420000646_20.04.2022_a_17.04.2027.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 18-04-2022 does not match filename 20-04-2022
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

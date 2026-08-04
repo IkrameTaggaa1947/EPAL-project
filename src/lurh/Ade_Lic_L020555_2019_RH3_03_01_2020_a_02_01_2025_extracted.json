@@ -1,0 +1,190 @@
+{
+  "file_name": "Ade_Lic_L020555_2019_RH3_03_01_2020_a_02_01_2025.pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.020993.2019.RH3",
+    "Nº Licença": "L020555.2019.RH3",
+    "Data de Início": "03-01-2020",
+    "Data de Validade": "02-01-2025",
+    "Código APA": "APA00395003",
+    "País": "Portugal",
+    "NIF": "513606130",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "Idioma": "Português",
+    "Morada": "Rua Dr. Francisco Pissarra de Matos, nº 21, R/C",
+    "Localidade": "GUARDA",
+    "Código Postal": "6300-906",
+    "Concelho": "Guarda",
+    "Telefones": "271225317",
+    "Obrigação de correcção de Dados de Perfil": "Não"
+  },
+  "tratamento": {
+    "Designação": "Ade",
+    "Nível de tratamento": "Secundário",
+    "Tipo de tratamento": "Lamas activadas",
+    "Caudal Médio descarga": "21.80 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Beira Interior Norte / Almeida / Ade",
+    "Longitude": "-6.990519",
+    "Latitude": "40.558801",
+    "Ano de arranque": "2003",
+    "População servida (e.p.)": "127",
+    "Ano horizonte de projeto": "2043",
+    "População servida no horizonte": "114"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume Médio mensal 663.1 (m3) CBO5 400.0 (mg/L O2) CQO 800.0 (mg/L O2) N 80.0 (mg/L N) P 10.0 (mg/L P)",
+    "Designação da rejeição": "ETAR de Ade",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "Margem esquerda",
+    "Denominação do meio recetor": "Linha de água afluente ao Ribeiro dos Cadelos",
+    "Sistema de Descarga": "Coletor com obra de proteção (boca de lobo)",
+    "Nut III – Concelho – Freguesia": "– Freguesia Beira Interior Norte / Almeida / Ade",
+    "Longitude": "-6.990485",
+    "Latitude": "40.558683",
+    "Região Hidrográfica": "Douro",
+    "Bacia Hidrográfica": "Coa",
+    "Sub-Bacia Hidrográfica": "PT03DOU0488 :: Ribeiro dos Cadelos",
+    "Tipo de massa de água": "SUBTERRANEA",
+    "Massa de água": "PTA0X1RH3 :: MACIÇO ANTIGO INDIFERENCIADO DA BACIA DO DOURO",
+    "Classificação da massa de água": "Bom",
+    "Volume mensal afluente (m3)": "663.1",
+    "Volume mensal afluente (tipo)": "Médio",
+    "Afluente CBO5 (mg/L)": "400.0",
+    "Afluente CQO (mg/L)": "800.0",
+    "Afluente N (mg/L)": "80.0",
+    "Afluente P (mg/L)": "10.0"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A rejeição de águas residuais será exclusivamente realizada no local e nas condições indicadas nesta licença, não estando autorizadas quaisquer outras descargas de efluentes, e não podendo o objeto da presente licença ser alterado sem prévia autorização da Entidade Licenciadora.",
+      "O titular obriga-se a cumprir o disposto na presente licença, em todas as leis e regulamentos vigentes, na parte em que lhe for aplicável, bem como outras normas ou regulamentos que venham a ser posteriormente aprovados e a entrar em vigor, quer as suas disposições se harmonizem ou não com os direitos e obrigações que à presente licença sejam aplicáveis.",
+      "O titular fica sujeito, de acordo com o Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual, ao pagamento da Taxa de Recursos Hídricos (TRH) calculada de acordo com a seguinte fórmula: TRH = E + O, em que E – descarga de efluentes e O – ocupação do domínio público hídrico do Estado, se aplicável.",
+      "A matéria tributável da componente E é determinada com base no Anexo – Programa de autocontrolo a implementar.",
+      "Sem prejuízo das sanções aplicáveis, sempre que o registo atualizado dos valores do autocontrolo, referido no ponto 4 que antecede, não seja entregue com a periodicidade definida na Licença, a componente E será calculada tendo por base as características do efluente bruto estabelecidas no projeto de execução da ETAR ou incluídas na presente licença.",
+      "O pagamento da taxa de recursos hídricos devida é efetuado no ano seguinte àquele a que a taxa respeite até ao termo disposto na Nota de Liquidação respetiva e deve ser feito de acordo com o previsto no número 4 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual.",
+      "A falta de pagamento atempado fica sujeito a juros de mora à taxa legal em vigor, conforme dispõe o número 5 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual.",
+      "Para efeitos de fiscalização ou inspeção, o titular fica obrigado a facultar, às Entidades Competentes, esta licença, bem como o acesso à área, construções e equipamentos a ela associados e aos registos detalhados do controlo da operação do sistema de tratamento.",
+      "As despesas com vistorias extraordinárias inerentes à emissão desta licença, ou as que resultarem de reclamações justificadas, serão suportadas pelo seu titular.",
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo.",
+      "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação.",
+      "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo utilizador.",
+      "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+    ],
+    "Específicas": [
+      "Qualquer alteração no funcionamento do sistema de produção e/ou de tratamento, mesmo que não prejudique as condições impostas nesta licença, deve ser comunicada à Entidade Licenciadora no prazo máximo de cinco dias.",
+      "Qualquer descarga de águas residuais urbanas e/ou industriais, bem como de outras atividades económicas ou serviços, nas redes de drenagem ou diretamente na ETAR, só poderá ocorrer mediante autorização do titular da presente licença e ficará sujeita às disposições constantes dessa autorização não podendo, em qualquer caso, comprometer o cumprimento das condições impostas nesta licença. Qualquer nova situação desta natureza deverá ser comunicada à Entidade Licenciadora.",
+      "Sempre que forem autorizadas descargas de águas residuais de indústrias localizadas fora da malha urbana, a autorização de descarga, prevista na cláusula anterior, fica sujeita à aprovação da Entidade Licenciadora.",
+      "A ligação, às redes de drenagem da ETAR geridas pelo titular desta licença, das águas residuais de atividades económicas ou serviços localizados dentro da malha urbana ou diretamente na ETAR que produzam ou utilizem substâncias classificadas como poluentes específicos e/ou substâncias prioritárias/perigosas prioritárias para os meios aquáticos ou que sejam suscetíveis de comprometer o cumprimento das condições impostas nesta licença, nos termos do regulamento previsto no artigo 9º, do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, e 149/2004, de 22 de junho e 198/2008, de 8 de outubro, deve ser encarada com precaução, não podendo, em quaisquer circunstâncias, comprometer o cumprimento das condições impostas nesta licença.",
+      "Impende sobre o titular desta licença a responsabilidade de verificar o cumprimento das normas constantes na autorização de descarga supra mencionada.",
+      "O titular assume a responsabilidade pela eficiência e eficácia dos processos de tratamento e dos procedimentos a adotar com vista a minimizar os efeitos decorrentes da rejeição de águas residuais e a cumprir os objetivos de qualidade definidos para a massa de água recetora.",
+      "A descarga das águas residuais na água não deve provocar alteração da sua qualidade, nem colocar em risco os seus usos, sendo efetuada de modo a não prejudicar o escoamento natural da corrente e a não contribuir para o aumento dos riscos de erosão no local, ficando o titular responsável pela tomada das medidas consideradas necessárias para a correção das situações que possam ocorrer.",
+      "O titular obriga-se a manter o sistema de tratamento adotado em bom estado de funcionamento e conservação.",
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem.",
+      "Como medida preventiva e minimizadora das consequências inerentes a uma rejeição de emergência no domínio hídrico, o titular deverá diligenciar no sentido de dotar a(s) Estação(ões) Elevatória(s) de um gerador de emergência.",
+      "Sempre que se verifique a necessidade de proceder a uma rejeição de emergência da(s) Estação(ões) Elevatória(s), o titular deverá de imediato tomar todas as medidas com vista a minimizar os efeitos daí decorrentes e comunicar a ocorrência à Entidade Licenciadora num prazo máximo de 24 horas seguintes à mesma.",
+      "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras compostas num dado período temporal, inferior a 24 horas, em função do caudal. Caso o sistema não disponha de medidor de caudal com registo automático, será utilizado o caudal máximo previsto no título para efeitos de avaliação da respetiva conformidade das amostras.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 1 000 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários).",
+      "É dispensada a apresentação de apólice de seguro ou prestada uma caução para recuperação ambiental nos termos do disposto no art.º 22º, n.º 226-A/2007, de 31 de maio com as alterações introduzidas pelo Decreto-Lei n.º 82/2010, de 2 de julho.",
+      "O presente título renova a licença de utilização dos recursos hídricos nº. L002163.2016.RH3-T1."
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "40",
+      "Legislação aplicável": "a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "60",
+      "Legislação aplicável": "a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "150",
+      "Legislação aplicável": "a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6-9",
+      "Legislação aplicável": "a)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    }
+  ],
+  "condicoes_observacoes": {
+    "Normal": "Os resultados do programa de autocontrolo qualitativa e quantitativo serão enviados à entidade licenciadora, em formato digital, para o endereço eletrónico arhn.trh@apambiente.pt, até ao dia 15 do mês seguinte ao trimestre a que respeitam as medições ou serão"
+  },
+  "legislacao": {
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+  },
+  "avaliacao_conformidade": {},
+  "avaliacao_texto": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto.",
+  "monitorizacao": {},
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise.",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade trimestral.",
+    "Equipamento de controlo": "Medidor de caudal à entrada.",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração.. O presidente do conselho diretivo da APA, IP Nuno Lacasta",
+    "rows": [
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      }
+    ]
+  },
+  "entidade": {},
+  "_warnings": []
+}

@@ -1,0 +1,169 @@
+{
+  "file_name": "Carragosela_TUA20230801002309_01.11.2023_a_21.10.2028.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20230801002309",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Carragosela",
+    "Código APA": "APA10486623",
+    "Localização": "Carragosela"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20230424004071",
+    "Data de Emissão": "01-08-2023",
+    "Data de Entrada em Vigor": "01-11-2023",
+    "Data de Validade": "31-10-2028",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Centro"
+  },
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L034885.2023.RH4A.V1",
+    "Longitude": "-7,766654",
+    "Latitude": "40,410771",
+    "Massa de Água": "PT04MON0615 :: Ribeiro do Esporão",
+    "Classificação da Massa de Água": "Bom"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Carragosela",
+    "Ano de arranque": "2006",
+    "População servida à data": "129",
+    "Ano horizonte de projeto": "2036",
+    "População servida no horizonte": "540",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Sistema de tratamento por lamas ativadas em regime de arejamento prolongado",
+    "Caudal máximo de descarga": "169,9 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6.0 a 9.0",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    }
+  ],
+  "legislacao": {
+    "T000007": "(a) Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+    "T000009": "(b) Decreto-Lei nº 152/97, de 19 de junho.",
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+    "b": "Decreto-Lei nº 152/97, de 19 de junho."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "(1) De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos.",
+    "1": "De acordo com o nº6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": "Deve ser efetuada monitorização do parâmetro Azoto amoniacal face à localização da rejeição em área de influência de zona classificada como sensível, nos termos do Decreto-Lei n.º 152/97, de 19 de junho e Portaria n.º 188/2021 de 8 de setembro."
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": "Deve ser efetuada monitorização dos parâmetros Azoto total e Fósforo total para efeitos do cálculo da TRH nos termos do Decreto-Lei n.º 97/2008, de 11 de junho (na sua redação atual)."
+    },
+    {
+      "Código": "T000026",
+      "Código TURH": "L034885.2023.RH4A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": "Deve ser efetuada monitorização dos parâmetros Azoto total e Fósforo total para efeitos do cálculo da TRH nos termos do Decreto-Lei n.º 97/2008, de 11 de junho (na sua redação atual)."
+    }
+  ],
+  "_warnings": [
+    "autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Sólidos Suspensos Totais (mg/L)']"
+  ]
+}

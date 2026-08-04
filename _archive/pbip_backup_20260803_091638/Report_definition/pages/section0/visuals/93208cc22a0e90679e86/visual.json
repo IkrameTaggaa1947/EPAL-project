@@ -1,0 +1,80 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "93208cc22a0e90679e86",
+  "position": {
+    "x": 16.666666666666668,
+    "y": 456.66666666666669,
+    "z": 11000,
+    "height": 255,
+    "width": 636.66666666666674,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Licenses"
+                    }
+                  },
+                  "Property": "Designação"
+                }
+              },
+              "queryRef": "Licenses.Designação",
+              "nativeQueryRef": "Designação"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Licenses"
+                    }
+                  },
+                  "Property": "Data de Validade"
+                }
+              },
+              "queryRef": "Licenses.Data de Validade",
+              "nativeQueryRef": "Data de Validade"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Licenses"
+                    }
+                  },
+                  "Property": "Estado"
+                }
+              },
+              "queryRef": "Licenses.Estado",
+              "nativeQueryRef": "Estado"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TabelaCentroide_ETAR"
+                    }
+                  },
+                  "Property": "Centro_Operacional"
+                }
+              },
+              "queryRef": "TabelaCentroide_ETAR.Centro_Operacional",
+              "nativeQueryRef": "Centro_Operacional"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

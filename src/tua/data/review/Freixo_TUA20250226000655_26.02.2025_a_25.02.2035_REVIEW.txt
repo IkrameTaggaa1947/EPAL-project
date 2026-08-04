@@ -1,0 +1,9 @@
+Freixo_TUA20250226000655_26.02.2025_a_25.02.2035.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 26-02-2025)
+  - [REVIEW] Data de Validade missing (filename says 25-02-2035)
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Carência Química de Oxigénio (mg/L O2)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

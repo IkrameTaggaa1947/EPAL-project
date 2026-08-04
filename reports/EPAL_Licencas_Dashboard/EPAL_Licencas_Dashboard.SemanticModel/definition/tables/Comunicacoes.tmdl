@@ -1,0 +1,139 @@
+/// Comunicacoes a efetuar a Administracao (obrigacoes de reporte por licenca). Origem: data\powerbi\TUA\Obrigacoes Comunicacao (OCom1).csv. Apenas licencas TUA - nao existe extracao equivalente para LURH.
+table Comunicacoes
+	lineageTag: 3f7a9c50-8000-4c00-9f00-220040000000
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: 3f7a9c50-8001-4c00-9f00-220040000001
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Código
+		dataType: string
+		lineageTag: 3f7a9c50-8002-4c00-9f00-220040000002
+		summarizeBy: none
+		sourceColumn: Código
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Descricao integral da obrigacao de comunicacao.
+	column 'Tipo de informação/Parâmetros'
+		dataType: string
+		lineageTag: 3f7a9c50-8003-4c00-9f00-220040000003
+		summarizeBy: none
+		sourceColumn: Tipo de informação/Parâmetros
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Valor tal como extraido do TUA.
+	column 'Formato de reporte'
+		dataType: string
+		lineageTag: 3f7a9c50-8004-4c00-9f00-220040000004
+		summarizeBy: none
+		sourceColumn: Formato de reporte
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Formato de reporte agrupado (SILiAmb / Modulo de Autocontrolo / ...). Usar esta coluna nos segmentadores.
+	column 'Formato (normalizado)'
+		dataType: string
+		lineageTag: 3f7a9c50-8005-4c00-9f00-220040000005
+		summarizeBy: none
+		sourceColumn: Formato (normalizado)
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Valor tal como extraido do TUA.
+	column 'Periodicidade de comunicação'
+		dataType: string
+		lineageTag: 3f7a9c50-8006-4c00-9f00-220040000006
+		summarizeBy: none
+		sourceColumn: Periodicidade de comunicação
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Periodicidade normalizada: Mensal / Trimestral / Semestral / Anual / Nao especificada / A verificar. "A verificar" sinaliza extracao duvidosa.
+	column 'Periodicidade (normalizada)'
+		dataType: string
+		lineageTag: 3f7a9c50-8007-4c00-9f00-220040000007
+		summarizeBy: none
+		sourceColumn: Periodicidade (normalizada)
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Ordem de leitura da periodicidade (1 Mensal ... 4 Anual). Para ordenar visuais.
+	column 'Ordem Periodicidade'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3f7a9c50-8008-4c00-9f00-220040000008
+		summarizeBy: none
+		sourceColumn: Ordem Periodicidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data de reporte'
+		dataType: string
+		lineageTag: 3f7a9c50-8009-4c00-9f00-220040000009
+		summarizeBy: none
+		sourceColumn: Data de reporte
+
+		annotation SummarizationSetBy = Automatic
+
+	column Entidade
+		dataType: string
+		lineageTag: 3f7a9c50-800a-4c00-9f00-22004000000a
+		summarizeBy: none
+		sourceColumn: Entidade
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Comunicacoes = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\TUA\Obrigacoes Comunicacao (OCom1).csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Sel = Table.SelectColumns(Headers, {"Nº TUA", "Código", "Tipo de informação/Parâmetros", "Formato de reporte", "Periodicidade de comunicação", "Data de reporte", "Entidade"}),
+				    ComTUA = Table.SelectRows(Sel, each [#"Nº TUA"] <> null and [#"Nº TUA"] <> ""),
+				    SemCabecalhosRepetidos = Table.SelectRows(ComTUA, each [Código] <> "Código" and [#"Tipo de informação/Parâmetros"] <> "Tipo de informação/Parâmetros"),
+				    Limpo = Table.TransformColumns(SemCabecalhosRepetidos, {
+				        {"Formato de reporte", each if _ = null then null else Text.Trim(_), type text},
+				        {"Periodicidade de comunicação", each if _ = null then null else Text.Trim(_), type text},
+				        {"Data de reporte", each if _ = null then null else Text.Trim(_), type text},
+				        {"Entidade", each if _ = null then null else Text.Trim(_), type text}}),
+				    NormPeriodo = (v) =>
+				        let t = if v = null then "" else Text.Lower(Text.Trim(Text.From(v)))
+				        in
+				            if t = "" then "Não especificada"
+				            else if Text.Contains(t, "mensal") and not Text.Contains(t, "semestral") then "Mensal"
+				            else if Text.Contains(t, "trimestr") then "Trimestral"
+				            else if Text.Contains(t, "semestr") then "Semestral"
+				            else if Text.Contains(t, "anual") then "Anual"
+				            else "A verificar",
+				    NormFormato = (v) =>
+				        let t = if v = null then "" else Text.Lower(Text.Trim(Text.From(v)))
+				        in
+				            if t = "" then "Não especificado"
+				            else if Text.Contains(t, "siliamb") then "Plataforma SILiAmb"
+				            else if Text.Contains(t, "autocontrolo") then "Módulo de Autocontrolo"
+				            else if Text.Contains(t, "periodicidade") or Text.Contains(t, "trimestral") or Text.Contains(t, "descrição") then "A verificar"
+				            else if Text.Contains(t, "mail") then "E-mail"
+				            else Text.Proper(Text.Trim(Text.From(v))),
+				    ComPeriodo = Table.AddColumn(Limpo, "Periodicidade (normalizada)", each NormPeriodo([#"Periodicidade de comunicação"]), type text),
+				    ComFormato = Table.AddColumn(ComPeriodo, "Formato (normalizado)", each NormFormato([Formato de reporte]), type text),
+				    ComOrdem = Table.AddColumn(ComFormato, "Ordem Periodicidade", each
+				        if [#"Periodicidade (normalizada)"] = "Mensal" then 1
+				        else if [#"Periodicidade (normalizada)"] = "Trimestral" then 2
+				        else if [#"Periodicidade (normalizada)"] = "Semestral" then 3
+				        else if [#"Periodicidade (normalizada)"] = "Anual" then 4
+				        else 9, Int64.Type),
+				    Tipos = Table.TransformColumnTypes(ComOrdem, {{"Nº TUA", type text}, {"Código", type text}, {"Tipo de informação/Parâmetros", type text}, {"Formato de reporte", type text}, {"Formato (normalizado)", type text}, {"Periodicidade de comunicação", type text}, {"Periodicidade (normalizada)", type text}, {"Data de reporte", type text}, {"Entidade", type text}})
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

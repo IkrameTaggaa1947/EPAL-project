@@ -1,0 +1,154 @@
+{
+  "file_name": "Rochoso_TUA20230421001262_26.09.2023_a_19.04.2028.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20230421001262",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Rochoso",
+    "Código APA": "APA10415703",
+    "Localização": "Rochoso"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20230404003132",
+    "Data de Emissão": "21-04-2023",
+    "Data de Entrada em Vigor": "26-09-2023",
+    "Data de Validade": "19-04-2028",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Norte"
+  },
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L018345.2018.RH3.V1",
+    "Longitude": "-7,073043",
+    "Latitude": "40,508568",
+    "Massa de Água": "PT03DOU0487 :: Rio Côa",
+    "Classificação da Massa de Água": "Razoável"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Rochoso",
+    "Ano de arranque": "2003",
+    "População servida à data": "696",
+    "Ano horizonte de projeto": "2031",
+    "População servida no horizonte": "785",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Leito de Macrófitas",
+    "Caudal máximo de descarga": "164,5 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6-9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000006",
+      "Avaliação da conformidade": "T000009",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000006",
+      "Avaliação da conformidade": "T000009",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000006",
+      "Avaliação da conformidade": "T000009",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000006",
+      "Avaliação da conformidade": "T000009",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    }
+  ],
+  "legislacao": {
+    "T000006": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+  },
+  "avaliacao_conformidade": {
+    "T000009": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L018345.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    }
+  ],
+  "_warnings": []
+}

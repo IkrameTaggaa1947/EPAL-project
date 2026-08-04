@@ -1,0 +1,1845 @@
+{
+  "file_name": "Oliveira_do_Hospital_TUA20250416001449_01.05.2025_a_30.04.2027.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20250416001449",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Oliveira do Hospital",
+    "Código APA": "APA12369903",
+    "Localização": "Oliveira do Hospital"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL2024102900957",
+    "Data de Emissão": "16-04-2025",
+    "Data de Entrada em Vigor": "01-05-2025",
+    "Data de Validade": "30-04-2027",
+    "Sentido da decisão": "",
+    "Entidade Licenciadora": ""
+  },
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L032810.2023.RH4A.V1",
+    "Longitude": "-7,874596",
+    "Latitude": "40,359959",
+    "Massa de Água": "PT04MON0625 :: Rio de Cavalos",
+    "Classificação da Massa de Água": "Razoável"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Oliveira do Hospital",
+    "Ano de arranque": "2018",
+    "População servida à data": "7647",
+    "Ano horizonte de projeto": "2048",
+    "População servida no horizonte": "17750",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Secundário e remoção de nutrientes",
+    "Caudal máximo de descarga": "2 624 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6.0 - 9.0",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "25",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "125",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "35",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "VLE (% mín. redução)": "",
+      "VLE": "15",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000026",
+      "Código TURH": "",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "VLE (% mín. redução)": "",
+      "VLE": "2",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(b)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Decreto-Lei nº 152/97, de 19 de junho.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000028",
+      "Código TURH": "",
+      "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+      "VLE (% mín. redução)": "",
+      "VLE": "10",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000030",
+      "Código TURH": "",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "15",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000032",
+      "Código TURH": "",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (período de estiagem) (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "20",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(c) (d)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho. | Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000033",
+      "Código TURH": "",
+      "Parâmetro": "Carência Química de Oxigénio (período de estiagem) (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "100",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(c) (d)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho. | Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000034",
+      "Código TURH": "",
+      "Parâmetro": "Sólidos Suspensos Totais (período de estiagem) (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "28",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(c) (d)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho. | Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000035",
+      "Código TURH": "",
+      "Parâmetro": "Azoto total (período de estiagem) (mg/L N)",
+      "VLE (% mín. redução)": "",
+      "VLE": "12",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(c) (d)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho. | Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000036",
+      "Código TURH": "",
+      "Parâmetro": "Fósforo total (período de estiagem) (mg/L P)",
+      "VLE (% mín. redução)": "",
+      "VLE": "1.6",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(c) (d)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho. | Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000037",
+      "Código TURH": "",
+      "Parâmetro": "Azoto amoniacal (período de estiagem) (mg/L NH4)",
+      "VLE (% mín. redução)": "",
+      "VLE": "8",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(d) (e)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Considera-se o período de estiagem de 1 de junho a 30 de setembro. | Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    },
+    {
+      "Código": "T000038",
+      "Código TURH": "",
+      "Parâmetro": "Óleos e Gorduras (período de estiagem) (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "12",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(d) (e)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Considera-se o período de estiagem de 1 de junho a 30 de setembro. | Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+    }
+  ],
+  "legislacao": {
+    "T000007": "(a) Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+    "T000008": "(b) Decreto-Lei nº 152/97, de 19 de junho.",
+    "T000039": "(c) Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho.",
+    "T000040": "(d) Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+    "T000041": "(e) Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+    "a": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+    "b": "Decreto-Lei nº 152/97, de 19 de junho.",
+    "c": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho.",
+    "d": "Considera-se o período de estiagem de 1 de junho a 30 de setembro.",
+    "e": "Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "(1) De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos.",
+    "1": "De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000027",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000029",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000031",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000043",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Azoto Kjeldahl (mg/L N)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000044",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Nitratos (mg/L NO3)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000045",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Nitritos (mg/L NO2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000046",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Fenóis (mg/L C total)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000047",
+      "Código TURH": "",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Fosfatos (mg/L PO4)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000048",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000049",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000050",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000051",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000052",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000053",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000054",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000055",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000056",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto Kjeldahl (mg/L N)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000057",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Nitratos (mg/L NO3)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000058",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Nitritos (mg/L NO2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000059",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fenóis (mg/L C total)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000060",
+      "Código TURH": "",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fosfatos (mg/L PO4)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    }
+  ],
+  "autocontrolo_nota": "Amostragem composta recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração.",
+  "sections": [
+    {
+      "code": "3.3",
+      "title": "Localização",
+      "sheet": "Localizacao",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Longitude",
+        "Latitude",
+        "Margem/Plano de Água",
+        "Massa de Água",
+        "Classificação da Massa de Água"
+      ],
+      "rows": [
+        {
+          "Código": "T000002",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Longitude": "-7,874596",
+          "Latitude": "40,359959",
+          "Margem/Plano de Água": "Margem direita",
+          "Massa de Água": "PT04MON0625 :: Rio de Cavalos",
+          "Classificação da Massa de Água": "Razoável"
+        }
+      ]
+    },
+    {
+      "code": "3.5",
+      "title": "Caracterização Geral - ETAR Urbana/Doméstica",
+      "sheet": "Caracterizacao Geral",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Longitude",
+        "Latitude",
+        "Designação",
+        "Ano de arranque",
+        "População servida à data do pedido (e.p.)",
+        "Ano horizonte de projeto",
+        "População servida no ano horizonte de projeto (e.p.)",
+        "Nível de tratamento implementado",
+        "Esquema de tratamento",
+        "Caudal máximo de descarga"
+      ],
+      "rows": [
+        {
+          "Código": "T000003",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Longitude": "-7,872573",
+          "Latitude": "40,360197",
+          "Designação": "ETAR Oliveira do Hospital",
+          "Ano de arranque": "2018",
+          "População servida à data do pedido (e.p.)": "7 647",
+          "Ano horizonte de projeto": "2048",
+          "População servida no ano horizonte de projeto (e.p.)": "17 750",
+          "Nível de tratamento implementado": "Secundário",
+          "Esquema de tratamento": "Secundário e remoção de nutrientes",
+          "Caudal máximo de descarga": "2 624 m3/dia"
+        }
+      ]
+    },
+    {
+      "code": "3.7",
+      "title": "Caracterização - Rejeição de águas residuais",
+      "sheet": "Rejeicao Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Designação do ponto de rejeição",
+        "Meio recetor",
+        "Denominação do meio recetor",
+        "Sistema de descarga",
+        "Volume anual descarregado (m3)"
+      ],
+      "rows": [
+        {
+          "Código": "T000004",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Designação do ponto de rejeição": "ETAR Oliveira do Hospital",
+          "Meio recetor": "Rio",
+          "Denominação do meio recetor": "Rio de Cavalos",
+          "Sistema de descarga": "Coletor com obra de proteção (boca de lobo)",
+          "Volume anual descarregado (m3)": "620 052"
+        }
+      ]
+    },
+    {
+      "code": "3.8",
+      "title": "Características do Afluente Bruto",
+      "sheet": "Afluente Bruto",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Volume médio mensal (m3)",
+        "CBO5 (mg/L O2)",
+        "CQO (mg/L O2)",
+        "N (mg/L N)",
+        "P (mg/L P)"
+      ],
+      "rows": [
+        {
+          "Código": "T000006",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Volume médio mensal (m3)": "51 671",
+          "CBO5 (mg/L O2)": "433,125",
+          "CQO (mg/L O2)": "914,625",
+          "N (mg/L N)": "85,5454",
+          "P (mg/L P)": "9,3127"
+        }
+      ]
+    },
+    {
+      "code": "3.11",
+      "title": "Caracterização - Rejeição de águas residuais - Origem das águas residuais",
+      "sheet": "Origem Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Tipo",
+        "Instalação de Tratamento"
+      ],
+      "rows": [
+        {
+          "Código": "T000005",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Tipo": "Urbanas",
+          "Instalação de Tratamento": "ETAR Oliveira do Hospital"
+        }
+      ]
+    },
+    {
+      "code": "3.13",
+      "title": "Condições de Rejeição",
+      "sheet": "Condicoes Rejeicao",
+      "columns": [
+        "Código",
+        "Parâmetro",
+        "VLE",
+        "Legislação aplicável",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000016",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "VLE": "6.0 - 9.0",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000018",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "VLE": "25",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000020",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "VLE": "125",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000022",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "VLE": "35",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000024",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "VLE": "15",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000026",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "VLE": "2",
+          "Legislação aplicável": "(b)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000028",
+          "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+          "VLE": "10",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000030",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "VLE": "15",
+          "Legislação aplicável": "(a)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000032",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (período de estiagem) (mg/L O2)",
+          "VLE": "20",
+          "Legislação aplicável": "(c) (d)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000033",
+          "Parâmetro": "Carência Química de Oxigénio (período de estiagem) (mg/L O2)",
+          "VLE": "100",
+          "Legislação aplicável": "(c) (d)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000034",
+          "Parâmetro": "Sólidos Suspensos Totais (período de estiagem) (mg/L)",
+          "VLE": "28",
+          "Legislação aplicável": "(c) (d)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000035",
+          "Parâmetro": "Azoto total (período de estiagem) (mg/L N)",
+          "VLE": "12",
+          "Legislação aplicável": "(c) (d)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000036",
+          "Parâmetro": "Fósforo total (período de estiagem) (mg/L P)",
+          "VLE": "1.6",
+          "Legislação aplicável": "(c) (d)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000037",
+          "Parâmetro": "Azoto amoniacal (período de estiagem) (mg/L NH4)",
+          "VLE": "8",
+          "Legislação aplicável": "(d) (e)",
+          "Avaliação da conformidade": "(1)"
+        },
+        {
+          "Código": "T000038",
+          "Parâmetro": "Óleos e Gorduras (período de estiagem) (mg/L)",
+          "VLE": "12",
+          "Legislação aplicável": "(d) (e)",
+          "Avaliação da conformidade": "(1)"
+        }
+      ]
+    },
+    {
+      "code": "3.14",
+      "title": "Legislação aplicável",
+      "sheet": "Legislacao",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Legislação aplicável"
+      ],
+      "rows": [
+        {
+          "Código": "T000007",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Legislação aplicável": "(a) Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+        },
+        {
+          "Código": "T000008",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Legislação aplicável": "(b) Decreto-Lei nº 152/97, de 19 de junho."
+        },
+        {
+          "Código": "T000039",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Legislação aplicável": "(c) Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Decreto-Lei nº 152/97, de 19 de junho."
+        },
+        {
+          "Código": "T000040",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Legislação aplicável": "(d) Considera-se o período de estiagem de 1 de junho a 30 de setembro."
+        },
+        {
+          "Código": "T000041",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Legislação aplicável": "(e) Critério de aplicação do artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugado com Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+        }
+      ]
+    },
+    {
+      "code": "3.15",
+      "title": "Avaliação de conformidade",
+      "sheet": "Avaliacao Conformidade",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000010",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Avaliação da conformidade": "(1) De acordo com o n.º6 do artigo 69º do Decreto-Lei nº 236/98, de 1 de agosto e de acordo com o Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Lei n.º 348/98, de 9 de novembro, n.º 149/2004, de 22 de junho e n.º 198/2008, de 8 de outubro: verificação do n.º mínimo anual de amostras, verificação do n.º máximo de amostras não conformes e verificação do desvio aos valores paramétricos."
+        }
+      ]
+    },
+    {
+      "code": "3.16",
+      "title": "Programa de autocontrolo",
+      "sheet": "Autocontrolo",
+      "columns": [
+        "Código",
+        "Local de amostragem",
+        "Parâmetro",
+        "Frequência de amostragem",
+        "Tipo de amostragem"
+      ],
+      "rows": [
+        {
+          "Código": "T000017",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000019",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000021",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000023",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000025",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000027",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000029",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000031",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000043",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Azoto Kjeldahl (mg/L N)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000044",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Nitratos (mg/L NO3)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000045",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Nitritos (mg/L NO2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000046",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Fenóis (mg/L C total)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000047",
+          "Local de amostragem": "Entrada",
+          "Parâmetro": "Fosfatos (mg/L PO4)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000048",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000049",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000050",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000051",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000052",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000053",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000054",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000055",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Óleos e Gorduras (mg/L)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000056",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto Kjeldahl (mg/L N)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000057",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Nitratos (mg/L NO3)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000058",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Nitritos (mg/L NO2)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000059",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fenóis (mg/L C total)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        },
+        {
+          "Código": "T000060",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fosfatos (mg/L PO4)",
+          "Frequência de amostragem": "Mensal",
+          "Tipo de amostragem": "Composta (i)"
+        }
+      ]
+    },
+    {
+      "code": "3.17",
+      "title": "Programa de Monitorização do Meio Recetor",
+      "sheet": "Sec 3.17",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Local",
+        "Longitude",
+        "Coluna 5",
+        "Latitude",
+        "Coluna 7",
+        "Parâmetro",
+        "Coluna 9",
+        "Frequência de amostragem",
+        "Observações"
+      ],
+      "rows": [
+        {
+          "Código": "T000061",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Coluna 9": "",
+          "Frequência de amostragem": "Mensal",
+          "Observações": "Amostra pontual."
+        },
+        {
+          "Código": "T000062",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "",
+          "Parâmetro": "Temperatura (ºC)",
+          "Coluna 9": "",
+          "Frequência de amostragem": "Mensal",
+          "Observações": "Amostra pontual."
+        },
+        {
+          "Código": "T000063",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "",
+          "Parâmetro": "Oxigénio dissolvido (mg/L O2)",
+          "Coluna 9": "",
+          "Frequência de amostragem": "Mensal",
+          "Observações": "Amostra pontual."
+        },
+        {
+          "Código": "T000064",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "",
+          "Parâmetro": "Taxa de saturação",
+          "Coluna 9": "",
+          "Frequência de amostragem": "Mensal",
+          "Observações": "Amostra pontual."
+        },
+        {
+          "Código": "Código",
+          "Código Utilização": "Código Utilização",
+          "Local": "Local",
+          "Longitude": "Longitude",
+          "Coluna 5": "Latitude",
+          "Latitude": "Parâmetro",
+          "Coluna 7": "Frequência de amostragem",
+          "Parâmetro": "Observações",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "",
+          "Código Utilização": "",
+          "Local": "",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "em oxigénio (%)",
+          "Coluna 7": "",
+          "Parâmetro": "",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000065",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000066",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Carência Química de Oxigénio (mg/L O2)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000067",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Sólidos Suspensos Totais (mg/L)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000068",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Azoto total (mg/L N)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000069",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Fósforo total (mg/L P)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000070",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Óleos e Gorduras (mg/L)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000071",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Azoto Kjeldahl (mg/L N)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000072",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Nitratos (mg/L NO3)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000073",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Nitritos (mg/L NO2)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000074",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Azoto amoniacal (mg/L NH4)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000075",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Fenóis (mg/L C total)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000076",
+          "Código Utilização": "",
+          "Local": "P1",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Fosfatos (mg/L PO4)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000077",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "pH (Escala de Sörensen)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000078",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Temperatura (ºC)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000079",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Oxigénio dissolvido (mg/L O2)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000080",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Taxa de saturação em oxigénio (%)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000081",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000082",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Carência Química de Oxigénio (mg/L O2)",
+          "Coluna 7": "Diário",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000083",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Sólidos Suspensos Totais (mg/L)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000084",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Azoto total (mg/L N)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000085",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Fósforo total (mg/L P)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000086",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Óleos e Gorduras (mg/L)",
+          "Coluna 7": "Mensal",
+          "Parâmetro": "Amostra pontual.",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "",
+          "Código Utilização": "",
+          "Local": "",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "Azoto Kjeldahl (mg/L",
+          "Coluna 7": "",
+          "Parâmetro": "",
+          "Coluna 9": "",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "Código",
+          "Código Utilização": "Código Utilização",
+          "Local": "Local",
+          "Longitude": "",
+          "Coluna 5": "Longitude",
+          "Latitude": "Latitude",
+          "Coluna 7": "Parâmetro",
+          "Parâmetro": "Frequência de amostragem",
+          "Coluna 9": "Observações",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000087",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "N)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000088",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "Nitratos (mg/L NO3)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000089",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "Nitritos (mg/L NO2)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000090",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "Azoto amoniacal (mg/L NH4)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000091",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "Fenóis (mg/L C total)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        },
+        {
+          "Código": "T000092",
+          "Código Utilização": "",
+          "Local": "P2",
+          "Longitude": "",
+          "Coluna 5": "",
+          "Latitude": "",
+          "Coluna 7": "Fosfatos (mg/L PO4)",
+          "Parâmetro": "Mensal",
+          "Coluna 9": "Amostra pontual.",
+          "Frequência de amostragem": "",
+          "Observações": ""
+        }
+      ]
+    },
+    {
+      "code": "3.19",
+      "title": "Condições Gerais",
+      "sheet": "Condicoes Gerais",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Coluna 3",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000093",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000094",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "A matéria tributável da componente E é determinada com base no programa de autocontrolo a implementar."
+        },
+        {
+          "Código": "T000096",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo."
+        },
+        {
+          "Código": "T000097",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000098",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "Para efeitos de fiscalização ou inspeção, o titular fica obrigado a facultar, às Entidades Competentes, esta licença, bem como o acesso à área, construções e equipamentos a ela associados e aos registos detalhados do controlo da operação do sistema de tratamento."
+        },
+        {
+          "Código": "T000099",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação."
+        },
+        {
+          "Código": "T000095",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "As despesas com vistorias extraordinárias inerentes à emissão desta licença, ou as que resultarem de reclamações justificadas, serão suportadas pelo seu titular."
+        },
+        {
+          "Código": "T000100",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000101",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000102",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "O titular fica sujeito, de acordo com o Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual, ao pagamento da Taxa de Recursos Hídricos (TRH) calculada de acordo com a seguinte fórmula: TRH = E + O, em que E – descarga de efluentes e O – ocupação do domínio público hídrico do Estado, se aplicável."
+        },
+        {
+          "Código": "T000103",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000104",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "O titular obriga-se a cumprir o disposto na presente licença, em todas as leis e regulamentos vigentes, na parte em que lhe for aplicável, bem como outras normas ou regulamentos que venham a ser posteriormente aprovados e a entrar em vigor, quer as suas disposições se harmonizem ou não com os direitos e obrigações que à presente licença sejam aplicáveis."
+        },
+        {
+          "Código": "T000105",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "Sem prejuízo das sanções aplicáveis, sempre que o registo atualizado dos valores do autocontrolo não seja entregue com a periodicidade definida na Licença, a componente E será calculada tendo por base as características do efluente bruto estabelecidas no projeto de execução da ETAR ou incluídas na presente licença."
+        },
+        {
+          "Código": "T000106",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "",
+          "Condição": "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo"
+        },
+        {
+          "Código": "Código",
+          "Código Utilização": "Código Utilização",
+          "Coluna 3": "Condição",
+          "Condição": ""
+        },
+        {
+          "Código": "",
+          "Código Utilização": "",
+          "Coluna 3": "utilizador.",
+          "Condição": ""
+        },
+        {
+          "Código": "T000107",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "O pagamento da taxa de recursos hídricos devida é efetuado no ano seguinte àquele a que a taxa respeite até ao termo disposto na Nota de Liquidação respetiva e deve ser feito de acordo com o previsto no número 4 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual.",
+          "Condição": ""
+        },
+        {
+          "Código": "T000108",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "A falta de pagamento atempado fica sujeito a juros de mora à taxa legal em vigor, conforme dispõe o número 5 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual.",
+          "Condição": ""
+        },
+        {
+          "Código": "T000109",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "A rejeição de águas residuais será exclusivamente realizada no local e nas condições indicadas nesta licença, não estando autorizadas quaisquer outras descargas de efluentes, e não podendo o objeto da presente licença ser alterado sem prévia autorização da Entidade Licenciadora.",
+          "Condição": ""
+        },
+        {
+          "Código": "T000110",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis.",
+          "Condição": ""
+        },
+        {
+          "Código": "T000111",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Coluna 3": "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável.",
+          "Condição": ""
+        }
+      ]
+    },
+    {
+      "code": "3.20",
+      "title": "Condições Específicas",
+      "sheet": "Condicoes Especificas",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000113",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local."
+        },
+        {
+          "Código": "T000114",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a manter o sistema de tratamento adotado em bom estado de funcionamento e conservação."
+        },
+        {
+          "Código": "T000115",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000116",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a implementar o programa de autocontrolo descrito no presente título e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo."
+        },
+        {
+          "Código": "T000118",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular da licença deve respeitar as condições de descarga indicadas no presente título, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no mesmo documento, conforme a legislação em vigor."
+        },
+        {
+          "Código": "T000119",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+        },
+        {
+          "Código": "T000120",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "A ligação, às redes de drenagem da ETAR geridas pelo titular desta licença, das águas residuais de atividades económicas ou serviços localizados dentro da malha urbana ou diretamente na ETAR que produzam ou utilizem substâncias classificadas como poluentes específicos e/ou substâncias prioritárias/perigosas prioritárias para os meios aquáticos ou que sejam suscetíveis de comprometer o cumprimento das condições impostas nesta licença, nos termos do regulamento previsto no artigo 9º, do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, e 149/2004, de 22 de junho e 198/2008, de 8 de outubro, deve ser encarada com precaução, não podendo, em quaisquer circunstâncias, comprometer o cumprimento das condições impostas nesta licença."
+        },
+        {
+          "Código": "T000112",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Impende sobre o titular desta licença a responsabilidade de verificar o cumprimento das normas constantes na autorização de descarga supra mencionada."
+        },
+        {
+          "Código": "T000121",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem."
+        },
+        {
+          "Código": "T000122",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Qualquer alteração no funcionamento do sistema de produção e/ou de tratamento, mesmo que não prejudique as condições impostas nesta licença, deve ser comunicada à Entidade Licenciadora no prazo máximo de cinco dias."
+        },
+        {
+          "Código": "T000123",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Qualquer descarga de águas residuais urbanas e/ou industriais, bem como de outras atividades económicas ou serviços, nas redes de drenagem ou diretamente na ETAR, só poderá ocorrer mediante autorização do titular da presente licença e ficará sujeita às disposições constantes dessa autorização não podendo, em qualquer caso, comprometer o cumprimento das condições impostas nesta licença. Qualquer nova situação desta natureza deverá ser comunicada à Entidade Licenciadora."
+        },
+        {
+          "Código": "T000117",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Sempre que forem autorizadas descargas de águas residuais de indústrias localizadas fora da malha urbana, a autorização de descarga, prevista na cláusula anterior, fica sujeita à aprovação da Entidade Licenciadora."
+        },
+        {
+          "Código": "",
+          "Código Utilização": "",
+          "Condição": "A descarga das águas residuais na água não deve provocar alteração da sua qualidade, nem colocar em risco os seus usos, sendo efetuada de modo a não prejudicar o escoamento natural da corrente e a não contribuir para o aumento dos riscos de erosão no local, ficando o titular"
+        },
+        {
+          "Código": "T000124",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "responsável pela tomada das medidas consideradas necessárias para a correção das situações que possam ocorrer."
+        },
+        {
+          "Código": "T000125",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a manter um registo atualizado dos dados provenientes do programa de monitorização do meio recetor, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000126",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a implementar o programa de monitorização do meio recetor descrito no presente título e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo."
+        },
+        {
+          "Código": "T000127",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000128",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular assume a responsabilidade pela eficiência e eficácia dos processos de tratamento e dos procedimentos a adotar com vista a minimizar os efeitos decorrentes da rejeição de águas residuais e a cumprir os objetivos de qualidade definidos para a massa de água recetora."
+        },
+        {
+          "Código": "T000129",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular obriga-se a enviar e a manter um dossier organizado contendo as Fichas de Dados de Segurança de todas as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa, devendo, quando existem alterações ou a introdução de novas substâncias enviar, semestralmente, à Entidade Licenciadora a respetiva atualização."
+        }
+      ]
+    },
+    {
+      "code": "3.21",
+      "title": "Outras Condições",
+      "sheet": "Outras Condicoes",
+      "columns": [
+        "Código",
+        "Código Utilização",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000130",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 15 000€ a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no Decreto-Lei n.º 226-A/2007, de 31 de maio (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt)."
+        },
+        {
+          "Código": "T000131",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular da presente licença deverá efetuar monitorização à entrada da ETAR e garantir o cumprimento à saída, com periodicidade mensal, dos parâmetros Carência Bioquímica de Oxigénio (CBO5), Carência Química de Oxigénio (CQO), Sólidos Suspensos Totais (SST), Azoto total (Nt) e Fósforo total (Pt) tendo por base os valores definidos no Decreto-Lei n.º 152/97, de 19 de junho."
+        },
+        {
+          "Código": "T000132",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular da presente licença deverá efetuar monitorização à entrada da ETAR e garantir o cumprimento à saída, com periodicidade mensal, dos parâmetros pH, Óleos e gorduras e Azoto amoniacal (Nh4+) tendo por base os valores definidos no Decreto-Lei n.º 236/98, de 1 de agosto."
+        },
+        {
+          "Código": "T000133",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "O titular da presente licença deverá efetuar monitorização à entrada e à saída da ETAR, com periodicidade mensal, dos parâmetros Azoto Kjeldahl, Nitratos, Nitritos, Fenóis e Fosfatos, tendo por base os valores definidos no Decreto-Lei n.º 236/98, de 1 de agosto."
+        },
+        {
+          "Código": "T000134",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Tendo como objetivo averiguar o impacto da rejeição dos efluentes tratados na linha de água recetora, o titular da licença deverá proceder à monitorização da massa de água, com uma periodicidade mensal, preferencialmente 50 metros a montante do ponto de rejeição (P1) e 50 metros a jusante do ponto de rejeição (P2), dos parâmetros pH, temperatura, Oxigénio Dissolvido, CBO5, CQO, SST, Nt, Pt, Óleos e gorduras, Azoto Kjeldahl, Nitratos, Nitritos, Nh4+, Fenóis e Fosfatos."
+        },
+        {
+          "Código": "T000135",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "As coordenadas dos pontos de monitorização do meio recetor são: P1 40.359705; -7.874390 e P2 40.359850; -7.874999;"
+        },
+        {
+          "Código": "T000136",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Face ao reduzido caudal que a linha de água recetora dos efluentes tratados apresenta, o sistema de tratamento deverá garantir a redução dos Valores Limite de Emissão (VLE) em 20%, dos parâmetros CBO5, CQO, SST, Nt, Pt, Azoto amoniacal e Óleos e gorduras, durante o período de estiagem e sempre que se verifique impossibilidade de monitorização do meio recetor por ausência de caudal de diluição do mesmo, conforme procedimento que se encontra em uso na APA, tendo por base o princípio da abordagem combinada conforme descrita no art.º 53.º, da Lei n.º 58/2005, de 29 de dezembro."
+        },
+        {
+          "Código": "T000137",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "A ETAR deverá ser dotada de medição de caudal à entrada e à saída."
+        },
+        {
+          "Código": "T000138",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho."
+        },
+        {
+          "Código": "T000139",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "A amostragem de todos os parâmetros definidos no autocontrolo deverá ser efetuada no mesmo dia e à entrada/saída do sistema de tratamento de águas residuais."
+        },
+        {
+          "Código": "T000140",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza."
+        },
+        {
+          "Código": "T000141",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise."
+        },
+        {
+          "Código": "Código",
+          "Código Utilização": "Código Utilização",
+          "Condição": "Condição"
+        },
+        {
+          "Código": "T000142",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras pontuais e/ou compostas, para avaliação da respetiva conformidade com os valores limites de emissão (VLE) expressos em unidades de concentração (massa por volume). No caso das amostras pontuais, consideram-se como não conformes as amostras que excedam o VLE correspondente em mais de 50%."
+        },
+        {
+          "Código": "T000143",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Impende sobre o titular desta licença a responsabilidade de execução de medidas de limpeza, manutenção e conservação das zonas de acesso ao sistema de tratamento, ponto de rejeição e pontos de monitorização do meio recetor, conforme previsto o artigo 33º da Lei n.º 58/2005 de 29 de dezembro, na sua redação atual."
+        },
+        {
+          "Código": "T000144",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Os resultados do programa de autocontrolo e do programa de monitorização do meio recetor (boletins analíticos) deverão ser associados ao presente título, na plataforma Siliamb/Licenciamento Único, com periodicidade trimestral, e cumulativamente compilados em ficheiro em formato editável de Excel, o qual deverá ser remetido com periodicidade semestral através da mesma plataforma."
+        },
+        {
+          "Código": "T000145",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Para efeitos de avaliação da conformidade legal, as datas das colheitas do programa de monitorização do meio recetor deverão coincidir com as datas das colheitas das águas residuais, à entrada e à saída da ETAR, e o autocontrolo que vier a ser apresentado a esta ARH do Centro, de acordo com o imposto nos títulos, deverá ser proveniente da mesma colheita/amostra."
+        },
+        {
+          "Código": "T000146",
+          "Código Utilização": "L032810.2023.RH4A.V1",
+          "Condição": "Deverão ser reportados os volumes descarregados em situações de by-pass (na ETAR e nas EEAR associadas) assim como a indicação do respetivo período de ocorrência."
+        }
+      ]
+    },
+    {
+      "code": "OCom1",
+      "title": "Comunicações a efetuar à Administração",
+      "sheet": "Obrigacoes Comunicacao",
+      "columns": [
+        "Código",
+        "Tipo de informação/Parâmetros",
+        "Formato de reporte",
+        "Periodicidade de comunicação",
+        "Entidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000147",
+          "Tipo de informação/Parâmetros": "O titular obriga-se a comunicar à Entidade Licenciadora através do SILiAmb (módulo Licenciamento Único -> Autocontrolo RH), os dados provenientes do programa de autocontrolo, do programa de monitorização do meio recetor e o volume mensal de água residual descarregada em domínio hídrico, conforme estabelecido na licença.",
+          "Formato de reporte": "Módulo de autocontrolo/ficheiro xls/pdf",
+          "Periodicidade de comunicação": "Trimestral",
+          "Entidade": "APA IP/ARHC"
+        }
+      ]
+    }
+  ],
+  "_warnings": []
+}

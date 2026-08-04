@@ -1,0 +1,7 @@
+Atalaia_do_Campo_TUA20230228000614_01.03.2023_a_27.02.2028.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['Oxigénio (mg/L O2) Carência Química de Oxigénio (mg/L O2)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

@@ -1,0 +1,9 @@
+Guadalupe_TUA20250602001876_02.06.2025_a_01.06.2025.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 02-06-2025)
+  - [REVIEW] Data de Validade missing (filename says 01-06-2025)
+  - [REVIEW] autocontrolo parameter(s) look garbled (page-break fragmentation): ['(mg/L) Óleos e Gorduras (mg/L)']
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

@@ -1,0 +1,32 @@
+model Model
+	culture: pt-PT
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-PT
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DataFolder","Licences","Conditions","Autocontrolo","Avaliacao","Catalogo_Criterios","Licencas_Criterios","Condicoes_Prioritarias","Renovacao","TabelaCentroide_ETAR","Rejeicao","Dim_Avaliacao","Dim_Parametro","Comunicacoes"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Licences
+ref table Medidas
+ref table Dim_Estado
+ref table Conditions
+ref table Autocontrolo
+ref table Avaliacao
+ref table Catalogo_Criterios
+ref table Licencas_Criterios
+ref table Condicoes_Prioritarias
+ref table Renovacao
+ref table TabelaCentroide_ETAR
+ref table Rejeicao
+ref table Dim_Avaliacao
+ref table Dim_Parametro
+ref table Comunicacoes
+
+ref cultureInfo pt-PT
+

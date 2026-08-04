@@ -1,0 +1,707 @@
+{
+  "file_name": "Lamegal_TUA20230421001260_28.09.2023_a_19.04.2028.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20230421001260",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Lamegal",
+    "Código APA": "APA10416743",
+    "Localização": "Lamegal"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20230404003141",
+    "Data de Emissão": "21-04-2023",
+    "Data de Entrada em Vigor": "28-09-2023",
+    "Data de Validade": "19-04-2028",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Norte"
+  },
+  "localizacao": {
+    "Código": "T000003",
+    "Código TURH": "L011919.2018.RH3.V1",
+    "Longitude": "-7,081955",
+    "Latitude": "40,662306",
+    "Massa de Água": "PT03DOU0481 :: Ribeira da Pega",
+    "Classificação da Massa de Água": "Razoável"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Lamegal",
+    "Ano de arranque": "2001",
+    "População servida à data": "66",
+    "Ano horizonte de projeto": "2031",
+    "População servida no horizonte": "189",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Leito de Macrófitas",
+    "Caudal máximo de descarga": "60,5 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000016",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6-9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000020",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    },
+    {
+      "Código": "T000022",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "T000007",
+      "Avaliação da conformidade": "T000010",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+    }
+  ],
+  "legislacao": {
+    "T000007": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000017",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000021",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L011919.2018.RH3.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    }
+  ],
+  "autocontrolo_nota": "Amostragem composta recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração.",
+  "sections": [
+    {
+      "code": "3.3",
+      "title": "Localização",
+      "sheet": "Localizacao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Longitude",
+        "Latitude",
+        "Margem/Plano de Água",
+        "Massa de Água",
+        "Classificação da Massa de Água"
+      ],
+      "rows": [
+        {
+          "Código": "T000003",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Longitude": "-7,081955",
+          "Latitude": "40,662306",
+          "Margem/Plano de Água": "Margem direita",
+          "Massa de Água": "PT03DOU0481 :: Ribeira da Pega",
+          "Classificação da Massa de Água": "Razoável"
+        }
+      ]
+    },
+    {
+      "code": "3.5",
+      "title": "Caracterização Geral - ETAR Urbana/Doméstica",
+      "sheet": "Caracterizacao Geral",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Longitude",
+        "Latitude",
+        "Designação",
+        "Ano de arranque",
+        "População servida à data do pedido (e.p.)",
+        "Ano horizonte de projeto",
+        "População servida no ano horizonte de projeto (e.p.)",
+        "Nível de tratamento implementado",
+        "Esquema de tratamento",
+        "Caudal máximo de descarga"
+      ],
+      "rows": [
+        {
+          "Código": "T000004",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Longitude": "-7,081446",
+          "Latitude": "40,662344",
+          "Designação": "ETAR Lamegal",
+          "Ano de arranque": "2001",
+          "População servida à data do pedido (e.p.)": "66",
+          "Ano horizonte de projeto": "2031",
+          "População servida no ano horizonte de projeto (e.p.)": "189",
+          "Nível de tratamento implementado": "Secundário",
+          "Esquema de tratamento": "Leito de Macrófitas",
+          "Caudal máximo de descarga": "60,5 m3/dia"
+        }
+      ]
+    },
+    {
+      "code": "3.7",
+      "title": "Caracterização - Rejeição de águas residuais",
+      "sheet": "Rejeicao Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Designação do ponto de rejeição",
+        "Meio recetor",
+        "Denominação do meio recetor",
+        "Sistema de descarga",
+        "Volume anual descarregado (m3)"
+      ],
+      "rows": [
+        {
+          "Código": "T000015",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Designação do ponto de rejeição": "ETAR do Lamegal",
+          "Meio recetor": "Ribeira",
+          "Denominação do meio recetor": "Ribeira da Pêga",
+          "Sistema de descarga": "Coletor com obra de proteção (boca de lobo)",
+          "Volume anual descarregado (m3)": "22 082"
+        }
+      ]
+    },
+    {
+      "code": "3.8",
+      "title": "Características do Afluente Bruto",
+      "sheet": "Afluente Bruto",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Volume médio mensal (m3)",
+        "CBO5 (mg/L O2)",
+        "CQO (mg/L O2)",
+        "N (mg/L N)",
+        "P (mg/L P)"
+      ],
+      "rows": [
+        {
+          "Código": "T000006",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Volume médio mensal (m3)": "1 348,983",
+          "CBO5 (mg/L O2)": "400",
+          "CQO (mg/L O2)": "800",
+          "N (mg/L N)": "80",
+          "P (mg/L P)": "10"
+        }
+      ]
+    },
+    {
+      "code": "3.11",
+      "title": "Caracterização - Rejeição de águas residuais - Origem das águas residuais",
+      "sheet": "Origem Aguas Residuais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Tipo",
+        "Instalação de Tratamento"
+      ],
+      "rows": [
+        {
+          "Código": "T000005",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Tipo": "Urbanas",
+          "Instalação de Tratamento": "ETAR Lamegal"
+        }
+      ]
+    },
+    {
+      "code": "3.13",
+      "title": "Condições de Rejeição",
+      "sheet": "Condicoes Rejeicao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Parâmetro",
+        "VLE",
+        "Legislação aplicável",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000016",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "VLE": "6-9",
+          "Legislação aplicável": "T000007",
+          "Avaliação da conformidade": "T000010"
+        },
+        {
+          "Código": "T000018",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "VLE": "40",
+          "Legislação aplicável": "T000007",
+          "Avaliação da conformidade": "T000010"
+        },
+        {
+          "Código": "T000020",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "VLE": "150",
+          "Legislação aplicável": "T000007",
+          "Avaliação da conformidade": "T000010"
+        },
+        {
+          "Código": "T000022",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "VLE": "60",
+          "Legislação aplicável": "T000007",
+          "Avaliação da conformidade": "T000010"
+        }
+      ]
+    },
+    {
+      "code": "3.14",
+      "title": "Legislação aplicável",
+      "sheet": "Legislacao",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Legislação aplicável"
+      ],
+      "rows": [
+        {
+          "Código": "T000007",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Legislação aplicável": "Anexo XVIII do Decreto-Lei nº 236/98, de 1 de agosto."
+        }
+      ]
+    },
+    {
+      "code": "3.15",
+      "title": "Avaliação de conformidade",
+      "sheet": "Avaliacao Conformidade",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Avaliação da conformidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000010",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Avaliação da conformidade": "De acordo com o nº6 do artigo 69o do Decreto-Lei nº 236/98, de 1 de Agosto."
+        }
+      ]
+    },
+    {
+      "code": "3.16",
+      "title": "Programa de autocontrolo",
+      "sheet": "Autocontrolo",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Local de amostragem",
+        "Parâmetro",
+        "Frequência de amostragem",
+        "Tipo de amostragem"
+      ],
+      "rows": [
+        {
+          "Código": "T000017",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "pH (Escala de Sörensen)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000019",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000021",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000023",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000024",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Azoto total (mg/L N)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        },
+        {
+          "Código": "T000025",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Local de amostragem": "Saída",
+          "Parâmetro": "Fósforo total (mg/L P)",
+          "Frequência de amostragem": "Trimestral",
+          "Tipo de amostragem": "Pontual"
+        }
+      ]
+    },
+    {
+      "code": "3.19",
+      "title": "Condições Gerais",
+      "sheet": "Condicoes Gerais",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000026",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000027",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A matéria tributável da componente E é determinada com base no programa de autocontrolo a implementar descrito em EXP8.3.16."
+        },
+        {
+          "Código": "T000028",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "As despesas com vistorias extraordinárias inerentes à emissão desta licença, ou as que resultarem de reclamações justificadas, serão suportadas pelo seu titular."
+        },
+        {
+          "Código": "T000029",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000030",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Para efeitos de fiscalização ou inspeção, o titular fica obrigado a facultar, às Entidades Competentes, esta licença, bem como o acesso à área, construções e equipamentos a ela associados e aos registos detalhados do controlo da operação do sistema de tratamento."
+        },
+        {
+          "Código": "T000031",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação."
+        },
+        {
+          "Código": "T000032",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000033",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000034",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular fica sujeito, de acordo com o Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual, ao pagamento da Taxa de Recursos Hídricos (TRH) calculada de acordo com a seguinte fórmula: TRH = E + O, em que E – descarga de efluentes e O – ocupação do domínio público hídrico do Estado, se aplicável."
+        },
+        {
+          "Código": "T000035",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio."
+        },
+        {
+          "Código": "T000036",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a cumprir o disposto na presente licença, em todas as leis e regulamentos vigentes, na parte em que lhe for aplicável, bem como outras normas ou regulamentos que venham a ser posteriormente aprovados e a entrar em vigor, quer as suas disposições se harmonizem ou não com os direitos e obrigações que à presente licença sejam aplicáveis."
+        },
+        {
+          "Código": "T000037",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Sem prejuízo das sanções aplicáveis, sempre que o registo atualizado dos valores do autocontrolo, referido em T000027, não seja reportado com a frequência trimestral ou até ao dia quinze (15) de janeiro do ano seguinte ao que diz respeito a taxa de recursos hídricos, a componente E será calculada tendo por base as características do efluente bruto estabelecidas no projeto de execução da ETAR ou incluídas na presente licença."
+        },
+        {
+          "Código": "T000038",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O pagamento da taxa de recursos hídricos devida é efetuado no ano seguinte àquele a que a taxa respeite até ao termo disposto na Nota de Liquidação respetiva e deve ser feito de acordo com o previsto no número 4 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000039",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A falta de pagamento atempado fica sujeito a juros de mora à taxa legal em vigor, conforme dispõe o número 5 do artigo 16.º do Decreto-Lei n.º 97/2008, de 11 de junho, na sua redação atual."
+        },
+        {
+          "Código": "T000040",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A rejeição de águas residuais será exclusivamente realizada no local e nas condições indicadas nesta licença, não estando autorizadas quaisquer outras descargas de efluentes, e não podendo o objeto da presente licença ser alterado sem prévia autorização da Entidade Licenciadora."
+        },
+        {
+          "Código": "T000041",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+        },
+        {
+          "Código": "T000042",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável."
+        }
+      ]
+    },
+    {
+      "code": "3.20",
+      "title": "Condições Específicas",
+      "sheet": "Condicoes Especificas",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000043",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto."
+        },
+        {
+          "Código": "T000044",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Impende sobre o titular desta licença a responsabilidade de verificar o cumprimento das normas constantes na autorização de descarga mencionada em T000053."
+        },
+        {
+          "Código": "T000045",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local."
+        },
+        {
+          "Código": "T000046",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a manter o sistema de tratamento adotado em bom estado de funcionamento e conservação."
+        },
+        {
+          "Código": "T000047",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000048",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a implementar o programa de autocontrolo descrito em EXP8.3.16 e a reportar à Entidade Licenciadora os resultados obtidos, através da plataforma SILiAmb, com a frequência trimestral."
+        },
+        {
+          "Código": "T000049",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Sempre que forem autorizadas descargas de águas residuais de indústrias localizadas fora da malha urbana, a autorização de descarga, prevista em T000057, fica sujeita à aprovação da Entidade Licenciadora."
+        },
+        {
+          "Código": "T000050",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular da licença deve respeitar as condições de rejeição indicadas em EXP8.3.13, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com T000010."
+        },
+        {
+          "Código": "T000051",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Sempre que se verifique a necessidade de proceder a uma rejeição de emergência da(s) Estação(ões) Elevatória(s), o titular deverá de imediato tomar todas as medidas com vista a minimizar os efeitos daí decorrentes e comunicar a ocorrência à Entidade Licenciadora num prazo máximo de 24 horas seguintes à mesma."
+        },
+        {
+          "Código": "T000052",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Como medida preventiva e minimizadora das consequências inerentes a uma rejeição de emergência no domínio hídrico, o titular deverá diligenciar no sentido de dotar a(s) Estação(ões) Elevatória(s) de um gerador de emergência."
+        },
+        {
+          "Código": "T000053",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A ligação, às redes de drenagem da ETAR geridas pelo titular desta licença, das águas residuais de atividades económicas ou serviços localizados dentro da malha urbana ou diretamente na ETAR que produzam ou utilizem substâncias classificadas como poluentes específicos e/ou substâncias prioritárias/perigosas prioritárias para os meios aquáticos ou que sejam suscetíveis de comprometer o cumprimento das condições impostas nesta licença, nos termos do regulamento previsto no artigo 9º, do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, e 149/2004, de 22 de junho e 198/2008, de 8 de outubro, deve ser encarada com precaução, não podendo, em quaisquer circunstâncias, comprometer o cumprimento das condições impostas nesta licença."
+        },
+        {
+          "Código": "T000054",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras compostas num dado período temporal, inferior a 24 horas, em função do caudal. Caso o sistema não disponha de medidor de caudal com registo automático, será utilizado o caudal máximo previsto no título para efeitos de avaliação da respetiva conformidade das amostras."
+        },
+        {
+          "Código": "T000055",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem."
+        },
+        {
+          "Código": "T000056",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Qualquer alteração no funcionamento do sistema de produção e/ou de tratamento, mesmo que não prejudique as condições impostas nesta licença, deve ser comunicada à Entidade Licenciadora no prazo máximo de cinco dias."
+        },
+        {
+          "Código": "T000057",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Qualquer descarga de águas residuais urbanas e/ou industriais, bem como de outras atividades económicas ou serviços, nas redes de drenagem ou diretamente na ETAR, só poderá ocorrer mediante autorização do titular da presente licença e ficará sujeita às disposições constantes dessa autorização não podendo, em qualquer caso, comprometer o cumprimento das condições impostas nesta licença. Qualquer nova situação desta natureza deverá ser comunicada à Entidade Licenciadora."
+        },
+        {
+          "Código": "T000058",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A descarga das águas residuais na água não deve provocar alteração da sua qualidade, nem colocar em risco os seus usos, sendo efetuada de modo a não prejudicar o escoamento natural da corrente e a não contribuir para o aumento dos riscos de erosão no local, ficando o titular responsável pela tomada das medidas consideradas necessárias para a correção das situações que possam ocorrer."
+        },
+        {
+          "Código": "T000059",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes."
+        },
+        {
+          "Código": "T000060",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular assume a responsabilidade pela eficiência e eficácia dos processos de tratamento e dos procedimentos a adotar com vista a minimizar os efeitos decorrentes da rejeição de águas residuais e a cumprir os objetivos de qualidade definidos para a massa de água recetora."
+        }
+      ]
+    },
+    {
+      "code": "3.21",
+      "title": "Outras Condições",
+      "sheet": "Outras Condicoes",
+      "columns": [
+        "Código",
+        "Código TURH",
+        "Condição"
+      ],
+      "rows": [
+        {
+          "Código": "T000061",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "É dispensada a apresentação de apólice de seguro ou prestada uma caução para recuperação ambiental nos termos do disposto no art.º 22º, n.º 226-A/2007, de 31 de maio com as alterações introduzidas pelo Decreto-Lei n.º 82/2010, de 2 de julho."
+        },
+        {
+          "Código": "T000062",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 1 250 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários)."
+        },
+        {
+          "Código": "T000063",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "A monitorização dos parâmetros Azoto total e Fósforo total é para efeitos do cálculo da TRH nos termos do Decreto-Lei n.º 97/2008 de 11 de junho."
+        },
+        {
+          "Código": "T000064",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "As determinações analíticas conducentes à verificação do cumprimento do programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho, e das suas sucessivas atualizações. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise."
+        },
+        {
+          "Código": "T000065",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "Para efeitos de fiscalização ou inspeção podem ser recolhidas amostras pontuais. Para avaliação da respetiva conformidade as amostras pontuais podem exceder em 50% os valores limites de emissão (VLE) definidos no TURH, com exceção do parâmetro pH."
+        },
+        {
+          "Código": "T000066",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O titular obriga-se a manter a área envolvente à descarga em boas condições de funcionamento hidráulico, pelo que está autorizado a proceder a medidas de conservação, manutenção e reabilitação em domínio hídrico público, nomeadamente à limpeza e remoção dos sedimentos depositados no leito da linha de água, bem como ao corte e remoção de matéria vegetal de natureza infestante que se desenvolva no leito e nas margens, por exemplo: maciços de silvas (Rubus ulmifolius) e de canas (Arundo donax)."
+        },
+        {
+          "Código": "T000067",
+          "Código TURH": "L011919.2018.RH3.V1",
+          "Condição": "O presente título renova a licença de utilização dos recursos hídricos n.º L011919.2018.RH3, válida até 27/09/2023."
+        }
+      ]
+    },
+    {
+      "code": "OCom1",
+      "title": "Comunicações a efetuar à Administração",
+      "sheet": "Obrigacoes Comunicacao",
+      "columns": [
+        "Código",
+        "Tipo de informação/Parâmetros",
+        "Formato de reporte",
+        "Periodicidade de comunicação",
+        "Data de reporte",
+        "Entidade"
+      ],
+      "rows": [
+        {
+          "Código": "T000068",
+          "Tipo de informação/Parâmetros": "Autocontrolo qualitativo / pH CBO5 CQO SST Nt Pt",
+          "Formato de reporte": "Plataforma SILiAmb",
+          "Periodicidade de comunicação": "Trimestral",
+          "Data de reporte": "Até ao último dia do mês seguinte ao trimestre a que dizem respeito.",
+          "Entidade": "ARH do Norte"
+        },
+        {
+          "Código": "T000069",
+          "Tipo de informação/Parâmetros": "Autocontrolo quantitativo / Volumes mensais descarregados (m3/mês)",
+          "Formato de reporte": "Plataforma SILiAmb",
+          "Periodicidade de comunicação": "Trimestral",
+          "Data de reporte": "Até ao último dia do mês seguinte ao trimestre a que dizem respeito.",
+          "Entidade": "ARH do Norte"
+        }
+      ]
+    }
+  ],
+  "_warnings": []
+}

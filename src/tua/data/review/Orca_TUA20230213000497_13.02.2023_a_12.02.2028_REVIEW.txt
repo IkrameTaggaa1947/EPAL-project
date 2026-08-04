@@ -1,0 +1,7 @@
+Orca_TUA20230213000497_13.02.2023_a_12.02.2028.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 31-01-2023 does not match filename 13-02-2023
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

@@ -1,0 +1,216 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 7.9448796796251377,
+        "y": 38.400253047659447
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2390.2362472300983,
+            "y": 18.57256813798675
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "aa6ad3f0-6bf8-4223-a7d5-143af7c8d3c7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 389.61549995910434,
+            "y": 798.15227060678171
+          },
+          "nodeIndex": "Dim_Estado",
+          "nodeLineageTag": "7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d01",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 1317.9027070023894,
+            "y": 281.3226136745829
+          },
+          "nodeIndex": "Conditions",
+          "nodeLineageTag": "9cbee918-44ad-4fa9-a63f-bca5b53e1bae",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 416.10350006990376,
+            "y": 31.376354725429962
+          },
+          "nodeIndex": "Autocontrolo",
+          "nodeLineageTag": "1537016b-d2b0-4883-bd1e-513f0f2fa8c5",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 816.90101848387,
+            "y": 30.800297344188472
+          },
+          "nodeIndex": "Avaliacao",
+          "nodeLineageTag": "ed49317b-f8a8-463d-86aa-3e34a1dec676",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 193.09759157011024,
+            "y": 373.25517549434721
+          },
+          "nodeIndex": "Catalogo_Criterios",
+          "nodeLineageTag": "3259f30d-d972-46dd-9e6a-6a2c4cd9391d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 517.71772913858081,
+            "y": 451.14705584423507
+          },
+          "nodeIndex": "Licencas_Criterios",
+          "nodeLineageTag": "2f0d1985-27ba-461d-9684-4c4db5571217",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 968.8751917202452,
+            "y": 777.21447016826573
+          },
+          "nodeIndex": "Condicoes_Prioritarias",
+          "nodeLineageTag": "c0f1a2b3-11d2-4e3f-9a01-aa0001000000",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1722.1358852046612,
+            "y": 0
+          },
+          "nodeIndex": "Renovacao",
+          "nodeLineageTag": "e2f3a4b5-33d4-4e6f-9c03-cc0003000000",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 2481.1386556599882,
+            "y": 338.60723508413287
+          },
+          "nodeIndex": "Comunicacoes",
+          "nodeLineageTag": "3f7a9c50-8000-4c00-9f00-220040000000",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2765.1386556599882,
+            "y": 388.60723508413287
+          },
+          "nodeIndex": "Dim_Avaliacao",
+          "nodeLineageTag": "8a2b1c30-2000-4d00-8a00-cc0022000000",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3049.1386556599882,
+            "y": 376.60723508413287
+          },
+          "nodeIndex": "Dim_Parametro",
+          "nodeLineageTag": "6e4f8b20-6000-4a00-8e00-ee0030000000",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3333.1386556599882,
+            "y": 400.60723508413287
+          },
+          "nodeIndex": "Rejeicao",
+          "nodeLineageTag": "5c9e0a40-1000-4b00-9e00-bb0011000000",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3617.1386556599882,
+            "y": 338.60723508413287
+          },
+          "nodeIndex": "TabelaCentroide_ETAR",
+          "nodeLineageTag": "6f19ffe5-63da-4b48-a1e7-f96ab7e31572",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 873.1434668090053,
+            "y": 343.05904061336594
+          },
+          "nodeIndex": "Licences",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 50.346892102823283,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

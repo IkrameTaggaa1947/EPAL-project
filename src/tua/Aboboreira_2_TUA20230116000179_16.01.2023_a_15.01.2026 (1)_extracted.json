@@ -1,0 +1,173 @@
+{
+  "file_name": "Aboboreira_2_TUA20230116000179_16.01.2023_a_15.01.2026 (1).pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20230116000179",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Aboboreira 2",
+    "Localização": "Rua do Porto Carro"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20221122010275",
+    "Data de Emissão": "16-01-2023",
+    "Data de Entrada em Vigor": "16-01-2023",
+    "Data de Validade": "15-01-2026",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Tejo e Oeste"
+  },
+  "localizacao": {
+    "Código": "T000003",
+    "Código TURH": "L025479.2023.RH5A.V1",
+    "Longitude": "-8,053333",
+    "Latitude": "39,58421",
+    "Massa de Água": "PT05TEJ0948 :: Ribeira das Boas Eiras",
+    "Classificação da Massa de Água": "Bom"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Aboboreira 2",
+    "Ano de arranque": "1992",
+    "População servida à data": "28",
+    "Ano horizonte de projeto": "2022",
+    "População servida no horizonte": "28",
+    "Nível de tratamento": "Primário",
+    "Esquema de tratamento": "Fossa Sética",
+    "Caudal máximo de descarga": "3,3 m3/dia"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000008",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6 a 9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "a",
+      "Avaliação da conformidade (texto)": "1"
+    },
+    {
+      "Código": "T000010",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "a",
+      "Avaliação da conformidade (texto)": "1"
+    },
+    {
+      "Código": "T000012",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "a",
+      "Avaliação da conformidade (texto)": "1"
+    },
+    {
+      "Código": "T000014",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "a",
+      "Avaliação da conformidade (texto)": "1"
+    },
+    {
+      "Código": "T000016",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "15",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "a",
+      "Avaliação da conformidade (texto)": "1"
+    }
+  ],
+  "legislacao": {},
+  "avaliacao_conformidade": {},
+  "autocontrolo": [
+    {
+      "Código": "T000009",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000011",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000013",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000015",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000017",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Pontual",
+      "Observações": ""
+    },
+    {
+      "Código": "T000018",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000019",
+      "Código TURH": "L025479.2023.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (i)",
+      "Observações": ""
+    }
+  ],
+  "_warnings": [
+    "Código APA not found"
+  ]
+}

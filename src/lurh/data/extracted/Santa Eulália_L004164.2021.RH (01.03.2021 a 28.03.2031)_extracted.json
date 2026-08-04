@@ -1,0 +1,211 @@
+{
+  "file_name": "Santa Eulália_L004164.2021.RH (01.03.2021 a 28.03.2031).pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.022231.2020.RH7",
+    "Nº Licença": "L004164.2021.RH7",
+    "Data de Início": "01-03-2021",
+    "Data de Validade": "28-02-2031",
+    "Código APA": "APA00395003",
+    "País": "Portugal",
+    "NIF": "513606130",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "Idioma": "Português",
+    "Morada": "Rua Dr. Francisco Pissarra de Matos, nº 21, R/C",
+    "Localidade": "GUARDA",
+    "Código Postal": "6300-906",
+    "Concelho": "Guarda",
+    "Telefones": "271225317",
+    "Obrigação de correcção de Dados de Perfil": "Não"
+  },
+  "tratamento": {
+    "Designação": "ETAR de Santa Eulália",
+    "Nível de tratamento": "Secundário",
+    "Tipo de tratamento": "Lagoas de estabilização",
+    "Caudal Médio descarga": "288.00 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alto Alentejo / Elvas / Santa Eulália",
+    "Longitude": "-7.240980",
+    "Latitude": "39.008330",
+    "Ano de arranque": "2005",
+    "População servida (e.p.)": "1500",
+    "Ano horizonte de projeto": "2031",
+    "População servida no horizonte": "1500"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume Médio mensal 8760.0 (m3) CBO5 313.0 (mg/L O2) CQO 781.0 (mg/L O2) N 52.0 (mg/L N) P 14.0 (mg/L P)",
+    "Designação da rejeição": "ETAR de Santa Eulália",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "esquerda",
+    "Denominação do meio recetor": "Ribeira do Torrão",
+    "Sistema de Descarga": "Coletor com obra de proteção (boca de lobo)",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alto Alentejo / Elvas / Santa Eulália",
+    "Longitude": "-7.239580",
+    "Latitude": "39.008990",
+    "Região Hidrográfica": "Guadiana",
+    "Bacia Hidrográfica": "Caia",
+    "Sub-Bacia Hidrográfica": "PT07GUA1421 :: Ribeira do Torrão",
+    "Tipo de massa de água": "RIO",
+    "Massa de água": "PT07GUA1421 :: Ribeira do Torrão",
+    "Classificação da massa de água": "Bom",
+    "Volume mensal afluente (m3)": "8760.0",
+    "Volume mensal afluente (tipo)": "Médio",
+    "Afluente CBO5 (mg/L)": "313.0",
+    "Afluente CQO (mg/L)": "781.0",
+    "Afluente N (mg/L)": "52.0",
+    "Afluente P (mg/L)": "14.0"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo.",
+      "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação.",
+      "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo utilizador.",
+      "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+    ],
+    "Específicas": [
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a enviar e a manter um dossier organizado contendo as Fichas de Dados de Segurança de todas as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa, devendo, quando existem alterações ou a introdução de novas substâncias enviar, semestralmente, à Entidade Licenciadora a respetiva atualização.",
+      "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem.",
+      "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras compostas num dado período temporal, inferior a 24 horas, em função do caudal. Caso o sistema não disponha de medidor de caudal com registo automático, será utilizado o caudal máximo previsto no título para efeitos de avaliação da respetiva conformidade das amostras.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "A ETAR deverá estar executada de acordo com o projeto de execução e com o projeto de reabilitação, arquivados na entidade licenciadora datados de 1978 e 2002.",
+      "A ETAR destina-se ao tratamento das águas residuais da povoação de Santa Eulália com 1500 habitantes-equivalentes e um caudal médio de descarga de 288,00 m3/dia.",
+      "O titular obriga-se a enviar à Entidade Licenciadora o registo dos caudais médios diários e dos caudais médios mensais relativos ao efluente rejeitado.",
+      "Deverão ser garantidas assistência e manutenção adequadas ao sistema de tratamento de águas residuais urbanas, por forma a salvaguardar o seu normal funcionamento e a qualidade do efluente final.",
+      "O titular da licença deve assegurar a proteção da área de implantação da ETAR, verificando regularmente o estado de conservação da vedação do recinto.",
+      "O titular da licença deve assegurar condições adequadas de impermeabilização das lagoas de estabilização, de modo a garantir a manutenção da qualidade das águas superficiais e subterrâneas e a minimizar os riscos de contaminação do solo e dos recursos hídricos.",
+      "O titular da licença, sempre que necessário, deve proceder ao corte da vegetação que se desenvolver em redor das lagoas de estabilização (coroamentos e taludes) e à posterior remoção de todo o material depositado para um destino final adequado.",
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 6250 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49.º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt - Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários)."
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "",
+      "Avaliação da conformidade (texto)": "De acordo com o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas) para os parâmetros pH, CBO5 e CQO. Para o parâmetro Óleos e Gorduras o número máximo anual de amostras que podem não ser conformes não pode exceder 1 (uma)."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "150",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "",
+      "Avaliação da conformidade (texto)": "De acordo com o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas) para os parâmetros pH, CBO5 e CQO. Para o parâmetro Óleos e Gorduras o número máximo anual de amostras que podem não ser conformes não pode exceder 1 (uma)."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "40",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "",
+      "Avaliação da conformidade (texto)": "De acordo com o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas) para os parâmetros pH, CBO5 e CQO. Para o parâmetro Óleos e Gorduras o número máximo anual de amostras que podem não ser conformes não pode exceder 1 (uma)."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6,0 - 9,0",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "",
+      "Avaliação da conformidade (texto)": "De acordo com o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas) para os parâmetros pH, CBO5 e CQO. Para o parâmetro Óleos e Gorduras o número máximo anual de amostras que podem não ser conformes não pode exceder 1 (uma)."
+    }
+  ],
+  "condicoes_observacoes": {},
+  "legislacao": {},
+  "avaliacao_conformidade": {},
+  "avaliacao_texto": "De acordo com o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas) para os parâmetros pH, CBO5 e CQO. Para o parâmetro Óleos e Gorduras o número máximo anual de amostras que podem não ser conformes não pode exceder 1 (uma).",
+  "monitorizacao": {},
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise.",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade mensal.",
+    "Equipamento de controlo": "Caudalímetro para medição do caudal e caixa de visita para recolha de amostras.",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração..",
+    "rows": [
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto total (mg/L N)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Fósforo total (mg/L P)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Óleos e Gorduras (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Caudal (m3/mês)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Escherichia coli (ufc/100 mL)",
+        "Método analítico": "Anexo I do Decreto-Lei n.º 135/2009, de 3 de junho.",
+        "Frequência de amostragem": "Trimestral",
+        "Tipo de amostragem": "Pontual"
+      }
+    ]
+  },
+  "entidade": {
+    "Entidade Licenciadora": "APA — ARH Alentejo",
+    "Assinado por": "André Matoso"
+  },
+  "_warnings": []
+}

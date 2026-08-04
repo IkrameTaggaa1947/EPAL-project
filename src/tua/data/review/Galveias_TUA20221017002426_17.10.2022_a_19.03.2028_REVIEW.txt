@@ -1,0 +1,7 @@
+Galveias_TUA20221017002426_17.10.2022_a_19.03.2028.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 19-03-2023 does not match filename 17-10-2022
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

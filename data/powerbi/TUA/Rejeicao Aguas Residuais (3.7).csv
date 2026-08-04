@@ -1,0 +1,130 @@
+﻿Nº TUA,Código,Código TURH,Designação do ponto de rejeição,Meio recetor,Denominação do meio recetor,Sistema de descarga,Volume anual descarregado (m3),Código Utilização
+TUA20220411000574,T000076,L006681.2022.RH5A,ETAR Pedrógão Pequeno,Ribeira,Linha de água,Coletor com obra de proteção (boca de lobo),9 855,
+TUA20220420000646,T000079,L006976.2022.RH5A,ETAR Presa,Ribeira,"Ribeira de Sarnadas, afluente da Ribeira de Arcês",Coletor com obra de proteção (boca de lobo),28 287,
+TUA20220511000842,T000005,L008397.2022.RH5A,ETAR Caria,Ribeira,Ribeira de Caria,Coletor com obra de proteção (boca de lobo),125 925,
+TUA20220511000844,T000004,L007123.2022.RH5A,ETAR Chança,Ribeira,"Ribeira das Quintas, Afluente da Ribeira de Seda",Coletor com obra de proteção (boca de lobo),43 800,
+TUA20220511000845,T000005,L006972.2022.RH5A,ETAR Belver,Ribeira,Ribeira de Belver,Coletor com obra de proteção (boca de lobo),27 375,
+TUA20220718001522,T000082,L012980.2022.RH5A,ETAR Dornes,Ribeiro,Linha de água afluente à Albufeira de Castelo de Bode,Coletor com obra de proteção (boca de lobo),27 740,
+TUA20220720001537,T000005,L013050.2022.RH5A,ETAR Pombeira,Ribeiro,Linha de água afluente à Albufeira de Castelo de Bode,Coletor sem obra de proteção,28 105,
+TUA20220720001538,T000005,L012836.2022.RH5A,ETAR Castanheira,Ribeira,Linha de água afluente à Albufeira de Castelo de Bode,Coletor com obra de proteção (boca de lobo),35 405,
+TUA20220919002148,T000005,L016764.2022.RH5A,ETAR Bemposta,Ribeiro,Ribeiro das Taliscas,Coletor com obra de proteção (boca de lobo),10 950,
+TUA20220922002189,T000005,L002661.2018.RH3,ETAR Poço do Canto,Ribeira,Ribeira do Muninho,Coletor com obra de proteção (boca de lobo),"14 709,5",
+TUA20220922002190,T000004,L002662.2018.RH3,ETAR Freixedas,Ribeira,Afluente da Ribeira das Gouveias,Coletor com obra de proteção (boca de lobo),62 050,
+TUA20220927002236,T000005,L003469.2017.RH3,ETAR Alverca da Beira,Ribeira,Afluente à Ribeira de Alverca,Coletor com obra de proteção (boca de lobo),66 795,
+TUA20220930002259,T000005,L002663.2018.RH3,ETAR Pínzio,Ribeira,Afluente Ribeira de Pínzio,Coletor com obra de proteção (boca de lobo),"93 987,5",
+TUA20221010002354,T000004,L017862.2017.RH5A,ETAR Cunheira,Ribeiro,Ribeiro de Carvalho,Coletor com obra de proteção (boca de lobo),59 940,
+TUA20221010002355,T000004,L017689.2017.RH5A,ETAR Comenda,Ribeira,Afluente da Ribeira de Sôr,Coletor com obra de proteção (boca de lobo),1 138 800,
+TUA20221010002356,T000004,L017985.2022.RH5A,ETAR Fonte da Vila - Bacia B,Ribeiro,Ribeiro da Fonte,Coletor com obra de proteção (boca de lobo),68 328,
+TUA20221010002358,T000005,L017897.2017.RH5A,ETAR Montargil,Ribeira,Ribeira do Sor,Coletor com obra de proteção (boca de lobo),90 520,
+TUA20221010002359,T000005,L016800.2022.RH5A,ETAR Figueira e Barros,Ribeira,Afluente da Ribeira da Fonte,Coletor com obra de proteção (boca de lobo),27 450,
+TUA20221017002426,T000005,L018800.2022.RH5A,ETAR Galveias,Ribeiro,Afluente do Ribeiro do Salgueiro,Coletor com obra de proteção (boca de lobo),102 565,
+TUA20221017002427,T000004,L017875.2017.RH5A,ETAR Longomel,Ribeira,Afluente da Ribeira de Longomel,Coletor com obra de proteção (boca de lobo),71 540,
+TUA20230116000179,T000005,L025479.2023.RH5A.V1,ETAR Aboboreira 2,Ribeira,Ribeira da Carregueira,Coletor sem obra de proteção,1 203,
+TUA20230116000180,T000005,L025473.2023.RH5A.V1,ETAR Aboboreira I,Ribeira,Ribeira da Carregueira,Coletor sem obra de proteção,1 203,
+TUA20230117000197,T000018,L001739.2013.RH5-T1.V1,ETAR Bogas do Meio,Ribeira,Ribeira de Bogas,Coletor com obra de proteção (boca de lobo),23 360,
+TUA20230125000254,T000005,L009134.2018.RH3.V1,ETAR Almeida,Ribeiro,Afluente do Rio Côa,Coletor com obra de proteção (boca de lobo),"133 930,67",
+TUA20230125000271,T000018,L009128.2018.RH3.V1,ETAR Casteição,Ribeira,Afluente Ribeira das Águas Vivas,Coletor com obra de proteção (boca de lobo),"6 217,16",
+TUA20230125000272,T000004,L009112.2018.RH3.V1,ETAR Aveloso,Ribeira,Ribeira da Teja,Coletor com obra de proteção (boca de lobo),18 250,
+TUA20230130000331,T000004,L026674.2023.RH5A.V1,ETAR Envendos 2,Ribeira,Ribeira do Porto dos Peixes,Coletor sem obra de proteção,863,
+TUA20230130000332,T000004,L026655.2023.RH5A.V1,ETAR Envendos 1,Ribeira,Ribeira de Alpalhão,Coletor sem obra de proteção,3 451,
+TUA20230130000333,T000004,L026342.2023.RH5A.V1,ETAR Penhascoso 2,Ribeira,Ribeiro Afluente da Ribeira das Boas Eiras,Coletor sem obra de proteção,2 356,
+TUA20230130000335,T000005,L026309.2023.RH5A.V1,ETAR Penhascoso 1,Ribeira,Ribeira Afluente da Ribeira das Boas Eiras,Coletor sem obra de proteção,2 356,
+TUA20230130000336,T000005,L026283.2023.RH5A.V1,ETAR Andreus,Ribeira,Afluente da Ribeira de Andreus,Coletor sem obra de proteção,17 340,
+TUA20230202000373,T000004,L009125.2018.RH3.V1,ETAR Mêda,Ribeira,Ribeira Centieira,Coletor com obra de proteção (boca de lobo),"212 016,33",
+TUA20230202000374,T000004,L009126.2018.RH3.V1,ETAR Marialva,Ribeira,Ribeira de Marialva,Coletor com obra de proteção (boca de lobo),"16 546,66",
+TUA20230202000375,T000004,L009113.2018.RH3.V1,ETAR Fonte Longa,Ribeira,Ribeira da Teixeira,Coletor com obra de proteção (boca de lobo),"13 164,33",
+TUA20230202000376,T000010,L009132.2018.RH3.V1,ETAR Escalhão,Ribeira,Linha de água afluente à Ribeira de Aguiar,Coletor com obra de proteção (boca de lobo),"64 799,67",
+TUA20230202000377,T000004,L009127.2018.RH3.V1,ETAR Coriscada,Ribeira,Ribeira da Coriscada,Coletor com obra de proteção (boca de lobo),"19 576,16",
+TUA20230202000378,T000005,L009139.2018.RH3.V1,ETAR Amoreira,Ribeira,Linha de água afluente à Ribeira de Penalva,Coletor com obra de proteção (boca de lobo),"11 351,5",
+TUA20230208000443,T000004,L026778.2023.RH3.V1,ETAR Cinco Vilas,Ribeira,Linha de água afluente à Ribeira da Fonte da Pedra,Coletor com obra de proteção (boca de lobo),"7 920,5",
+TUA20230213000471,T000004,L004520.2018.RH3.V1,ETAR Chãos,Ribeira,Linha de água afluente à Ribeira da Teja,Coletor com obra de proteção (boca de lobo),"4 477,33",
+TUA20230213000497,T000005,L001767.2013.RH5-T1.V1,ETAR Orca,Ribeira,Ribeira da Orca,Coletor com obra de proteção (boca de lobo),69 350,
+TUA20230216000512,T000004,L010055.2018.RH3.V1,ETAR Junça,Ribeira,Linha de água afluente do Rio Côa,Coletor sem obra de proteção,"10 694,5",
+TUA20230216000513,T000004,L004518.2018.RH3.V1,ETAR Gouveias Pomares,Ribeira,Ribeira de Pêga,Coletor com obra de proteção (boca de lobo),52 706,
+TUA20230220000545,T000004,L004518.2018.RH3.V2,ETAR Azevo,Ribeira,Afluente Ribeira do Porquinho,Coletor com obra de proteção (boca de lobo),18 250,
+TUA20230228000613,T000005,L001772.2020.RH5A.V1,ETAR Alcains,Ribeira,Ribeira da Líria,Coletor com obra de proteção (boca de lobo),43 404,
+TUA20230228000614,T000018,L007117.2022.RH5A.V1,ETAR Atalaia do Capmo,Ribeira,Ribeira de Alpeadra,Coletor com obra de proteção (boca de lobo),"325 762,5",
+TUA20230328000995,T000015,L009129.2018.RH3.V1,ETAR de Alcarva,Rio,Rio Torto,Coletor com obra de proteção (boca de lobo),8 322,
+TUA20230328000996,T000015,L009136.2018.RH3.V1,ETAR de Algodres,Ribeira,Ribeirinha,Coletor com obra de proteção (boca de lobo),48 687,
+TUA20230421001258,T000015,L010060.2018.RH3.V1,ETAR de Freineda,Ribeira,Linha de água afluente ao rio Côa,Coletor com obra de proteção (boca de lobo),29 016,
+TUA20230421001259,T000014,L010061.2018.RH3.V1,ETAR de Azinhal,Ribeira,Ribeira de Valverde,Coletor com obra de proteção (boca de lobo),4 417,
+TUA20230421001260,T000015,L011919.2018.RH3.V1,ETAR do Lamegal,Ribeira,Ribeira da Pêga,Coletor com obra de proteção (boca de lobo),22 082,
+TUA20230421001263,T000015,L010047.2018.RH3.V1,ETAR de Avelãs da Ribeira,Ribeira,Ribeira de Massueime,Coletor com obra de proteção (boca de lobo),16 790,
+TUA20230423001281,T000015,L004998.2016.RH7.V1,ETAR de Arronches,Rio,Rio Caia,Coletor com obra de proteção (boca de lobo),187 975,
+TUA20230510001393,T000006,L008277.2018.RH5A.V1,ETAR de Gavião,Ribeira,Ribeira da Salgueira,Coletor com obra de proteção (boca de lobo),,
+TUA20230510001399,T000015,L033073.2023.RH3.V1,ETAR de Malhada Sorda,Ribeiro,Linha de água afluente da ribeira de Fonte Barroco,Coletor com obra de proteção (boca de lobo),58 034,
+TUA20230602001636,T000015,L034412.2023.RH3.V1,ETAR de Pousade - Casal de Cinza,Ribeiro,Ribeiro de Criado,Coletor com obra de proteção (boca de lobo),77 048,
+TUA20230602001637,T000015,L034331.2023.RH3.V1,ETAR de Ima,Ribeira,Ribeira de Ima,Coletor com obra de proteção (boca de lobo),12 702,
+TUA20230707002024,T000015,L034219.2023.RH5A.V1,ETAR Cernache de Bonjardim,,Ribeira dos Currais,,151 840,
+TUA20230717002123,T000004,L010057.2018.RH3.V1,ETAR Avelãs de Ambom,Ribeiro,Linha de água afluente à ribeira de Massueime,Coletor com obra de proteção (boca de lobo),"6 752,5",
+TUA20230717002153,T000005,L037792.2023.RH5A.V1,ETAR Calvos,Ribeira,Ribeira da Moita,Coletor com obra de proteção (boca de lobo),136 510,
+TUA20230801002309,T000004,L034885.2023.RH4A.V1,ETAR Carragosela,Ribeiro,Ribeiro do Esporão,Coletor com obra de proteção (boca de lobo),"47 851,5",
+TUA20230808002363,T000005,L037599.2023.RH5A.V1,ETAR de Alvaiázere,Ribeira,Ribeira das Laranjeiras,Coletor com obra de proteção (boca de lobo),120 815,
+TUA20230816002415,T000004,L010038.2018.RH3.V1,ETAR Monte Margarida,Ribeiro,Ribeiro do Homem,Coletor com obra de proteção (boca de lobo),17 082,
+TUA20230824002503,T000004,L000819.2019.RH3.V1,ETAR Aldeia da Ponte,Rio,Rio Cesarão,Coletor com obra de proteção (boca de lobo),49 275,
+TUA20230831002551,T000004,L000813.2019.RH3.V1,ETAR Pousafoles do Bispo,Ribeira,Ribeira Fonte do Salgueiro,Coletor com obra de proteção (boca de lobo),"14 855,5",
+TUA20230905002577,T000004,L000814.2019.RH3.V1,ETAR Foios,Rio,Rio Côa,Coletor com obra de proteção (boca de lobo),"30 550,5",
+TUA20230905002578,T000004,L000818.2019.RH3.V1,ETAR Bismula,Ribeira,Ribeira de Alfaiates,Coletor com obra de proteção (boca de lobo),51 319,
+TUA20230905002579,T000004,L000816.2019.RH3.V1,ETAR Aldeia Velha Lageosa,Ribeira,Ribeira da Nave,Coletor sem obra de proteção,"115 150,2",
+TUA20230912002642,T000005,L000805.2019.RH3.V1,ETAR Pêga,Ribeira,Linha de água afluente da Ribeira do Freixal,Coletor com obra de proteção (boca de lobo),40 515,
+TUA20230912002643,T000005,L000810.2019.RH3.V1,ETAR Freixeda do Torrão,Ribeira,Linha de água afluente da Ribeira Deveza,Coletor com obra de proteção (boca de lobo),"20 859,75",
+TUA20230915002702,T000004,L000820.2019.RH3.V1,ETAR Nave,Ribeira,Ribeira da Nave,Coletor sem obra de proteção,27 229,
+TUA20230918002712,T000004,L000815.2019.RH3.V1,ETAR Forcalhos,Ribeira,Ribeira de Forcalhos,Coletor com obra de proteção (boca de lobo),"24 710,5",
+TUA20231010002912,T000004,L001021.2019.RH3.V1,ETAR Cerejo,Ribeira,Ribeira do Cereja,Coletor com obra de proteção (boca de lobo),15 768,
+TUA20231010002913,T000004,L000817.2019.RH3.V1,ETAR Outeiro de Gatos,Ribeira,Linha de água afluente da Ribeira da Teja,Coletor com obra de proteção (boca de lobo),50 516,
+TUA20231012002959,T000004,L001020.2019.RH3.V1,ETAR Alvendre,Ribeira,Linha de água afluente da Ribeira de Massueime,Coletor com obra de proteção (boca de lobo),2 340,
+TUA20231018003040,T000018,L009317.2013.RH5-T1.V1,ETAR Monforte da Beira,Ribeira,Ribeira da Fonte Nova,Coletor com obra de proteção (boca de lobo),116 344,
+TUA20231109003280,T000004,L005585.2019.RH3.V1,ETAR Amiais,Ribeiro,Linha de água afluente do Rio Côa,Coletor com obra de proteção (boca de lobo),"46 774,75",
+TUA20231128003520,T000004,L007490.2019.RH3,ETAR Espinhal,Ribeira,Linha de água afluente da Ribeira de Paiã,Coletor com obra de proteção (boca de lobo),25 185,
+TUA20231128003521,T000004,L007487.2019.RH3,ETAR Barreira,Ribeira,Ribeira da Barreira,Coletor sem obra de proteção,"12 501,25",
+TUA20231205003587,T000004,L007491.2019.RH3.V1,ETAR Naves,Ribeiro,Linha de água afluente do Rio Côa,Coletor sem obra de proteção,"8 139,5",
+TUA20231206003600,T000004,L007489.2019.RH3.V1,ETAR Mata de Lobos,Ribeiro,Linha de água afluente da Ribeira de Aguiar,Coletor sem obra de proteção,53 947,
+TUA20231206003602,T000004,L007488.2019.RH3.V1,ETAR Malcata,Ribeiro,Ribeiro da Porqueira,Coletor com obra de proteção (boca de lobo),34 164,
+TUA20231211003636,T000004,L005712.2019.RH3.V1,ETAR Aldeia da Ribeira,Rio,Rio Cesarão,Coletor com obra de proteção (boca de lobo),"10 329,5",
+TUA20231212003641,T000005,L047135.2023.RH5A.V1,ETAR Pedreira,Rio,Rio Nabão,Coletor com obra de proteção (boca de lobo),19 163,
+TUA20231228003808,T000004,L007492.2019.RH3.V1,ETAR Castelo Rodrigo,Ribeira,Ribeira das Ferrarias,Coletor com obra de proteção (boca de lobo),"56 392,5",
+TUA20240131000275,T000004,L015762.2013.RH5-T1.V1,ETAR Oleiros,Ribeira,Ribeira da Sertã,Coletor com obra de proteção (boca de lobo),210 240,
+TUA20240131000276,T000004,L010891.2013.RH5-T1.V1,ETAR Estreito,Ribeiro,Ribeiro Grande,Coletor sem obra de proteção,20 348,
+TUA20240216000439,T000004,L047225.2023.RH5A.V1,ETAR Assumar,Ribeira,Ribeira de Assumar,Coletor com obra de proteção (boca de lobo),34 566,
+TUA20240216000440,T000018,L008275.2018.RH5A.V1,ETAR Nisa,Ribeira,Ribeira de Santo André,Coletor com obra de proteção (boca de lobo),157 680,
+TUA20240216000462,T000005,L006005.2021.RH5A.V1,ETAR Cardal Bairrada,Barranco,Linha de água sem designação afluente à Albufeira de Castelo de Bode,Coletor com obra de proteção (boca de lobo),30 113,
+TUA20240223000530,T000044,L031504.2023.RH5A.V1,ETAR Portagem,Rio,Rio Sever,Coletor com obra de proteção (boca de lobo),65 700,
+TUA20240229000598,T000004,L047273.2023.RH5A.V1,ETAR Escalos-Lousa,Ribeira,Ribeira da Ribeirinha,Coletor com obra de proteção (boca de lobo),456 889,
+TUA20240901002617,T000005,L060851.2024.RH7.V1,ETAR Monte do Trigo,Ribeira,Afluente à Ribeira da Aldeia,Coletor com obra de proteção (boca de lobo),90 520,
+TUA20241030003256,T000018,L064067.2024.RH7.V1,ETAR Hortinhas,Ribeira,Afluente da Ribeira de Lucefecit,Coletor com obra de proteção (boca de lobo),14 600,
+TUA20230530001578,T000035,,ETAR Arcozelo,Ribeira,Ribeira de Gouveia,Coletor com obra de proteção (boca de lobo),80 300,L043200.2023.RH4A.V2
+TUA20240105000038,T000003,,ETAR Miuzela,Rio,Afluente do Rio Noémi,Coletor com obra de proteção (boca de lobo),35 186,L008065.2019.RH3.V1
+TUA20240110000102,T000003,,ETAR Pereiro,Ribeira,Ribeira das Cabras,Coletor sem obra de proteção,"14 837,25",L008067.2019.RH3.V1
+TUA20240123000210,T000003,,ETAR Cabreira,Ribeira,Linha de água afluente à Ribeira das Cabras,Coletor sem obra de proteção,"5 146,5",L008070.2019.RH3.V1
+TUA20240227000550,T000004,,ETAR Baraçal,Ribeiro,Ribeiro do Moinho Fernandes,Coletor com obra de proteção (boca de lobo),"13 997,75",L012483.2019.RH3.V1
+TUA20240308000724,T000004,,ETAR Pêva,Ribeiro,linha de água afluente ao ribeiro de Vale Verde,Coletor com obra de proteção (boca de lobo),"4 069,75",L012485.2019.RH3.V1
+TUA20240416001180,T000004,,ETAR Figueira de Castelo Rodrigo,Ribeira,Ribeira das Ferrarias,Coletor sem obra de proteção,"160 782,5",L012482.2019.RH3.V1
+TUA20240506001395,T000005,,ETAR Castelo Mendo,Ribeira,Linha de água afluente à Ribeira dos Cadelos,Coletor sem obra de proteção,"5 274,25",L017381.2019.RH3.V1
+TUA20240506001401,T000007,,ETAR Nave de Haver,Ribeira,Ribeira de Nave de Haver,Coletor sem obra de proteção,"46 892,5",L008066.2019.RH3.V1
+TUA20240521001568,T000004,,ETAR Folhadosa,Ribeiro,Ribeiro do Cobral,Coletor com obra de proteção (boca de lobo),"56 848,75",L015870.2019.RH4A.V1
+TUA20240521001569,T000004,,ETAR Cortiçada,Ribeira,Ribeirao da Cortiçada,Coletor com obra de proteção (boca de lobo),"57 651,75",L015931.2019.RH4A.V1
+TUA20240521001573,T000004,,ETAR Alvôco das Várzeas,Ribeira,Ribeira do Alvoco,Coletor com obra de proteção (boca de lobo),"57 341,5",L054772.2024.RH4A.V1
+TUA20240521001575,T000004,,ETAR Figueiró da Granja,Ribeira,Ribeira de Vila Chã,Coletor com obra de proteção (boca de lobo),"61 009,5",L054786.2024.RH4A.V1
+TUA20240521001577,T000004,,ETAR Bobadela,Rio,Rio de Cavalos,Coletor sem obra de proteção,"46 829,5",L054809.2024.RH4A.V1
+TUA20240522001588,T000004,,ETAR Andorinha,Ribeiro,Linha de água afluente ao rio Seia,Coletor sem obra de proteção,"38 237,4",L015978.2022.RH4A.V1
+TUA20240604001677,T000017,,ETAR Girabolhos,Ribeira,Linha de água afluente do Rio Mondego,Coletor com obra de proteção (boca de lobo),62 415,L015874.2019.RH4A.V1
+TUA20240719002219,T000018,,ETAR Lageosa,Ribeira,Linha de água fluente do Rio Cobral,Coletor com obra de proteção (boca de lobo),"60 206,75",L058799.2024.RH4A.V1
+TUA20240719002220,T000004,,ETAR Lagares da Beira,Ribeiro,Linha de água fluente do Rio Cobral,Coletor com obra de proteção (boca de lobo),"127 658,75",L058803.2024.RH4A.V1
+TUA20240725002275,T000004,,ETAR Leomil,Ribeira,Ribeira de Leomil,Coletor com obra de proteção (boca de lobo),"5 511,5",L020554.2019.RH3.V1
+TUA20240731002345,T000004,,ETAR Monte Perobolço,Ribeiro,Linha de água afluente ao Ribeiro dos Cadelos,Coletor com obra de proteção (boca de lobo),"5 566,25",L020553.2019.RH3.V1
+TUA20240731002347,T000004,,ETAR Ade,Ribeiro,Linha de água afluente ao Ribeiro dos Cadelos,Coletor com obra de proteção (boca de lobo),"6 460,5",L020555.2019.RH3.V1
+TUA20240808002408,T000004,,ETAR Fornotelheiro,Ribeiro,Ribeiro dos Tamanhos,Coletor com obra de proteção (boca de lobo),"51 512,45",L015944.2019.RH4A.V1
+TUA20240904002654,T000004,,ETAR Penalva de Alva,Rio,Rio Alva,Coletor sem obra de proteção,65 700,L060904.2024.RH4A.V1
+TUA20240916002772,T000005,,ETAR Derreada,Ribeira,Linha de água intermitente sem designação atribuída,Coletor sem obra de proteção,17 885,L001080.2020.RH5A.V1
+TUA20241003002946,T000005,,ETAR Louriceira,Ribeira,Ribeira do Porto Coelho,Coletor com obra de proteção (boca de lobo),13 140,L001135.2020.RH5A.V1
+TUA20241014003042,T000004,,ETAR Manigoto,Ribeiro,Linha de água afluente da Ribeira da Pega,Coletor sem obra de proteção,21 024,L063042.2024.RH3.V1
+TUA20241022003142,T000004,,ETAR Eirado,Ribeiro,Linha de água afluente do Rio Dão,Coletor com obra de proteção (boca de lobo),"164 209,85",L063531.2024.RH4A.V1
+TUA20241122003491,T000004,,ETAR Loriga,Ribeira,Ribeira de Loriga,Coletor sem obra de proteção,167 024,L014539.2022.RH4A.V1
+TUA20241122003495,T000004,,ETAR Celorico da Beira,Rio,Rio Mondego,Coletor com obra de proteção (boca de lobo),"637 910,5",L014785.2022.RH4A.V1
+TUA20241210003651,T000004,,ETAR Porto da Carne,Ribeira,Ribeira da Velosa,Coletor com obra de proteção (boca de lobo),142 350,L065853.2024.RH4A.V1
+TUA20250226000655,T000004,,ETAR do Freixo,Ribeira,Ribeira do Freixo,Coletor com obra de proteção (boca de lobo),17 666,L070191.2025.RH7.V1
+TUA20250317000834,T000004,,ETAR Melo Folgosinho,Ribeira,Ribeira do Paço,Coletor com obra de proteção (boca de lobo),"156 621,5",L014699.2022.RH4A.V1
+TUA20250416001449,T000004,,ETAR Oliveira do Hospital,Rio,Rio de Cavalos,Coletor com obra de proteção (boca de lobo),620 052,L032810.2023.RH4A.V1
+TUA20250602001876,T000004,,ETAR de Guadalupe,Ribeira,Ribeira de Valverde,Coletor com obra de proteção (boca de lobo),"35 514,5",L075151.2025.RH6.V1
+TUA20250722002408,T000030,,ETAR Avô,Rio,Rio Alva,Coletor sem obra de proteção,"44 931,5",L017803.2020.RH4A.V1
+TUA20260202000317,T000004,,ETAR Orada,Ribeira,Ribeira da Alcaraviça,Coletor com obra de proteção (boca de lobo),141 985,L014337.2019.RH5A.V1

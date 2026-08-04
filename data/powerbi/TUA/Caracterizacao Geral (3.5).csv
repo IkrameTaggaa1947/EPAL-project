@@ -1,0 +1,130 @@
+﻿Nº TUA,Código,Código TURH,Longitude,Latitude,Designação,Ano de arranque,População servida à data do pedido (e.p.),Ano horizonte de projeto,População servida no ano horizonte de projeto (e.p.),Nível de tratamento implementado,Esquema de tratamento,Caudal máximo de descarga,Código Utilização
+TUA20220411000574,T000075,L006681.2022.RH5A,"-8,131638","39,904987",ETAR Pedrógão Pequeno,1983,400,2023,400,Secundário,Secundário com tratamento preliminar com gradagem mecânica,27 m3/dia,
+TUA20220420000646,T000078,L006976.2022.RH5A,"-8,116933","39,554507",ETAR Presa,2022,363,2042,363,Secundário,Gradagem - Medição de caudal afluente ao tratamento - Fossa Séptica Tri-compartimentada - Lagoa de Macrófitas - Recirculação do efluente final para montante do leito de macrófitas - Medição de caudal do efluente descarregado,10 m3/h,
+TUA20220511000842,T000004,L008397.2022.RH5A,"-7,375635","40,289266",ETAR Caria,2006,2 657,2043,2 778,Secundário,Lamas Ativadas em Arejamento Prolongado,345 m3/dia,
+TUA20220511000844,T000003,L007123.2022.RH5A,"-7,811247","39,255357",ETAR Chança,2009,353,2029,353,Secundário,"Sistema de Lagunagem - LAN, LF e LM",120 m3/dia,
+TUA20220511000845,T000004,L006972.2022.RH5A,"-7,961974","39,492338",ETAR Belver,2004,500,2024,500,Secundário,Lamas ativadas por arejamento prolongado,75 m3/dia,
+TUA20220718001522,T000081,L012980.2022.RH5A,"-8,274438","39,76279",ETAR Dornes,2007,533,2020,579,Mais avançado que o secundário,Lamas activadas em regime de baixa carga,76 m3/dia,
+TUA20220720001537,T000004,L013050.2022.RH5A,"-8,234189","39,700622",ETAR Pombeira,2007,550,2020,550,Mais avançado que o secundário,Lamas activadas em regime de baixa carga,77 m3/dia,
+TUA20220720001538,T000004,L012836.2022.RH5A,"-8,235239","39,671716",ETAR Castanheira,2006,500,2020,500,Mais avançado que o secundário,Lamas activadas em regime de baixa carga,97 m3/dia,
+TUA20220919002148,T000004,L016764.2022.RH5A,"-7,214192","40,064385",ETAR Bemposta,2005,182,2040,182,Secundário,Fossa séptica seguida de Leito Percolador e Decantação Secundária,30 m3/dia,
+TUA20220922002189,T000004,L002661.2018.RH3,"-7,269847","41,005361",ETAR Poço do Canto,2003,233,2043,215,Secundário,Leito de macrófitas,"40,3 m3/dia",
+TUA20220922002190,T000003,L002662.2018.RH3,"-7,17118","40,694512",ETAR Freixedas,2003,811,2041,750,Secundário,Lamas Ativadas,170 m3/dia,
+TUA20220927002236,T000004,L003469.2017.RH3,"-7,213595","40,699467",ETAR Alverca da Beira,2013,702,2043,702,Secundário,Lamas Ativadas,183 m3/dia,
+TUA20220930002259,T000004,L002663.2018.RH3,"-7,04908","40,602154",ETAR Pínzio,2003,1 007,2043,958,Secundário,Lamas Ativadas,"257,5 m3/dia",
+TUA20221010002354,T000003,L017862.2017.RH5A,"-7,815533","39,313861",ETAR Cunheira,2005,741,2030,741,Secundário,"Fase Liquida – Gradagem grossa (limpeza manual), tamisação/compactação, lamas activadas em arejamento prolongado (tanque de arejamento, decantador secundário duplo); Fase Sólida – armazenamento de gradados e areias em contentor, espessador gravítico de lamas, 4 leitos de secagem de lamas",156 m3/dia,
+TUA20221010002355,T000003,L017689.2017.RH5A,"-7,78203","39,392194",ETAR Comenda,2008,1 582,2030,2 000,Secundário,"Obra de entrada - tratamento de odores (sistema de exaustão, ventilador, torre de carvão activado); Fase Liquida – Pré-Tratamento (gradagem, tamisagem, desarenação); Tratamento Secundário (lamas activadas arejamento prolongado, tanque de arejamento, decantador secundário); Fase Sólida – EE de recirculação de lamas e extracção de lamas em excesso e EE de escorrências, espessador de lamas, desidratação das lamas (4 leitos de secagem de lamas), unidade de desidratação móvel.",312 m3/dia,
+TUA20221010002356,T000003,L017985.2022.RH5A,"-7,453724","39,41917",ETAR Fonte da Vila - Bacia B,2008,1 200,2028,1 200,Secundário,Lamas Ativadas,"187,2 m3/dia",
+TUA20221010002358,T000004,L017897.2017.RH5A,"-8,179028","39,051675",ETAR Montargtil,2011,2 414,2030,2 838,Secundário,Lamas ativadas,248 m3/dia,
+TUA20221010002359,T000004,L016800.2022.RH5A,"-7,767136","39,045139",ETAR Figueira e Barros,2022,350,2052,350,Secundário,"Fase líquida: Descarregador de tempestade com gradagem grossa manual, estação elevatória, medidor de caudal, unidade de tamisagem e desarenamento, reator biológico de mistura completa, decantador secundário de fluxo vertical, medidor de caudal.Fase sólida: Silo espessador de lamas e leitos de secagem.",75 m3/dia,
+TUA20221017002426,T000004,L018800.2022.RH5A,"-8,000912","39,149218",ETAR Galveias,2005,1 559,2030,1 559,Secundário,"Fase liquida: obra de entrada com gradagem e medição de caudal em canal Parshall, lamas ativadas em vala de oxidação com arejamento prolongado, decantação secundária; Fase Sólida: espessador, tanque de armazenamento e desidratação em unidade de centrífuga móvel, existindo 3 leitos de secagem como recurso.",281 m3/dia,
+TUA20221017002427,T000003,L017875.2017.RH5A,"-7,988192","39,33056",ETAR Longomel,2009,1 222,2039,1 222,Secundário,"Fase Liquida – gradagem grossa, tamisagem, elevação, desarenação/remoção de gorduras, duas linhas paralelas de lamas activadas em regime de arejamento prolongado com desnitrificação (tanque de arejamento, tanque anóxico, decantador secundário duplo); Fase Sólida – armazenamento de gradados e areias em contentor, 4 leitos de secagem de lamas","190,6 m3/dia",
+TUA20230116000179,T000004,L025479.2023.RH5A.V1,"-8,053531","39,583401",ETAR Aboboreira 2,1992,28,2022,28,Primário,Fossa Sética,"3,3 m3/dia",
+TUA20230116000180,T000004,L025473.2023.RH5A.V1,"-8,053897","39,586078",ETAR Aboboreira I,1992,28,2022,28,Primário,Fossa Sética,"3,3 m3/dia",
+TUA20230117000197,T000017,L001739.2013.RH5-T1.V1,"-7,741615","40,070633",ETAR Bogas do Meio,2010,300,2043,270,Secundário,"Obra de entrada, com gradagem manual, seguida de fossa séptica e tratamento biológico por leitos de macrófitas",64 m3/dia,
+TUA20230125000254,T000004,L009134.2018.RH3.V1,"-6,911107","40,720496",ETAR Almeida,2008,1 774,2043,1 750,Secundário,Lamas Ativadas,"383,6 m3/dia",
+TUA20230125000271,T000017,L009128.2018.RH3.V1,"-7,320521","40,879081",ETAR Casteição,2003,132,2043,120,Secundário,Leito de Macrófitas,"19,4 m3/dia",
+TUA20230125000272,T000003,L009112.2018.RH3.V1,"-7,315162","40,9302",ETAR Aveloso,2003,291,2043,291,Secundário,Leito de Macrófitas,"50,8 m3/dia",
+TUA20230130000331,T000003,L026674.2023.RH5A.V1,"-7,883875","39,565826",ETAR Envendos 2,1992,20,2022,20,Primário,Fossa Sética,"2,36 m3/dia",
+TUA20230130000332,T000003,L026655.2023.RH5A.V1,"-7,873475","39,566462",ETAR Envendos 1,1992,79,2022,79,Primário,Fossa Sética,"9,45 m3/dia",
+TUA20230130000333,T000003,L026342.2023.RH5A.V1,"-8,038401","39,538051",ETAR Penhascoso 2,1992,54,2022,54,Primário,Fossa Sética,"6,45 m3/dia",
+TUA20230130000335,T000004,L026309.2023.RH5A.V1,"-8,032064","39,54647",ETAR Penhascoso 1,1992,54,2022,54,Primário,Fossa Sética,"6,45 m3/dia",
+TUA20230130000336,T000004,L026283.2023.RH5A.V1,"-8,171347","39,555362",ETAR Andreus,1992,396,2022,396,Primário,Fossa Sética,"47,51 m3/dia",
+TUA20230202000373,T000003,L009125.2018.RH3.V1,"-7,252756","40,960714",ETAR Mêda,2003,2 390,2043,2 328,Secundário,Lamas Ativadas,596 m3/dia,
+TUA20230202000374,T000003,L009126.2018.RH3.V1,"-7,23047","40,905518",ETAR Marialva,2003,307,2043,273,Secundário,Leito de Macrófitas,"49,2 m3/dia",
+TUA20230202000375,T000003,L009113.2018.RH3.V1,"-7,232817","41,010032",ETAR Fonte Longa,2003,228,2043,215,Secundário,Leito de Macrófitas,"39,2 m3/dia",
+TUA20230202000376,T000009,L009132.2018.RH3.V1,"-6,933243","40,951249",ETAR Escalhão,2003,913,2043,847,Secundário,Lamas Ativadas,"185,4 m3/dia",
+TUA20230202000377,T000003,L009127.2018.RH3.V1,"-7,201585","40,866702",ETAR Coriscada,2003,345,2043,325,Secundário,Leito de Macrófitas,60 m3/dia,
+TUA20230202000378,T000004,L009139.2018.RH3.V1,"-7,015346","40,593612",ETAR Amoreira,2003,200,2043,196,Secundário,Leito de Macrófitas,34 m3/dia,
+TUA20230208000443,T000003,L026778.2023.RH3.V1,"-6,972533","40,785031",ETAR Cinco Vilas,2003,150,2043,133,Secundário,Leito de Macrófitas,"24,3 m3/dia",
+TUA20230213000471,T000003,L004520.2018.RH3.V1,"-7,327698","40,896952",ETAR Chãos,2003,86,2043,77,Secundário,Leito de Macrófitas,"13,8 m3/dia",
+TUA20230213000497,T000004,L001767.2013.RH5-T1.V1,"-7,362436","40,04437",ETAR Orca,2003,703,2043,666,Secundário,"Obra de entrada, seguido de tanque Imhoff e tratamento complementar biológico em leitos de macrófitas",190 m3/dia,
+TUA20230216000512,T000003,L010055.2018.RH3.V1,"-6,888214","40,680795",ETAR Junça,2003,198,2043,182,Secundário,Lamas Ativadas,"30,9 m3/dia",
+TUA20230216000513,T000003,L004518.2018.RH3.V1,"-7,154512","40,645098",ETAR Gouveia Pomares,2011,550,2041,550,Secundário,Leito de Macrófitas,"144,4 m3/dia",
+TUA20230220000545,T000003,L004518.2018.RH3.V2,"-7,134629","40,856277",ETAR Azevo,2001,271,2031,271,Secundário,Leito de macrófitas,50 m3/dia,
+TUA20230228000613,T000004,L001772.2020.RH5A.V1,"-7,475351","39,895901",ETAR Alcains,2015,5 708,2035,5 708,Secundário,Sistema de Lamas ativadas em regime de baixa carga,1 427 m3/dia,
+TUA20230228000614,T000017,L007117.2022.RH5A.V1,"-7,419907","40,052668",ETAR Atalaia do Campo,2005,4 927,2043,5 000,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,1 386 m3/dia,
+TUA20230328000995,T000003,L009129.2018.RH3.V1,"-7,353661","41,003586",ETAR Alcarva,2003,127,2043,127,Secundário,Leito de Macrófitas,"22,8 m3/dia",
+TUA20230328000996,T000003,L009136.2018.RH3.V1,"-7,054588","40,957222",ETAR Algodres,2003,695,2043,617,Secundário,Lamas Ativadas,122 m3/dia,
+TUA20230421001258,T000003,L010060.2018.RH3.V1,"-6,905647","40,593706",ETAR Freineda,2003,312,2043,302,Secundário,Leito de Macrófitas,"79,5 m3/dia",
+TUA20230421001259,T000003,L010061.2018.RH3.V1,"-6,978714","40,676537",ETAR Azinhal,2003,222,2031,89,Secundário,Lamas Ativadas,"12,1 m3/dia",
+TUA20230421001260,T000004,L011919.2018.RH3.V1,"-7,081446","40,662344",ETAR Lamegal,2001,66,2031,189,Secundário,Leito de Macrófitas,"60,5 m3/dia",
+TUA20230421001263,T000003,L010047.2018.RH3.V1,"-7,21858","40,666686",ETAR Avelãs da Ribeira,2003,154,2031,400,Secundário,Leito de Macrófitas,92 m3/dia,
+TUA20230423001281,T000004,L004998.2016.RH7.V1,"-7,278333","39,11617",ETAR de Arronches,2005,2 000,2031,2 733,Secundário,Fase líquida: Obra de entrada (pré-tratamento - gradagem e Tamisagem) + Tanque imhoff + Leito percolador + Decantador secundário. Fase sólida: Leitos de secagem de lamas,515 m3/dia,
+TUA20230510001393,T000075,L008277.2018.RH5A.V1,"-7,948125","39,456123",ETAR Gavião,2007,2 600,2027,2 638,Mais avançado que o secundário,Lamas Ativadas,419 m3/dia,
+TUA20230510001399,T000003,L033073.2023.RH3.V1,"-6,916575","40,54095",ETAR Malhada Sorda,2001,288,2031,351,Secundário,Leito de Macrófitas,159 m3/dia,
+TUA20230602001636,T000003,L034412.2023.RH3.V1,"-7,147028","40,538184",ETAR Casal de Cinza,2010,954,2031,1 860,Secundário,Leito de macrófitas,"393,9 m3/dia",
+TUA20230602001637,T000003,L034331.2023.RH3.V1,"-7,147877","40,570282",ETAR Ima,2003,190,2043,300,Secundário,Leito de macrófitas,70 m3/dia,
+TUA20230707002024,T000003,L034219.2023.RH5A.V1,"-8,18079","39,810299",ETAR de Cernache do Bonjardim,2007,1 908,2021,1 908,Secundário,"Fase líquida: Obra de entrada com gradagem mecânica, desarenador em canal, tratamento biológico por lamas ativadas em regime de baixa carga e decantador secundário. Fase sólida: Espessamento em silo e desidratação em leitos de secagem.",554 m3/dia,
+TUA20230717002123,T000003,L010057.2018.RH3.V1,"-7,243251","40,618629",ETAR Avelãs de Ambom,2010,89,2031,110,Secundário,Leito de Macrófitas,"24,5 m3/dia",
+TUA20230717002153,T000004,L037792.2023.RH5A.V1,"-8,150642","39,805594",ETAR Calvos,2006,1 845,2020,1 845,Secundário,"Fase líquida: Obra de entrada com gradagem mecânica, desarenador em canal, tratamento biológico por lamas ativadas em regime de baixa carga e decantador secundário. Fase sólida: Espessamento em silo e desidratação em leitos de secagem.",499 m3/dia,
+TUA20230801002309,T000003,L034885.2023.RH4A.V1,"-7,76693","40,411155",ETAR Carragosela,2006,129,2036,540,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"169,9 m3/dia",
+TUA20230808002363,T000004,L037599.2023.RH5A.V1,"-8,386638","39,820255",ETAR de Alvaiázere,2004,1 924,2024,1 924,Secundário,"Fase líquida: Obra de entrada com gradagem mecânica, desarenador em canal, tratamento biológico por lamas ativadas (2 tanques de arejamento e 2 decantadores secundários). Fase sólida: Espessamento em silo e desidratação em leitos de secagem.",331 m3/dia,
+TUA20230816002415,T000003,L010038.2018.RH3.V1,"-7,069639","40,488305",ETAR Monte Margarida,2011,186,2031,236,Secundário,Lagoa de Macrófitas,"62,3 m3/dia",
+TUA20230824002503,T000003,L000819.2019.RH3.V1,"-6,874893","40,413597",ETAR Aldeia da Ponte,2010,482,2031,499,Secundário,Leito de Macrófitas,180 m3/dia,
+TUA20230831002551,T000003,L000813.2019.RH3.V1,"-7,174663","40,413661",ETAR Pousafoles do Bispo,2003,108,2043,220,Secundário,Leitos Macrofitas,"54,2 m3/dia",
+TUA20230905002577,T000003,L000814.2019.RH3.V1,"-6,889939","40,286552",ETAR Foios,2003,422,2043,536,Secundário,Leito de Macrófitas,"111,6 m3/dia",
+TUA20230905002578,T000003,L000818.2019.RH3.V1,"-6,944072","40,460237",ETAR Bismula,2003,222,2043,551,Secundário,Leitos Macrofitas,"187,6 m3/dia",
+TUA20230905002579,T000003,L000816.2019.RH3.V1,"-6,868924","40,348468",ETAR Aldeia Velha Lageosa,2008,1 767,2043,2 085,Secundário,Leito Macrófitas,268 m3/dia,
+TUA20230912002642,T000004,L000805.2019.RH3.V1,"-7,141923","40,427752",ETAR Pêga,2003,162,2043,383,Secundário,Leito de Macrófitas,148 m3/dia,
+TUA20230912002643,T000004,L000810.2019.RH3.V1,"-7,035778","40,886074",ETAR Freixeda do Torrão,2003,179,2043,378,Secundário,Lamas Ativadas,"59,8 m3/dia",
+TUA20230915002702,T000003,L000820.2019.RH3.V1,"-6,971888","40,400514",ETAR Nave,2010,520,2031,288,Secundário,Leito de Macrófitas,"99,6 m3/dia",
+TUA20230918002712,T000003,L000815.2019.RH3.V1,"-6,829319","40,375409",ETAR Forcalhos,2003,131,2043,215,Secundário,Leito de Macrófitas,"90,2 m3/dia",
+TUA20231010002912,T000003,L001021.2019.RH3.V1,"-7,226706","40,731936",ETAR Cerejo,2011,186,2031,415,Secundário,Leito percolador,"43,2 m3/dia",
+TUA20231010002913,T000003,L000817.2019.RH3.V1,"-7,304229","40,950704",ETAR Outeiro de Gatos,2003,128,2043,667,Secundário,Lamas Ativadas,145 m3/dia,
+TUA20231012002959,T000003,L001020.2019.RH3.V1,"-7,262956","40,587263",ETAR Alvendre,2003,86,2043,249,Secundário,Lagoa de Macrófitas,68 m3/dia,
+TUA20231018003040,T000017,L009317.2013.RH5-T1.V1,"-7,279823","39,751458",ETAR Monforte da Beira,2005,1 500,2025,1 500,Secundário,"""Fase liquida- tamisador, Tanque Imhoff, Leito Percolador em alta carga e Decantador secundário. Fase sólida- digestão de lamas no tanque imhoff e desidratação nos leitos de secagem Secundário. Fase Sólida: Digestão da lamas no tanque Imhoff e desidratação nos Leitos de Secagem""",375 m3/dia,
+TUA20231109003280,T000003,L005585.2019.RH3.V1,"-7,120445","40,341016",ETAR Amiais,2003,255,2043,650,Secundário,Leitos Macrofitas,"168,7 m3/dia",
+TUA20231128003520,T000003,L007490.2019.RH3,"-7,127236","40,372742",ETAR Espinhal,2003,189,2043,251,Secundário,Leitos Macrófitas,92 m3/dia,
+TUA20231128003521,T000003,L007487.2019.RH3,"-7,182309","40,909294",ETAR Barreira,2003,170,2043,224,Secundário,Leitos Macrofitas,41 m3/dia,
+TUA20231205003587,T000003,L007491.2019.RH3.V1,"-6,87964","40,660323",ETAR Naves,2003,140,2043,106,Secundário,Leito de Macrófitas,"24,2 m3/dia",
+TUA20231206003600,T000003,L007489.2019.RH3.V1,"-6,905448","40,905775",ETAR Mata de Lobos,2003,381,2043,727,Secundário,Leito de Macrófitas,"158,8 m3/dia",
+TUA20231206003602,T000003,L007488.2019.RH3.V1,"-7,070659","40,296592",ETAR Malcata,2003,350,2043,600,Secundário,Leito de Macrófitas,"124,8 m3/dia",
+TUA20231211003636,T000003,L005712.2019.RH3.V1,"-6,901949","40,456634",ETAR Aldeia da Ribeira,2003,287,2043,110,Secundário,Leitos Macrofitas,"37,8 m3/dia",
+TUA20231212003641,T000004,L047135.2023.RH5A.V1,"-8,400397","39,634621",ETAR Pedreira,2014,184,2034,400,Secundário,Lamas ativadas - arejamento prolongado em regime de baixa carga,60 m3/dia,
+TUA20231228003808,T000003,L007492.2019.RH3.V1,"-6,966919","40,873107",ETAR Castelo Rodrigo,2003,67,2043,719,Secundário,Leitos Macrófitas,158 m3/dia,
+TUA20240131000275,T000003,L015762.2013.RH5-T1.V1,"-7,920866","39,912274",ETAR Oleiros,2003,3 600,2020,3 600,Secundário,"Fase líquida: Obra de entrada com gradagem, desarenador em canal e tamisador, tratamento biológico por lamas ativadas em arejamento prolongado (dois tanques em série) e decantador secundário. Fase sólida: espessamento e desidratação em leitos de secagem.",720 m3/dia,
+TUA20240131000276,T000003,L010891.2013.RH5-T1.V1,"-7,822012","39,958546",ETAR Estreito,2006,348,2020,348,Secundário,ETAR compacta por lamas ativadas - arejamento prolongado,88 m3/dia,
+TUA20240216000439,T000003,L047225.2023.RH5A.V1,"-7,396176","39,13257",ETAR Assumar,1990,295,2020,1 052,Secundário,Lagunagem,"94,7 m3/dia",
+TUA20240216000440,T000017,L008275.2018.RH5A.V1,"-7,640236","39,523901",ETAR Nisa,1997,3 729,2020,4 500,Mais avançado que o secundário,Lagoas arejadas e Lagoas de Macrofitas,432 m3/dia,
+TUA20240216000462,T000004,L006005.2021.RH5A.V1,"-8,251541","39,647316",ETAR Cardal Bairrada,2013,101,2027,420,Secundário,Lamas ativadas - arejamento prolongado em regime de baixa carga,89 m3/dia,
+TUA20240223000530,T000043,L031504.2023.RH5A.V1,"-7,369236","39,381323",ETAR Portagem,2000,1 500,2020,1 500,Secundário,Lagoas arejadas,180 m3/dia,
+TUA20240229000598,T000003,L047273.2023.RH5A.V1,"-7,393272","39,859834",ETAR Escalos- Lousa,2004,6 783,2024,6 783,Secundário,Lamas ativadas em arejamento prolongado,1 893 m3/dia,
+TUA20240901002617,T000004,L060851.2024.RH7.V1,"-7,702337","38,401292",ETAR Monte do Trigo,2023,1 250,2023,1 250,Secundário,Fossa Sética e Leito de Macrófitas,44 m3/h,
+TUA20241030003256,T000017,L064067.2024.RH7.V1,"-7,45718","38,613046",ETAR Hortinhas,2005,334,2025,500,Secundário,Fossa Sética e Trincheiras Filtrantes,40 m3/dia,
+TUA20230530001578,T000034,,"-7,621359","40,543537",ETAR Arcozelo,2023,1 240,2043,1 240,Secundário,Lamas Ativadas Arejamento Prolongado,280 m3/dia,L043200.2023.RH4A.V2
+TUA20240105000038,T000002,,"-7,007785","40,514325",ETAR Miuzela,2003,324,2043,547,Secundário,Leitos Macrófitas,97 m3/dia,L008065.2019.RH3.V1
+TUA20240110000102,T000002,,"-7,020071","40,733366",ETAR Pereiro,2003,61,2043,181,Secundário,Leito de Macrófitas,"48,4 m3/dia",L008067.2019.RH3.V1
+TUA20240123000210,T000002,,"-7,030373","40,569922",ETAR Cabreira,2003,106,2043,216,Secundário,Fossa séptica seguida de leito de macrófitas,"17,3 m3/dia",L008070.2019.RH3.V1
+TUA20240227000550,T000003,,"-7,092599","40,39696",ETAR Baraçal,2013,169,2043,245,Secundário,LEITO DE MACRÓFITAS,"43,5 m3/dia",L012483.2019.RH3.V1
+TUA20240308000724,T000003,,"-6,988372","40,663177",ETAR Pêva,2013,179,2043,75,Secundário,Leito de Macrófitas,13 m3/dia,L012485.2019.RH3.V1
+TUA20240416001180,T000003,,"-6,971186","40,904217",ETAR Figueira de Castelo Rodrigo,2011,1 936,2031,2 552,Secundário,Lamas Ativadas,"440,5 m3/dia",L012482.2019.RH3.V1
+TUA20240506001395,T000004,,"-6,946671","40,591955",ETAR Castelo Mendo,2003,112,2043,87,Secundário,Leito de Macrófitas,"17,5 m3/dia",L017381.2019.RH3.V1
+TUA20240506001401,T000006,,"-6,827574","40,526444",ETAR Nave de Haver,2003,450,2043,542,Secundário,Leito de Macrófitas,"167,5 m3/dia",L008066.2019.RH3.V1
+TUA20240521001568,T000003,,"-7,788814","40,382999",ETAR Folhadosa,2012,258,2040,814,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"207,8 m3/dia",L015870.2019.RH4A.V1
+TUA20240521001569,T000003,,"-7,545586","40,767463",ETAR Cortiçada,2013,460,2036,748,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"209,8 m3/dia",L015931.2019.RH4A.V1
+TUA20240521001573,T000003,,"-7,838975","40,304126",ETAR Alvôco das Várzeas,2012,88,2041,676,Mais avançado que o secundário,Lamas ativadas de arejamento prolongado,"208,6 m3/dia",L054772.2024.RH4A.V1
+TUA20240521001575,T000003,,"-7,495109","40,623142",ETAR Figueiró da Granja,2014,523,2036,841,Secundário,Lamas ativadas com arejamento prolongado,"223,3 m3/dia",L054786.2024.RH4A.V1
+TUA20240521001577,T000003,,"-7,896331","40,360081",ETAR Bobadela,2014,128,2039,629,Secundário,Lamas ativadas de arejamento prolongado,"170,5 m3/dia",L054809.2024.RH4A.V1
+TUA20240522001588,T000003,,"-7,917289","40,403722",ETAR Andorinha,2012,356,2042,560,Mais avançado que o secundário,"Sistema de tratamento por lamas ativadas em regime de arejamento prolongado, com desinfeção final por radiação ultravioleta",139 m3/dia,L015978.2022.RH4A.V1
+TUA20240604001677,T000016,,"-7,744489","40,50998",ETAR Girabolhos,2011,760,2036,790,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,227 m3/dia,L015874.2019.RH4A.V1
+TUA20240719002219,T000017,,"-7,850266","40,379997",ETAR Lageosa,2013,328,2036,965,Secundário,Lamas Ativadas,221 m3/dia,L058799.2024.RH4A.V1
+TUA20240719002220,T000003,,"-7,869709","40,399232",ETAR Lagares da Beira,2012,1 248,2039,1 691,Secundário,Lamas Ativadas,"466,4 m3/dia",L058803.2024.RH4A.V1
+TUA20240725002275,T000003,,"-6,960185","40,638547",ETAR Leomil,2003,91,2043,90,Secundário,Leito de macrófitas,"17,3 m3/dia",L020554.2019.RH3.V1
+TUA20240731002345,T000003,,"-6,980998","40,558507",ETAR Monte Perobolço,2003,134,2043,108,Secundário,Leito de macrófitas,"20,7 m3/dia",L020553.2019.RH3.V1
+TUA20240731002347,T000003,,"-6,990914","40,558494",ETAR Ade,2003,246,2043,113,Secundário,Lamas ativadas,"21,8 m3/dia",L020555.2019.RH3.V1
+TUA20240808002408,T000003,,"-7,385146","40,664838",ETAR Fornotelheiro,2012,628,2036,839,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"156,7 m3/dia",L015944.2019.RH4A.V1
+TUA20240904002654,T000003,,"-7,884496","40,327183",ETAR Penalva de Alva,2007,439,2040,1 506,Secundário,Lamas Ativadas,180 m3/dia,L060904.2024.RH4A.V1
+TUA20240916002772,T000004,,"-8,159836","39,979593",ETAR Derreada,2011,217,2040,500,Fossa sética e meio filtrante (leito com brita),Fossa sética e meio filtrante (leito com brita),49 m3/dia,L001080.2020.RH5A.V1
+TUA20241003002946,T000004,,"-8,126539","39,968088",ETAR Louriceira,2012,189,2040,229,Secundário,Obra de entrada com gradagem manual e leitos de macrófitas.,36 m3/dia,L001135.2020.RH5A.V1
+TUA20241014003042,T000003,,"-7,077826","40,704514",ETAR Manigoto,2003,539,2043,247,Mais avançado que o secundário,Lamas activadas com desinfecção por radiação UV,"76,8 m3/dia",L063042.2024.RH3.V1
+TUA20241022003142,T000003,,"-7,506909","40,780311",ETAR Eirado,2013,175,2043,2 777,Secundário,Lamas Ativadas em Regime de Arejamento Prolongado,"449,89 m3/dia",L063531.2024.RH4A.V1
+TUA20241122003491,T000003,,"-7,694242","40,320426",ETAR Loriga,2014,1 059,2038,2 633,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"306,4 m3/dia",L014539.2022.RH4A.V1
+TUA20241122003495,T000003,,"-7,389089","40,650184",ETAR Celorico da Beira,2010,1 172,2040,6 554,Mais avançado que o secundário,Sistema de tratamento por lamas ativadas em regime de arejamento remoção de nutrientes,"2 326,7 m3/dia",L014785.2022.RH4A.V1
+TUA20241210003651,T000003,,"-7,303204","40,617759",ETAR Porto da Carne,2003,1 310,2043,2 096,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado em vala de oxidação,520 m3/dia,L065853.2024.RH4A.V1
+TUA20250226000655,T000003,,"-7,648741","38,677812",ETAR do Freixo,2010,147,2035,310,Secundário,Estação elevatória com cesto de gradados + Fossa séptica tricompartimentada + Trincheiras filtrantes,"48,4 m3/dia",L070191.2025.RH7.V1
+TUA20250317000834,T000003,,"-7,534709","40,530664",ETAR Melo Folgosinho,2007,440,2037,2 003,Secundário,Sistema de tratamento por lamas ativadas em regime de arejamento prolongado,"286,6 m3/dia",L014699.2022.RH4A.V1
+TUA20250416001449,T000003,,"-7,872573","40,360197",ETAR Oliveira do Hospital,2018,7 647,2048,17 750,Secundário,Secundário e remoção de nutrientes,2 624 m3/dia,L032810.2023.RH4A.V1
+TUA20250602001876,T000003,,"-8,02589","38,564777",ETAR de Guadalupe,2010,237,2035,920,Secundário,Obra de Entrada (gradagem manual e mecânica) + Lagoa Anaeróbia+ 2 Lagoas Facultativas + Lagoa de Maturação,"97,3 m3/dia",L075151.2025.RH6.V1
+TUA20250722002408,T000029,,"-7,911107","40,295634",ETAR Avô,2012,162,2041,929,Secundário,Lamas activadas de arejamento prolongado,"123,1 m3/dia",L017803.2020.RH4A.V1
+TUA20260202000317,T000003,,"-7,46243","38,879",ETAR Orada,2009,193,2036,389,Secundário,Lagoas de Macrófitas,80 m3/dia,L014337.2019.RH5A.V1

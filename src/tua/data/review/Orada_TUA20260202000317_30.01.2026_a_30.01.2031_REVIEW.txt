@@ -1,0 +1,8 @@
+Orada_TUA20260202000317_30.01.2026_a_30.01.2031.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor missing (filename says 30-01-2026)
+  - [REVIEW] Data de Validade missing (filename says 30-01-2031)
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

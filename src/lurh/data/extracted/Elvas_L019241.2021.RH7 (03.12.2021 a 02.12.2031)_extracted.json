@@ -1,0 +1,270 @@
+{
+  "file_name": "Elvas_L019241.2021.RH7 (03.12.2021 a 02.12.2031).pdf",
+  "dados_gerais": {
+    "Nº Processo": "450.10.04.01.011482.2021.RH7",
+    "Nº Licença": "L019241.2021.RH7",
+    "Data de Início": "03-12-2021",
+    "Data de Validade": "02-12-2031",
+    "Código APA": "APA00395003",
+    "País": "Portugal",
+    "NIF": "513606130",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "Idioma": "Português",
+    "Morada": "Rua Dr. Francisco Pissarra de Matos, nº 21, R/C",
+    "Localidade": "GUARDA",
+    "Código Postal": "6300-906",
+    "Concelho": "Guarda",
+    "Telefones": "271225317",
+    "Obrigação de correcção de Dados de Perfil": "Não"
+  },
+  "tratamento": {
+    "Designação": "ETAR de Elvas",
+    "Nível de tratamento": "Mais avançado que o secundário",
+    "Tipo de tratamento": "Lamas activadas (média carga), com remoção biológica de fósforo, azoto e matéria carbonada e remoção físico-química de fósforo, seguido de desinfecção.",
+    "Caudal Médio descarga": "3656.00 m3/dia",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alto Alentejo / Elvas / Caia e São Pedro",
+    "Longitude": "-7.142190",
+    "Latitude": "38.876710",
+    "Ano de arranque": "2007",
+    "População servida (e.p.)": "17000",
+    "Ano horizonte de projeto": "2032",
+    "População servida no horizonte": "19000"
+  },
+  "rejeicao": {
+    "Origem das águas residuais": "Urbanas Características do Afluente Bruto Volume Médio mensal 111203.3 (m3) CBO5 313.0 (mg/L O2) CQO 781.0 (mg/L O2) N 52.0 (mg/L N) P 14.0 (mg/L P)",
+    "Designação da rejeição": "ETAR de Elvas",
+    "Meio Recetor": "Ribeira/ribeiro",
+    "Margem": "direita",
+    "Denominação do meio recetor": "Ribeiro da Fonte Nova",
+    "Sistema de Descarga": "Coletor com obra de proteção (boca de lobo)",
+    "Nut III – Concelho – Freguesia": "– Freguesia Alto Alentejo / Elvas / Caia e São Pedro",
+    "Longitude": "-7.130190",
+    "Latitude": "38.874530",
+    "Região Hidrográfica": "Guadiana",
+    "Bacia Hidrográfica": "Guadiana",
+    "Sub-Bacia Hidrográfica": "PT07GUA1427 :: Ribeira da Lã",
+    "Tipo de massa de água": "RIO",
+    "Massa de água": "PT07GUA1427 :: Ribeira da Lã",
+    "Classificação da massa de água": "Razoável",
+    "Volume mensal afluente (m3)": "111203.3",
+    "Volume mensal afluente (tipo)": "Médio",
+    "Afluente CBO5 (mg/L)": "313.0",
+    "Afluente CQO (mg/L)": "781.0",
+    "Afluente N (mg/L)": "52.0",
+    "Afluente P (mg/L)": "14.0"
+  },
+  "condicoes_texto": {
+    "Gerais": [
+      "A presente licença pode ser revista ou revogada nos casos previstos nos artigos 28.º e 32.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A Entidade Licenciadora reserva-se o direito de restringir excecionalmente o regime de utilização dos recursos hídricos agora atribuído, nomeadamente na decorrência de secas, cheias e acidentes, nos termos da presente licença e no regime legal aplicável.",
+      "A licença só poderá ser transmitida mediante autorização da entidade licenciadora de acordo com o disposto no artigo 26º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença só poderá ser transacionada e temporariamente cedida mediante autorização da Entidade Licenciadora de acordo com o disposto no artigo 27.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "A licença caduca nas condições previstas no presente título e no artigo 33.º do Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular pode, caso se mantenham as condições que determinaram a sua atribuição, solicitar a renovação desta licença, no prazo de 6 meses antes do seu termo.",
+      "O titular fica obrigado a informar a Entidade Licenciadora, no prazo máximo de 24 horas, de qualquer acidente ou anomalia ocorrido nas instalações que afete o cumprimento das condições indicadas nesta licença bem como das medidas já implementadas e/ou previstas para correção da situação.",
+      "As vistorias que sejam realizadas pela Entidade Licenciadora na sequência dos episódios abrangidos no ponto que antecede são suportadas pelo utilizador.",
+      "Em caso de incumprimento da presente licença, o titular fica sujeito às sanções previstas no Decreto-Lei n.º 226-A/2007, de 31 de maio.",
+      "O titular deverá respeitar todas as leis e regulamentos aplicáveis e munir-se de quaisquer outras autorizações, licenças e registos legalmente exigíveis."
+    ],
+    "Específicas": [
+      "O titular obriga-se a observar todos os preceitos legais no que concerne a segurança, gestão de resíduos e conservação da natureza e também a legislação e os regulamentos específicos das atividades complementares que simultaneamente venham a ser desenvolvidas no local.",
+      "O titular obriga-se a enviar e a manter um dossier organizado contendo as Fichas de Dados de Segurança de todas as substâncias e/ou preparações perigosas utilizadas, devidamente redigidas em língua portuguesa, devendo, quando existem alterações ou a introdução de novas substâncias enviar, semestralmente, à Entidade Licenciadora a respetiva atualização.",
+      "O titular obriga-se a efetuar as ações de manutenção, preventivas e corretivas, necessárias ao bom funcionamento da ETAR, incluindo a limpeza dos respetivos órgãos de tratamento devendo guardar os registos detalhados da sua realização, com indicação do destino final das lamas ou outros resíduos produzidos, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "O titular obriga-se a implementar as medidas de prevenção de acidentes e de emergência descritas no projeto.",
+      "O titular da licença deve respeitar as condições de descarga indicadas no respetivo Anexo, não podendo efetuar qualquer operação deliberada de diluição das águas residuais. A avaliação de conformidade é determinada com base nos parâmetros definidos e de acordo com o mencionado no Anexo.",
+      "O titular obriga-se a implementar o programa de autocontrolo descrito no respetivo Anexo e a enviar à Entidade Licenciadora os dados obtidos com o formato e periodicidade definidos no mesmo.",
+      "O titular obriga-se a manter um registo atualizado dos valores do autocontrolo, para efeitos de inspeção ou fiscalização por parte das Entidades Competentes.",
+      "As condições de descarga poderão vir a ser alteradas em função dos resultados do autocontrolo e da evolução da qualidade do meio recetor ou de outras restrições de utilização local que o justifiquem.",
+      "Para efeitos de fiscalização ou inspeção poderão ser recolhidas amostras compostas num dado período temporal, inferior a 24 horas, em função do caudal. Caso o sistema não disponha de medidor de caudal com registo automático, será utilizado o caudal máximo previsto no título para efeitos de avaliação da respetiva conformidade das amostras.",
+      "Fazem parte integrante do presente título todos os anexos autenticados que o acompanham."
+    ],
+    "Outras": [
+      "A ETAR de Elvas deverá estar executada de acordo com o projeto e aditamentos arquivados na entidade licenciadora, datados de junho de 2005, de 10 de julho de 2008, de 10 de setembro de 2008 e de 18 de dezembro de 2008.",
+      "A ETAR está localizada em Alpedreira e destina-se ao tratamento das águas residuais de Elvas, para 19 000 habitantes - equivalentes (origem doméstica - 18 000 e.p. e origem industrial 1000 e.p.) e um caudal de 3656 m3/dia (origem doméstica 3456 m3/dia e origem industrial - 200 m3/dia).",
+      "O titular obriga-se a enviar à Entidade Licenciadora o registo dos caudais médios diários e dos caudais médios mensais relativos ao efluente rejeitado.",
+      "O titular deve proceder ao enquadramento paisagístico da ETAR, como medida de minimização dos impactes ambientais negativos resultantes da construção e exploração da estação de tratamento, nomeadamente em termos visuais.",
+      "Deverão ser garantidas assistência e manutenção adequadas ao sistema de tratamento de águas residuais urbanas, por forma a salvaguardar o seu normal funcionamento e a qualidade do efluente final.",
+      "O titular da licença deverá assegurar a proteção da área de implantação da ETAR, verificando regularmente o estado de conservação do muro de vedação do recinto.",
+      "O Titular deve proceder às necessárias operações regulares de limpeza e manutenção da(s) linha(s) de água associadas à infraestrutura, nomeadamente numa extensão de 25 metros a montante e de 50 metros a jusante do ponto de descarga da ETAR de Elvas, de forma a assegurar as condições adequadas de escoamento hidráulico e a potenciar a constituição e/ou manutenção de uma galeria ripícola bem constituída, procedendo, se necessário, ao controlo e remoção de espécies vegetais invasoras, tais como as Canas (Arundo donax).",
+      "A produção e a utilização das águas residuais tratadas para os usos previstos no Decreto-Lei n.º 119/2019, de 21 de agosto (que estabelece o regime jurídico de produção de água para reutilização, obtida a partir do tratamento de águas residuais, bem como da sua utilização), onde se inclui a rega dos espaços verdes da ETAR de Elvas, estão sujeitas à obtenção prévia de licença, nos termos do disposto no referido diploma legal.",
+      "No prazo máximo de 30 dias após a data de atribuição do presente título, deverá ser apresentada uma apólice de seguro ou prestada uma caução no valor de 18750 € a favor da entidade licenciadora, para recuperação ambiental, de acordo e nos termos previstos no número 2 do artigo 49.º e alínea A) do Anexo I do Decreto-Lei n.º 226-A/2007, de 31 de maio, que garanta o pagamento de indemnizações por eventuais danos causados por erros ou omissões do projeto relativamente à drenagem e tratamento de efluentes ou pelo incumprimento das disposições legais e regulamentares a ele aplicáveis (minutas disponíveis no sítio da Agência Portuguesa do Ambiente, I.P. na internet em www.apambiente.pt – Instrumentos > Licenciamento das utilizações dos recursos hídricos > Formulários)."
+    ]
+  },
+  "condicoes_descarga": [
+    {
+      "Regime": "Normal",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "6,0 - 9,0",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei n.º 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "25",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "125",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "35",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Óleos e Gorduras (mg/L)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei n.º 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "15",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "2",
+      "Legislação aplicável": "(a)",
+      "Legislação aplicável (texto)": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "10",
+      "Legislação aplicável": "(b)",
+      "Legislação aplicável (texto)": "Anexo XVIII do Decreto-Lei n.º 236/98, de 1 de agosto.",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    },
+    {
+      "Regime": "Normal",
+      "Parâmetro": "Escherichia coli (ufc/100 mL)",
+      "VLE (% mín. remoção)": "",
+      "VLE": "2000",
+      "Legislação aplicável": "(c)",
+      "Legislação aplicável (texto)": "Valor definido tendo em vista o bom estado da massa de água recetora e a manutenção dos usos dessa massa de água.",
+      "Avaliação da conformidade (texto)": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações."
+    }
+  ],
+  "condicoes_observacoes": {
+    "Normal": "(1) Para o parâmetro Escherichia coli, a média mensal não pode ultrapassar o V.L.E. e o valor máximo observado durante o mês de laboração não pode ultrapassar uma ordem de grandeza do valor limite que lhe corresponde. Atendendo à origem das águas residuais e aos objetivos de qualidade definidos para a massa de água recetora, para os parâmetros cujo V.L.E. é definido com base no Decreto-Lei n.º 236/98, de 1 de agosto, acrescido do parâmetro Escherichia Coli, o número máximo anual de amostras que podem não ser conformes não pode exceder 2 (duas)."
+  },
+  "legislacao": {
+    "a": "Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.ºs 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto (Quadros n.ºs 1 e 2).",
+    "b": "Anexo XVIII do Decreto-Lei n.º 236/98, de 1 de agosto.",
+    "c": "Valor definido tendo em vista o bom estado da massa de água recetora e a manutenção dos usos dessa massa de água."
+  },
+  "avaliacao_conformidade": {},
+  "avaliacao_texto": "De acordo com a alínea D) do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, com as alterações introduzidas pelos Decretos-Leis n.os 348/98, de 9 de novembro, 149/2004, de 22 de junho, 198/2008, de 8 de outubro, 133/2015, de 13 de julho e 77/2021, de 27 de agosto, e o artigo 69.º do Decreto-Lei n.º 236/98, de 1 de agosto. Ver continuação (1) nas Observações.",
+  "monitorizacao": {},
+  "autocontrolo": {
+    "Observações": "As determinações analíticas conducentes à verificação do cumprimento do presente programa de autocontrolo devem ser preferencialmente realizadas por laboratórios acreditados para o efeito, devendo, nos restantes casos, ser realizadas por laboratórios que mantenham um sistema de controlo de qualidade analítica devidamente documentado e atualizado, à semelhança das orientações descritas na Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho. Os boletins analíticos terão de vir acompanhados da indicação dos limites de deteção, de quantificação e da incerteza. Os procedimentos de amostragem deverão ser efetuados aplicando boas práticas internacionais de laboratório a fim de reduzir ao mínimo a degradação das amostras entre a colheita e a análise.",
+    "Periodicidade de reporte": "Os resultados do programa de autocontrolo, bem como as cópias dos boletins analíticos deverão ser reportados à Entidade Licenciadora com uma periodicidade mensal.",
+    "Equipamento de controlo": "Caudalímetro para medição do caudal e caixa de visita para recolha de amostras.",
+    "Notas de amostragem": "Amostragem composta - representativa da água residual descarregada, recolhida durante um período de 24 horas: (i) com intervalos máximos de 1 hora; (ii) com intervalos máximos de 4 horas; (iii) cobrindo no mínimo três períodos diários distintos entre as 7 e as 21 horas; (iv) representativa de um dia normal de laboração..",
+    "rows": [
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "pH (Escala de Sörensen)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto total (mg/L N)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Fósforo total (mg/L P)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Óleos e Gorduras (mg/L)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Azoto amoniacal (mg/L NH4)",
+        "Método analítico": "Metodologia aplicável em conformidade com o disposto na legislação em vigor e de acordo com a Diretiva 2009/90/CE, transposta para direito interno pelo Decreto-Lei n.º 83/2011, de 20 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Escherichia coli (ufc/100 mL)",
+        "Método analítico": "Anexo I do Decreto-Lei n.º 135/2009, de 3 de junho.",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Pontual"
+      },
+      {
+        "Local de amostragem": "Saída",
+        "Parâmetro": "Caudal (m3/dia)",
+        "Método analítico": "-",
+        "Frequência de amostragem": "Mensal",
+        "Tipo de amostragem": "Composta (i)"
+      }
+    ]
+  },
+  "entidade": {
+    "Entidade Licenciadora": "APA — ARH Alentejo",
+    "Assinado por": "André Matoso"
+  },
+  "_warnings": []
+}

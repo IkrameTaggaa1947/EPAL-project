@@ -1,0 +1,198 @@
+{
+  "file_name": "TUA_1st_priority.pdf",
+  "dados_gerais": {
+    "Nº TUA": "TUA20241002002925",
+    "Requerente": "Águas do Vale do Tejo, S.A.",
+    "NIF": "513606130",
+    "Estabelecimento": "ETAR Salavessa",
+    "Código APA": "APA11086743",
+    "Localização": "Rua da Fonte"
+  },
+  "enquadramento": {
+    "Nº Processo": "PL20231010009451",
+    "Data de Emissão": "02-10-2024",
+    "Data de Entrada em Vigor": "30-09-2024",
+    "Data de Validade": "29-09-2029",
+    "Sentido da decisão": "Deferido",
+    "Entidade Licenciadora": "Administração da Região Hidrográfica do Tejo e Oeste"
+  },
+  "localizacao": {
+    "Código": "T000002",
+    "Código TURH": "L061595.2024.RH5A.V1",
+    "Longitude": "-7,61432",
+    "Latitude": "39,611987",
+    "Massa de Água": "PT05TEJ0913A :: Albufeira do Fratel",
+    "Classificação da Massa de Água": "Razoável"
+  },
+  "caracterizacao": {
+    "Designação": "ETAR Salavessa",
+    "Ano de arranque": "2023",
+    "População servida à data": "200",
+    "Ano horizonte de projeto": "2043",
+    "População servida no horizonte": "200",
+    "Nível de tratamento": "Secundário",
+    "Esquema de tratamento": "Lamas Ativadas",
+    "Caudal máximo de descarga": "6,5 m3/h"
+  },
+  "condicoes_rejeicao": [
+    {
+      "Código": "T000022",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "VLE (% mín. redução)": "",
+      "VLE": "6-9",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(2)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0, e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000023",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "40",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000024",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "VLE (% mín. redução)": "",
+      "VLE": "150",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    },
+    {
+      "Código": "T000025",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "VLE (% mín. redução)": "",
+      "VLE": "60",
+      "Carga máx. admissível (kg/dia)": "",
+      "Legislação aplicável": "(a)",
+      "Avaliação da conformidade": "(1)",
+      "Observações": "",
+      "Legislação aplicável (texto)": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+      "Avaliação da conformidade (texto)": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+    }
+  ],
+  "legislacao": {
+    "T000007": "(a) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+    "T000008": "(b) Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto.",
+    "a": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual.",
+    "b": "Abordagem combinada de acordo com o estabelecido no artigo 53.º da Lei nº 58/2005, de 29 de dezembro, na sua redação atual, conjugada com o Decreto-Lei nº 152/97, de 19 de junho com as alterações introduzidas pelos Decreto-Lei nº 172/2001, de 26 de maio; Decreto-Lei nº 149/2004, de 22 de junho; Decreto-Lei n.º 198/2008, de 8 de outubro; Decreto-Lei n.º 133/2015, de 13 de julho e Decreto-Lei n.º 77/2021, de 27 de agosto."
+  },
+  "avaliacao_conformidade": {
+    "T000010": "(1) Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual. no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual. (2) Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se.",
+    "T000020": "qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0, e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "T000021": "(3) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "1": "Considera-se que as águas residuais tratadas estão conformes com os parâmetros estabelecidos se, para cada um dos parâmetros aplicáveis, individualmente considerados, as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos:a) Nenhuma amostra excede o valor paramétrico em mais de 100%; e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "2": "Considera-se que as águas residuais tratadas estão conformes para o parâmetro pH, se as amostras revelarem que as águas obedecem à norma de qualidade descrita nesta licença, nos seguintes termos: a) Nenhuma amostra poderá se encontrar fora do intervalo 5,0 -10,0, e b) O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual.",
+    "3": "O número máximo anual de amostras não conformes será obtido através de relação estatística similar à aplicável às águas residuais urbanas, descrita no quadro n.º 3 do Anexo I do Decreto-Lei n.º 152/97, de 19 de junho, na sua redação atual."
+  },
+  "autocontrolo": [
+    {
+      "Código": "T000026",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "pH (Escala de Sörensen)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000027",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000028",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Carência Bioquímica de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": "Durante o ano de arranque"
+    },
+    {
+      "Código": "T000029",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000030",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Carência Química de Oxigénio (mg/L O2)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": "Durante o ano de arranque"
+    },
+    {
+      "Código": "T000031",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": ""
+    },
+    {
+      "Código": "T000032",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Entrada",
+      "Parâmetro": "Sólidos Suspensos Totais (mg/L)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": "Durante o ano arranque"
+    },
+    {
+      "Código": "T000033",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Azoto total (mg/L N)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": "Sem VLE, para fins de monitorização"
+    },
+    {
+      "Código": "T000034",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Fósforo total (mg/L P)",
+      "Frequência de amostragem": "Trimestral",
+      "Tipo de amostragem": "Composta (ii)",
+      "Observações": "Sem VLE, para fins de monitorização"
+    },
+    {
+      "Código": "T000035",
+      "Código TURH": "L061595.2024.RH5A.V1",
+      "Local de amostragem": "Saída",
+      "Parâmetro": "Caudal (m3/dia)",
+      "Frequência de amostragem": "Mensal",
+      "Tipo de amostragem": "Pontual",
+      "Observações": "Efetuar medição no dia da recolha das amostras."
+    }
+  ],
+  "_warnings": []
+}

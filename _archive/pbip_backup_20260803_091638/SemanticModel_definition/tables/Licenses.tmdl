@@ -1,0 +1,329 @@
+table Licenses
+	lineageTag: 1d12a291-e757-40be-91d1-8929803fae63
+
+	column file_name
+		dataType: string
+		lineageTag: dc394d3c-e69d-4953-b739-43d3f76ce71f
+		summarizeBy: none
+		sourceColumn: file_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column TUA/LURH
+		dataType: string
+		lineageTag: 6531434d-82ba-4916-b069-0f16121797b4
+		summarizeBy: none
+		sourceColumn: TUA/LURH
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nº Licence'
+		dataType: string
+		lineageTag: 3d372c2f-963e-4abe-b881-7481cae98219
+		summarizeBy: none
+		sourceColumn: Nº Licence
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nº Processo'
+		dataType: string
+		lineageTag: f0a17c43-541c-40bb-8b63-0132c88b43b2
+		summarizeBy: none
+		sourceColumn: Nº Processo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estabelecimento
+		dataType: string
+		lineageTag: d405e7ce-4024-4c72-a262-95ba9b0a00f9
+		summarizeBy: none
+		sourceColumn: Estabelecimento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Código APA'
+		dataType: string
+		lineageTag: b9ca7929-8914-42c3-ab7d-86beefb465e3
+		summarizeBy: none
+		sourceColumn: Código APA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Em Vigor/Caducada'
+		dataType: string
+		lineageTag: 6530c448-91cf-40e8-80dc-470f5e8c94e4
+		summarizeBy: none
+		sourceColumn: Em Vigor/Caducada
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sentido da decisão'
+		dataType: string
+		lineageTag: 1c9228f0-534c-46dd-ba2f-8175f4473710
+		summarizeBy: none
+		sourceColumn: Sentido da decisão
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Entidade Licenciadora'
+		dataType: string
+		lineageTag: 068f5946-0d9e-4c05-af95-e9208294734a
+		summarizeBy: none
+		sourceColumn: Entidade Licenciadora
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Código TURH'
+		dataType: string
+		lineageTag: 2d5366a0-ec08-47e7-b87f-618a9347ec8b
+		summarizeBy: none
+		sourceColumn: Código TURH
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Massa de Água'
+		dataType: string
+		lineageTag: 62702be1-3650-4334-9df7-1fb7078c28e9
+		summarizeBy: none
+		sourceColumn: Massa de Água
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Classificação da Massa de Água'
+		dataType: string
+		lineageTag: b800f56a-c9b1-4a7d-b347-336fc7005f25
+		summarizeBy: none
+		sourceColumn: Classificação da Massa de Água
+
+		annotation SummarizationSetBy = Automatic
+
+	column Designação
+		dataType: string
+		lineageTag: 555d78e4-a108-4b4c-85bf-08a70c8a289d
+		summarizeBy: none
+		sourceColumn: Designação
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nível de tratamento'
+		dataType: string
+		lineageTag: 47e14db8-53c9-48f7-bf8e-e1621bda814a
+		summarizeBy: none
+		sourceColumn: Nível de tratamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Esquema de tratamento'
+		dataType: string
+		lineageTag: 2662721f-7eeb-484c-82f6-580cfe2bfb5c
+		summarizeBy: none
+		sourceColumn: Esquema de tratamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Caudal máximo de descarga'
+		dataType: string
+		lineageTag: 64beb6fc-eda4-4315-b089-f46de6f8256e
+		summarizeBy: none
+		sourceColumn: Caudal máximo de descarga
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGIÃO
+		dataType: string
+		lineageTag: 4cd6df03-504c-4fd7-b2c6-392a88c378b7
+		summarizeBy: none
+		sourceColumn: REGIÃO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ARH
+		dataType: string
+		lineageTag: a2f160fb-4e93-47e2-9681-81f73ede9390
+		summarizeBy: none
+		sourceColumn: ARH
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado
+		dataType: string
+		lineageTag: 4ae5cf99-5d6d-469a-a5d4-c7df7a6b92b1
+		summarizeBy: none
+		sourceColumn: Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tratamento implementado'
+		dataType: string
+		lineageTag: 993f3470-7f0c-4026-817c-8798a9642eb4
+		summarizeBy: none
+		sourceColumn: Tratamento implementado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Município
+		dataType: string
+		lineageTag: 821d2cfa-f3f6-4916-b7af-7750b6de24d6
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: Município
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data de Emissão'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 0bb7afbe-4bd0-4130-a582-11861a098e9d
+		summarizeBy: none
+		sourceColumn: Data de Emissão
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data de Entrada em Vigor'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 900dc615-4a9d-4c9f-abf5-667337a330fe
+		summarizeBy: none
+		sourceColumn: Data de Entrada em Vigor
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data de Validade'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 4967cb08-9315-4b61-b8d3-ff045289dfd9
+		summarizeBy: none
+		sourceColumn: Data de Validade
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Validade (ISO)'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 2527ebab-b7b6-4851-91ce-301bc3ae0160
+		summarizeBy: none
+		sourceColumn: Validade (ISO)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data do pedido de renovação no Siliamb'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: f33d6976-7609-4dde-92db-86cabf24882e
+		summarizeBy: none
+		sourceColumn: Data do pedido de renovação no Siliamb
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Longitude
+		dataType: double
+		lineageTag: dff5c13f-fdd6-4321-a398-c8d7b058b944
+		dataCategory: Longitude
+		summarizeBy: sum
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitude
+		dataType: double
+		lineageTag: 15e7c0e0-8e3b-43e0-a8bc-80ecc2912329
+		dataCategory: Latitude
+		summarizeBy: sum
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ano de arranque'
+		dataType: int64
+		formatString: 0
+		lineageTag: fcd47b51-8097-4bcb-8b4c-4757dda915ff
+		summarizeBy: sum
+		sourceColumn: Ano de arranque
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'População servida à data'
+		dataType: int64
+		formatString: 0
+		lineageTag: fe55f5c3-de4e-4418-9ead-5257d1add6dc
+		summarizeBy: sum
+		sourceColumn: População servida à data
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ano horizonte de projeto'
+		dataType: int64
+		formatString: 0
+		lineageTag: 36a454b9-73e7-4f9e-93d2-1ea298874b66
+		summarizeBy: sum
+		sourceColumn: Ano horizonte de projeto
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'População servida no horizonte'
+		dataType: int64
+		formatString: 0
+		lineageTag: 51b95a5d-23a4-4b6e-869e-bf45d79e9cf4
+		summarizeBy: sum
+		sourceColumn: População servida no horizonte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Estado da Licença' =
+			VAR _v = 'Licenses'[Validade (ISO)]
+			VAR _limite = EDATE(TODAY(), 8)
+			RETURN
+			SWITCH(
+			    TRUE(),
+			    ISBLANK(_v),      "Sem data",
+			    _v < TODAY(),     "Caducada",
+			    _v <= _limite,    "A expirar (< 8 meses)",
+			                      "Válida"
+			)
+		dataType: string
+		lineageTag: a9ff07be-e838-4932-9e84-826edf225a5b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Nome da ETAR normalizado. Liga a TabelaCentroide_ETAR (Centro Operacional, CODMAXIMO). Vazio quando o nome da licença não tem correspondência no registo de ativos.
+	column Chave_ETAR
+		dataType: string
+		lineageTag: 5c1f2b74-9a3e-4d18-8f60-2a7b4c9e1d33
+		summarizeBy: none
+		sourceColumn: Chave_ETAR
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Licenses = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Licenses.xlsx"), null, true),
+				    Folha = Source{[Item = "Licenses", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Folha, [PromoteAllScalars = true]),
+				    Texto = (v) => if v = null then null else Text.Trim(Text.From(v)),
+				    ParaNumero = (v) => let t = Texto(v) in if t = null or t = "" then null else try Number.From(Text.Replace(t, ",", "."), "en-US") otherwise null,
+				    ParaInteiro = (v) => let n = ParaNumero(v) in if n = null then null else Int64.From(Number.Round(n, 0)),
+				    DatasPT = Table.TransformColumnTypes(Headers, {{"Data de Emissão", type date}, {"Data de Entrada em Vigor", type date}, {"Data de Validade", type date}}, "pt-PT"),
+				    DatasISO = Table.TransformColumnTypes(DatasPT, {{"Validade (ISO)", type date}, {"Data do pedido de renovação no Siliamb", type date}}, "en-US"),
+				    Coords = Table.TransformColumns(DatasISO, {{"Longitude", ParaNumero, type number}, {"Latitude", ParaNumero, type number}}),
+				    Inteiros = Table.TransformColumns(Coords, {{"Ano de arranque", ParaInteiro, Int64.Type}, {"População servida à data", ParaInteiro, Int64.Type}, {"Ano horizonte de projeto", ParaInteiro, Int64.Type}, {"População servida no horizonte", ParaInteiro, Int64.Type}}),
+				    SemVazio = (v) => if v = null or v = "" then "0" else v,
+				    Preenchidos = Table.TransformColumns(Inteiros, {{"REGIÃO", SemVazio, type text}, {"ARH", SemVazio, type text}, {"Município", SemVazio, type text}, {"Nível de tratamento", SemVazio, type text}, {"Em Vigor/Caducada", SemVazio, type text}}),
+				    #"Colonnes renommées" = Table.RenameColumns(Preenchidos,{{"Nº TUA", "Nº Licence"}})
+				in
+				    #"Colonnes renommées"
+
+	annotation PBI_ResultType = Table
+

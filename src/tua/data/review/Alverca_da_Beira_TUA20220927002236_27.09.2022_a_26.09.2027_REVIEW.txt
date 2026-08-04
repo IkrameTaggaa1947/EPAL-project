@@ -1,0 +1,7 @@
+Alverca_da_Beira_TUA20220927002236_27.09.2022_a_26.09.2027.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] Data de Entrada em Vigor 08-03-2023 does not match filename 27-09-2022
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.

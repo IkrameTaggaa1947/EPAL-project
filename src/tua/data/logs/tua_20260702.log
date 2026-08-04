@@ -1,0 +1,106 @@
+10:34:34  INFO     processing Barreira_TUA20231128003521_10.05.2024_a_09.05.2029.pdf
+10:35:00  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:35:00  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+10:35:00  WARNING  qa_report.xlsx is open — wrote C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.PENDING.xlsx instead.
+10:35:00  INFO     ----------------------------------------------------
+10:35:00  INFO     DONE  OK:1
+10:39:54  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 10s). Drop TUA PDFs here. Press Ctrl+C to stop.
+10:39:57  INFO     Watch stopped.
+10:44:10  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 10s). Drop TUA PDFs here. Press Ctrl+C to stop.
+10:44:20  INFO     1 new PDF(s) detected.
+10:44:20  INFO     processing Rochoso_TUA20230421001262_26.09.2023_a_19.04.2028 (1).pdf
+10:44:40  INFO       -> OK  (4 conditions, 6 monitoring rows)
+10:44:41  INFO       master updated: {'Licenses': 11, 'Conditions': 46, 'Autocontrolo': 87, 'Legislacao': 25, 'Avaliacao': 31}
+10:44:41  INFO     ----------------------------------------------------
+10:44:41  INFO     DONE  OK:1
+10:48:44  INFO     headless test line -> file only
+10:48:45  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:01:03  INFO     Found 1 PDF(s) in the inbox.
+11:01:03  INFO     processing Rochoso_TUA20230421001262_26.09.2023_a_19.04.2028 (1).pdf
+11:01:46  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:01:46  INFO       master updated: {'Licenses': 11, 'Conditions': 46, 'Autocontrolo': 87, 'Legislacao': 25, 'Avaliacao': 31}
+11:01:47  INFO     ----------------------------------------------------
+11:01:47  INFO     DONE  OK:1
+11:01:47  INFO     Report: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.xlsx
+11:06:05  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:16:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:21:26  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:24:01  INFO     Found 1 PDF(s) in the inbox.
+11:24:01  INFO     processing Rochoso_TUA20230421001262_26.09.2023_a_19.04.2028 (1).pdf
+11:24:31  INFO       -> OK  (4 conditions, 6 monitoring rows)
+11:24:31  WARNING    master locked — saved to C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\master_tua.PENDING.xlsx. Close master_tua.xlsx and re-run.
+11:24:31  INFO     ----------------------------------------------------
+11:24:31  INFO     DONE  OK:1
+11:24:32  INFO     Opened in Excel: Rochoso_TUA20230421001262_26.09.2023_a_19.04.2028 (1)_extracted.xlsx
+11:24:32  INFO     Report: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.xlsx
+11:26:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:31:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:46:04  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:51:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+11:56:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:01:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:06:09  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:16:04  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:21:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:26:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:31:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:36:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:41:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:46:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:51:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+12:56:12  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:01:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:06:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:11:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:16:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:40:17  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:41:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:46:05  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:51:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+13:56:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:01:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:06:06  INFO     Found 1 PDF(s) in the inbox.
+14:06:06  INFO     processing Bogas_do_Meio_TUA20230117000197_31.01.2023_a_16.01.2023.pdf
+14:07:03  INFO       -> REVIEW  (4 conditions, 6 monitoring rows)
+14:07:03  INFO          [REVIEW] Data de Validade 16-01-2028 does not match filename 16-01-2023
+14:07:05  INFO       master updated: {'Licenses': 12, 'Conditions': 50, 'Autocontrolo': 93, 'Legislacao': 27, 'Avaliacao': 33}
+14:07:05  INFO     ----------------------------------------------------
+14:07:05  INFO     DONE  REVIEW:1
+14:07:05  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+14:07:05  INFO     Report: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.xlsx
+14:11:18  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:16:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:21:19  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:26:40  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:31:06  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:36:08  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:41:08  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:46:02  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:51:04  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+14:56:38  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:01:26  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:06:04  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:11:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:16:06  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:26:09  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:31:04  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:36:03  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+15:41:08  INFO     Inbox is empty. Drop TUA PDFs into: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox
+16:41:24  INFO     Found 1 PDF(s) in the inbox.
+16:41:24  INFO     processing Arcozelo_TUA20230530001578_26.10.2023_a_31.10.2025.pdf
+16:41:55  INFO       -> REVIEW  (4 conditions, 7 monitoring rows)
+16:41:55  INFO          [REVIEW] unusual VLE for pH (Escala de Sörensen): '6.0 - 9.0'
+16:41:56  INFO       master updated: {'Licenses': 13, 'Conditions': 54, 'Autocontrolo': 100, 'Legislacao': 31, 'Avaliacao': 35}
+16:41:56  INFO     ----------------------------------------------------
+16:41:56  INFO     DONE  REVIEW:1
+16:41:56  INFO     Some certificates need a look — see: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\review
+16:41:56  INFO     Opened in Excel: Arcozelo_TUA20230530001578_26.10.2023_a_31.10.2025_extracted.xlsx
+16:41:56  INFO     Report: C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\qa_report.xlsx
+16:47:26  INFO     Watching C:\Users\Ikrame TAGGAA\OneDrive - Université Mohammed VI Polytechnique\Bureau\EPAL\EPAL-project\extraction\tua\data\inbox  (every 5s). Drop TUA PDFs here. Press Ctrl+C to stop.
+16:47:51  INFO     1 new PDF(s) detected.
+16:47:51  INFO     processing Arcozelo_TUA20230530001578_26.10.2023_a_31.10.2025.pdf
+16:48:42  INFO       -> OK  (4 conditions, 7 monitoring rows)
+16:48:43  INFO       master updated: {'Licenses': 13, 'Conditions': 54, 'Autocontrolo': 100, 'Legislacao': 31, 'Avaliacao': 35}
+16:48:43  INFO     ----------------------------------------------------
+16:48:43  INFO     DONE  OK:1
+16:48:43  INFO     Opened in Excel: Arcozelo_TUA20230530001578_26.10.2023_a_31.10.2025_extracted.xlsx

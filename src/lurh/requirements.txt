@@ -1,0 +1,5 @@
+# Pipeline LURH/TUA — dependências (Python 3.10+)
+# Instalar com:  pip install -r requirements.txt
+PyMuPDF==1.24.10
+openpyxl==3.1.5
+pandas==2.2.3

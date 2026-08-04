@@ -1,0 +1,10 @@
+Avô_TUA20250722002408_01.10.2025_30.09.2030.pdf
+Verdict: REVIEW
+
+Why this needs a look:
+  - [REVIEW] filename not in the expected TUA pattern — cannot cross-check dates
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+  - [REVIEW] unusual VLE for : '(a)'
+
+What to do: open the matching file in data/extracted/ and check the flagged fields against the PDF. If the data is correct, move this PDF to data/processed/.
