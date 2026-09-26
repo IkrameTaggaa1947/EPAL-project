@@ -1,0 +1,266 @@
+table Medidas
+	lineageTag: aa6ad3f0-6bf8-4223-a7d5-143af7c8d3c7
+
+	measure 'Total de Licenças' = COUNTROWS('Licences')
+		formatString: 0
+		lineageTag: 6f503ba1-514f-46bc-9da6-83edd8c21a02
+
+	measure 'Licenças Válidas' =
+			VAR _limite = EDATE(TODAY(), [Meses de Antecedência])
+			RETURN
+			CALCULATE(
+			    COUNTROWS('Licences'),
+			    KEEPFILTERS(NOT ISBLANK('Licences'[Validade (ISO)])),
+			    KEEPFILTERS('Licences'[Validade (ISO)] > _limite)
+			)
+		formatString: 0
+		lineageTag: fbd0b85e-e429-4976-82d2-4ecb54acbc0c
+
+	measure 'Licenças Caducadas' =
+			CALCULATE(
+			    COUNTROWS('Licences'),
+			    KEEPFILTERS(NOT ISBLANK('Licences'[Validade (ISO)])),
+			    KEEPFILTERS('Licences'[Validade (ISO)] < TODAY())
+			)
+		formatString: 0
+		lineageTag: 37f8af3d-a59b-4b73-b86b-870328073b65
+
+	measure 'Licenças a Expirar' =
+			VAR _limite = EDATE(TODAY(), [Meses de Antecedência])
+			RETURN
+			CALCULATE(
+			    COUNTROWS('Licences'),
+			    KEEPFILTERS(NOT ISBLANK('Licences'[Validade (ISO)])),
+			    KEEPFILTERS('Licences'[Validade (ISO)] >= TODAY()),
+			    KEEPFILTERS('Licences'[Validade (ISO)] <= _limite)
+			)
+		formatString: 0
+		lineageTag: 8b566f9c-a7a3-408a-9b39-6ab0f15ac25c
+
+	measure '% Válidas' = DIVIDE([Licenças Válidas], [Total de Licenças])
+		formatString: 0.0%
+		lineageTag: ef8a8119-177f-46d1-b47c-4c6ab7e0d705
+
+	measure 'Dias até à Próxima Expiração' =
+			MINX(
+			    FILTER('Licences', NOT ISBLANK('Licences'[Validade (ISO)]) && 'Licences'[Validade (ISO)] >= TODAY()),
+			    DATEDIFF(TODAY(), 'Licences'[Validade (ISO)], DAY)
+			)
+		formatString: 0
+		lineageTag: 4c134741-9cf6-4a50-bf1d-8526050f6262
+
+	measure 'Nº de ETARs' = DISTINCTCOUNT('Licences'[Estabelecimento])
+		formatString: 0
+		lineageTag: 2826c04e-2cfa-4147-91fb-f2d2f2f48f8c
+
+	measure 'Meses de Antecedência' = 8
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000001
+
+	measure 'Data Limite de Aviso' = EDATE(TODAY(), [Meses de Antecedência])
+		formatString: dd/mm/yyyy
+		lineageTag: 11000000-0000-0000-0000-000000000002
+
+	measure 'Licenças Sem Data' =
+			CALCULATE(
+			    COUNTROWS('Licences'),
+			    KEEPFILTERS(ISBLANK('Licences'[Validade (ISO)]))
+			)
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000003
+
+	measure '% a Expirar' = DIVIDE([Licenças a Expirar], [Total de Licenças])
+		formatString: 0.0%
+		lineageTag: 11000000-0000-0000-0000-000000000004
+
+	measure '% Caducadas' = DIVIDE([Licenças Caducadas], [Total de Licenças])
+		formatString: 0.0%
+		lineageTag: 11000000-0000-0000-0000-000000000005
+
+	measure 'Licenças por Estado' =
+			VAR _estado = SELECTEDVALUE('Dim_Estado'[Estado])
+			RETURN
+			SWITCH(
+			    _estado,
+			    "Caducada",              [Licenças Caducadas],
+			    "A expirar (< 8 meses)", [Licenças a Expirar],
+			    "Válida",                [Licenças Válidas],
+			    "Sem data",              [Licenças Sem Data],
+			    [Total de Licenças]
+			)
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000006
+
+	measure '% por Estado' =
+			DIVIDE(
+			    [Licenças por Estado],
+			    CALCULATE([Total de Licenças], REMOVEFILTERS('Dim_Estado'))
+			)
+		formatString: 0.0%
+		lineageTag: 11000000-0000-0000-0000-000000000007
+
+	measure 'Próxima Data de Expiração' =
+			CALCULATE(
+			    MIN('Licences'[Validade (ISO)]),
+			    KEEPFILTERS('Licences'[Validade (ISO)] >= TODAY())
+			)
+		formatString: dd/mm/yyyy
+		lineageTag: 11000000-0000-0000-0000-000000000008
+
+	measure 'Dias Médios até Expirar' =
+			AVERAGEX(
+			    FILTER('Licences', NOT ISBLANK('Licences'[Validade (ISO)]) && 'Licences'[Validade (ISO)] >= TODAY()),
+			    DATEDIFF(TODAY(), 'Licences'[Validade (ISO)], DAY)
+			)
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000009
+
+	measure 'Licenças a Expirar (12 meses)' =
+			CALCULATE(
+			    COUNTROWS('Licences'),
+			    KEEPFILTERS(NOT ISBLANK('Licences'[Validade (ISO)])),
+			    KEEPFILTERS('Licences'[Validade (ISO)] >= TODAY()),
+			    KEEPFILTERS('Licences'[Validade (ISO)] <= EDATE(TODAY(), 12))
+			)
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000010
+
+	measure 'Nº de Municípios' = DISTINCTCOUNT('Licences'[Município])
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000011
+
+	measure 'Nº de Regiões' = DISTINCTCOUNT('Licences'[REGIÃO])
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000012
+
+	measure 'População Servida' = SUM('Licences'[População servida à data])
+		formatString: #,0
+		lineageTag: 11000000-0000-0000-0000-000000000013
+
+	measure 'Data de Referência' = "Situação a " & FORMAT(TODAY(), "dd/mm/yyyy")
+		lineageTag: 11000000-0000-0000-0000-000000000014
+
+	measure 'Título do Mapa' =
+			"Localização das licenças — "
+			    & FORMAT([Total de Licenças], "0")
+			    & " licenças | "
+			    & FORMAT([Licenças Caducadas], "0") & " caducadas, "
+			    & FORMAT([Licenças a Expirar], "0") & " a expirar em "
+			    & FORMAT([Meses de Antecedência], "0") & " meses"
+		lineageTag: 11000000-0000-0000-0000-000000000015
+
+	measure 'Dias até Expirar' =
+			VAR _v = MIN('Licences'[Validade (ISO)])
+			RETURN IF(ISBLANK(_v), BLANK(), DATEDIFF(TODAY(), _v, DAY))
+		formatString: 0
+		lineageTag: 11000000-0000-0000-0000-000000000016
+
+	measure 'Subtítulo da Licença' =
+			
+			VAR _num  = SELECTEDVALUE('Licences'[Nº Licence])
+			VAR _tipo = SELECTEDVALUE('Licences'[TUA/LURH])
+			VAR _reg  = SELECTEDVALUE('Licences'[REGIÃO])
+			VAR _mun  = SELECTEDVALUE('Licences'[Município])
+			RETURN _num & "  ·  " & _tipo & "  ·  " & _reg & " · " & _mun
+		lineageTag: 29971e6d-8c20-4600-83fc-7516372b8b4d
+
+	measure 'Subtítulo ETAR' =
+			VAR _tua = SELECTEDVALUE('Licences'[Nº Licence])
+			VAR _reg = SELECTEDVALUE('Licences'[REGIÃO])
+			VAR _mun = SELECTEDVALUE('Licences'[Município])
+			VAR _massa = SELECTEDVALUE('Licences'[Massa de Água])
+			VAR _pop = SELECTEDVALUE('Licences'[População servida à data])
+			VAR _trat = SELECTEDVALUE('Licences'[Nível de tratamento])
+			RETURN
+			    _tua
+			    & IF(NOT ISBLANK(_reg) && _reg <> "0", "   ·   " & _reg, "")
+			    & IF(NOT ISBLANK(_mun) && _mun <> "0", "   ·   " & _mun, "")
+			    & IF(NOT ISBLANK(_massa), "   ·   " & _massa, "")
+			    & IF(NOT ISBLANK(_pop), "   ·   Pop. servida: " & FORMAT(_pop, "#,0") & " hab.", "")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-000000000101
+
+	measure 'Cor do Estado' =
+			VAR e = SELECTEDVALUE('Licences'[Estado da Licença])
+			RETURN COALESCE(LOOKUPVALUE('Dim_Estado'[Cor], 'Dim_Estado'[Estado], e), "#5F5E5A")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000c001
+
+	measure 'Regra de Colheita' = MAXX(VALUES('Autocontrolo'[Nota tipo de amostragem]), 'Autocontrolo'[Nota tipo de amostragem])
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000c002
+
+	measure 'Ficha · ETAR' = SELECTEDVALUE('Licences'[Designação], "— selecione uma ETAR —")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f001
+
+	measure 'Ficha · Estado Licença' = SELECTEDVALUE('Licences'[Em Vigor/Caducada], "—")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f002
+
+	measure 'Ficha · Validade' =
+			VAR _d = SELECTEDVALUE('Licences'[Validade (ISO)])
+			RETURN IF(ISBLANK(_d), "Sem data", FORMAT(_d, "dd/mm/yyyy"))
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f003
+
+	measure 'Ficha · Dias p/ Expirar' =
+			VAR _d = SELECTEDVALUE('Licences'[Validade (ISO)])
+			VAR _n = DATEDIFF(TODAY(), _d, DAY)
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(_d), "Sem data",
+			        _n < 0, "Caducada há " & ABS(_n) & " dias",
+			        _n & " dias"
+			    )
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f004
+
+	measure 'Ficha · Centro Operacional' = SELECTEDVALUE('TabelaCentroide_1'[Centro_Operacional], "—")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f005
+
+	measure 'Ficha · Departamento' = SELECTEDVALUE('TabelaCentroide_1'[Departamento DOS], "—")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f006
+
+	measure 'Ficha · Localização' =
+			VAR _mun = SELECTEDVALUE('Licences'[Município])
+			VAR _con = SELECTEDVALUE('TabelaCentroide_1'[CONCELHO])
+			VAR _arh = SELECTEDVALUE('Licences'[ARH])
+			RETURN COALESCE(_mun, _con, "—") & IF(NOT ISBLANK(_arh), "  ·  " & _arh, "")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f007
+
+	measure 'Ficha · Meio Recetor' = SELECTEDVALUE('Rejeicao'[Denominação do meio recetor], "—")
+		lineageTag: aa6ad3f0-6bf8-4223-a7d5-00000000f008
+
+	measure 'URL da Licença' =
+			VAR _n = DISTINCTCOUNT ( Licences[Nº Licence] )
+			RETURN
+			IF ( _n = 1, SELECTEDVALUE ( Licences[Ficheiro da Licença] ) )
+		lineageTag: 2bb8beec-79c2-47af-a19a-f467abb1a70e
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Dica do botão Licença' =
+			VAR _n = DISTINCTCOUNT ( Licences[Nº Licence] )
+			RETURN
+			SWITCH (
+				TRUE (),
+				_n = 0, "Escolha uma licença primeiro.",
+				_n > 1, "Escolha só UMA licença (" & _n & " seleccionadas).",
+				ISBLANK ( SELECTEDVALUE ( Licences[Ficheiro da Licença] ) ),
+					"O PDF desta licença não está no arquivo.",
+				"Abrir o PDF original desta licença."
+			)
+		lineageTag: 4b1f5d01-b0e8-440b-8b3c-eea2e446a9d3
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valor Base'
+		isHidden
+		lineageTag: a1b97b96-91fb-4c1d-993c-5adfdf76dfe7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Valor Base]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medidas = calculated
+		mode: import
+		source = FILTER(ROW("Valor Base", BLANK()), FALSE())
+
+	annotation PBI_ResultType = Table
+

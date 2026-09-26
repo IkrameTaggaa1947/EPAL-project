@@ -1,0 +1,94 @@
+table Avaliacao
+	lineageTag: ed49317b-f8a8-463d-86aa-3e34a1dec676
+
+	column N°TUA
+		dataType: string
+		lineageTag: 68167c4c-cdf3-4aa5-9d03-bcdc1158a0d0
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Avaliacao
+		dataType: string
+		lineageTag: 216cc8e7-c543-4caa-aa71-3c17e593768f
+		summarizeBy: none
+		sourceColumn: Avaliação da conformidade
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Código
+		dataType: string
+		lineageTag: 0db0715a-4114-4b3b-a880-a81029dc01e1
+		summarizeBy: none
+		sourceColumn: Código
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordem
+		dataType: int64
+		formatString: 0
+		lineageTag: ed49317b-f8a8-463d-86aa-3e34a1dec680
+		summarizeBy: none
+		sourceColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Codigo curto do texto de avaliacao. Corresponde a Dim_Avaliacao[Cod Avaliação].
+	column 'Cod Avaliação'
+		dataType: string
+		lineageTag: 8a2b1c30-4001-4d00-8a00-cc0024000001
+		summarizeBy: none
+		sourceColumn: Cod Avaliação
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Diploma legal principal referido na avaliacao da conformidade.
+	column Diploma
+		dataType: string
+		lineageTag: 8a2b1c30-4002-4d00-8a00-cc0024000002
+		summarizeBy: none
+		sourceColumn: Diploma
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id Versão'
+		dataType: string
+		lineageTag: ef89d2ef-bc70-4132-b830-097a5da8b6e9
+		summarizeBy: none
+		sourceColumn: Id Versão
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Avaliacao = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Avaliacao.xlsx"), null, true),
+				    Sheet = Source{[Item = "Avaliacao", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"Ordem", Int64.Type}, {"Nº TUA", type text}, {"Código", type text}, {"Avaliação da conformidade", type text}}),
+				    TextoLimpo = Table.AddColumn(Types, "__txt", each if [Avaliação da conformidade] = null then null else Text.Trim([Avaliação da conformidade]), type text),
+				    DicOrigem = Excel.Workbook(File.Contents(DataFolder & "\Dim_Avaliacao.xlsx"), null, true),
+				    DicFolha = DicOrigem{[Item = "Dim_Avaliacao", Kind = "Sheet"]}[Data],
+				    DicHeaders = Table.PromoteHeaders(DicFolha, [PromoteAllScalars = true]),
+				    DicSel = Table.SelectColumns(DicHeaders, {"Cod Avaliação", "Diploma", "Avaliação (texto completo)"}),
+				    DicTipos = Table.TransformColumnTypes(DicSel, {{"Cod Avaliação", type text}, {"Diploma", type text}, {"Avaliação (texto completo)", type text}}),
+				    DicUnico = Table.Distinct(DicTipos, {"Avaliação (texto completo)"}),
+				    Juncao = Table.NestedJoin(TextoLimpo, {"__txt"}, DicUnico, {"Avaliação (texto completo)"}, "dic", JoinKind.LeftOuter),
+				    Expandido = Table.ExpandTableColumn(Juncao, "dic", {"Cod Avaliação", "Diploma"}, {"Cod Avaliação", "Diploma"}),
+				    SemAux = Table.RemoveColumns(Expandido, {"__txt"}),
+				    TiposFinais = Table.TransformColumnTypes(SemAux, {{"Cod Avaliação", type text}, {"Diploma", type text}})
+				in
+				    TiposFinais
+
+	changedProperty = IsHidden
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,167 @@
+table Autocontrolo
+	lineageTag: 1537016b-d2b0-4883-bd1e-513f0f2fa8c5
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: 93e519ce-f6ea-4370-901e-0f9ca9c7fd59
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Código
+		dataType: string
+		lineageTag: 4f4ca415-f9c1-4401-be83-9e7932e51b4c
+		summarizeBy: none
+		sourceColumn: Código
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Local de amostragem'
+		dataType: string
+		lineageTag: 6e956ad3-8951-4b77-a780-284b0240a49e
+		summarizeBy: none
+		sourceColumn: Local de amostragem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unit
+		dataType: string
+		lineageTag: 931c3868-04b8-4247-bc63-bc35fb8f9382
+		summarizeBy: none
+		sourceColumn: Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Frequência de amostragem'
+		dataType: string
+		lineageTag: 60520c4f-dd77-4a41-a3f7-f8ea4e2f351f
+		summarizeBy: none
+		sourceColumn: Frequência de amostragem
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nota tipo de amostragem'
+		dataType: string
+		lineageTag: 18aef9da-50d7-4198-8c1a-ee12d393f2cb
+		summarizeBy: none
+		sourceColumn: Nota tipo de amostragem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parameter
+		dataType: string
+		lineageTag: 1262526c-7ff1-4215-9014-d8d8e1045fce
+		summarizeBy: none
+		sourceColumn: Parametro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Periodo
+		dataType: string
+		lineageTag: 1537016b-d2b0-4883-bd1e-513f0f2fa901
+		summarizeBy: none
+		sourceColumn: Periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parâmetro
+		dataType: string
+		lineageTag: dacbc54a-e905-4b63-ad8f-7e2122455ffe
+		summarizeBy: none
+		sourceColumn: Parâmetro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Observações
+		dataType: string
+		lineageTag: ce5e39ff-5fd6-402c-9136-97776caeeed6
+		summarizeBy: none
+		sourceColumn: Observações
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Codigo curto normalizado do parametro. Liga a Dim_Parametro[Cod Parâmetro].
+	column 'Cod Parâmetro'
+		dataType: string
+		lineageTag: 6e4f8b20-7002-4a00-8e00-ee0031000002
+		summarizeBy: none
+		sourceColumn: Cod Parâmetro
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Método analítico'
+		dataType: string
+		lineageTag: 31d36947-8580-4c16-a52b-cc9a50d5c25d
+		summarizeBy: none
+		sourceColumn: Método analítico
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de amostragem.1'
+		dataType: string
+		lineageTag: 78f354f7-e917-4a57-8ea2-08f0e77bc7b8
+		summarizeBy: none
+		sourceColumn: Tipo de amostragem.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de amostragem.2'
+		dataType: string
+		lineageTag: 831d8caf-8cba-4e27-b8f8-c0eff26139e1
+		summarizeBy: none
+		sourceColumn: Tipo de amostragem.2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nota do tipo de amostragem.1'
+		dataType: string
+		lineageTag: 7c364f58-1b12-4ccc-957e-8bfa6e68bc25
+		summarizeBy: none
+		sourceColumn: Nota do tipo de amostragem.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nota do tipo de amostragem.2'
+		dataType: string
+		lineageTag: 1466a368-7648-4874-bda5-331d205d1383
+		summarizeBy: none
+		sourceColumn: Nota do tipo de amostragem.2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id Versão'
+		dataType: string
+		lineageTag: 8bc5befe-0247-44d9-866a-63a873dd40f1
+		summarizeBy: none
+		sourceColumn: Id Versão
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Autocontrolo = m
+		mode: import
+		source =
+				let
+				    NormPar = (v) =>
+				        let t = if v = null then null else Text.Trim(Text.From(v))
+				        in
+				            if t = null or t = "" then null
+				            else if t = "Carência Bioquímica de" then "CBO5"
+				            else if t = "Carência Química de" then "CQO"
+				            else t,
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Autocontrolo.xlsx"), null, true),
+				    Sheet = Source{[Item = "Autocontrolo", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"Observações", type text}, {"Nº TUA", type text}, {"Código", type text}, {"Local de amostragem", type text}, {"Parâmetro", type text}, {"Parametro", type text}, {"Unidade", type text}, {"Periodo", type text}, {"Frequência de amostragem", type text}, {"Tipo de amostragem", type text}, {"Nota tipo de amostragem", type text}, {"Nota do tipo de amostragem", type text}}),
+				    ComCodPar = Table.AddColumn(Types, "Cod Parâmetro", each NormPar([Parametro]), type text),
+				    #"Fractionner la colonne par délimiteur" = Table.SplitColumn(ComCodPar, "Tipo de amostragem", Splitter.SplitTextByDelimiter("(", QuoteStyle.Csv), {"Tipo de amostragem.1", "Tipo de amostragem.2"}),
+				    #"Type modifié" = Table.TransformColumnTypes(#"Fractionner la colonne par délimiteur",{{"Tipo de amostragem.1", type text}, {"Tipo de amostragem.2", type text}}),
+				    #"Fractionner la colonne par délimiteur1" = Table.SplitColumn(#"Type modifié", "Nota do tipo de amostragem", Splitter.SplitTextByDelimiter(")", QuoteStyle.Csv), {"Nota do tipo de amostragem.1", "Nota do tipo de amostragem.2"}),
+				    #"Type modifié1" = Table.TransformColumnTypes(#"Fractionner la colonne par délimiteur1",{{"Nota do tipo de amostragem.1", type text}, {"Nota do tipo de amostragem.2", type text}})
+				in
+				    #"Type modifié1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,226 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1725.5004139999953,
+        "y": 175.38453899999951
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2390.2362472300983,
+            "y": 41.788278310470204
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "aa6ad3f0-6bf8-4223-a7d5-143af7c8d3c7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 389.61549995910434,
+            "y": 821.36798077926517
+          },
+          "nodeIndex": "Dim_Estado",
+          "nodeLineageTag": "7b1f0a52-3d64-4a1e-9c88-4a0f1b2c5d01",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 1317.9027070023894,
+            "y": 304.53832384706635
+          },
+          "nodeIndex": "Conditions",
+          "nodeLineageTag": "9cbee918-44ad-4fa9-a63f-bca5b53e1bae",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 14
+        },
+        {
+          "location": {
+            "x": 416.10350006990376,
+            "y": 54.592064897913417
+          },
+          "nodeIndex": "Autocontrolo",
+          "nodeLineageTag": "1537016b-d2b0-4883-bd1e-513f0f2fa8c5",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 816.90101848387,
+            "y": 54.016007516671927
+          },
+          "nodeIndex": "Avaliacao",
+          "nodeLineageTag": "ed49317b-f8a8-463d-86aa-3e34a1dec676",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 193.09759157011024,
+            "y": 396.47088566683067
+          },
+          "nodeIndex": "Catalogo_Criterios",
+          "nodeLineageTag": "3259f30d-d972-46dd-9e6a-6a2c4cd9391d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 517.71772913858081,
+            "y": 474.36276601671852
+          },
+          "nodeIndex": "Licencas_Criterios",
+          "nodeLineageTag": "2f0d1985-27ba-461d-9684-4c4db5571217",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 968.8751917202452,
+            "y": 800.43018034074919
+          },
+          "nodeIndex": "Condicoes_Prioritarias",
+          "nodeLineageTag": "c0f1a2b3-11d2-4e3f-9a01-aa0001000000",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 2481.1386556599882,
+            "y": 361.82294525661632
+          },
+          "nodeIndex": "Comunicacoes",
+          "nodeLineageTag": "3f7a9c50-8000-4c00-9f00-220040000000",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2765.1386556599882,
+            "y": 411.82294525661632
+          },
+          "nodeIndex": "Dim_Avaliacao",
+          "nodeLineageTag": "8a2b1c30-2000-4d00-8a00-cc0022000000",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 3049.1386556599882,
+            "y": 399.82294525661632
+          },
+          "nodeIndex": "Dim_Parametro",
+          "nodeLineageTag": "6e4f8b20-6000-4a00-8e00-ee0030000000",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 3349.0827046599884,
+            "y": 186.433771256617
+          },
+          "nodeIndex": "Rejeicao",
+          "nodeLineageTag": "5c9e0a40-1000-4b00-9e00-bb0011000000",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 873.1434668090053,
+            "y": 366.27475078584939
+          },
+          "nodeIndex": "Licences",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 1458.9789180343864,
+            "y": 757.31217742877311
+          },
+          "nodeIndex": "TabelaCentroide_1",
+          "nodeLineageTag": "6ac259d8-6f61-4d80-9863-8a9330754c84",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 2559.5192960898808,
+            "y": 723.25767266264063
+          },
+          "nodeIndex": "MeioRecetor",
+          "nodeLineageTag": "7d6a4ded-942f-4660-8625-7a90f6fa7597",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Pesquisa",
+          "nodeLineageTag": "8c8ea7ce-4c5a-4aa9-8b3e-d296a4b04c86",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 56.4473930053779,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "97b1a3c4bdb70a975a9d",
+  "displayName": "Programa de monitorização do meio recetor a implementar",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

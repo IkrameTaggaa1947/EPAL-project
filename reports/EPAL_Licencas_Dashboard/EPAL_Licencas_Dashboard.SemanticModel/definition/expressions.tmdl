@@ -1,0 +1,52 @@
+/// Pasta do feed combinado (xlsx). Caminho absoluto — o Power Query não tem caminhos relativos, por isso cada máquina tem de o editar em Transformar dados -> Gerir parâmetros. Deve apontar para <raiz do projeto>\data\powerbi.
+expression DataFolder = "C:\EPAL\powerbi" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 8b3a2929-452d-40d3-9e30-ee9a6d7e993e
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+
+expression 'Erreurs dans Licences' =
+		let
+		Source = Licences,
+		  #"Incompatibilités de types détectées" = let
+		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Source, Table.ColumnsOfType(Source, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
+		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
+		    fieldNames = Record.FieldNames(recordTypeFields),
+		    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),
+		    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = "Le type de la valeur ne correspond pas à celui de la colonne.", Detail = v], fieldTypes{i}})
+		in
+		    Table.TransformColumns(Source, pairs),
+		  #"Index ajouté" = Table.AddIndexColumn(#"Incompatibilités de types détectées", "Numéro de ligne" ,1),
+		  #"Conserver les erreurs" = Table.SelectRowsWithErrors(#"Index ajouté", {"file_name", "TUA/LURH", "Nº Licence", "Nº Processo", "Estabelecimento", "Código APA", "Data de Emissão", "Data de Entrada em Vigor", "Data de Validade", "Validade (ISO)", "Em Vigor/Caducada", "Sentido da decisão", "Entidade Licenciadora", "Código TURH", "Longitude", "Latitude", "Massa de Água", "Classificação da Massa de Água", "Designação", "Ano de arranque", "População servida à data", "Ano horizonte de projeto", "População servida no horizonte", "Nível de tratamento", "Esquema de tratamento", "Caudal máximo de descarga", "Chave_ETAR", "Meio Recetor", "Denominação do meio recetor", "REGIÃO", "ARH", "Município", "CODMAXIMO", "Vigência da Licença", "Caudalímetro · Condição", "Caudalímetro"}),
+		  #"Colonnes permutées" = Table.ReorderColumns(#"Conserver les erreurs", {"Numéro de ligne", "file_name", "TUA/LURH", "Nº Licence", "Nº Processo", "Estabelecimento", "Código APA", "Data de Emissão", "Data de Entrada em Vigor", "Data de Validade", "Validade (ISO)", "Em Vigor/Caducada", "Sentido da decisão", "Entidade Licenciadora", "Código TURH", "Longitude", "Latitude", "Massa de Água", "Classificação da Massa de Água", "Designação", "Ano de arranque", "População servida à data", "Ano horizonte de projeto", "População servida no horizonte", "Nível de tratamento", "Esquema de tratamento", "Caudal máximo de descarga", "Chave_ETAR", "Meio Recetor", "Denominação do meio recetor", "REGIÃO", "ARH", "Município", "CODMAXIMO", "Vigência da Licença", "Caudalímetro · Condição", "Caudalímetro"})
+		in
+		  #"Colonnes permutées"
+	lineageTag: 4cee0009-ff07-4b65-afbe-2bb72019b324
+	queryGroup: 'Erreurs des requêtes – 24/08/2026 16:54:28'
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'Erreurs dans Licences (2)' =
+		let
+		Source = Licences,
+		  #"Incompatibilités de types détectées" = let
+		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Source, Table.ColumnsOfType(Source, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
+		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
+		    fieldNames = Record.FieldNames(recordTypeFields),
+		    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),
+		    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = "Le type de la valeur ne correspond pas à celui de la colonne.", Detail = v], fieldTypes{i}})
+		in
+		    Table.TransformColumns(Source, pairs),
+		  #"Index ajouté" = Table.AddIndexColumn(#"Incompatibilités de types détectées", "Numéro de ligne" ,1),
+		  #"Conserver les erreurs" = Table.SelectRowsWithErrors(#"Index ajouté", {"file_name", "TUA/LURH", "Nº Licence", "Nº Processo", "Estabelecimento", "Código APA", "Data de Emissão", "Data de Entrada em Vigor", "Data de Validade", "Validade (ISO)", "Em Vigor/Caducada", "Sentido da decisão", "Entidade Licenciadora", "Código TURH", "Longitude", "Latitude", "Massa de Água", "Classificação da Massa de Água", "Designação", "Ano de arranque", "População servida à data", "Ano horizonte de projeto", "População servida no horizonte", "Nível de tratamento", "Esquema de tratamento", "Caudal máximo de descarga", "Chave_ETAR", "Meio Recetor", "Denominação do meio recetor", "REGIÃO", "ARH", "Município", "CODMAXIMO", "Vigência da Licença", "Caudalímetro · Condição", "Caudalímetro"}),
+		  #"Colonnes permutées" = Table.ReorderColumns(#"Conserver les erreurs", {"Numéro de ligne", "file_name", "TUA/LURH", "Nº Licence", "Nº Processo", "Estabelecimento", "Código APA", "Data de Emissão", "Data de Entrada em Vigor", "Data de Validade", "Validade (ISO)", "Em Vigor/Caducada", "Sentido da decisão", "Entidade Licenciadora", "Código TURH", "Longitude", "Latitude", "Massa de Água", "Classificação da Massa de Água", "Designação", "Ano de arranque", "População servida à data", "Ano horizonte de projeto", "População servida no horizonte", "Nível de tratamento", "Esquema de tratamento", "Caudal máximo de descarga", "Chave_ETAR", "Meio Recetor", "Denominação do meio recetor", "REGIÃO", "ARH", "Município", "CODMAXIMO", "Vigência da Licença", "Caudalímetro · Condição", "Caudalímetro"})
+		in
+		  #"Colonnes permutées"
+	lineageTag: 4bef3efe-b543-45ec-a9bf-6e16af0f72ba
+	queryGroup: 'Erreurs des requêtes – 24/08/2026 16:57:23'
+
+	annotation PBI_NavigationStepName = Navigation
+

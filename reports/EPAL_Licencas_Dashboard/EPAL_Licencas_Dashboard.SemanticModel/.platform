@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "EPAL_TUA_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "77cbbbbf-53cd-46d1-b120-2b9cedb6ef00"
+  }
+}

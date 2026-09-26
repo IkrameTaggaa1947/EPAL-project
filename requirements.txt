@@ -1,0 +1,12 @@
+# EPAL — dependencias (fixadas). Uma unica lista para TODO o projeto.
+#
+# Instalar:  python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+# Ou, o normal aqui: duplo-clique em INSTALAR_PYTHON_PORTATIL.bat, que
+# instala exatamente esta lista no runtime\python portatil.
+#
+# Precisa de Python 3.13.x — as bibliotecas abaixo sao rodas cp313.
+PyMuPDF==1.27.2.3      # leitura das tabelas do PDF (fitz) — o nucleo do extrator
+pandas==2.3.3          # data frames + IO de Excel/CSV
+openpyxl==3.1.2        # .xlsx (master, saidas por licenca, tabelas estaticas)
+requests==2.32.5       # cliente HTTP do AMALIA (criteria_LLM_automation)
+pytest==8.4.2          # testes (opcional; tambem correm com `python test_extraction.py`)

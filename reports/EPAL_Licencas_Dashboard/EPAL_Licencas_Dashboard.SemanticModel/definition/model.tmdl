@@ -1,0 +1,43 @@
+model Model
+	culture: pt-PT
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-PT
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+/// Erreurs dans les requêtes qui ont été chargées sur 24/08/2026 16:54:28.
+queryGroup 'Erreurs des requêtes – 24/08/2026 16:54:28'
+
+	annotation PBI_QueryGroupOrder = 0
+
+/// Erreurs dans les requêtes qui ont été chargées sur 24/08/2026 16:57:23.
+queryGroup 'Erreurs des requêtes – 24/08/2026 16:57:23'
+
+	annotation PBI_QueryGroupOrder = 1
+
+annotation PBI_QueryOrder = ["DataFolder","Licences","Conditions","Autocontrolo","Avaliacao","Catalogo_Criterios","Licencas_Criterios","Condicoes_Prioritarias","Rejeicao","Dim_Avaliacao","Dim_Parametro","Comunicacoes","TabelaCentroide_1","MeioRecetor","Pesquisa","Erreurs dans Licences","Erreurs dans Licences (2)"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Licences
+ref table Medidas
+ref table Dim_Estado
+ref table Conditions
+ref table Autocontrolo
+ref table Avaliacao
+ref table Catalogo_Criterios
+ref table Licencas_Criterios
+ref table Condicoes_Prioritarias
+ref table Rejeicao
+ref table Dim_Avaliacao
+ref table Comunicacoes
+ref table TabelaCentroide_1
+ref table MeioRecetor
+ref table Pesquisa
+ref table Dim_Parametro
+
+ref cultureInfo pt-PT
+

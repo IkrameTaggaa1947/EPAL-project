@@ -1,0 +1,55 @@
+table Condicoes_Prioritarias
+	lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000000
+
+	measure 'Nº Condições Prioritárias' = COUNTROWS('Condicoes_Prioritarias')
+		formatString: 0
+		lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000010
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000001
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Código
+		dataType: string
+		lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000002
+		summarizeBy: none
+		sourceColumn: Código
+
+		annotation SummarizationSetBy = Automatic
+
+	column Palavra-chave
+		dataType: string
+		lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000003
+		summarizeBy: none
+		sourceColumn: Palavra-chave
+
+		annotation SummarizationSetBy = Automatic
+
+	column Condiçao
+		dataType: string
+		lineageTag: c0f1a2b3-11d2-4e3f-9a01-aa0001000004
+		summarizeBy: none
+		sourceColumn: Condiçao
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Condicoes_Prioritarias = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Condicoes_Prioritarias.xlsx"), null, true),
+				    Folha = Source{[Item = "Condicoes_Prioritarias", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Folha, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Headers, {{"Nº TUA", type text}, {"Código", type text}, {"Palavra-chave", type text}, {"Condição", type text}}),
+				    #"Colonnes renommées" = Table.RenameColumns(Tipos,{{"Condição", "Condiçao"}})
+				in
+				    #"Colonnes renommées"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

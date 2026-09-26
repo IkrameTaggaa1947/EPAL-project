@@ -1,0 +1,61 @@
+relationship 3a71c6d8-51b2-4f09-9e35-2c8d4f6b7a01
+	fromColumn: Licences.'Estado da Licença'
+	toColumn: Dim_Estado.Estado
+
+relationship 2418cf09-1543-651f-a9bd-7d84eb78d0c0
+	fromColumn: Conditions.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship AutoDetected_193c0eb8-12b2-408e-8312-dfec169a9a8c
+	fromColumn: Autocontrolo.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship 9486823c-3ca7-95e5-ac2a-48689076231f
+	fromColumn: Avaliacao.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship e72eb113-e1aa-487c-7317-50c8e07304cb
+	fromColumn: Licencas_Criterios.IdCriterio
+	toColumn: Catalogo_Criterios.IdCriterio
+
+relationship f1a2b3c4-88d9-4e0a-9f06-ff0006000099
+	fromColumn: Conditions.'Cod Avaliação'
+	toColumn: Dim_Avaliacao.'Cod Avaliação'
+
+relationship a1b2c3d4-9004-4f00-8a01-110004000099
+	fromColumn: Avaliacao.'Cod Avaliação'
+	toColumn: Dim_Avaliacao.'Cod Avaliação'
+
+relationship 627f88a1-42dd-f1d1-e8f9-e9918e390773
+	fromColumn: Licences.CODMAXIMO
+	toColumn: TabelaCentroide_1.CODMAXIMO
+
+relationship AutoDetected_6d720f88-cbd7-4a21-b581-1e73a9b56a7c
+	fromColumn: MeioRecetor.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship AutoDetected_76647773-5782-4abf-88e7-ef316a285495
+	crossFilteringBehavior: bothDirections
+	fromColumn: Pesquisa.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship a1b2c3d4-9001-4f00-8a01-110001000099
+	fromColumn: Conditions.'Cod Parâmetro'
+	toColumn: Dim_Parametro.'Cod Parâmetro'
+
+relationship a1b2c3d4-9002-4f00-8a01-110002000099
+	fromColumn: Autocontrolo.'Cod Parâmetro'
+	toColumn: Dim_Parametro.'Cod Parâmetro'
+
+relationship a1b2c3d4-9003-4f00-8a01-110003000099
+	fromColumn: Licencas_Criterios.'Cod Parâmetro'
+	toColumn: Dim_Parametro.'Cod Parâmetro'
+
+relationship AutoDetected_a90f3ea9-6f5c-4f3b-82d9-60dce668e1ea
+	fromColumn: Licencas_Criterios.'Id Versão'
+	toColumn: Licences.'Id Versão'
+
+relationship AutoDetected_260626c3-e0e7-4d75-a198-e0734f298895
+	fromColumn: Condicoes_Prioritarias.'Id Versão'
+	toColumn: Licences.'Id Versão'
+

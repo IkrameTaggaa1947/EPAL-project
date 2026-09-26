@@ -1,0 +1,383 @@
+table TabelaCentroide_1
+	lineageTag: 6ac259d8-6f61-4d80-9863-8a9330754c84
+
+	column GNA_TIPO
+		dataType: string
+		lineageTag: b0c40a0e-36de-42da-b024-5d59c00819e0
+		summarizeBy: none
+		sourceColumn: GNA_TIPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPO_INFRAESTRUTURA
+		dataType: string
+		lineageTag: 28985467-56c4-486c-9d25-58c371aba63f
+		summarizeBy: none
+		sourceColumn: TIPO_INFRAESTRUTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NEGOCIO
+		dataType: string
+		lineageTag: 6c63bb7b-5dee-4f0a-b5a7-47b3dadc5900
+		summarizeBy: none
+		sourceColumn: NEGOCIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column AA_TIPO
+		dataType: string
+		lineageTag: ad299277-4330-4d21-9d0d-986dbb018214
+		summarizeBy: none
+		sourceColumn: AA_TIPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IPID_TIPO_INFRA
+		dataType: int64
+		formatString: 0
+		lineageTag: 613af0ce-3665-4de0-a129-804f3a56e56a
+		summarizeBy: none
+		sourceColumn: IPID_TIPO_INFRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_GNA
+		dataType: string
+		lineageTag: 62c20552-8f6c-4fd6-bf87-376325f77d32
+		summarizeBy: none
+		sourceColumn: ID_GNA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODMAXIMO
+		dataType: string
+		lineageTag: 7ea02db5-deef-4783-80d7-8d12f1dee588
+		summarizeBy: none
+		sourceColumn: CODMAXIMO
+
+		annotation SummarizationSetBy = Automatic
+
+	column M_ETRS89
+		dataType: double
+		lineageTag: 89812a9e-8a0d-43ab-9f1a-3a90f2513ef1
+		summarizeBy: none
+		sourceColumn: M_ETRS89
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column P_ETRS89
+		dataType: double
+		lineageTag: 3d14123a-6516-4f86-8f9f-43267080b3cf
+		summarizeBy: none
+		sourceColumn: P_ETRS89
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column LONGITUDE_WGS84
+		dataType: double
+		lineageTag: efe34572-ab27-4dec-a118-172da12834cf
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: LONGITUDE_WGS84
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column LATITUDE_WGS84
+		dataType: double
+		lineageTag: f6c93d69-0de8-4e75-b720-5969a1cb8192
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: LATITUDE_WGS84
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column EMPRESA
+		dataType: string
+		lineageTag: 80d9c8bd-6f81-48e5-9f9b-8d5fb35e0fb5
+		summarizeBy: none
+		sourceColumn: EMPRESA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Centro_Operacional
+		dataType: string
+		lineageTag: 94e049af-b8b1-4e31-8a88-b263ae6e3ea5
+		summarizeBy: none
+		sourceColumn: Centro_Operacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMPRESAORIGINAL
+		dataType: string
+		lineageTag: 1e9fe026-7606-45a5-9650-94de97c31239
+		summarizeBy: none
+		sourceColumn: EMPRESAORIGINAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO
+		dataType: int64
+		formatString: 0
+		lineageTag: a4e49533-4a4b-48ee-a248-f7ddffbe20c7
+		summarizeBy: none
+		sourceColumn: ANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONCELHO
+		dataType: string
+		lineageTag: 95702c52-b745-4c32-80e0-5873be7e8106
+		summarizeBy: none
+		sourceColumn: CONCELHO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FREGUESIA
+		dataType: string
+		lineageTag: 380d399f-59d6-411e-9d90-a5b3e88f3f8c
+		summarizeBy: none
+		sourceColumn: FREGUESIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SISTEMA
+		dataType: string
+		lineageTag: 7db78e09-3b31-4ed1-b9e5-e8e7422d5f81
+		summarizeBy: none
+		sourceColumn: SISTEMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBSISTEMA
+		dataType: string
+		lineageTag: 2e853df6-72b1-4822-8676-474d3d135018
+		summarizeBy: none
+		sourceColumn: SUBSISTEMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TROCO
+		dataType: string
+		lineageTag: 10f710f5-2706-4319-b0e8-ad629cea175e
+		summarizeBy: none
+		sourceColumn: TROCO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBTROCO
+		dataType: string
+		lineageTag: 590bd7b2-8c35-43d3-b9fa-ccf0b857d70f
+		summarizeBy: none
+		sourceColumn: SUBTROCO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RECINTO
+		dataType: string
+		lineageTag: 2b1509f1-5f51-4894-8c0d-8b8945ca3c53
+		summarizeBy: none
+		sourceColumn: RECINTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IPID_REC
+		dataType: int64
+		formatString: 0
+		lineageTag: 15a976eb-4344-4252-81d6-3816e5ce105c
+		summarizeBy: none
+		sourceColumn: IPID_REC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESIGNACAO
+		dataType: string
+		lineageTag: 027988e8-6b72-4b7f-af82-5e7a63158eec
+		summarizeBy: none
+		sourceColumn: DESIGNACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESIGNACAO_GNA
+		dataType: string
+		lineageTag: 755804a3-826d-4428-9fd3-1b308a305c4c
+		summarizeBy: none
+		sourceColumn: DESIGNACAO_GNA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO_CICLO_VIDA
+		dataType: string
+		lineageTag: b7d03a13-774c-4e8f-a154-6a92551f8f7c
+		summarizeBy: none
+		sourceColumn: ESTADO_CICLO_VIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO_INFRAESTRUTURA
+		dataType: string
+		lineageTag: 63a6cb58-e60e-4fcb-9a62-770bb407e3e5
+		summarizeBy: none
+		sourceColumn: ESTADO_INFRAESTRUTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBS
+		dataType: string
+		lineageTag: 60cc2463-f7a6-4ec4-8c75-9b6ee9a03a4b
+		summarizeBy: none
+		sourceColumn: OBS
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINK_GMAPS
+		dataType: string
+		lineageTag: ee106385-ba57-4de7-ae90-3d45569f976c
+		summarizeBy: none
+		sourceColumn: LINK_GMAPS
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINK_WEBSIG
+		dataType: string
+		lineageTag: c8e26a70-8d4a-428a-be8c-a408b21e88a6
+		summarizeBy: none
+		sourceColumn: LINK_WEBSIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPE_compra
+		dataType: string
+		lineageTag: 3ee8a735-648c-4887-9a02-920fdfba8200
+		summarizeBy: none
+		sourceColumn: CPE_compra
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPE_venda
+		dataType: string
+		lineageTag: efd37bb1-d39b-46dd-8ef6-d47399868c54
+		summarizeBy: none
+		sourceColumn: CPE_venda
+
+		annotation SummarizationSetBy = Automatic
+
+	column RH
+		dataType: string
+		lineageTag: 62116800-2a7c-4431-8157-1558876c7aa4
+		summarizeBy: none
+		sourceColumn: RH
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_PROJ
+		dataType: string
+		lineageTag: 9a4ca311-f040-4f00-8235-8afb40fd1676
+		summarizeBy: none
+		sourceColumn: CAPAC_PROJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_REAL
+		dataType: string
+		lineageTag: 287f1c74-3f10-497e-8f3f-a679c3b039ba
+		summarizeBy: none
+		sourceColumn: CAPAC_REAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_MAX
+		dataType: string
+		lineageTag: cb4c3ad3-f529-4809-b46d-8d6ab49d5e1a
+		summarizeBy: none
+		sourceColumn: CAPAC_MAX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPAC_unid
+		dataType: string
+		lineageTag: 3b27c38f-548e-40f1-869c-0e5240cbaac2
+		summarizeBy: none
+		sourceColumn: CAPAC_unid
+
+		annotation SummarizationSetBy = Automatic
+
+	column Altura
+		dataType: string
+		lineageTag: 89573f41-07ee-4082-a1e3-34a12ac6be05
+		summarizeBy: none
+		sourceColumn: Altura
+
+		annotation SummarizationSetBy = Automatic
+
+	column Altura_Unidade
+		dataType: string
+		lineageTag: 59891bcc-668c-4e85-ae37-b0bc3a00abbf
+		summarizeBy: none
+		sourceColumn: Altura_Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cota_m
+		dataType: string
+		lineageTag: 2c238c30-3a67-4399-bcb3-2197035afea3
+		summarizeBy: none
+		sourceColumn: Cota_m
+
+		annotation SummarizationSetBy = Automatic
+
+	column Linha_Descarga
+		dataType: string
+		lineageTag: 4bb6894d-a50b-48c0-8787-bef8e8b86512
+		summarizeBy: none
+		sourceColumn: Linha_Descarga
+
+		annotation SummarizationSetBy = Automatic
+
+	column Linha_Descarga_Cod
+		dataType: string
+		lineageTag: 737a4bdb-0611-4631-a254-a372e13f3789
+		summarizeBy: none
+		sourceColumn: Linha_Descarga_Cod
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Departamento DOS'
+		dataType: string
+		lineageTag: 6b88b3e4-2c76-4c84-aabe-0d0d14d1be9b
+		summarizeBy: none
+		sourceColumn: Departamento DOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sensibilidade da zona hídrica onde ocorre a descarga de efluentes'
+		dataType: string
+		lineageTag: 9a8a85c2-6bec-4880-9c2a-b3af64e68f21
+		summarizeBy: none
+		sourceColumn: Sensibilidade da zona hídrica onde ocorre a descarga de efluentes
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TabelaCentroide_1 = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\TabelaCentroide_ETAR_newDep_sensity.xlsx"), null, true),
+				    TabelaCentroide_1_Table = Source{[Item="TabelaCentroide_1",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(TabelaCentroide_1_Table,{{"GNA_TIPO", type text}, {"TIPO_INFRAESTRUTURA", type text}, {"NEGOCIO", type text}, {"AA_TIPO", type any}, {"IPID_TIPO_INFRA", Int64.Type}, {"ID_GNA", type text}, {"CODMAXIMO", type text}, {"M_ETRS89", type number}, {"P_ETRS89", type number}, {"LONGITUDE_WGS84", type number}, {"LATITUDE_WGS84", type number}, {"EMPRESA", type text}, {"Centro_Operacional", type text}, {"EMPRESAORIGINAL", type text}, {"ANO", Int64.Type}, {"CONCELHO", type text}, {"FREGUESIA", type text}, {"SISTEMA", type text}, {"SUBSISTEMA", type text}, {"TROCO", type text}, {"SUBTROCO", type text}, {"RECINTO", type text}, {"IPID_REC", Int64.Type}, {"DESIGNACAO", type text}, {"DESIGNACAO_GNA", type text}, {"ESTADO_CICLO_VIDA", type text}, {"ESTADO_INFRAESTRUTURA", type text}, {"OBS", type text}, {"LINK_GMAPS", type text}, {"LINK_WEBSIG", type text}, {"CPE_compra", type any}, {"CPE_venda", type any}, {"RH", type any}, {"CAPAC_PROJ", type any}, {"CAPAC_REAL", type any}, {"CAPAC_MAX", type any}, {"CAPAC_unid", type any}, {"Altura", type any}, {"Altura_Unidade", type any}, {"Cota_m", type any}, {"Linha_Descarga", type any}, {"Linha_Descarga_Cod", type any}, {"Departamento DOS", type text}, {"Sensibilidade da zona hídrica onde ocorre a descarga de efluentes", type any}}),
+				    #"Erros Sensibilidade" = Table.ReplaceErrorValues(#"Type modifié", {{"Sensibilidade da zona hídrica onde ocorre a descarga de efluentes", null}})
+				in
+				    #"Erros Sensibilidade"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

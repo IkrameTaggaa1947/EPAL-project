@@ -1,0 +1,18 @@
+# environments
+.venv/
+runtime/
+__pycache__/
+*.pyc
+.vscode/
+
+# client data (licences, extractions, generated outputs) - not versioned
+*.pdf
+*.xlsx
+*.csv
+outputs/
+src/extraction_JSON_LURH/
+src/extraction_JSON_TUA/
+src/Extraction_Code_LURH/data/
+src/Extraction_Code_TUA/data/
+src/automation_of_extraction/data/
+.env

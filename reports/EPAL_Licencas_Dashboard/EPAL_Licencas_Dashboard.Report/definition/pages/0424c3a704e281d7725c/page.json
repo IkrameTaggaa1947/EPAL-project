@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "0424c3a704e281d7725c",
+  "displayName": "Conformidade Legal",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "21da6edd04d99cbb1021",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Conditions"
+              }
+            },
+            "Property": "Cod Parâmetro"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "404f443d4a101c16bc07",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "c558c78355a087b5b8ce",
+        "boundFilter": "21da6edd04d99cbb1021",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Conditions"
+              }
+            },
+            "Property": "Cod Parâmetro"
+          }
+        }
+      }
+    ]
+  }
+}

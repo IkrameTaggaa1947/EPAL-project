@@ -1,0 +1,200 @@
+table Licencas_Criterios
+	lineageTag: 2f0d1985-27ba-461d-9684-4c4db5571217
+
+	measure 'CF Média mensal' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média mensal ≤ VLE])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0000000000
+
+	measure 'CF Média anual' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média anual ≤ VLE])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0100000000
+
+	measure 'CF 100' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 100% VLE (dobro)])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0200000000
+
+	measure 'CF 150' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 150% VLE])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0300000000
+
+	measure 'CF Ordem' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ uma ordem de grandeza do VLE])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0400000000
+
+	measure 'CF Gama' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Gama de valores (intervalo)])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0500000000
+
+	measure 'CF Quadro III' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Quadro III DL 152/97])) >= 1, "#A9DFBF", "#F5B7B1")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0600000000
+
+	measure 'Critérios a cumprir' =
+			VAR _params = VALUES('Conditions'[Cod Parâmetro])
+			VAR qbr = UNICHAR(10)
+			VAR pt  = UNICHAR(8226) & " "
+			VAR c1 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média mensal ≤ VLE])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c2 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média anual ≤ VLE])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c3 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 100% VLE (dobro)])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c4 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 150% VLE])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c5 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ uma ordem de grandeza do VLE])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c6 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Gama de valores (intervalo)])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR c7 = CALCULATE(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Quadro III DL 152/97])), TREATAS(_params, 'Licencas_Criterios'[Cod Parâmetro]))
+			VAR txt =
+			    IF(c1 >= 1, pt & "Média mensal ≤ VLE" & qbr, "") &
+			    IF(c2 >= 1, pt & "Média anual ≤ VLE" & qbr, "") &
+			    IF(c3 >= 1, pt & "Máx. observado ≤ 100% VLE (dobro)" & qbr, "") &
+			    IF(c4 >= 1, pt & "Máx. observado ≤ 150% VLE" & qbr, "") &
+			    IF(c5 >= 1, pt & "≤ uma ordem de grandeza do VLE" & qbr, "") &
+			    IF(c6 >= 1, pt & "Gama de valores (intervalo)" & qbr, "") &
+			    IF(c7 >= 1, pt & "Quadro III DL 152/97" & qbr, "")
+			RETURN
+			    IF(txt = "", "—", LEFT(txt, LEN(txt) - LEN(qbr)))
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0700000000
+
+	measure 'Nº Critérios Aplicáveis' = SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Gama de valores (intervalo)])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 100% VLE (dobro)])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 150% VLE])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ uma ordem de grandeza do VLE])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média mensal ≤ VLE])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média anual ≤ VLE])) + SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Quadro III DL 152/97]))
+		formatString: 0
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0800000000
+
+	measure 'Crit Média mensal' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média mensal ≤ VLE])) >= 1, "Média mensal ≤ VLE", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0900000000
+
+	measure 'Crit Média anual' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média anual ≤ VLE])) >= 1, "Média anual ≤ VLE", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0a00000000
+
+	measure 'Crit Dobro VLE' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 100% VLE (dobro)])) >= 1, "Valor máx. observado ≤ dobro do VLE", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0b00000000
+
+	measure 'Crit 150 VLE' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 150% VLE])) >= 1, "Valor máx. observado ≤ 150% do VLE", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0c00000000
+
+	measure 'Crit Ordem de grandeza' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ uma ordem de grandeza do VLE])) >= 1, "≤ uma ordem de grandeza do VLE", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0d00000000
+
+	measure 'Crit Gama de valores' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Gama de valores (intervalo)])) >= 1, "Dentro da gama de valores (intervalo)", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0e00000000
+
+	measure 'Crit Quadro III' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Quadro III DL 152/97])) >= 1, "Borlas — Quadro III do DL 152/97", "—")
+		lineageTag: 2f0d1985-27ba-461d-9684-cf0f00000000
+
+	measure 'Cor Crit Média mensal' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média mensal ≤ VLE])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0000000000
+
+	measure 'Cor Crit Média anual' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[média anual ≤ VLE])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0100000000
+
+	measure 'Cor Crit Dobro VLE' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 100% VLE (dobro)])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0200000000
+
+	measure 'Cor Crit 150 VLE' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ 150% VLE])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0300000000
+
+	measure 'Cor Crit Ordem de grandeza' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[≤ uma ordem de grandeza do VLE])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0400000000
+
+	measure 'Cor Crit Gama de valores' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Gama de valores (intervalo)])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0500000000
+
+	measure 'Cor Crit Quadro III' = IF(SUMX('Licencas_Criterios', RELATED('Catalogo_Criterios'[Quadro III DL 152/97])) >= 1, "#1E8449", "#95A5A6")
+		lineageTag: 2f0d1985-27ba-461d-9684-cc0600000000
+
+	measure 'VLE do parâmetro' = SELECTEDVALUE('Licencas_Criterios'[VLE])
+		lineageTag: 2f0d1985-27ba-461d-9684-cf1000000000
+
+	column IdLicenca
+		dataType: string
+		lineageTag: 2f0d1985-27ba-461d-9684-4c4db5571201
+		summarizeBy: none
+		sourceColumn: IdLicenca
+
+		annotation SummarizationSetBy = Automatic
+
+	column Regime
+		dataType: string
+		lineageTag: 2f0d1985-27ba-461d-9684-4c4db5571202
+		summarizeBy: none
+		sourceColumn: Regime
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLE
+		dataType: string
+		lineageTag: 2f0d1985-27ba-461d-9684-4c4db5571204
+		summarizeBy: none
+		sourceColumn: VLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column IdCriterio
+		dataType: string
+		lineageTag: 2f0d1985-27ba-461d-9684-4c4db5571205
+		summarizeBy: none
+		sourceColumn: IdCriterio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parâmetro
+		dataType: string
+		lineageTag: 3814cb83-36fa-4faa-bf41-25998a38b19d
+		summarizeBy: none
+		sourceColumn: Parametro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unidade
+		dataType: string
+		lineageTag: aae10d7f-efe9-4124-a125-b5ae86df2123
+		summarizeBy: none
+		sourceColumn: Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Periodo
+		dataType: string
+		lineageTag: 2f0d1985-27ba-461d-9684-4c4db557120e
+		summarizeBy: none
+		sourceColumn: Periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro (documento)'
+		dataType: string
+		lineageTag: 5ffa9eee-c4ec-43ab-9e65-14259d3ae830
+		summarizeBy: none
+		sourceColumn: Parâmetro (documento)
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Codigo curto normalizado do parametro. Liga a Dim_Parametro[Cod Parâmetro].
+	column 'Cod Parâmetro'
+		dataType: string
+		lineageTag: 6e4f8b20-7003-4a00-8e00-ee0031000003
+		summarizeBy: none
+		sourceColumn: Cod Parâmetro
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id Versão'
+		dataType: string
+		lineageTag: 4faf1398-d8b8-4570-bfa6-8cd2b706635d
+		summarizeBy: none
+		sourceColumn: Id Versão
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Licencas_Criterios = m
+		mode: import
+		source =
+				let
+				    NormPar = (v) =>
+				        let t = if v = null then null else Text.Trim(Text.From(v))
+				        in
+				            if t = null or t = "" then null
+				            else if t = "Carência Bioquímica de" then "CBO5"
+				            else if t = "Carência Química de" then "CQO"
+				            else t,
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Licencas_Criterios.xlsx"), null, true),
+				    Sheet = Source{[Item = "Licencas_Criterios", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"IdLicenca", type text}, {"Regime", type text}, {"Parametro", type text}, {"Unidade", type text}, {"Periodo", type text}, {"VLE", type text}, {"IdCriterio", type text}, {"Parâmetro (documento)", type text}}),
+				    ComCodPar = Table.AddColumn(Types, "Cod Parâmetro", each NormPar([Parametro]), type text)
+				in
+				    ComCodPar
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

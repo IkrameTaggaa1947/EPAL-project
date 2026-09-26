@@ -1,0 +1,53 @@
+/// Ponto de rejeicao e meio recetor por licenca (TUA). Origem: data\powerbi\TUA\Rejeicao Aguas Residuais (3.7).csv
+table Rejeicao
+	lineageTag: 5c9e0a40-1000-4b00-9e00-bb0011000000
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: 5c9e0a40-1001-4b00-9e00-bb0011000001
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Designação do ponto de rejeição'
+		dataType: string
+		lineageTag: 5c9e0a40-1002-4b00-9e00-bb0011000002
+		summarizeBy: none
+		sourceColumn: Designação do ponto de rejeição
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Meio recetor'
+		dataType: string
+		lineageTag: 5c9e0a40-1003-4b00-9e00-bb0011000003
+		summarizeBy: none
+		sourceColumn: Meio recetor
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Denominacao do meio recetor (nome da linha de agua / ribeira onde ocorre a descarga).
+	column 'Denominação do meio recetor'
+		dataType: string
+		lineageTag: 5c9e0a40-1004-4b00-9e00-bb0011000004
+		summarizeBy: none
+		sourceColumn: Denominação do meio recetor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Rejeicao = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\TUA\Rejeicao Aguas Residuais (3.7).csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Sel = Table.SelectColumns(Headers, {"Nº TUA", "Designação do ponto de rejeição", "Meio recetor", "Denominação do meio recetor"}),
+				    Tipos = Table.TransformColumnTypes(Sel, {{"Nº TUA", type text}, {"Designação do ponto de rejeição", type text}, {"Meio recetor", type text}, {"Denominação do meio recetor", type text}}),
+				    ComTUA = Table.SelectRows(Tipos, each [#"Nº TUA"] <> null and [#"Nº TUA"] <> "")
+				in
+				    ComTUA
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,65 @@
+EPAL - LICENCAS DE DESCARGA
+===========================
+Comece por aqui. Nao e preciso instalar nada no seu computador.
+
+
+PRIMEIRA VEZ NESTE COMPUTADOR
+-----------------------------
+Faca duplo-clique em:      Automation files\CONFIGURAR_ESTE_PC.bat
+
+Demora alguns segundos. So precisa de fazer isto UMA VEZ por computador.
+
+
+NO DIA-A-DIA
+------------
+1. Ponha o PDF da licenca nova na pasta certa:
+
+       Drop_New_Licenses\new_TUA_licences     <- licencas TUA
+       Drop_New_Licenses\new_LURH_licences    <- licencas LURH
+
+2. Faca duplo-clique em:
+
+       Automation files\PROCESSAR_AGORA.bat     (para TUA)
+       Automation files\PROCESSAR_AGORA.bat   (para LURH)
+
+3. Abra o dashboard e clique em Atualizar (Refresh):
+
+       reports\EPAL_Licencas_Dashboard
+
+
+SE ALGUMA COISA CORRER MAL
+--------------------------
+O Power BI diz que nao encontra os dados
+   -> feche o Power BI e faca duplo-clique em  Automation files\ATUALIZAR_POWERBI.bat
+
+Aparece "NAO FOI ENCONTRADO NENHUM PYTHON"
+   -> a pasta ainda pode estar a sincronizar. Espere e tente outra vez.
+      Se continuar, avise quem gere o projeto: falta correr uma vez o
+      Automation files\INSTALAR_PYTHON_PORTATIL.bat
+
+Uma licenca foi para  data\review
+   -> houve um problema na leitura desse PDF. Ha um ficheiro .txt ao lado
+      a explicar porque.
+
+Para pedir ajuda, corra isto e envie o texto que aparece:
+   runtime\python\python.exe src\epal_config.py
+
+
+MUDANCA PARA O SHAREPOINT DA EQUIPA
+-----------------------------------
+Se lhe disseram que a pasta mudou para o SharePoint, faca DUAS coisas
+neste computador, por esta ordem:
+
+   1. duplo-clique em  Automation files\CONFIGURAR_ESTE_PC.bat
+   2. confirme que esta tudo bem:
+        runtime\python\python.exe src\_verificar_migracao.py
+
+Tem de dizer TUDO PRONTO. Se disser PROBLEMA, avise quem gere o
+projeto - esta explicado em reports\docs\MIGRACAO_SHAREPOINT.md.
+
+
+IMPORTANTE
+----------
+O vigia automatico (Automation files\register_watch_task.bat) so deve ser ligado em UM
+computador. A pasta e partilhada: se dois computadores processarem os
+mesmos PDFs ao mesmo tempo, os ficheiros master podem ficar estragados.

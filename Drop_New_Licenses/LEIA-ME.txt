@@ -1,0 +1,21 @@
+DROP NEW LICENCES HERE
+======================
+
+This folder has two sub-folders. Put each new PDF in the matching one:
+
+  new_TUA_licences   ->  TUA licences  (files with a "TUA" number, e.g. TUA20240731002347)
+  new_LURH_licences  ->  LURH licences (files like L020555.2019.RH3)
+
+The automatic watcher ("EPAL Watch", every minute) picks up whatever is in each
+sub-folder, runs the matching extractor, and moves the PDF out once processed.
+
+Where files go afterwards:
+  - Processed cleanly  ->  data/pdfs/NEW/TUA    (o arquivo)
+                           data/pdfs/NEW/LURH
+  - Needs a human look ->  ...\data\review   (a .txt explains why)
+
+Turn the watcher on / off:
+  Automation files\register_watch_task.bat    (on)
+  Automation files\unregister_watch_task.bat  (off)
+
+Keep this file here — it just keeps the folder in place.

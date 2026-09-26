@@ -1,0 +1,92 @@
+table MeioRecetor
+	lineageTag: 7d6a4ded-942f-4660-8625-7a90f6fa7597
+
+	column 'Nº TUA'
+		dataType: string
+		lineageTag: e61ede5a-2c24-4d4b-bb58-4ff935845b3b
+		summarizeBy: none
+		sourceColumn: Nº TUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Local
+		dataType: string
+		lineageTag: c1915ac5-c383-45a5-b841-5b9879935062
+		summarizeBy: none
+		sourceColumn: Local
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parâmetro
+		dataType: string
+		lineageTag: e7da7d51-842b-4265-9c25-cd1e72603d8a
+		summarizeBy: none
+		sourceColumn: Parâmetro
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Método analítico'
+		dataType: string
+		lineageTag: d875402a-8286-4c0b-8bfd-40d779f5c004
+		summarizeBy: none
+		sourceColumn: Método analítico
+
+		annotation SummarizationSetBy = Automatic
+
+	column Frequência
+		dataType: string
+		lineageTag: c9f2f132-d84b-49b7-a6e5-e8880c2a875f
+		summarizeBy: none
+		sourceColumn: Frequência
+
+		annotation SummarizationSetBy = Automatic
+
+	column Observações
+		dataType: string
+		lineageTag: cc7dda3e-8bc5-47e9-9c75-6d552791195e
+		summarizeBy: none
+		sourceColumn: Observações
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parametro
+		dataType: string
+		lineageTag: b1b1b1b1-0000-4000-8000-0000000000a1
+		summarizeBy: none
+		sourceColumn: Parametro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unidade
+		dataType: string
+		lineageTag: b1b1b1b1-0000-4000-8000-0000000000a2
+		summarizeBy: none
+		sourceColumn: Unidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Periodo
+		dataType: string
+		lineageTag: 45b25d3f-69d2-4134-8a18-2b66315da6a6
+		summarizeBy: none
+		sourceColumn: Periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MeioRecetor = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\MeioRecetor.xlsx"), null, true),
+				    MeioRecetor_Sheet = Source{[Item="MeioRecetor",Kind="Sheet"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(MeioRecetor_Sheet,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}}),
+				    #"En-têtes promus" = Table.PromoteHeaders(#"Type modifié", [PromoteAllScalars=true]),
+				    #"Type modifié1" = Table.TransformColumnTypes(#"En-têtes promus",{{"Nº TUA", type text}, {"Local", type text}, {"Parâmetro", type text}, {"Parametro", type text}, {"Unidade", type text}, {"Método analítico", type text}, {"Frequência", type text}, {"Observações", type text}}),
+				    #"Colonnes renommées" = Table.RenameColumns(#"Type modifié1",{{"Nº TUA", "Nº TUA"}})
+				in
+				    #"Colonnes renommées"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

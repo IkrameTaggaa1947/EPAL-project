@@ -1,0 +1,74 @@
+/// Dicionario dos textos de avaliacao da conformidade legal. Cada codigo corresponde a um texto unico. Origem: data\powerbi\Dim_Avaliacao.xlsx (gerado a partir de Conditions.xlsx + Avaliacao.xlsx).
+table Dim_Avaliacao
+	lineageTag: 8a2b1c30-2000-4d00-8a00-cc0022000000
+
+	/// Codigo curto do texto de avaliacao. Formato <diploma>-<sequencia>, ex.: DL152/97-01.
+	column 'Cod Avaliação'
+		dataType: string
+		lineageTag: 8a2b1c30-2001-4d00-8a00-cc0022000001
+		summarizeBy: none
+		sourceColumn: Cod Avaliação
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Diploma legal principal referido no texto.
+	column Diploma
+		dataType: string
+		lineageTag: 8a2b1c30-2002-4d00-8a00-cc0022000002
+		summarizeBy: none
+		sourceColumn: Diploma
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tabela(s) de origem onde o texto aparece.
+	column Origem
+		dataType: string
+		lineageTag: 8a2b1c30-2003-4d00-8a00-cc0022000003
+		summarizeBy: none
+		sourceColumn: Origem
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nº de ocorrências'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a2b1c30-2004-4d00-8a00-cc0022000004
+		summarizeBy: sum
+		sourceColumn: Nº de ocorrências
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Texto integral da avaliacao da conformidade legal.
+	column 'Avaliação (texto completo)'
+		dataType: string
+		lineageTag: 8a2b1c30-2005-4d00-8a00-cc0022000005
+		summarizeBy: none
+		sourceColumn: Avaliação (texto completo)
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Todos os diplomas (Decreto-Lei / Lei) citados no texto, ex.: "DL 152/97; DL 236/98". Complementa o rotulo unico em [Diploma], que so nomeia o primeiro diploma citado.
+	column 'Diplomas citados'
+		dataType: string
+		lineageTag: 8a2b1c30-2006-4d00-8a00-cc0022000006
+		summarizeBy: none
+		sourceColumn: Diplomas citados
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Avaliacao = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "\Dim_Avaliacao.xlsx"), null, true),
+				    Sheet = Source{[Item = "Dim_Avaliacao", Kind = "Sheet"]}[Data],
+				    Headers = Table.PromoteHeaders(Sheet, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Headers, {{"Cod Avaliação", type text}, {"Diploma", type text}, {"Origem", type text}, {"Nº de ocorrências", Int64.Type}, {"Avaliação (texto completo)", type text}}),
+				    ComCodigo = Table.SelectRows(Types, each [#"Cod Avaliação"] <> null and [#"Cod Avaliação"] <> "")
+				in
+				    ComCodigo
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

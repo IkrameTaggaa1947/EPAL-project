@@ -1,0 +1,991 @@
+<title>EPAL Licence System Handbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --ground:    #F1F4F4;
+    --surface:   #FBFCFC;
+    --sunk:      #E5EBEA;
+    --ink:       #12201F;
+    --muted:     #5C6E6C;
+    --rule:      #D4DCDB;
+    --rule-hard: #B6C4C2;
+    --accent:    #0E5C57;
+    --do:        #2D6647;
+    --careful:   #A06714;
+    --stop:      #9E3226;
+
+    --f-display: "IBM Plex Sans Condensed", "Helvetica Neue", Arial, sans-serif;
+    --f-body:    "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --f-mono:    "IBM Plex Mono", ui-monospace, Consolas, monospace;
+
+    --measure: 70ch;
+    --wide: 1120px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:    #0C1413;
+      --surface:   #141D1C;
+      --sunk:      #101817;
+      --ink:       #E1E9E8;
+      --muted:     #95A6A4;
+      --rule:      #23302E;
+      --rule-hard: #35443F;
+      --accent:    #6ABFB4;
+      --do:        #6FB68C;
+      --careful:   #D9A24E;
+      --stop:      #E0796A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:    #0C1413;
+    --surface:   #141D1C;
+    --sunk:      #101817;
+    --ink:       #E1E9E8;
+    --muted:     #95A6A4;
+    --rule:      #23302E;
+    --rule-hard: #35443F;
+    --accent:    #6ABFB4;
+    --do:        #6FB68C;
+    --careful:   #D9A24E;
+    --stop:      #E0796A;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 16.5px;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 24px 100px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: var(--wide); margin: 0 auto; }
+
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 3px;
+  }
+
+  code {
+    font-family: var(--f-mono);
+    font-size: 0.87em;
+    background: var(--sunk);
+    border: 1px solid var(--rule);
+    padding: 0.08em 0.36em;
+    word-break: break-word;
+  }
+
+  /* ---------------- masthead ---------------- */
+  header.top {
+    padding: 68px 0 0;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(2.3rem, 6vw, 3.8rem);
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    margin: 12px 0 16px;
+  }
+  .lede {
+    max-width: var(--measure);
+    font-size: 1.08rem;
+    color: var(--muted);
+    margin: 0 0 30px;
+  }
+  .lede strong { color: var(--ink); font-weight: 600; }
+
+  /* ---------------- contents ---------------- */
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 20px 24px 22px;
+    margin: 0 0 52px;
+  }
+  nav.toc h2 {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+    border: 0;
+    padding: 0;
+  }
+  nav.toc ol {
+    list-style: none;
+    margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 4px 28px;
+    counter-reset: toc;
+  }
+  nav.toc li { counter-increment: toc; margin: 0; }
+  nav.toc a { text-decoration: none; display: block; padding: 3px 0; }
+  nav.toc a::before {
+    content: counter(toc) ".";
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin-right: 8px;
+  }
+  nav.toc a:hover { text-decoration: underline; }
+
+  /* ---------------- sections ---------------- */
+  section { margin: 0 0 62px; scroll-margin-top: 20px; }
+  h2 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: 1.85rem;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 4px;
+    padding-top: 24px;
+    border-top: 2px solid var(--ink);
+  }
+  h2 .num {
+    font-family: var(--f-mono);
+    font-size: 0.72em;
+    font-weight: 500;
+    color: var(--accent);
+    margin-right: 10px;
+  }
+  .kicker {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 24px;
+  }
+  h3 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 32px 0 8px;
+  }
+  p { margin: 0 0 15px; max-width: var(--measure); }
+  ul, ol { max-width: var(--measure); padding-left: 1.2em; margin: 0 0 15px; }
+  li { margin-bottom: 8px; }
+
+  /* ---------------- steps ---------------- */
+  .steps { counter-reset: step; display: grid; gap: 18px; margin: 0 0 20px; max-width: 880px; }
+  .step {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 18px 22px 16px 64px;
+    position: relative;
+    counter-increment: step;
+  }
+  .step::before {
+    content: counter(step);
+    position: absolute;
+    left: 20px; top: 17px;
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: 1.35rem;
+    line-height: 1;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .step h4 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 1.08rem;
+    margin: 0 0 6px;
+  }
+  .step p:last-child, .step ul:last-child { margin-bottom: 0; }
+
+  /* ---------------- commands ---------------- */
+  .cmd {
+    font-family: var(--f-mono);
+    font-size: 13px;
+    background: var(--sunk);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 11px 14px;
+    margin: 0 0 15px;
+    overflow-x: auto;
+    white-space: pre;
+    max-width: 880px;
+  }
+  .cmd .c { color: var(--muted); }
+
+  /* ---------------- callouts ---------------- */
+  .note {
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    background: var(--surface);
+    padding: 15px 20px;
+    margin: 0 0 20px;
+    max-width: 880px;
+  }
+  .note.warn { border-left-color: var(--careful); }
+  .note.stop { border-left-color: var(--stop); }
+  .note .lbl {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .note.warn .lbl { color: var(--careful); }
+  .note.stop .lbl { color: var(--stop); }
+  .note p:last-child { margin-bottom: 0; }
+
+  /* ---------------- tables ---------------- */
+  .scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); margin: 0 0 20px; }
+  table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--sunk);
+    border-bottom: 1px solid var(--rule-hard);
+    white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.mono, th.mono { font-family: var(--f-mono); font-size: 12.5px; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+  /* ---------------- misc ---------------- */
+  .pill {
+    font-family: var(--f-mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 7px 2px;
+    border: 1px solid currentColor;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .p-do { color: var(--do); }
+  .p-careful { color: var(--careful); }
+  .p-stop { color: var(--stop); }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 0 0 30px;
+  }
+  .fact { background: var(--surface); padding: 14px 16px 15px; }
+  .fact .n {
+    font-family: var(--f-display); font-weight: 700; font-size: 1.6rem;
+    line-height: 1.1; display: block; font-variant-numeric: tabular-nums;
+  }
+  .fact .l {
+    font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted); display: block; margin-top: 4px;
+  }
+
+  footer {
+    border-top: 2px solid var(--ink);
+    padding-top: 20px;
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--muted);
+    max-width: var(--measure);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 620px) {
+    body { font-size: 16px; padding: 0 16px 70px; }
+    header.top { padding-top: 42px; }
+    .step { padding: 16px 16px 14px 54px; }
+    .step::before { left: 16px; }
+  }
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">EPAL &middot; Licence extraction system &middot; Operations handbook</div>
+  <h1>EPAL Licence System Handbook</h1>
+  <p class="lede">
+    Everything needed to put this system on a colleague&rsquo;s laptop and keep it
+    running. <strong>Written for people who do not write software.</strong> You do
+    not need to understand the code &mdash; you need to know which file to
+    double-click, what a good result looks like, and what to do when it is not.
+  </p>
+  <div class="facts">
+    <div class="fact"><span class="n">700</span><span class="l">Licences tracked</span></div>
+    <div class="fact"><span class="n">1,023</span><span class="l">PDFs in the archive</span></div>
+    <div class="fact"><span class="n">400</span><span class="l">Treatment plants</span></div>
+    <div class="fact"><span class="n">0</span><span class="l">Software to install</span></div>
+    <div class="fact"><span class="n">~1 GB</span><span class="l">Per laptop</span></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#what">What the system does</a></li>
+    <li><a href="#before">Before you set up a laptop</a></li>
+    <li><a href="#setup">Setting up a laptop</a></li>
+    <li><a href="#daily">Day-to-day: adding a licence</a></li>
+    <li><a href="#dashboard">Using the dashboard</a></li>
+    <li><a href="#roles">Who does what</a></li>
+    <li><a href="#maintenance">Regular maintenance</a></li>
+    <li><a href="#wrong">When something goes wrong</a></li>
+    <li><a href="#rules">Five rules that protect the data</a></li>
+    <li><a href="#reference">Reference: every button and check</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================== -->
+<section id="what">
+  <h2><span class="num">01</span>What the system does</h2>
+  <p class="kicker">Read this once, then never again</p>
+
+  <p>
+    EPAL holds an environmental discharge licence for every wastewater treatment
+    plant. Those licences arrive as PDFs from the Portuguese authorities, and each
+    one contains the limits the plant must respect, how often it must be sampled,
+    and when the licence expires.
+  </p>
+  <p>
+    Reading those PDFs by hand is slow and easy to get wrong. This system does it
+    automatically: <strong>you drop a PDF into a folder, and a few minutes later
+    the dashboard knows about it.</strong>
+  </p>
+
+  <h3>The journey of one licence</h3>
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr><th>Stage</th><th>What happens</th><th>Where it ends up</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>You drop the PDF</strong></td>
+          <td>You put the file in the correct inbox folder</td>
+          <td class="mono">Drop_New_Licenses\</td>
+        </tr>
+        <tr>
+          <td><strong>The system reads it</strong></td>
+          <td>It finds the tables in the PDF and pulls out the limits, sampling frequencies and dates</td>
+          <td class="mono">extraction_JSON_&hellip;\</td>
+        </tr>
+        <tr>
+          <td><strong>It checks its own work</strong></td>
+          <td>Anything doubtful is flagged rather than accepted silently</td>
+          <td class="mono">qa_report.xlsx</td>
+        </tr>
+        <tr>
+          <td><strong>It files the licence</strong></td>
+          <td>Good ones join the master workbook; problem ones are set aside for a person</td>
+          <td class="mono">master_&hellip;.xlsx / data\review\</td>
+        </tr>
+        <tr>
+          <td><strong>It archives the PDF</strong></td>
+          <td>The original moves to the archive &mdash; one copy, never two</td>
+          <td class="mono">data\pdfs\NEW\</td>
+        </tr>
+        <tr>
+          <td><strong>The dashboard updates</strong></td>
+          <td>You press Refresh in Power BI and the new licence appears</td>
+          <td class="mono">EPAL_Licencas_Dashboard</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Two kinds of licence</h3>
+  <p>
+    You will see two names everywhere. They are two different licensing regimes,
+    and a plant can hold one or both:
+  </p>
+  <ul>
+    <li><strong>TUA</strong> &mdash; <em>T&iacute;tulo &Uacute;nico Ambiental</em>, the newer, consolidated permit.</li>
+    <li><strong>LURH</strong> &mdash; <em>Licen&ccedil;a de Utiliza&ccedil;&atilde;o dos Recursos H&iacute;dricos</em>, the older regime.</li>
+  </ul>
+  <p>
+    They are processed separately because the documents look completely different,
+    which is why you will see a pair of everything &mdash; two inboxes, two
+    buttons, two master workbooks.
+  </p>
+</section>
+
+<!-- ============================================================== -->
+<section id="before">
+  <h2><span class="num">02</span>Before you set up a laptop</h2>
+  <p class="kicker">Five minutes of checking saves an afternoon</p>
+
+  <p>Confirm all four before you start. Each one causes a different failure later.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Check</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Windows, not Mac</strong></td>
+          <td>The system is built for Windows. It will not run on a Mac.</td>
+        </tr>
+        <tr>
+          <td><strong>Power BI Desktop is installed</strong></td>
+          <td>Needed to open the dashboard. Free from the Microsoft Store.</td>
+        </tr>
+        <tr>
+          <td><strong>The folder has finished syncing</strong></td>
+          <td>The single most common cause of &ldquo;it does not work&rdquo;. The
+              OneDrive icon must be a steady green tick &mdash; not spinning arrows.
+              There are around 11,000 files; on a slow connection this takes a while.</td>
+        </tr>
+        <tr>
+          <td><strong>At least 2&nbsp;GB free disk space</strong></td>
+          <td>The folder is about 1&nbsp;GB and Power BI needs room to work.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note warn">
+    <span class="lbl">The path length trap</span>
+    <p>
+      Windows refuses to open files whose full path is longer than 260 characters,
+      and the folder already uses 146 of them. <strong>If the shared folder ends up
+      too deep on the laptop, some files simply will not arrive &mdash; with no
+      error message at all.</strong>
+    </p>
+    <p>
+      This is why the folder must be added with <strong>&ldquo;Add shortcut to
+      OneDrive&rdquo;</strong> on the project folder itself, never by syncing the
+      whole document library. The check in step 5 below confirms it.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="setup">
+  <h2><span class="num">03</span>Setting up a laptop</h2>
+  <p class="kicker">Once per computer &middot; about 15 minutes, mostly waiting</p>
+
+  <p>
+    Nothing gets installed and no administrator rights are needed. The system
+    carries its own copy of the software it needs, inside the folder.
+  </p>
+
+  <div class="steps">
+    <div class="step">
+      <h4>Add the folder to this laptop</h4>
+      <p>
+        Open the team&rsquo;s SharePoint in a browser, go to the
+        <strong>Licences project</strong> folder, and choose
+        <strong>&ldquo;Add shortcut to OneDrive&rdquo;</strong>.
+      </p>
+      <p>
+        Do <em>not</em> use &ldquo;Sync&rdquo; on the whole library &mdash; that
+        creates a much longer path and files start disappearing silently.
+      </p>
+    </div>
+
+    <div class="step">
+      <h4>Wait for it to finish arriving</h4>
+      <p>
+        Watch the OneDrive icon in the taskbar until it is a steady green tick.
+        Around 11,000 files have to come down. Starting before this finishes is
+        the most common reason setup fails.
+      </p>
+    </div>
+
+    <div class="step">
+      <h4>Double-click <code>Automation files\CONFIGURAR_ESTE_PC.bat</code></h4>
+      <p>It runs five steps and prints what it is doing:</p>
+      <ul>
+        <li>finds the project&rsquo;s own Python;</li>
+        <li>pins it to the disk, so OneDrive stops emptying it later;</li>
+        <li>confirms every library the system needs actually loads;</li>
+        <li>writes this laptop&rsquo;s own settings file;</li>
+        <li>points the dashboard at this laptop&rsquo;s data.</li>
+      </ul>
+      <p>It must end with <strong>CONFIGURA&Ccedil;&Atilde;O TERMINADA</strong>.</p>
+    </div>
+
+    <div class="step">
+      <h4>Close Power BI first if it is open</h4>
+      <p>
+        Step 3 edits the dashboard file. If Power BI has it open, it will overwrite
+        the change when it saves. Close Power BI, then run the setup again.
+      </p>
+    </div>
+
+    <div class="step">
+      <h4>Confirm the laptop is genuinely ready</h4>
+      <p>Open the folder, hold Shift, right-click in an empty area, choose
+        <em>Open PowerShell window here</em>, and run:</p>
+      <div class="cmd">runtime\python\python.exe src\_verificar_migracao.py</div>
+      <p>It must print <strong>TUDO PRONTO</strong>. If it prints
+        <strong>PROBLEMA</strong>, the line underneath says exactly what to fix.</p>
+    </div>
+
+    <div class="step">
+      <h4>Open the dashboard once</h4>
+      <p>
+        Open <code>reports\EPAL_Licencas_Dashboard\EPAL_Licencas_Dashboard.pbip</code>,
+        wait for it to load, and press <strong>Refresh</strong>. The first load takes
+        a few minutes. The licence count should match what colleagues see.
+      </p>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="lbl">What the setup actually changed</span>
+    <p>
+      Two things live outside the shared folder, on this laptop only: a small
+      settings file in <code>%LOCALAPPDATA%\EPAL</code>, and a shortcut at
+      <code>C:\EPAL\powerbi</code> pointing at this laptop&rsquo;s copy of the data.
+      That shortcut is why the dashboard works for everyone at once instead of
+      breaking each time a different person opens it.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="daily">
+  <h2><span class="num">04</span>Day-to-day: adding a licence</h2>
+  <p class="kicker">The only routine task</p>
+
+  <div class="steps">
+    <div class="step">
+      <h4>Put the PDF in the right inbox</h4>
+      <p>The two regimes have separate inboxes and it matters which you use:</p>
+      <div class="cmd">Drop_New_Licenses\new_TUA_licences\    <span class="c">&larr; TUA certificates</span>
+Drop_New_Licenses\new_LURH_licences\   <span class="c">&larr; LURH licences</span></div>
+      <p>You can drop several at once.</p>
+    </div>
+
+    <div class="step">
+      <h4>Double-click the matching button</h4>
+      <div class="cmd">Automation files\PROCESSAR_AGORA.bat
+Automation files\PROCESSAR_AGORA.bat</div>
+      <p>
+        A black window opens and reports each licence as it goes. Leave it until it
+        says <strong>DONE</strong>. Expect roughly <strong>40 seconds per TUA
+        certificate</strong>; LURH licences are much quicker.
+      </p>
+    </div>
+
+    <div class="step">
+      <h4>Read the result</h4>
+      <p>Only two outcomes matter:</p>
+      <ul>
+        <li><span class="pill p-do">OK</span> &nbsp;the licence is in the master and the PDF has moved to the archive.</li>
+        <li><span class="pill p-careful">Review</span> &nbsp;the PDF stayed in <code>data\review\</code> with a <code>.txt</code> beside it saying, in plain language, what went wrong.</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h4>Refresh the dashboard</h4>
+      <p>
+        Open the dashboard and press <strong>Refresh</strong>. Until you do, it
+        shows yesterday&rsquo;s picture.
+      </p>
+    </div>
+  </div>
+
+  <div class="note warn">
+    <span class="lbl">Only one person at a time</span>
+    <p>
+      If a colleague is already running an extraction, yours will stop immediately
+      and tell you who is running it. That is deliberate &mdash; two people writing
+      to the master workbook at the same time would erase each other&rsquo;s
+      licences. Wait for them to finish and run it again.
+    </p>
+  </div>
+
+  <h3>If a licence lands in review</h3>
+  <p>
+    Open the <code>.txt</code> file next to the PDF. It names the problem. The most
+    common ones are harmless:
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>What the note says</th><th>What it means</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>filename not in the expected pattern</td>
+          <td>The file name does not follow the usual convention, so the dates could not be cross-checked</td>
+          <td>Nothing. The licence was still read correctly.</td>
+        </tr>
+        <tr>
+          <td>the master workbook is open/locked in Excel</td>
+          <td>Someone had the master open, so the data was parked in a side file</td>
+          <td>Close Excel and run the button again. The parked data is picked up automatically.</td>
+        </tr>
+        <tr>
+          <td>no discharge conditions were extracted</td>
+          <td>The system could not find the limits table &mdash; often an older document format</td>
+          <td>Check the PDF yourself. If the table really is there, send it to whoever maintains the system.</td>
+        </tr>
+        <tr>
+          <td>extraction crashed</td>
+          <td>The file could not be opened at all &mdash; possibly damaged or not a real PDF</td>
+          <td>Open the PDF yourself to confirm it is readable, then ask for help.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="dashboard">
+  <h2><span class="num">05</span>Using the dashboard</h2>
+  <p class="kicker">Power BI &middot; six pages</p>
+
+  <p>
+    Open <code>reports\EPAL_Licencas_Dashboard\EPAL_Licencas_Dashboard.pbip</code>
+    and press <strong>Refresh</strong> whenever you want current numbers. The
+    dashboard never updates by itself.
+  </p>
+
+  <h3>Opening the original PDF</h3>
+  <p>
+    On the <strong>Geral</strong> page there is a button marked
+    <strong>Abrir licen&ccedil;a</strong>. Select exactly one licence first &mdash; click
+    a row in the table at the bottom left, and check the
+    <strong>Total de licen&ccedil;as</strong> tile shows <strong>1</strong>. Then hold
+    <strong>Ctrl</strong> and click the button.
+  </p>
+  <p>
+    The button greys itself out when nothing is selected, or when several licences
+    are, because &ldquo;open the licence&rdquo; has no meaning for three at once.
+  </p>
+
+  <div class="note warn">
+    <span class="lbl">This button needs one extra thing today</span>
+    <p>
+      Power BI can only open web addresses, not files on a disk. Until the archive
+      is reachable over the network, the PDFs are served by a small helper:
+      double-click <code>Automation files\SERVIDOR_PDFS.bat</code> and leave that window open while
+      you use the dashboard. Close it and the button stops opening PDFs.
+    </p>
+    <p>
+      This is temporary. Once the archive sits on SharePoint the helper is no longer
+      needed &mdash; the person maintaining the system changes one line and it works
+      for everybody, including in a published report.
+    </p>
+  </div>
+
+  <h3>Numbers worth knowing</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Figure</th><th class="num">Today</th><th>What it counts</th></tr></thead>
+      <tbody>
+        <tr><td>Licences in the dashboard</td><td class="num">700</td><td>266 TUA + 434 LURH, each counted once</td></tr>
+        <tr><td>Treatment plants</td><td class="num">400</td><td>Identified by asset code, not by name</td></tr>
+        <tr><td>Plants holding both regimes</td><td class="num">227</td><td>Usually an expired LURH replaced by a current TUA</td></tr>
+        <tr><td>Plants with nothing in force</td><td class="num">52</td><td>The number worth acting on</td></tr>
+        <tr><td>PDFs in the archive</td><td class="num">1,023</td><td>More than 700 because older copies are kept</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    If the dashboard total and the master workbook ever disagree, that is a real
+    signal &mdash; see <a href="#maintenance">Regular maintenance</a>.
+  </p>
+</section>
+
+<!-- ============================================================== -->
+<section id="roles">
+  <h2><span class="num">06</span>Who does what</h2>
+  <p class="kicker">Agree this once, as a team</p>
+
+  <p>
+    Most of the system is safe for anybody to use. Three things need a named owner,
+    because doing them twice causes damage.
+  </p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Task</th><th>Who</th><th>Why it needs an owner</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Adding licences, reading the dashboard</td>
+          <td><span class="pill p-do">Anyone</span></td>
+          <td>Protected against clashes automatically.</td>
+        </tr>
+        <tr>
+          <td>The automatic watcher <span class="mono">(Automation files\register_watch_task.bat)</span></td>
+          <td><span class="pill p-stop">One laptop only</span></td>
+          <td>It processes the inboxes by itself. Two laptops doing that can corrupt the master workbooks. Pick one machine that is usually on.</td>
+        </tr>
+        <tr>
+          <td>Reinstalling the portable Python</td>
+          <td><span class="pill p-careful">One person</span></td>
+          <td>Downloads about 150&nbsp;MB into the shared folder. Only needed once, ever.</td>
+        </tr>
+        <tr>
+          <td>Editing the dashboard layout</td>
+          <td><span class="pill p-careful">One person at a time</span></td>
+          <td>Power BI saves the whole page. Two people editing means one silently loses their work.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="maintenance">
+  <h2><span class="num">07</span>Regular maintenance</h2>
+  <p class="kicker">Four checks &middot; none takes more than a minute</p>
+
+  <p>
+    These are health checks. Each one prints a plain answer and changes nothing, so
+    they are safe to run whenever you are unsure.
+  </p>
+
+  <h3>Every month</h3>
+  <div class="cmd"><span class="c">Does the dashboard hold every licence in the archive?</span>
+runtime\python\python.exe src\_verificar_cobertura.py
+
+<span class="c">Which licences are missing information?</span>
+runtime\python\python.exe src\Common_Code_PowerBI\missing_data_report.py</div>
+  <p>
+    The second writes an Excel file to <code>outputs\reports\</code> listing exactly
+    which licences are missing which fields.
+  </p>
+
+  <h3>If the dashboard total looks wrong</h3>
+  <p>
+    The dashboard and the master workbook are built from different places and can
+    drift apart. This finds and fixes it:
+  </p>
+  <div class="cmd"><span class="c">Show what is missing (changes nothing)</span>
+runtime\python\python.exe src\Extraction_Code_LURH\sync_master_com_json.py
+
+<span class="c">Actually add it</span>
+runtime\python\python.exe src\Extraction_Code_LURH\sync_master_com_json.py --aplicar</div>
+  <p>
+    Then rebuild the dashboard data:
+  </p>
+  <div class="cmd">runtime\python\python.exe src\Common_Code_PowerBI\make_powerbi_all.py</div>
+
+  <h3>Before sharing the dashboard with anyone new</h3>
+  <div class="cmd">runtime\python\python.exe reports\validate_project.py</div>
+  <p>
+    It confirms the dashboard file is not damaged. It must end with
+    <em>tudo v&aacute;lido</em>.
+  </p>
+
+  <div class="note">
+    <span class="lbl">Backups</span>
+    <p>
+      The master workbook is copied to <code>master_&hellip;.bak.xlsx</code> before every
+      change, and SharePoint keeps its own version history. To undo a bad run, restore
+      the <code>.bak</code> file &mdash; or use <em>Version history</em> in SharePoint,
+      which goes back much further.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="wrong">
+  <h2><span class="num">08</span>When something goes wrong</h2>
+  <p class="kicker">Symptom &rarr; cause &rarr; fix</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>What you see</th><th>What it usually means</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono">N&Atilde;O FOI ENCONTRADO NENHUM PYTHON</td>
+          <td>The folder has not finished syncing, or OneDrive emptied the files to save space</td>
+          <td>Wait for the green tick, then run <code>Automation files\CONFIGURAR_ESTE_PC.bat</code> again &mdash; it pins the files so this stops happening.</td>
+        </tr>
+        <tr>
+          <td>Power BI: cannot find the data source</td>
+          <td>The dashboard is pointing at another laptop&rsquo;s folder</td>
+          <td>Close Power BI, double-click <code>Automation files\ATUALIZAR_POWERBI.bat</code>, reopen.</td>
+        </tr>
+        <tr>
+          <td>The run stops and names a colleague</td>
+          <td>Somebody else is running an extraction right now</td>
+          <td>Correct behaviour. Wait, then run it again.</td>
+        </tr>
+        <tr>
+          <td>&ldquo;the master workbook is open/locked&rdquo;</td>
+          <td>The master is open in Excel</td>
+          <td>Close Excel and run the button again. Nothing was lost &mdash; it is picked up automatically.</td>
+        </tr>
+        <tr>
+          <td>The dashboard shows old numbers</td>
+          <td>It has not been refreshed</td>
+          <td>Press <strong>Refresh</strong> in Power BI.</td>
+        </tr>
+        <tr>
+          <td>&ldquo;Abrir licen&ccedil;a&rdquo; does nothing</td>
+          <td>No licence selected, several selected, or the PDF helper is not running</td>
+          <td>Select exactly one licence, check the total shows 1, and make sure <code>Automation files\SERVIDOR_PDFS.bat</code> is open.</td>
+        </tr>
+        <tr>
+          <td>Files seem to be missing after a move</td>
+          <td>The folder path is too long &mdash; Windows silently skipped them</td>
+          <td>Run <code>src\_verificar_migracao.py</code>. Re-add the folder with <em>Add shortcut to OneDrive</em>.</td>
+        </tr>
+        <tr>
+          <td class="mono">PermissionError: [Errno 13]</td>
+          <td>Your account has the shared folder as <em>read only</em></td>
+          <td>No setting on your laptop fixes this. Ask whoever shared the folder to change your access to <strong>Can edit</strong>.</td>
+        </tr>
+        <tr>
+          <td>A button in the dashboard disappeared</td>
+          <td>Someone pressed undo and then saved</td>
+          <td>Ask whoever maintains the system &mdash; it is recoverable from the project history.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>When you need to ask for help</h3>
+  <p>Run this first and send the text it prints. It answers most questions before they are asked:</p>
+  <div class="cmd">runtime\python\python.exe src\epal_config.py</div>
+  <p>
+    Also useful: the log for the day, in
+    <code>%LOCALAPPDATA%\EPAL\logs</code> on your own laptop. It
+    records every licence processed and every problem found.
+  </p>
+</section>
+
+<!-- ============================================================== -->
+<section id="rules">
+  <h2><span class="num">09</span>Five rules that protect the data</h2>
+  <p class="kicker">Each one exists because breaking it has already cost someone work</p>
+
+  <div class="steps">
+    <div class="step">
+      <h4>Never run the automatic watcher on two laptops</h4>
+      <p>
+        Two machines processing the same inbox can write to the master workbook at
+        the same time and corrupt it. One nominated laptop only.
+      </p>
+    </div>
+    <div class="step">
+      <h4>Close Excel before running an extraction</h4>
+      <p>
+        Nothing is lost if you forget &mdash; the data is parked safely and picked up
+        next time &mdash; but the licence will not reach the dashboard until you do.
+      </p>
+    </div>
+    <div class="step">
+      <h4>Close Power BI before running the setup</h4>
+      <p>
+        Power BI rewrites the dashboard file when it saves, and will undo the setup
+        without warning.
+      </p>
+    </div>
+    <div class="step">
+      <h4>Never edit the master workbooks or the dashboard data by hand</h4>
+      <p>
+        Everything in <code>data\powerbi\</code> and every <code>master_&hellip;.xlsx</code>
+        is rebuilt from the PDFs. A manual edit disappears at the next run, and you
+        will not be told. Fix the PDF or ask for the code to be changed.
+      </p>
+    </div>
+    <div class="step">
+      <h4>Wait for the green tick before doing anything</h4>
+      <p>
+        More reported faults come from a half-synced folder than from every other
+        cause combined.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================== -->
+<section id="reference">
+  <h2><span class="num">10</span>Reference: every button and check</h2>
+  <p class="kicker">Keep this page open the first week</p>
+
+  <h3>Things you double-click</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="mono">File</th><th>What it does</th><th>How often</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">Automation files\CONFIGURAR_ESTE_PC.bat</td><td>Prepares this laptop</td><td>Once per computer</td></tr>
+        <tr><td class="mono">PROCESSAR_AGORA.bat</td><td>Processes the TUA inbox once</td><td>Whenever you add TUA PDFs</td></tr>
+        <tr><td class="mono">PROCESSAR_AGORA.bat</td><td>Processes the LURH inbox once</td><td>Whenever you add LURH PDFs</td></tr>
+        <tr><td class="mono">Automation files\SERVIDOR_PDFS.bat</td><td>Lets the dashboard open PDFs</td><td>While using the dashboard, for now</td></tr>
+        <tr><td class="mono">Automation files\ATUALIZAR_POWERBI.bat</td><td>Repoints the dashboard at this laptop</td><td>When Power BI cannot find the data</td></tr>
+        <tr><td class="mono">watch_all.bat</td><td>Watches an inbox continuously</td><td>Optional; leave the window open</td></tr>
+        <tr><td class="mono">Automation files\register_watch_task.bat</td><td>Runs the watcher in the background forever</td><td>One laptop only, ever</td></tr>
+        <tr><td class="mono">Automation files\INSTALAR_PYTHON_PORTATIL.bat</td><td>Rebuilds the bundled software</td><td>Once per project; needs internet</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Checks that only report, never change anything</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="mono">Command</th><th>Answers</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">src\epal_config.py</td><td>What did this laptop work out? Send this when asking for help.</td></tr>
+        <tr><td class="mono">src\_verificar_migracao.py</td><td>Is this laptop correctly set up?</td></tr>
+        <tr><td class="mono">src\_verificar_bibliotecas.py</td><td>Did all the software arrive?</td></tr>
+        <tr><td class="mono">src\_verificar_cobertura.py</td><td>Did every archived PDF reach the dashboard?</td></tr>
+        <tr><td class="mono">reports\validate_project.py</td><td>Is the dashboard file undamaged?</td></tr>
+        <tr><td class="mono">&hellip;\missing_data_report.py</td><td>Which licences are missing information? Writes an Excel file.</td></tr>
+        <tr><td class="mono">&hellip;\relatorio_tua_vs_lurh.py</td><td>Which plants hold which licences, and are they still valid?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Folders worth recognising</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="mono">Folder</th><th>What lives there</th><th>Safe to touch?</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">Drop_New_Licenses\</td><td>Where you put new PDFs</td><td><span class="pill p-do">Yes</span></td></tr>
+        <tr><td class="mono">data\pdfs\</td><td>The licence archive &mdash; one copy of each PDF</td><td><span class="pill p-careful">Read only</span></td></tr>
+        <tr><td class="mono">data\review\</td><td>Licences a person needs to look at</td><td><span class="pill p-do">Yes</span></td></tr>
+        <tr><td class="mono">outputs\reports\</td><td>Excel reports the checks produce</td><td><span class="pill p-do">Yes</span></td></tr>
+        <tr><td class="mono">data\powerbi\</td><td>What the dashboard reads &mdash; rebuilt every run</td><td><span class="pill p-stop">Never edit</span></td></tr>
+        <tr><td class="mono">runtime\</td><td>The bundled software</td><td><span class="pill p-stop">Never touch</span></td></tr>
+        <tr><td class="mono">src\</td><td>The code</td><td><span class="pill p-stop">Never edit</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>
+    EPAL licence extraction system &mdash; operations handbook. Figures in this
+    document were measured from the project on 25 August 2026: 700 licences, 1,023
+    archived PDFs, 400 treatment plants. Day-to-day quick reference for operators
+    lives in <code>LEIA-ME_PRIMEIRO.txt</code> in the project root, in Portuguese.
+    The move to the team SharePoint is covered separately in
+    <code>reports\docs\MIGRACAO_SHAREPOINT.md</code>.
+  </p>
+</footer>
+
+</div>
